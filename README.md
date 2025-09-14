@@ -6,7 +6,7 @@ This is a regularly updated paper collection about AI for science, with a specif
 
 ---
 
-## 121. Towards agentic science for advancing scientific discovery
+## 172. Towards agentic science for advancing scientific discovery
 
 **Authors:** Hongliang Xin, John R. Kitchin, Heather J. Kulik
 
@@ -25,7 +25,7 @@ Artificial intelligence is transforming scientific discovery through (semi-)auto
 
 ---
 
-## 120. High-throughput platforms for machine learning-guided lipid nanoparticle design
+## 171. High-throughput platforms for machine learning-guided lipid nanoparticle design
 
 **Authors:** Andrew R. Hanna, David A. Issadore, Michael J. Mitchell
 
@@ -44,7 +44,7 @@ Discovering lipid nanoparticles for unmet clinical needs relies heavily on the s
 
 ---
 
-## 119. Supervised learning in DNA neural networks
+## 170. Supervised learning in DNA neural networks
 
 **Authors:** Kevin M. Cherry, Lulu Qian
 
@@ -63,7 +63,7 @@ Learning enables biological organisms to begin life simple yet develop immensely
 
 ---
 
-## 118. Machine learning in X-ray diffraction for materials discovery and characterization
+## 169. Machine learning in X-ray diffraction for materials discovery and characterization
 
 **Authors:** Connor Davel, Nazanin Bassiri-Gharb, Juan-Pablo Correa-Baena
 
@@ -82,7 +82,7 @@ No abstract available
 
 ---
 
-## 117. Developing machine learning for heterogeneous catalysis with experimental and computational data
+## 168. Developing machine learning for heterogeneous catalysis with experimental and computational data
 
 **Authors:** Carlota Bozal-Ginesta, Sergio Pablo-García, Changhyeok Choi, Albert Tarancón, Alán Aspuru-Guzik
 
@@ -103,7 +103,7 @@ Machine learning aids heterogeneous catalysis research by linking performance to
 
 ---
 
-## 116. Electron flow matching for generative reaction mechanism prediction
+## 167. Electron flow matching for generative reaction mechanism prediction
 
 **Authors:** Joonyoung F. Joung, Mun Hong Fong, Nicholas Casetti, Jordan P. Liles, Ne S. Dassanayake, Connor W. Coley
 
@@ -124,7 +124,7 @@ A new tool based on generative machine learning called FlowER uses flow matching
 
 ---
 
-## 115. Generalizable descriptors for automatic titanium alloys design by learning from texts via large language model
+## 166. Generalizable descriptors for automatic titanium alloys design by learning from texts via large language model
 
 **Authors:** Ping Wang, Yuan Jiang, Weijie Liao, Rong Wang, Minjie Lai, Hongchao Kou, Xiubing Liang, Jinshan Li, Turab Lookman, Ruihao Yuan
 
@@ -145,7 +145,7 @@ Descriptors are essential prerequisites for the success of machine learning-base
 
 ---
 
-## 114. Digital Twin for Chemical Science: a case study on water interactions on the Ag(111) surface
+## 165. Digital Twin for Chemical Science: a case study on water interactions on the Ag(111) surface
 
 **Authors:** Jin Qian, Asmita Jana, Siddarth Menon, Andrew E. Bogdan, Rebecca Hamlyn, Johannes Mahl, Ethan J. Crumlin
 
@@ -164,7 +164,7 @@ Directly visualizing chemical trajectories offers insights into catalysis, gas-p
 
 ---
 
-## 113. Steering towards safe self-driving laboratories
+## 164. Steering towards safe self-driving laboratories
 
 **Authors:** Shi Xuan Leong, Caleb E. Griesbach, Rui Zhang, Kourosh Darvish, Yuchi Zhao, Abhijoy Mandal, Yunheng Zou, Han Hao, Varinia Bernales, Alán Aspuru-Guzik
 
@@ -183,7 +183,7 @@ Self-driving laboratories promise accelerated discovery. As the scope of chemica
 
 ---
 
-## 112. An automated framework for exploring and learning potential-energy surfaces
+## 163. An automated framework for exploring and learning potential-energy surfaces
 
 **Authors:** Yuanbin Liu, Joe D. Morrow, Christina Ertural, Natascia L. Fragapane, John L. A. Gardner, Aakash A. Naik, Yuxing Zhou, Janine George, Volker L. Deringer
 
@@ -204,7 +204,7 @@ Machine learning has become ubiquitous in materials modelling and now routinely 
 
 ---
 
-## 111. Accelerated design of gold nanoparticles with enhanced plasmonic performance
+## 162. Accelerated design of gold nanoparticles with enhanced plasmonic performance
 
 **Authors:** José Luis Montaño-Priede, Anish Rao, Ana Sánchez-Iglesias, Marek Grzelczak
 
@@ -225,7 +225,7 @@ Finding the optimal dimensions of metal nanoparticles to maximize their plasmoni
 
 ---
 
-## 110. Data-driven de novo design of super-adhesive hydrogels
+## 161. Data-driven de novo design of super-adhesive hydrogels
 
 **Authors:** Hongguang Liao, Sheng Hu, Hu Yang, Lei Wang, Shinya Tanaka, Ichigaku Takigawa, Wei Li, Hailong Fan, Jian Ping Gong
 
@@ -246,7 +246,7 @@ Data-driven methodologies have transformed the discovery and prediction of hard 
 
 ---
 
-## 109. An actor–critic algorithm to maximize the power delivered from direct methanol fuel cells
+## 160. An actor–critic algorithm to maximize the power delivered from direct methanol fuel cells
 
 **Authors:** Hongbin Xu, Yang Jeong Park, Zhichu Ren, Daniel J. Zheng, Davide Menga, Haojun Jia, Chenru Duan, Guanzhou Zhu, Yuriy Román-Leshkov, Yang Shao-Horn, Ju Li
 
@@ -267,7 +267,7 @@ Direct methanol fuel cells offer high energy densities but face challenges inclu
 
 ---
 
-## 108. Deep learning for property prediction of natural fiber polymer composites
+## 159. Deep learning for property prediction of natural fiber polymer composites
 
 **Authors:** Ivan P. Malashin, Dmitry Martysyuk, Vladimir Nelyub, Aleksei Borodulin, Andrei Gantimurov, Vadim Tynchenko
 
@@ -288,7 +288,7 @@ The increasing availability of diverse experimental and computational data has a
 
 ---
 
-## 107. Accelerating primer design for amplicon sequencing using large language model-powered agents
+## 158. Accelerating primer design for amplicon sequencing using large language model-powered agents
 
 **Authors:** Yi Wang, Yuejie Hou, Lin Yang, Shisen Li, Weiting Tang, Hui Tang, Qiushun He, Siyuan Lin, Yanyan Zhang, Xingyu Li, Shiwen Chen, Yusheng Huang, Lingsong Kong, Huijun Zhang, Duncan Yu, Feng Mu, Huanming Yang, Jian Wang, Nattiya Hirankarn, Meng Yang
 
@@ -307,7 +307,7 @@ The PrimeGen framework is a multi-agent large language model system used to navi
 
 ---
 
-## 106. The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies
+## 157. The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies
 
 **Authors:** Kyle Swanson, Wesley Wu, Nash L. Bulaong, John E. Pak, James Zou
 
@@ -326,7 +326,28 @@ Human collaboration with a team of artificial intelligence (AI) agents powered b
 
 ---
 
-## 105. Accelerated data-driven materials science with the Materials Project
+## 156. Artificial Intelligence Paradigms for Next-Generation Metal–Organic Framework Research
+
+**Authors:** Aydin Ozcan, François-Xavier Coudert, Sven M. J. Rogge, Greta Heydenrych, Dong Fan, Antonios P. Sarikas, Seda Keskin, Guillaume Maurin, George E. Froudakis, Stefan Wuttke, Ilknur Erucar
+
+**Venue:** Journal of the American Chemical Society
+
+**Publication Date:** July 09, 2025
+
+**Volume & Issue:** Volume 147, Issue 27
+
+**Pages:** 23367-23380
+
+**DOI:** 10.1021/jacs.5c08214
+
+**Abstract:**
+After the development of the famous “Transformer” network architecture and the meteoric rise of artificial intelligence (AI)-powered chatbots, large language models (LLMs) have become an indispensable part of our daily activities. In this rapidly evolving era, “all we need is attention” as Google’s famous transformer paper’s title [Vaswani et al., Adv. Neural Inf. Process. Syst. 2017, 30] implies: We need to focus on and give “attention” to what we have at hand, then consider what we can do further. What can LLMs offer for immediate short-term adaptation? Currently, the most common applications in metal–organic framework (MOF) research include automating literature reviews and data extraction to accelerate the material discovery process. In this perspective, we discuss the latest developments in machine-learning and deep-learning research on MOF materials and reflect on how their utilization has evolved within the LLM domain from this standpoint. We finally explore future benefits to accelerate and automate materials development research.
+
+**Tags:** None
+
+---
+
+## 155. Accelerated data-driven materials science with the Materials Project
 
 **Authors:** Matthew K. Horton, Patrick Huck, Ruo Xi Yang, Jason M. Munro, Shyam Dwaraknath, Alex M. Ganose, Ryan S. Kingsbury, Mingjian Wen, Jimmy X. Shen, Tyler S. Mathis, Aaron D. Kaplan, Karlo Berket, Janosh Riebesell, Janine George, Andrew S. Rosen, Evan W. C. Spotte-Smith, Matthew J. McDermott, Orion A. Cohen, Alex Dunn, Matthew C. Kuner, Gian-Marco Rignanese, Guido Petretto, David Waroquiers, Sinead M. Griffin, Jeffrey B. Neaton, Daryl C. Chrzan, Mark Asta, Geoffroy Hautier, Shreyas Cholia, Gerbrand Ceder, Shyue Ping Ong, Anubhav Jain, Kristin A. Persson
 
@@ -345,7 +366,7 @@ Materials design and informatics have become increasingly prominent over the pas
 
 ---
 
-## 104. Natural-Language-Interfaced Robotic Synthesis for AI-Copilot-Assisted Exploration of Inorganic Materials
+## 154. Natural-Language-Interfaced Robotic Synthesis for AI-Copilot-Assisted Exploration of Inorganic Materials
 
 **Authors:** Lin Huang, Chao Zhang, Yun Fu, Yibin Jiang, Enyu He, Ming-Qiang Qi, Ming-Hao Du, Xiang-Jian Kong, Jun Cheng, Leroy Cronin, Cheng Wang
 
@@ -366,7 +387,7 @@ The automation of chemical synthesis presents opportunities to enhance experimen
 
 ---
 
-## 103. Self-Evolving Discovery of Carrier Biomaterials with Ultra-Low Nonspecific Protein Adsorption for Single Cell Analysis
+## 153. Self-Evolving Discovery of Carrier Biomaterials with Ultra-Low Nonspecific Protein Adsorption for Single Cell Analysis
 
 **Authors:** Songtao Hu, Wenhui Lu, Xijia Ding, Yingying Xue, Congcong Liu, Tian Xie, Yinjun Deng, Haoran Li, Zhuocheng Gong, Yanming Xia, Peishen He, Lingliao Zeng, Zhong Wang, Jian Jin, Zhi Luo, Xi Shi, Zhike Peng, Tao Xu, Xiaobao Cao
 
@@ -387,7 +408,7 @@ Carrier biomaterials used in single-cell analysis face a bottleneck in protein d
 
 ---
 
-## 102. Enabling large language models for real-world materials discovery
+## 152. Enabling large language models for real-world materials discovery
 
 **Authors:** Santiago Miret, N. M. Anoop Krishnan
 
@@ -408,7 +429,7 @@ Miret and Krishnan discuss the promise of large language models (LLMs) to revolu
 
 ---
 
-## 101. A generalized platform for artificial intelligence-powered autonomous enzyme engineering
+## 151. A generalized platform for artificial intelligence-powered autonomous enzyme engineering
 
 **Authors:** Nilmani Singh, Stephan Lane, Tianhao Yu, Jingxia Lu, Adrianna Ramos, Haiyang Cui, Huimin Zhao
 
@@ -429,7 +450,7 @@ Proteins are the molecular machines of life with numerous applications in energy
 
 ---
 
-## 100. Machine-learning design of ductile FeNiCoAlTa alloys with high strength
+## 150. Machine-learning design of ductile FeNiCoAlTa alloys with high strength
 
 **Authors:** Yasir Sohail, Chongle Zhang, Dezhen Xue, Jinyu Zhang, Dongdong Zhang, Shaohua Gao, Yang Yang, Xiaoxuan Fan, Hang Zhang, Gang Liu, Jun Sun, En Ma
 
@@ -450,7 +471,28 @@ The pursuit of strong yet ductile alloys has been ongoing for centuries. However
 
 ---
 
-## 99. Large language models to accelerate organic chemistry synthesis
+## 149. Ultrabroadband and band-selective thermal meta-emitters by machine learning
+
+**Authors:** Chengyu Xiao, Mengqi Liu, Kan Yao, Yifan Zhang, Mengqi Zhang, Max Yan, Ya Sun, Xianghui Liu, Xuanyu Cui, Tongxiang Fan, Changying Zhao, Wansu Hua, Yinqiao Ying, Yuebing Zheng, Di Zhang, Cheng-Wei Qiu, Han Zhou
+
+**Venue:** Nature
+
+**Publication Date:** July 2025
+
+**Volume & Issue:** Volume 643, Issue 8070
+
+**Pages:** 80-88
+
+**DOI:** 10.1038/s41586-025-09102-y
+
+**Abstract:**
+An unconventional&nbsp;machine learning-based inverse design framework enables the generation of ultrabroadband and band-selective thermal meta-emitters with complex 3D architectures and diverse material compositions.
+
+**Tags:** None
+
+---
+
+## 148. Large language models to accelerate organic chemistry synthesis
 
 **Authors:** Yu Zhang, Yang Han, Shuai Chen, Ruijie Yu, Xin Zhao, Xianbin Liu, Kaipeng Zeng, Mengdi Yu, Jidong Tian, Feng Zhu, Xiaokang Yang, Yaohui Jin, Yanyan Xu
 
@@ -471,7 +513,47 @@ Large language models (LLMs) can be useful tools for science, but they often lac
 
 ---
 
-## 98. A data-driven platform for automated characterization of polymer electrolytes
+## 147. Rethinking chemical research in the age of large language models
+
+**Authors:** Robert MacKnight, Daniil A. Boiko, Jose Emilio Regio, Liliana C. Gallegos, Théo A. Neukomm, Gabe Gomes
+
+**Venue:** Nature Computational Science
+
+**Publication Date:** June 24, 2025
+
+**Pages:** 1-12
+
+**DOI:** 10.1038/s43588-025-00811-y
+
+**Abstract:**
+This Perspective highlights the potential integrations of large language models (LLMs) in chemical research and provides guidance on the effective use of LLMs as research partners, noting the ethical and performance-based challenges that must be addressed moving forward.
+
+**Tags:** None
+
+---
+
+## 146. Agent-based multimodal information extraction for nanomaterials
+
+**Authors:** R. Odobesku, K. Romanova, S. Mirzaeva, O. Zagorulko, R. Sim, R. Khakimullin, J. Razlivina, A. Dmitrenko, V. Vinogradov
+
+**Venue:** npj Computational Materials
+
+**Publication Date:** June 23, 2025
+
+**Volume & Issue:** Volume 11, Issue 1
+
+**Pages:** 194
+
+**DOI:** 10.1038/s41524-025-01674-7
+
+**Abstract:**
+Automating structured data extraction from scientific literature is a critical challenge with broad implications across domains. We introduce nanoMINER, a multi-agent system combining large language models and multimodal analysis to extract essential information from scientific research articles on nanomaterials. This system processes documents end-to-end, utilizing tools such as YOLO for visual data extraction and GPT-4o for linking textual and visual information. At its core, the ReAct agent orchestrates specialized agents to ensure comprehensive data extraction. We demonstrate the efficacy of the system by automating the assembly of nanomaterial and nanozyme datasets previously manually curated by domain experts. NanoMINER achieves high precision in extracting nanomaterial properties like chemical formulas, crystal systems, and surface characteristics. For nanozymes, we obtain near-perfect precision (0.98) for kinetic parameters and essential features such as Cmin and Cmax. To benchmark the system performance, we also compare nanoMINER to several baseline LLMs, including the most recent multimodal GPT-4.1, and show consistently higher extraction precision and recall. Our approach is extensible to other domains of materials science and fields like biomedicine, advancing data-driven research methodologies and automated knowledge extraction.
+
+**Tags:** Heterogeneous catalysis, Nanoscale materials
+
+---
+
+## 145. A data-driven platform for automated characterization of polymer electrolytes
 
 **Authors:** Michael A. Stolberg, Jeffrey Lopez, Sawyer D. Cawthern, Abraham Herzog-Arbeitman, Ha-Kyung Kwon, Daniel Schweigert, Abraham Anapolosky, Brian D. Storey, Jeremiah A. Johnson, Yang Shao-Horn
 
@@ -490,7 +572,7 @@ No abstract available
 
 ---
 
-## 97. IvoryOS: an interoperable web interface for orchestrating Python-based self-driving laboratories
+## 144. IvoryOS: an interoperable web interface for orchestrating Python-based self-driving laboratories
 
 **Authors:** Wenyu Zhang, Lucy Hao, Veronica Lai, Ryan Corkery, Jacob Jessiman, Jiayu Zhang, Junliang Liu, Yusuke Sato, Maria Politi, Matthew E. Reish, Rebekah Greenwood, Noah Depner, Jiyoon Min, Rama El-khawaldeh, Paloma Prieto, Ekaterina Trushina, Jason E. Hein
 
@@ -511,7 +593,7 @@ Self-driving laboratories (SDLs), powered by robotics, automation and artificial
 
 ---
 
-## 96. A novel training-free approach to efficiently extracting material microstructures via visual large model
+## 143. A novel training-free approach to efficiently extracting material microstructures via visual large model
 
 **Authors:** Changtai Li, Xu Han, Chao Yao, Yu Guo, Zixin Li, Lei Jiang, Wei Liu, Haiyou Huang, Huadong Fu, Xiaojuan Ban
 
@@ -532,49 +614,7 @@ The precise quantitative description of material microstructures is essential fo
 
 ---
 
-## 95. A novel training-free approach to efficiently extracting material microstructures via visual large model
-
-**Authors:** Changtai Li, Xu Han, Chao Yao, Yu Guo, Zixin Li, Lei Jiang, Wei Liu, Haiyou Huang, Huadong Fu, Xiaojuan Ban
-
-**Venue:** Acta Materialia
-
-**Publication Date:** May 15, 2025
-
-**Volume & Issue:** Volume 290
-
-**Pages:** 120962
-
-**DOI:** 10.1016/j.actamat.2025.120962
-
-**Abstract:**
-The precise quantitative description of material microstructures is essential for deeply exploring the relationship between material composition and property. This significant understanding efficiently enables composition design, process optimization, and property enhancement. Traditionally, the analysis of material microstructures has relied heavily on professional expertise. Even with machine /deep learning (ML/DL)-based analysis methods, substantial expert annotation is required for training, and the trained models often suffer from weak generalizability and poor recognition of new images. This study proposed MatSAM (Materials Segment Anything Model), a novel training-free approach for efficient material microstructure extraction based on the Segment Anything Model (SAM), a type of visual large model (VLM). Integrating region marking and microscopy-adapted points, an automated point-based prompt strategy was developed to achieve accurate and efficient material microstructure recognition. Without any manual annotations, MatSAM precisely identified 11 kinds of metallic material microstructures obtained through various characterization methods. Compared to optimal conventional rule-based methods that do not involve a learning process (non-ML/DL), MatSAM achieved an average relative improvement of 35.4 % in metrics combining the adjusted Rand index (ARI) and Intersection over Union (IoU), outperforming the original SAM by an average of 13.9 %. On four public microstructure segmentation datasets, the IoU of MatSAM showed an average improvement of 7.5 % over corresponding specialist deep models requiring annotations. Meanwhile, MatSAM satisfied the generalization capability of a single model for various microstructures, including grain boundaries, phases, and defects. This approach significantly reduces the labor and computational costs of quantitatively characterizing material microstructures, further accelerating the development of advanced materials.
-
-**Tags:** Deep learning, Image recognition, Material microstructure, Visual large model
-
----
-
-## 94. A novel training-free approach to efficiently extracting material microstructures via visual large model
-
-**Authors:** Changtai Li, Xu Han, Chao Yao, Yu Guo, Zixin Li, Lei Jiang, Wei Liu, Haiyou Huang, Huadong Fu, Xiaojuan Ban
-
-**Venue:** Acta Materialia
-
-**Publication Date:** May 15, 2025
-
-**Volume & Issue:** Volume 290
-
-**Pages:** 120962
-
-**DOI:** 10.1016/j.actamat.2025.120962
-
-**Abstract:**
-The precise quantitative description of material microstructures is essential for deeply exploring the relationship between material composition and property. This significant understanding efficiently enables composition design, process optimization, and property enhancement. Traditionally, the analysis of material microstructures has relied heavily on professional expertise. Even with machine /deep learning (ML/DL)-based analysis methods, substantial expert annotation is required for training, and the trained models often suffer from weak generalizability and poor recognition of new images. This study proposed MatSAM (Materials Segment Anything Model), a novel training-free approach for efficient material microstructure extraction based on the Segment Anything Model (SAM), a type of visual large model (VLM). Integrating region marking and microscopy-adapted points, an automated point-based prompt strategy was developed to achieve accurate and efficient material microstructure recognition. Without any manual annotations, MatSAM precisely identified 11 kinds of metallic material microstructures obtained through various characterization methods. Compared to optimal conventional rule-based methods that do not involve a learning process (non-ML/DL), MatSAM achieved an average relative improvement of 35.4 % in metrics combining the adjusted Rand index (ARI) and Intersection over Union (IoU), outperforming the original SAM by an average of 13.9 %. On four public microstructure segmentation datasets, the IoU of MatSAM showed an average improvement of 7.5 % over corresponding specialist deep models requiring annotations. Meanwhile, MatSAM satisfied the generalization capability of a single model for various microstructures, including grain boundaries, phases, and defects. This approach significantly reduces the labor and computational costs of quantitatively characterizing material microstructures, further accelerating the development of advanced materials.
-
-**Tags:** Deep learning, Image recognition, Material microstructure, Visual large model
-
----
-
-## 93. Exploration of crystal chemical space using text-guided generative artificial intelligence
+## 142. Exploration of crystal chemical space using text-guided generative artificial intelligence
 
 **Authors:** Hyunsoo Park, Anthony Onwuli, Aron Walsh
 
@@ -595,7 +635,7 @@ The vastness of chemical space presents a long-standing challenge for the explor
 
 ---
 
-## 92. Using GNN property predictors as molecule generators
+## 141. Using GNN property predictors as molecule generators
 
 **Authors:** Félix Therrien, Edward H. Sargent, Oleksandr Voznyy
 
@@ -616,7 +656,7 @@ Graph neural networks (GNNs) have emerged as powerful tools to accurately predic
 
 ---
 
-## 91. End-to-end data-driven weather prediction
+## 140. End-to-end data-driven weather prediction
 
 **Authors:** Anna Allen, Stratis Markou, Will Tebbutt, James Requeima, Wessel P. Bruinsma, Tom R. Andersson, Michael Herzog, Nicholas D. Lane, Matthew Chantry, J. Scott Hosking, Richard E. Turner
 
@@ -637,7 +677,28 @@ Weather prediction is critical for a range of human activities, including transp
 
 ---
 
-## 90. Automated processing and transfer of two-dimensional materials with robotics
+## 139. Large language model-driven database for thermoelectric materials
+
+**Authors:** Suman Itani, Yibo Zhang, Jiadong Zang
+
+**Venue:** Computational Materials Science
+
+**Publication Date:** May 01, 2025
+
+**Volume & Issue:** Volume 253
+
+**Pages:** 113855
+
+**DOI:** 10.1016/j.commatsci.2025.113855
+
+**Abstract:**
+Thermoelectric materials have the ability to convert waste heat into electricity, offering a valuable solution for energy harvesting. However, their widespread use is hindered by low conversion efficiency, the reliance on expensive rare earth elements, and the environmental and regulatory concerns associated with lead-based materials. A fast and cost-effective way to identify highly efficient thermoelectric materials is through data-driven methods. These approaches rely on robust and comprehensive datasets to train models. Although there are several databases on thermoelectric materials, there is still a need to collect and integrate experimental data from peer-reviewed research articles to capture diverse compositions and properties of materials. Here we developed a comprehensive database of 7,123 thermoelectric compounds, containing key information such as chemical composition, structural detail, seebeck coefficient, electrical and thermal conductivity, power factor, and figure of merit (ZT). We used the GPTArticleExtractor workflow, powered by large language models (LLM), to extract and curate data automatically from the scientific literature published in Elsevier journals. This process enabled the creation of a structured database that addresses the challenges of manual data collection. The open access database could stimulate data-driven research and advance thermoelectric material analysis and discovery.
+
+**Tags:** Database, Large language model, Thermoelectric materials
+
+---
+
+## 138. Automated processing and transfer of two-dimensional materials with robotics
 
 **Authors:** Yixuan Zhao, Junhao Liao, Saiyu Bu, Zhaoning Hu, Jingyi Hu, Qi Lu, Mingpeng Shang, Bingbing Guo, Ge Chen, Qian Zhao, Kaicheng Jia, Guorui Wang, Ethan Errington, Qin Xie, Yanfeng Zhang, Miao Guo, Boyang Mao, Li Lin, Zhongfan Liu
 
@@ -658,7 +719,7 @@ Robust, high-throughput processing of two-dimensional materials produced by chem
 
 ---
 
-## 89. Self-driving nanoparticle synthesis
+## 137. Self-driving nanoparticle synthesis
 
 **Authors:** Tong Zhao, Yan Zeng
 
@@ -679,7 +740,7 @@ The multidimensional chemical parameter space for nanoparticle synthesis is too 
 
 ---
 
-## 88. Ab initio structure solutions from nanocrystalline powder diffraction data via diffusion models
+## 136. Ab initio structure solutions from nanocrystalline powder diffraction data via diffusion models
 
 **Authors:** Gabe Guo, Tristan Luca Saidi, Maxwell W. Terban, Michele Valsecchi, Simon J. L. Billinge, Hod Lipson
 
@@ -698,7 +759,28 @@ A machine learning model that can solve nanocrystalline structures from highly d
 
 ---
 
-## 87. Science acceleration and accessibility with self-driving labs
+## 135. Towards AI-driven autonomous growth of 2D materials based on a graphene case study
+
+**Authors:** Leonardo Sabattini, Annalisa Coriolano, Corneel Casert, Stiven Forti, Edward S. Barnard, Fabio Beltram, Massimiliano Pontil, Stephen Whitelam, Camilla Coletti, Antonio Rossi
+
+**Venue:** Communications Physics
+
+**Publication Date:** April 25, 2025
+
+**Volume & Issue:** Volume 8, Issue 1
+
+**Pages:** 180
+
+**DOI:** 10.1038/s42005-025-02086-1
+
+**Abstract:**
+The scalable synthesis of two-dimensional (2D) materials remains a key challenge for their integration into solid-state technology. While exfoliation techniques have driven much of the scientific progress, they are impractical for large-scale applications. Advances in artificial intelligence (AI) now offer new strategies for materials synthesis. This study explores the use of an artificial neural network (ANN) trained via evolutionary methods to optimize graphene growth. The ANN autonomously refines a time-dependent synthesis protocol without prior knowledge of effective recipes. The evaluation is based on Raman spectroscopy, where outcomes resembling monolayer graphene receive higher scores. This feedback mechanism enables iterative improvements in synthesis conditions, progressively enhancing sample quality. By integrating AI-driven optimization into material synthesis, this work contributes to the development of scalable approaches for 2D materials, demonstrating the potential of machine learning in guiding experimental processes.
+
+**Tags:** Condensed-matter physics, Synthesis of graphene
+
+---
+
+## 134. Science acceleration and accessibility with self-driving labs
 
 **Authors:** Richard B. Canty, Jeffrey A. Bennett, Keith A. Brown, Tonio Buonassisi, Sergei V. Kalinin, John R. Kitchin, Benji Maruyama, Robert G. Moore, Joshua Schrier, Martin Seifrid, Shijing Sun, Tejs Vegge, Milad Abolhasani
 
@@ -719,7 +801,28 @@ In the evolving landscape of scientific research, the complexity of global chall
 
 ---
 
-## 86. A Multiagent-Driven Robotic AI Chemist Enabling Autonomous Chemical Research On Demand
+## 133. Harnessing database-supported high-throughput screening for the design of stable interlayers in halide-based all-solid-state batteries
+
+**Authors:** Longyun Shen, Zilong Wang, Shengjun Xu, Ho Mei Law, Yanguang Zhou, Francesco Ciucci
+
+**Venue:** Nature Communications
+
+**Publication Date:** April 17, 2025
+
+**Volume & Issue:** Volume 16, Issue 1
+
+**Pages:** 3687
+
+**DOI:** 10.1038/s41467-025-58522-x
+
+**Abstract:**
+All-solid-state Li metal batteries (ASSLMBs) promise superior safety and energy density compared to conventional Li-ion batteries. However, their widespread adoption is hindered by detrimental interfacial reactions between solid-state electrolytes (SSEs) and the Li negative electrode, compromising long-term cycling stability. The challenges in directly observing these interfaces impede a comprehensive understanding of reaction mechanisms, necessitating first-principle simulations for designing novel interlayer materials. To overcome these limitations, we develop a database-supported high-throughput screening (DSHTS) framework for identifying stable interlayer materials compatible with both Li and SSEs. Using Li3InCl6 as a model SSE, we identify Li3OCl as a potential interlayer material. Experimental validation demonstrates significantly improved electrochemical performance in both symmetric- and full-cell configurations. A Li|Li3OCl|Li3InCl6|LiCoO2 cell exhibits an initial discharge capacity of 154.4 mAh/g (1.09 mA/cm2, 2.5–4.2 V vs. Li/Li+, 303 K) with 76.36% capacity retention after 1000 cycles. Notably, a cell with a conventional In-Li6PS5Cl interlayer delivers only 132.4 mAh/g and fails after 760 cycles. An additional interlayer-containing battery with Li(Ni0.8Co0.1Mn0.1)O2 as the positive electrode achieves an initial discharge capacity of 151.3 mAh/g (3.84 mA/cm2, 2.5–4.2 V vs. Li/Li+, 303 K), maintaining stable operation over 1650 cycles. The results demonstrate the promise of the DSHTS framework for identifying interlayer materials.
+
+**Tags:** Batteries
+
+---
+
+## 132. A Multiagent-Driven Robotic AI Chemist Enabling Autonomous Chemical Research On Demand
 
 **Authors:** Tao Song, Man Luo, Xiaolong Zhang, Linjiang Chen, Yan Huang, Jiaqi Cao, Qing Zhu, Daobin Liu, Baicheng Zhang, Gang Zou, Guoqing Zhang, Fei Zhang, Weiwei Shang, Yao Fu, Jun Jiang, Yi Luo
 
@@ -740,7 +843,7 @@ The successful integration of large language models (LLMs) into laboratory workf
 
 ---
 
-## 85. Leveraging data mining, active learning, and domain adaptation for efficient discovery of advanced oxygen evolution electrocatalysts
+## 131. Leveraging data mining, active learning, and domain adaptation for efficient discovery of advanced oxygen evolution electrocatalysts
 
 **Authors:** Rui Ding, Jianguo Liu, Kang Hua, Xuebin Wang, Xiaoben Zhang, Minhua Shao, Yuxin Chen, Junhong Chen
 
@@ -761,7 +864,7 @@ Developing advanced catalysts for acidic oxygen evolution reaction (OER) is cruc
 
 ---
 
-## 84. A high-throughput experimentation platform for data-driven discovery in electrochemistry
+## 130. A high-throughput experimentation platform for data-driven discovery in electrochemistry
 
 **Authors:** Dian-Zhao Lin, Kai-Jui Pan, Yuyin Li, Lingyu Zhang, Krish N. Jayarapu, Tianchen Li, Jasmine Vy Tran, William A. Goddard, Zhengtang Luo, Yayuan Liu
 
@@ -782,7 +885,7 @@ Automating electrochemical analyses combined with artificial intelligence is poi
 
 ---
 
-## 83. Physics-informed, dual-objective optimization of high-entropy-alloy nanozymes by a robotic AI chemist
+## 129. Physics-informed, dual-objective optimization of high-entropy-alloy nanozymes by a robotic AI chemist
 
 **Authors:** Man Luo, Zikai Xie, Huirong Li, Baicheng Zhang, Jiaqi Cao, Yan Huang, Hang Qu, Qing Zhu, Linjiang Chen, Jun Jiang, Yi Luo
 
@@ -801,7 +904,7 @@ No abstract available
 
 ---
 
-## 82. Towards multimodal foundation models in molecular cell biology
+## 128. Towards multimodal foundation models in molecular cell biology
 
 **Authors:** Haotian Cui, Alejandro Tejada-Lapuerta, Maria Brbić, Julio Saez-Rodriguez, Simona Cristea, Hani Goodarzi, Mohammad Lotfollahi, Fabian J. Theis, Bo Wang
 
@@ -822,7 +925,28 @@ The development of multimodal foundation models, pretrained on diverse omics dat
 
 ---
 
-## 81. A generative model for inorganic materials design
+## 127. Applications of natural language processing and large language models in materials discovery
+
+**Authors:** Xue Jiang, Weiren Wang, Shaohan Tian, Hao Wang, Turab Lookman, Yanjing Su
+
+**Venue:** npj Computational Materials
+
+**Publication Date:** March 24, 2025
+
+**Volume & Issue:** Volume 11, Issue 1
+
+**Pages:** 79
+
+**DOI:** 10.1038/s41524-025-01554-0
+
+**Abstract:**
+The transformative impact of artificial intelligence (AI) technologies on materials science has revolutionized the study of materials problems. By leveraging well-characterized datasets derived from the scientific literature, AI-powered tools such as Natural Language Processing (NLP) have opened new avenues to accelerate materials research. The advances in NLP techniques and the development of large language models (LLMs) facilitate the efficient extraction and utilization of information. This review explores the application of NLP tools in materials science, focusing on automatic data extraction, materials discovery, and autonomous research. We also discuss the challenges and opportunities associated with utilizing LLMs and outline the prospects and advancements that will propel the field forward.
+
+**Tags:** Techniques and instrumentation, Theory and computation
+
+---
+
+## 126. A generative model for inorganic materials design
 
 **Authors:** Claudio Zeni, Robert Pinsler, Daniel Zügner, Andrew Fowler, Matthew Horton, Xiang Fu, Zilong Wang, Aliaksandra Shysheya, Jonathan Crabbé, Shoko Ueda, Roberto Sordillo, Lixin Sun, Jake Smith, Bichlien Nguyen, Hannes Schulz, Sarah Lewis, Chin-Wei Huang, Ziheng Lu, Yichi Zhou, Han Yang, Hongxia Hao, Jielan Li, Chunlei Yang, Wenjie Li, Ryota Tomioka, Tian Xie
 
@@ -843,7 +967,7 @@ The design of functional materials with desired properties is essential in drivi
 
 ---
 
-## 80. Developing novel low-density high-entropy superalloys with high strength and superior creep resistance guided by automated machine learning
+## 125. Developing novel low-density high-entropy superalloys with high strength and superior creep resistance guided by automated machine learning
 
 **Authors:** Yancheng Li, Jingyu Pang, Zhen Li, Qing Wang, Zhenhua Wang, Jinlin Li, Hongwei Zhang, Zengbao Jiao, Chuang Dong, Peter K. Liaw
 
@@ -864,7 +988,7 @@ Design of novel superalloys with low density, high strength, and great microstru
 
 ---
 
-## 79. ORGANA: A robotic assistant for automated chemistry experimentation and characterization
+## 124. ORGANA: A robotic assistant for automated chemistry experimentation and characterization
 
 **Authors:** Kourosh Darvish, Marta Skreta, Yuchi Zhao, Naruki Yoshikawa, Sagnik Som, Miroslav Bogdanovic, Yang Cao, Han Hao, Haoping Xu, Alán Aspuru-Guzik, Animesh Garg, Florian Shkurti
 
@@ -885,7 +1009,28 @@ Chemistry experiments can be resource- and labor-intensive, often requiring manu
 
 ---
 
-## 78. Automating the practice of science: Opportunities, challenges, and implications
+## 123. Harnessing Large Language Models to Collect and Analyze Metal–Organic Framework Property Data Set
+
+**Authors:** Yeonghun Kang, Wonseok Lee, Taeun Bae, Seunghee Han, Huiwon Jang, Jihan Kim
+
+**Venue:** Journal of the American Chemical Society
+
+**Publication Date:** February 05, 2025
+
+**Volume & Issue:** Volume 147, Issue 5
+
+**Pages:** 3943-3958
+
+**DOI:** 10.1021/jacs.4c11085
+
+**Abstract:**
+This research focused on the efficient collection of experimental metal–organic framework (MOF) data from scientific literature to address the challenges of accessing hard-to-find data and improving the quality of information available for machine learning studies in materials science. Utilizing a chain of advanced large language models (LLMs), we developed a systematic approach to extract and organize MOF data into a structured format. Our methodology successfully compiled information from more than 40,000 research articles, creating a comprehensive and ready-to-use data set. Specifically, data regarding MOF synthesis conditions and properties were extracted from both tables and text and then analyzed. Subsequently, we utilized the curated database to analyze the relationships between synthesis conditions, properties, and structure. Through machine learning, we identified the existence of a gap between simulation data and experimental data, and further analysis revealed the factors contributing to this discrepancy. Additionally, we leveraged the extracted synthesis condition data to develop a synthesis condition recommender system. This system suggests optimal synthesis conditions based on the provided precursors, offering a practical tool to refine synthesis strategies. This underscores the importance of experimental datasets in advancing MOF research.
+
+**Tags:** None
+
+---
+
+## 122. Automating the practice of science: Opportunities, challenges, and implications
 
 **Authors:** Sebastian Musslick, Laura K. Bartlett, Suyog H. Chandramouli, Marina Dubova, Fernand Gobet, Thomas L. Griffiths, Jessica Hullman, Ross D. King, J. Nathan Kutz, Christopher G. Lucas, Suhas Mahesh, Franco Pestilli, Sabina J. Sloman, William R. Holmes
 
@@ -906,7 +1051,24 @@ Automation transformed various aspects of our human civilization, revolutionizin
 
 ---
 
-## 77. Balancing autonomy and expertise in autonomous synthesis laboratories
+## 121. From text to insight: large language models for chemical data extraction
+
+**Authors:** Mara Schilling-Wilhelmi, Martiño Ríos-García, Sherjeel Shabih, María Victoria Gil, Santiago Miret, Christoph T. Koch, José A. Márquez, Kevin Maik Jablonka
+
+**Venue:** Unknown
+
+**Publication Date:** February 03, 2025
+
+**DOI:** 10.1039/D4CS00913D
+
+**Abstract:**
+No abstract available
+
+**Tags:** None
+
+---
+
+## 120. Balancing autonomy and expertise in autonomous synthesis laboratories
 
 **Authors:** Xiaozhao Liu, Bin Ouyang, Yan Zeng
 
@@ -927,7 +1089,7 @@ Autonomous synthesis laboratories promise to streamline the plan–make–measur
 
 ---
 
-## 76. Knowledge-guided large language model for material science
+## 119. Knowledge-guided large language model for material science
 
 **Authors:** Guanjie Wang, Jingjing Hu, Jian Zhou, Sen Liu, Qingjiang Li, Zhimei Sun
 
@@ -948,7 +1110,7 @@ With ChatGPT starting a storm of transformative applications worldwide, the adve
 
 ---
 
-## 75. Transforming the synthesis of carbon nanotubes with machine learning models and automation
+## 118. Transforming the synthesis of carbon nanotubes with machine learning models and automation
 
 **Authors:** Yue Li, Shurui Wang, Zhou Lv, Zhaoji Wang, Yunbiao Zhao, Ying Xie, Yang Xu, Liu Qian, Yaodong Yang, Ziqiang Zhao, Jin Zhang
 
@@ -967,7 +1129,7 @@ No abstract available
 
 ---
 
-## 74. Exploration of Chemical Space Through Automated Reasoning
+## 117. Exploration of Chemical Space Through Automated Reasoning
 
 **Authors:** Judith Clymo, Christopher M. Collins, Katie Atkinson, Matthew S. Dyer, Michael W. Gaultois, Vladimir V. Gusev, Matthew J. Rosseinsky, Sven Schewe
 
@@ -988,7 +1150,7 @@ The vast size of composition space poses a significant challenge for materials c
 
 ---
 
-## 73. Data-Driven Design of Mechanically Hard Soft Magnetic High-Entropy Alloys
+## 116. Data-Driven Design of Mechanically Hard Soft Magnetic High-Entropy Alloys
 
 **Authors:** Mian Dai, Yixuan Zhang, Xiaoqing Li, Stephan Schönecker, Liuliu Han, Ruiwen Xie, Chen Shen, Hongbin Zhang
 
@@ -1009,7 +1171,7 @@ The design and optimization of mechanically hard soft magnetic materials, which 
 
 ---
 
-## 72. Topological data analysis assisted machine learning for polar topological structures in oxide superlattices
+## 115. Topological data analysis assisted machine learning for polar topological structures in oxide superlattices
 
 **Authors:** Guanshihan Du, Linming Zhou, Yuhui Huang, Yongjun Wu, Zijian Hong
 
@@ -1030,7 +1192,7 @@ Ferroelectric topological phases and phase transitions have been extensively inv
 
 ---
 
-## 71. AI-Driven Defect Engineering for Advanced Thermoelectric Materials
+## 114. AI-Driven Defect Engineering for Advanced Thermoelectric Materials
 
 **Authors:** Chu-Liang Fu, Mouyang Cheng, Nguyen Tuan Hung, Eunbi Rha, Zhantao Chen, Ryotaro Okabe, Denisse Córdova Carrizales, Manasi Mandal, Yongqiang Cheng, Mingda Li
 
@@ -1051,7 +1213,7 @@ Thermoelectric materials offer a promising pathway to directly convert waste hea
 
 ---
 
-## 70. SciAgents: Automating Scientific Discovery Through Bioinspired Multi-Agent Intelligent Graph Reasoning
+## 113. SciAgents: Automating Scientific Discovery Through Bioinspired Multi-Agent Intelligent Graph Reasoning
 
 **Authors:** Alireza Ghafarollahi, Markus J. Buehler
 
@@ -1072,7 +1234,7 @@ A key challenge in artificial intelligence (AI) is the creation of systems capab
 
 ---
 
-## 69. AI4Materials: Transforming the landscape of materials science and enigneering
+## 112. AI4Materials: Transforming the landscape of materials science and enigneering
 
 **Authors:** Xue Jiang, Dezhen Xue, Yang Bai, William Yi Wang, Jianjun Liu, Mingli Yang, Yanjing Su
 
@@ -1093,7 +1255,7 @@ New materials, crucial for economic and technological progress, are prioritized 
 
 ---
 
-## 68. Computational microscopy with coherent diffractive imaging and ptychography
+## 111. Computational microscopy with coherent diffractive imaging and ptychography
 
 **Authors:** Jianwei Miao
 
@@ -1114,7 +1276,7 @@ This review highlights transformative advancements in&nbsp;computational microsc
 
 ---
 
-## 67. Probabilistic weather forecasting with machine learning
+## 110. Probabilistic weather forecasting with machine learning
 
 **Authors:** Ilan Price, Alvaro Sanchez-Gonzalez, Ferran Alet, Tom R. Andersson, Andrew El-Kadi, Dominic Masters, Timo Ewalds, Jacklynn Stott, Shakir Mohamed, Peter Battaglia, Remi Lam, Matthew Willson
 
@@ -1135,7 +1297,7 @@ Weather forecasts are fundamentally uncertain, so predicting the range of probab
 
 ---
 
-## 66. Artificial Intelligence and Multiscale Modeling for Sustainable Biopolymers and Bioinspired Materials
+## 109. Artificial Intelligence and Multiscale Modeling for Sustainable Biopolymers and Bioinspired Materials
 
 **Authors:** Xing Quan Wang, Zeqing Jin, Dharneedar Ravichandran, Grace X. Gu
 
@@ -1156,7 +1318,7 @@ Biopolymers and bioinspired materials contribute to the construction of intricat
 
 ---
 
-## 65. Synthesis Strategies for High Entropy Nanoparticles
+## 108. Synthesis Strategies for High Entropy Nanoparticles
 
 **Authors:** Linlin Yang, Ren He, Jiali Chai, Xueqiang Qi, Qian Xue, Xiaoyu Bi, Jing Yu, Zixu Sun, Lu Xia, Kaiwen Wang, Nilotpal Kapuria, Junshan Li, Ahmad Ostovari Moghaddam, Andreu Cabot
 
@@ -1177,7 +1339,7 @@ Nanoparticles (NPs) of high entropy materials (HEMs) have attracted significant 
 
 ---
 
-## 64. Empowering Generalist Material Intelligence with Large Language Models
+## 107. Empowering Generalist Material Intelligence with Large Language Models
 
 **Authors:** Wenhao Yuan, Guangyao Chen, Zhilong Wang, Fengqi You
 
@@ -1198,7 +1360,7 @@ Large language models (LLMs) are steering the development of generalist material
 
 ---
 
-## 63. Biomimetic Intelligent Thermal Management Materials: From Nature-Inspired Design to Machine-Learning-Driven Discovery
+## 106. Biomimetic Intelligent Thermal Management Materials: From Nature-Inspired Design to Machine-Learning-Driven Discovery
 
 **Authors:** Heng Zhang, Qingxia He, Fei Zhang, Yanshuai Duan, Mengmeng Qin, Wei Feng
 
@@ -1219,7 +1381,7 @@ The development of biomimetic intelligent thermal management materials (BITMs) i
 
 ---
 
-## 62. Artificial Intelligence-Driven Approaches in Semiconductor Research
+## 105. Artificial Intelligence-Driven Approaches in Semiconductor Research
 
 **Authors:** Yiqiang Zheng, Hao Xu, Zhexin Li, Linlin Li, Yongchao Yu, Pengfei Jiang, Yanmeng Shi, Jing Zhang, Yuqing Huang, Qing Luo, Zheng Lou, Lili Wang
 
@@ -1240,7 +1402,7 @@ To address the persistent challenges of scaling and power consumption in integra
 
 ---
 
-## 61. Machine Learning in Solid-State Hydrogen Storage Materials: Challenges and Perspectives
+## 104. Machine Learning in Solid-State Hydrogen Storage Materials: Challenges and Perspectives
 
 **Authors:** Panpan Zhou, Qianwen Zhou, Xuezhang Xiao, Xiulin Fan, Yongjin Zou, Lixian Sun, Jinghua Jiang, Dan Song, Lixin Chen
 
@@ -1261,7 +1423,7 @@ Machine learning (ML) has emerged as a pioneering tool in advancing the research
 
 ---
 
-## 60. Data extraction from polymer literature using large language models
+## 103. Data extraction from polymer literature using large language models
 
 **Authors:** Sonakshi Gupta, Akhlak Mahmood, Pranav Shetty, Aishat Adeboye, Rampi Ramprasad
 
@@ -1282,7 +1444,49 @@ Automated data extraction from materials science literature at scale using artif
 
 ---
 
-## 59. Synthesis of high-entropy materials
+## 102. Multifunctional high-entropy materials
+
+**Authors:** Liuliu Han, Shuya Zhu, Ziyuan Rao, Christina Scheu, Dirk Ponge, Alfred Ludwig, Hongbin Zhang, Oliver Gutfleisch, Horst Hahn, Zhiming Li, Dierk Raabe
+
+**Venue:** Nature Reviews Materials
+
+**Publication Date:** December 2024
+
+**Volume & Issue:** Volume 9, Issue 12
+
+**Pages:** 846-865
+
+**DOI:** 10.1038/s41578-024-00720-y
+
+**Abstract:**
+Entropy-related phase stabilization can allow compositionally complex solid solutions of multiple principal elements. The massive mixing approach was originally introduced for metals and has recently been extended to ionic, semiconductor, polymer and low-dimensional materials. Multielement mixing can leverage new types of random, weakly ordered clustering and precipitation states in bulk materials as well as at interfaces and dislocations. The many possible atomic configurations offer opportunities to discover and exploit new functionalities, as well as to create new local symmetry features, ordering phenomena and interstitial configurations. This opens up a huge chemical and structural space in which uncharted phase states, defect chemistries, mechanisms and properties, some previously thought to be mutually exclusive, can be reconciled in one material. Earlier research concentrated on mechanical properties such as strength, toughness, fatigue and ductility. This Review shifts the focus towards multifunctional property profiles, including electronic, electrochemical, mechanical, magnetic, catalytic, hydrogen-related, Invar and caloric characteristics. Disruptive design opportunities lie in combining several of these features, rendering high-entropy materials multifunctional without sacrificing their unique mechanical properties.
+
+**Tags:** Materials for energy and catalysis, Metals and alloys
+
+---
+
+## 101. Towards the holistic design of alloys with large language models
+
+**Authors:** Zongrui Pei, Junqi Yin, Jörg Neugebauer, Anubhav Jain
+
+**Venue:** Nature Reviews Materials
+
+**Publication Date:** December 2024
+
+**Volume & Issue:** Volume 9, Issue 12
+
+**Pages:** 840-841
+
+**DOI:** 10.1038/s41578-024-00726-6
+
+**Abstract:**
+Large language models are very effective at solving general tasks, but can also be useful in materials design and extracting and using information from the scientific literature and unstructured corpora. In the domain of alloy design and manufacturing, they can expedite the materials design process and enable the inclusion of holistic criteria.
+
+**Tags:** Metals and alloys, Theory and computation
+
+---
+
+## 100. Synthesis of high-entropy materials
 
 **Authors:** Yifan Sun, Sheng Dai
 
@@ -1303,7 +1507,7 @@ The emergence of high-entropy materials affords opportunities to harmonize preci
 
 ---
 
-## 58. An automatic end-to-end chemical synthesis development platform powered by large language models
+## 99. An automatic end-to-end chemical synthesis development platform powered by large language models
 
 **Authors:** Yixiang Ruan, Chenyin Lu, Ning Xu, Yuchen He, Yixin Chen, Jian Zhang, Jun Xuan, Jianzhang Pan, Qun Fang, Hanyu Gao, Xiaodong Shen, Ning Ye, Qiang Zhang, Yiming Mo
 
@@ -1324,7 +1528,7 @@ The rapid emergence of large language model (LLM) technology presents promising 
 
 ---
 
-## 57. Crystal Structure Determination from Powder Diffraction Patterns with Generative Machine Learning
+## 98. Crystal Structure Determination from Powder Diffraction Patterns with Generative Machine Learning
 
 **Authors:** Eric A. Riesel, Tsach Mackey, Hamed Nilforoshan, Minkai Xu, Catherine K. Badding, Alison B. Altman, Jure Leskovec, Danna E. Freedman
 
@@ -1345,7 +1549,7 @@ Powder X-ray diffraction (PXRD) is a cornerstone technique in materials characte
 
 ---
 
-## 56. Autonomous mobile robots for exploratory synthetic chemistry
+## 97. Autonomous mobile robots for exploratory synthetic chemistry
 
 **Authors:** Tianwei Dai, Sriram Vijayakrishnan, Filip T. Szczypiński, Jean-François Ayme, Ehsan Simaei, Thomas Fellowes, Rob Clowes, Lyubomir Kotopanov, Caitlin E. Shields, Zhengxue Zhou, John W. Ward, Andrew I. Cooper
 
@@ -1366,7 +1570,7 @@ Autonomous laboratories can accelerate discoveries in chemical synthesis, but th
 
 ---
 
-## 55. Efficient Exploratory Synthesis of Quaternary Cesium Chlorides Guided by In Silico Predictions
+## 96. Efficient Exploratory Synthesis of Quaternary Cesium Chlorides Guided by In Silico Predictions
 
 **Authors:** Akira Miura, Muratahan Aykol, Shumma Kozaki, Chikako Moriyoshi, Shintaro Kobayashi, Shogo Kawaguchi, Chul-Ho Lee, Yongming Wang, Amil Merchant, Simon Batzner, Hiroshi Kageyama, Kiyoharu Tadanaga, Pushmeet Kohli, Ekin Dogus Cubuk
 
@@ -1387,7 +1591,7 @@ Exploratory synthesis of solids is essential for the advancement of materials sc
 
 ---
 
-## 54. Transforming science labs into automated factories of discovery
+## 95. Transforming science labs into automated factories of discovery
 
 **Authors:** Angelos Angelopoulos, James F. Cahoon, Ron Alterovitz
 
@@ -1408,7 +1612,7 @@ Laboratories in chemistry, biochemistry, and materials science are at the leadin
 
 ---
 
-## 53. Scalable crystal structure relaxation using an iteration-free deep generative model with uncertainty quantification
+## 94. Scalable crystal structure relaxation using an iteration-free deep generative model with uncertainty quantification
 
 **Authors:** Ziduo Yang, Yi-Ming Zhao, Xian Wang, Xiaoqing Liu, Xiuying Zhang, Yifan Li, Qiujie Lv, Calvin Yu-Chian Chen, Lei Shen
 
@@ -1429,7 +1633,7 @@ In computational molecular and materials science, determining equilibrium struct
 
 ---
 
-## 52. ChemOS 2.0: An orchestration architecture for chemical self-driving laboratories
+## 93. ChemOS 2.0: An orchestration architecture for chemical self-driving laboratories
 
 **Authors:** Malcolm Sim, Mohammad Ghazi Vakili, Felix Strieth-Kalthoff, Han Hao, Riley J. Hickman, Santiago Miret, Sergio Pablo-García, Alán Aspuru-Guzik
 
@@ -1450,7 +1654,7 @@ No abstract available
 
 ---
 
-## 51. AI-driven research in pure mathematics and theoretical physics
+## 92. AI-driven research in pure mathematics and theoretical physics
 
 **Authors:** Yang-Hui He
 
@@ -1471,7 +1675,7 @@ Advances in artificial-intelligence-assisted mathematical investigations suggest
 
 ---
 
-## 50. Fine-tuning protein language models boosts predictions across diverse tasks
+## 91. Fine-tuning protein language models boosts predictions across diverse tasks
 
 **Authors:** Robert Schmirler, Michael Heinzinger, Burkhard Rost
 
@@ -1492,7 +1696,7 @@ Prediction methods inputting embeddings from protein language models have reache
 
 ---
 
-## 49. Machine learning enables the discovery of 2D Invar and anti-Invar monolayers
+## 90. Machine learning enables the discovery of 2D Invar and anti-Invar monolayers
 
 **Authors:** Shun Tian, Ke Zhou, Wanjian Yin, Yilun Liu
 
@@ -1513,7 +1717,7 @@ Materials demonstrating positive thermal expansion (PTE) or negative thermal exp
 
 ---
 
-## 48. Accelerated discovery of perovskite solid solutions through automated materials synthesis and characterization
+## 89. Accelerated discovery of perovskite solid solutions through automated materials synthesis and characterization
 
 **Authors:** Mojan Omidvar, Hangfeng Zhang, Achintha Avin Ihalage, Theo Graves Saunders, Henry Giddens, Michael Forrester, Sajad Haq, Yang Hao
 
@@ -1534,7 +1738,7 @@ Accelerating perovskite solid solution discovery and sustainable synthesis is cr
 
 ---
 
-## 47. Compositional design of multicomponent alloys using reinforcement learning
+## 88. Compositional design of multicomponent alloys using reinforcement learning
 
 **Authors:** Yuehui Xian, Pengfei Dang, Yuan Tian, Xue Jiang, Yumei Zhou, Xiangdong Ding, Jun Sun, Turab Lookman, Dezhen Xue
 
@@ -1555,7 +1759,7 @@ The design of alloys has typically involved adaptive experimental synthesis and 
 
 ---
 
-## 46. Accelerating computational materials discovery with artificial intelligence and cloud high-performance computing: from large-scale screening to experimental validation
+## 87. Accelerating computational materials discovery with artificial intelligence and cloud high-performance computing: from large-scale screening to experimental validation
 
 **Authors:** Chi Chen, Dan Thien Nguyen, Shannon J. Lee, Nathan A. Baker, Ajay S. Karakoti, Linda Lauw, Craig Owen, Karl T. Mueller, Brian A. Bilodeau, Vijayakumar Murugesan, Matthias Troyer
 
@@ -1576,7 +1780,28 @@ High-throughput computational materials discovery has promised significant accel
 
 ---
 
-## 45. Autonomous chemistry: Navigating self-driving labs in chemical and material sciences
+## 86. Large Language Models for Inorganic Synthesis Predictions
+
+**Authors:** Seongmin Kim, Yousung Jung, Joshua Schrier
+
+**Venue:** Journal of the American Chemical Society
+
+**Publication Date:** July 24, 2024
+
+**Volume & Issue:** Volume 146, Issue 29
+
+**Pages:** 19654-19659
+
+**DOI:** 10.1021/jacs.4c05840
+
+**Abstract:**
+We evaluate the effectiveness of pretrained and fine-tuned large language models (LLMs) for predicting the synthesizability of inorganic compounds and the selection of precursors needed to perform inorganic synthesis. The predictions of fine-tuned LLMs are comparable to─and sometimes better than─recent bespoke machine learning models for these tasks but require only minimal user expertise, cost, and time to develop. Therefore, this strategy can serve both as an effective and strong baseline for future machine learning studies of various chemical applications and as a practical tool for experimental chemists.
+
+**Tags:** None
+
+---
+
+## 85. Autonomous chemistry: Navigating self-driving labs in chemical and material sciences
 
 **Authors:** Oliver Bayley, Elia Savino, Aidan Slattery, Timothy Noël
 
@@ -1597,7 +1822,7 @@ No abstract available
 
 ---
 
-## 44. From bulk effective mass to 2D carrier mobility accurate prediction via adversarial transfer learning
+## 84. From bulk effective mass to 2D carrier mobility accurate prediction via adversarial transfer learning
 
 **Authors:** Xinyu Chen, Shuaihua Lu, Qian Chen, Qionghua Zhou, Jinlan Wang
 
@@ -1618,7 +1843,7 @@ Data scarcity is one of the critical bottlenecks to utilizing machine learning i
 
 ---
 
-## 43. Generative learning facilitated discovery of high-entropy ceramic dielectrics for capacitive energy storage
+## 83. Generative learning facilitated discovery of high-entropy ceramic dielectrics for capacitive energy storage
 
 **Authors:** Wei Li, Zhong-Hui Shen, Run-Lin Liu, Xiao-Xiao Chen, Meng-Fan Guo, Jin-Ming Guo, Hua Hao, Yang Shen, Han-Xing Liu, Long-Qing Chen, Ce-Wen Nan
 
@@ -1639,7 +1864,7 @@ Dielectric capacitors offer great potential for advanced electronics due to thei
 
 ---
 
-## 42. Machine learning-guided realization of full-color high-quantum-yield carbon quantum dots
+## 82. Machine learning-guided realization of full-color high-quantum-yield carbon quantum dots
 
 **Authors:** Huazhang Guo, Yuhao Lu, Zhendong Lei, Hong Bao, Mingwan Zhang, Zeming Wang, Cuntai Guan, Bijun Tang, Zheng Liu, Liang Wang
 
@@ -1660,7 +1885,28 @@ Carbon quantum dots (CQDs) have versatile applications in luminescence, whereas 
 
 ---
 
-## 41. Accurate structure prediction of biomolecular interactions with AlphaFold 3
+## 81. ChatMOF: an artificial intelligence system for predicting and generating metal-organic frameworks using large language models
+
+**Authors:** Yeonghun Kang, Jihan Kim
+
+**Venue:** Nature Communications
+
+**Publication Date:** June 03, 2024
+
+**Volume & Issue:** Volume 15, Issue 1
+
+**Pages:** 4705
+
+**DOI:** 10.1038/s41467-024-48998-4
+
+**Abstract:**
+ChatMOF is an artificial intelligence (AI) system that is built to predict and generate metal-organic frameworks (MOFs). By leveraging a large-scale language model (GPT-4, GPT-3.5-turbo, and GPT-3.5-turbo-16k), ChatMOF extracts key details from textual inputs and delivers appropriate responses, thus eliminating the necessity for rigid and formal structured queries. The system is comprised of three core components (i.e., an agent, a toolkit, and an evaluator) and it forms a robust pipeline that manages a variety of tasks, including data retrieval, property prediction, and structure generations. ChatMOF shows high accuracy rates of 96.9% for searching, 95.7% for predicting, and 87.5% for generating tasks with GPT-4. Additionally, it successfully creates materials with user-desired properties from natural language. The study further explores the merits and constraints of utilizing large language models (LLMs) in combination with database and machine learning in material sciences and showcases its transformative potential for future advancements.
+
+**Tags:** Computational methods, Metal–organic frameworks, Structure prediction
+
+---
+
+## 80. Accurate structure prediction of biomolecular interactions with AlphaFold 3
 
 **Authors:** Josh Abramson, Jonas Adler, Jack Dunger, Richard Evans, Tim Green, Alexander Pritzel, Olaf Ronneberger, Lindsay Willmore, Andrew J. Ballard, Joshua Bambrick, Sebastian W. Bodenstein, David A. Evans, Chia-Chun Hung, Michael O’Neill, David Reiman, Kathryn Tunyasuvunakool, Zachary Wu, Akvilė Žemgulytė, Eirini Arvaniti, Charles Beattie, Ottavia Bertolli, Alex Bridgland, Alexey Cherepanov, Miles Congreve, Alexander I. Cowen-Rivers, Andrew Cowie, Michael Figurnov, Fabian B. Fuchs, Hannah Gladman, Rishub Jain, Yousuf A. Khan, Caroline M. R. Low, Kuba Perlin, Anna Potapenko, Pascal Savy, Sukhdeep Singh, Adrian Stecula, Ashok Thillaisundaram, Catherine Tong, Sergei Yakneen, Ellen D. Zhong, Michal Zielinski, Augustin Žídek, Victor Bapst, Pushmeet Kohli, Max Jaderberg, Demis Hassabis, John M. Jumper
 
@@ -1681,7 +1927,28 @@ The introduction of AlphaFold 21 has spurred a revolution in modelling the struc
 
 ---
 
-## 40. High-Entropy Photothermal Materials
+## 79. Machine learning-aided generative molecular design
+
+**Authors:** Yuanqi Du, Arian R. Jamasb, Jeff Guo, Tianfan Fu, Charles Harris, Yingheng Wang, Chenru Duan, Pietro Liò, Philippe Schwaller, Tom L. Blundell
+
+**Venue:** Nature Machine Intelligence
+
+**Publication Date:** June 2024
+
+**Volume & Issue:** Volume 6, Issue 6
+
+**Pages:** 589-604
+
+**DOI:** 10.1038/s42256-024-00843-5
+
+**Abstract:**
+Data-driven generative methods have the potential to greatly facilitate molecular design tasks for drug design.
+
+**Tags:** None
+
+---
+
+## 78. High-Entropy Photothermal Materials
 
 **Authors:** Cheng-Yu He, Yang Li, Zhuo-Hao Zhou, Bao-Hua Liu, Xiang-Hu Gao
 
@@ -1702,7 +1969,7 @@ Abstract High-entropy (HE) materials, celebrated for their extraordinary chemica
 
 ---
 
-## 39. Diffusion-based deep learning method for augmenting ultrastructural imaging and volume electron microscopy
+## 77. Diffusion-based deep learning method for augmenting ultrastructural imaging and volume electron microscopy
 
 **Authors:** Chixiang Lu, Kai Chen, Heng Qiu, Xiaojun Chen, Gu Chen, Xiaojuan Qi, Haibo Jiang
 
@@ -1723,7 +1990,7 @@ Electron microscopy (EM) revolutionized the way to visualize cellular ultrastruc
 
 ---
 
-## 38. Robotic synthesis decoded through phase diagram mastery
+## 76. Robotic synthesis decoded through phase diagram mastery
 
 **Authors:** Jeffrey A. Bennett, Milad Abolhasani
 
@@ -1744,7 +2011,7 @@ Selection principles for precursors are decoded from phase diagrams and applied 
 
 ---
 
-## 37. Navigating phase diagram complexity to guide robotic inorganic materials synthesis
+## 75. Navigating phase diagram complexity to guide robotic inorganic materials synthesis
 
 **Authors:** Jiadong Chen, Samuel R. Cross, Lincoln J. Miara, Jeong-Ju Cho, Yan Wang, Wenhao Sun
 
@@ -1765,7 +2032,7 @@ Efficient synthesis recipes are needed to streamline the manufacturing of comple
 
 ---
 
-## 36. Designing semiconductor materials and devices in the post-Moore era by tackling computational challenges with data-driven strategies
+## 74. Designing semiconductor materials and devices in the post-Moore era by tackling computational challenges with data-driven strategies
 
 **Authors:** Jiahao Xie, Yansong Zhou, Muhammad Faizan, Zewei Li, Tianshu Li, Yuhao Fu, Xinjiang Wang, Lijun Zhang
 
@@ -1786,7 +2053,7 @@ Discovering improved semiconductor materials is essential for optimal device fab
 
 ---
 
-## 35. Crystal Structure Assignment for Unknown Compounds from X-ray Diffraction Patterns with Deep Learning
+## 73. Crystal Structure Assignment for Unknown Compounds from X-ray Diffraction Patterns with Deep Learning
 
 **Authors:** Litao Chen, Bingxu Wang, Wentao Zhang, Shisheng Zheng, Zhefeng Chen, Mingzheng Zhang, Cheng Dong, Feng Pan, Shunning Li
 
@@ -1807,7 +2074,7 @@ Determining the structures of previously unseen compounds from experimental char
 
 ---
 
-## 34. Automated synthesis of oxygen-producing catalysts from Martian meteorites by a robotic AI chemist
+## 72. Automated synthesis of oxygen-producing catalysts from Martian meteorites by a robotic AI chemist
 
 **Authors:** Qing Zhu, Yan Huang, Donglai Zhou, Luyuan Zhao, Lulu Guo, Ruyu Yang, Zixu Sun, Man Luo, Fei Zhang, Hengyu Xiao, Xinsheng Tang, Xuchun Zhang, Tao Song, Xiang Li, Baochen Chong, Junyi Zhou, Yihan Zhang, Baicheng Zhang, Jiaqi Cao, Guozhen Zhang, Song Wang, Guilin Ye, Wanjun Zhang, Haitao Zhao, Shuang Cong, Huirong Li, Li-Li Ling, Zhe Zhang, Weiwei Shang, Jun Jiang, Yi Luo
 
@@ -1828,7 +2095,7 @@ Sustained Mars exploration requires in situ synthesis of vital chemicals such as
 
 ---
 
-## 33. Extracting accurate materials data from research papers with conversational language models and prompt engineering
+## 71. Extracting accurate materials data from research papers with conversational language models and prompt engineering
 
 **Authors:** Maciej P. Polak, Dane Morgan
 
@@ -1849,7 +2116,7 @@ There has been a growing effort to replace manual extraction of data from resear
 
 ---
 
-## 32. Structured information extraction from scientific text with large language models
+## 70. Structured information extraction from scientific text with large language models
 
 **Authors:** John Dagdelen, Alexander Dunn, Sanghoon Lee, Nicholas Walker, Andrew S. Rosen, Gerbrand Ceder, Kristin A. Persson, Anubhav Jain
 
@@ -1870,7 +2137,7 @@ Extracting structured knowledge from scientific text remains a challenging task 
 
 ---
 
-## 31. Automated self-optimization, intensification, and scale-up of photocatalysis in flow
+## 69. Automated self-optimization, intensification, and scale-up of photocatalysis in flow
 
 **Authors:** Aidan Slattery, Zhenghui Wen, Pauline Tenblad, Jesús Sanjosé-Orduna, Diego Pintossi, Tim den Hartog, Timothy Noël
 
@@ -1891,7 +2158,49 @@ The optimization, intensification, and scale-up of photochemical processes const
 
 ---
 
-## 30. Expanding the Horizons of Machine Learning in Nanomaterials to Chiral Nanostructures
+## 68. Universal machine learning aided synthesis approach of two-dimensional perovskites in a typical laboratory
+
+**Authors:** Yilei Wu, Chang-Feng Wang, Ming-Gang Ju, Qiangqiang Jia, Qionghua Zhou, Shuaihua Lu, Xinying Gao, Yi Zhang, Jinlan Wang
+
+**Venue:** Nature Communications
+
+**Publication Date:** January 02, 2024
+
+**Volume & Issue:** Volume 15, Issue 1
+
+**Pages:** 138
+
+**DOI:** 10.1038/s41467-023-44236-5
+
+**Abstract:**
+The past decade has witnessed the significant efforts in novel material discovery in the use of data-driven techniques, in particular, machine learning (ML). However, since it needs to consider the precursors, experimental conditions, and availability of reactants, material synthesis is generally much more complex than property and structure prediction, and very few computational predictions are experimentally realized. To solve these challenges, a universal framework that integrates high-throughput experiments, a priori knowledge of chemistry, and ML techniques such as subgroup discovery and support vector machine is proposed to guide the experimental synthesis of materials, which is capable of disclosing structure-property relationship hidden in high-throughput experiments and rapidly screening out materials with high synthesis feasibility from vast chemical space. Through application of our approach to challenging and consequential synthesis problem of 2D silver/bismuth organic-inorganic hybrid perovskites, we have increased the success rate of the synthesis feasibility by a factor of four relative to traditional approaches. This study provides a practical route for solving multidimensional chemical acceleration problems with small dataset from typical laboratory with limited experimental resources available.
+
+**Tags:** Energy, Materials for energy and catalysis
+
+---
+
+## 67. Closed-Loop Multi-Objective Optimization for Cu–Sb–S Photo-Electrocatalytic Materials’ Discovery
+
+**Authors:** Yang Bai, Zi Hui Jonathan Khoo, Riko I Made, Huiqing Xie, Carina Yi Jing Lim, Albertus Denny Handoko, Vijila Chellappan, Jianwei Jayce Cheng, Fengxia Wei, Yee-Fun Lim, Kedar Hippalgaonkar
+
+**Venue:** Advanced Materials
+
+**Publication Date:** 2024
+
+**Volume & Issue:** Volume 36, Issue 2
+
+**Pages:** 2304269
+
+**DOI:** 10.1002/adma.202304269
+
+**Abstract:**
+Copper antimony sulfides are regarded as promising catalysts for photo-electrochemical water splitting because of their earth abundance and broad light absorption. The unique photoactivity of copper antimony sulfides is dependent on their various crystalline structures and atomic compositions. Here, a closed-loop workflow is built, which explores Cu–Sb–S compositional space to optimize its photo-electrocatalytic hydrogen evolution from water, by integrating a high-throughput robotic platform, characterization techniques, and machine learning (ML) optimization workflow. The multi-objective optimization model discovers optimum experimental conditions after only nine cycles of integrated experiments–machine learning loop. Photocurrent testing at 0 V versus reversible hydrogen electrode (RHE) confirms the expected correlation between the materials’ properties and photocurrent. An optimum photocurrent of −186 µA cm−2 is observed on Cu–Sb–S in the ratio of 9:45:46 in the form of single-layer coating on F-doped SnO2 (FTO) glass with a corresponding bandgap of 1.85 eV and 63.2% Cu1+/Cu species content. The targeted intelligent search reveals a nonobvious CuSbS composition that exhibits 2.3 times greater activity than baseline results from random sampling.
+
+**Tags:** high-throughput experiments, machine learning, photo-electrochemical water splitting
+
+---
+
+## 66. Expanding the Horizons of Machine Learning in Nanomaterials to Chiral Nanostructures
 
 **Authors:** Vera Kuznetsova, Áine Coogan, Dmitry Botov, Yulia Gromova, Elena V. Ushakova, Yurii K. Gun'ko
 
@@ -1912,7 +2221,28 @@ Machine learning holds significant research potential in the field of nanotechno
 
 ---
 
-## 29. Self-driving laboratories to autonomously navigate the protein fitness landscape
+## 65. Active learning guides discovery of a champion four-metal perovskite oxide for oxygen evolution electrocatalysis
+
+**Authors:** Junseok Moon, Wiktor Beker, Marta Siek, Jiheon Kim, Hyeon Seok Lee, Taeghwan Hyeon, Bartosz A. Grzybowski
+
+**Venue:** Nature Materials
+
+**Publication Date:** January 2024
+
+**Volume & Issue:** Volume 23, Issue 1
+
+**Pages:** 108-115
+
+**DOI:** 10.1038/s41563-023-01707-w
+
+**Abstract:**
+Multi-metal and perovskite oxides are attractive as oxygen evolution electrocatalysts, and thus far the most promising candidates have emerged from experimental methodologies. Active-learning models supplemented by structural-characterization data and closed-loop experimentation can now identify a perovskite oxide with outstanding performance.
+
+**Tags:** None
+
+---
+
+## 64. Self-driving laboratories to autonomously navigate the protein fitness landscape
 
 **Authors:** Jacob T. Rapp, Bennett J. Bremer, Philip A. Romero
 
@@ -1933,7 +2263,7 @@ Protein engineering has nearly limitless applications across chemistry, energy a
 
 ---
 
-## 28. MatGPT: A Vane of Materials Informatics from Past, Present, to Future
+## 63. MatGPT: A Vane of Materials Informatics from Past, Present, to Future
 
 **Authors:** Zhilong Wang, An Chen, Kehao Tao, Yanqiang Han, Jinjin Li
 
@@ -1954,7 +2284,7 @@ Combining materials science, artificial intelligence (AI), physical chemistry, a
 
 ---
 
-## 27. A Machine Learning Study on High Thermal Conductivity Assisted to Discover Chalcogenides with Balanced Infrared Nonlinear Optical Performance
+## 62. A Machine Learning Study on High Thermal Conductivity Assisted to Discover Chalcogenides with Balanced Infrared Nonlinear Optical Performance
 
 **Authors:** Qingchen Wu, Lei Kang, Zheshuai Lin
 
@@ -1975,7 +2305,28 @@ Exploration of novel nonlinear optical (NLO) chalcogenides with high laser-induc
 
 ---
 
-## 26. Learning skillful medium-range global weather forecasting
+## 61. Large-Language-Model-Based AI Agent for Organic Semiconductor Device Research
+
+**Authors:** Qian Zhang, Yongxu Hu, Jiaxin Yan, Hengyue Zhang, Xinyi Xie, Jie Zhu, Huchao Li, Xinxin Niu, Liqiang Li, Yajing Sun, Wenping Hu
+
+**Venue:** Advanced Materials
+
+**Publication Date:** 2024
+
+**Volume & Issue:** Volume 36, Issue 32
+
+**Pages:** 2405163
+
+**DOI:** 10.1002/adma.202405163
+
+**Abstract:**
+Large language models (LLMs) have attracted widespread attention recently, however, their application in specialized scientific fields still requires deep adaptation. Here, an artificial intelligence (AI) agent for organic field-effect transistors (OFETs) is designed by integrating the generative pre-trained transformer 4 (GPT-4) model with well-trained machine learning (ML) algorithms. It can efficiently extract the experimental parameters of OFETs from scientific literature and reshape them into a structured database, achieving precision and recall rates both exceeding 92%. Combined with well-trained ML models, this AI agent can further provide targeted guidance and suggestions for device design. With prompt engineering and human-in-loop strategies, the agent extracts sufficient information of 709 OFETs from 277 research articles across different publishers and gathers them into a standardized database containing more than 10 000 device parameters. Using this database, a ML model based on Extreme Gradient Boosting is trained for device performance judgment. Combined with the interpretation of the high-precision model, the agent has provided a feasible optimization scheme that has tripled the charge transport properties of 2,6-diphenyldithieno[3,2-b:2′,3′-d]thiophene OFETs. This work is an effective practice of LLMs in the field of organic optoelectronic devices and expands the research paradigm of organic optoelectronic materials and devices.
+
+**Tags:** accelerated design, large language models, machine learning, organic field-effect transistors
+
+---
+
+## 60. Learning skillful medium-range global weather forecasting
 
 **Authors:** Remi Lam, Alvaro Sanchez-Gonzalez, Matthew Willson, Peter Wirnsberger, Meire Fortunato, Ferran Alet, Suman Ravuri, Timo Ewalds, Zach Eaton-Rosen, Weihua Hu, Alexander Merose, Stephan Hoyer, George Holland, Oriol Vinyals, Jacklynn Stott, Alexander Pritzel, Shakir Mohamed, Peter Battaglia
 
@@ -1996,7 +2347,7 @@ Global medium-range weather forecasting is critical to decision-making across ma
 
 ---
 
-## 25. Data-driven analysis and prediction of stable phases for high-entropy alloy design
+## 59. Data-driven analysis and prediction of stable phases for high-entropy alloy design
 
 **Authors:** Iman Peivaste, Ericmoore Jossou, Ahmed A. Tiamiyu
 
@@ -2017,7 +2368,7 @@ High-entropy alloys (HEAs) represent a promising class of materials with excepti
 
 ---
 
-## 24. Autonomous chemical research with large language models
+## 58. Autonomous chemical research with large language models
 
 **Authors:** Daniil A. Boiko, Robert MacKnight, Ben Kline, Gabe Gomes
 
@@ -2038,7 +2389,7 @@ Transformer-based large language models are making significant strides in variou
 
 ---
 
-## 23. Scaling deep learning for materials discovery
+## 57. Scaling deep learning for materials discovery
 
 **Authors:** Amil Merchant, Simon Batzner, Samuel S. Schoenholz, Muratahan Aykol, Gowoon Cheon, Ekin Dogus Cubuk
 
@@ -2059,7 +2410,7 @@ Novel functional materials enable fundamental breakthroughs across technological
 
 ---
 
-## 22. An autonomous laboratory for the accelerated synthesis of novel materials
+## 56. An autonomous laboratory for the accelerated synthesis of novel materials
 
 **Authors:** Nathan J. Szymanski, Bernardus Rendy, Yuxing Fei, Rishi E. Kumar, Tanjin He, David Milsted, Matthew J. McDermott, Max Gallant, Ekin Dogus Cubuk, Amil Merchant, Haegyeom Kim, Anubhav Jain, Christopher J. Bartel, Kristin Persson, Yan Zeng, Gerbrand Ceder
 
@@ -2080,7 +2431,7 @@ To close the gap between the rates of computational screening and experimental r
 
 ---
 
-## 21. Machine learning-enabled constrained multi-objective design of architected materials
+## 55. Machine learning-enabled constrained multi-objective design of architected materials
 
 **Authors:** Bo Peng, Ye Wei, Yu Qin, Jiabao Dai, Yue Li, Aobo Liu, Yun Tian, Liuliu Han, Yufeng Zheng, Peng Wen
 
@@ -2101,7 +2452,28 @@ Architected materials that consist of multiple subelements arranged in particula
 
 ---
 
-## 20. ChatGPT Chemistry Assistant for Text Mining and the Prediction of MOF Synthesis
+## 54. Accelerated discovery of multi-elemental reverse water-gas shift catalysts using extrapolative machine learning approach
+
+**Authors:** Gang Wang, Shinya Mine, Duotian Chen, Yuan Jing, Kah Wei Ting, Taichi Yamaguchi, Motoshi Takao, Zen Maeno, Ichigaku Takigawa, Koichi Matsushita, Ken-ichi Shimizu, Takashi Toyao
+
+**Venue:** Nature Communications
+
+**Publication Date:** September 21, 2023
+
+**Volume & Issue:** Volume 14, Issue 1
+
+**Pages:** 5861
+
+**DOI:** 10.1038/s41467-023-41341-3
+
+**Abstract:**
+Designing novel catalysts is key to solving many energy and environmental challenges. Despite the promise that data science approaches, including machine learning (ML), can accelerate the development of catalysts, truly novel catalysts have rarely been discovered through ML approaches because of one of its most common limitations and criticisms—the assumed inability to extrapolate and identify extraordinary materials. Herein, we demonstrate an extrapolative ML approach to develop new multi-elemental reverse water-gas shift catalysts. Using 45 catalysts as the initial data points and performing 44 cycles of the closed loop discovery system (ML prediction + experiment), we experimentally tested a total of 300 catalysts and identified more than 100 catalysts with superior activity compared to those of the previously reported high-performance catalysts. The composition of the optimal catalyst discovered was Pt(3)/Rb(1)-Ba(1)-Mo(0.6)-Nb(0.2)/TiO2. Notably, niobium (Nb) was not included in the original dataset, and the catalyst composition identified was not predictable even by human experts.
+
+**Tags:** Computational methods, Heterogeneous catalysis, Materials for energy and catalysis
+
+---
+
+## 53. ChatGPT Chemistry Assistant for Text Mining and the Prediction of MOF Synthesis
 
 **Authors:** Zhiling Zheng, Oufan Zhang, Christian Borgs, Jennifer T. Chayes, Omar M. Yaghi
 
@@ -2122,7 +2494,7 @@ We use prompt engineering to guide ChatGPT in the automation of text mining of m
 
 ---
 
-## 19. Enhancing corrosion-resistant alloy design through natural language processing and deep learning
+## 52. Enhancing corrosion-resistant alloy design through natural language processing and deep learning
 
 **Authors:** Kasturi Narasimha Sasidhar, Nima Hamidi Siboni, Jaber Rezaei Mianroodi, Michael Rohwerder, Jörg Neugebauer, Dierk Raabe
 
@@ -2143,7 +2515,7 @@ We propose strategies that couple natural language processing with deep learning
 
 ---
 
-## 18. Machine-learning-assisted material discovery of oxygen-rich highly porous carbon active materials for aqueous supercapacitors
+## 51. Machine-learning-assisted material discovery of oxygen-rich highly porous carbon active materials for aqueous supercapacitors
 
 **Authors:** Tao Wang, Runtong Pan, Murillo L. Martins, Jinlei Cui, Zhennan Huang, Bishnu P. Thapaliya, Chi-Linh Do-Thanh, Musen Zhou, Juntian Fan, Zhenzhen Yang, Miaofang Chi, Takeshi Kobayashi, Jianzhong Wu, Eugene Mamontov, Sheng Dai
 
@@ -2164,7 +2536,7 @@ Porous carbons are the active materials of choice for supercapacitor application
 
 ---
 
-## 17. Scientific discovery in the age of artificial intelligence
+## 50. Scientific discovery in the age of artificial intelligence
 
 **Authors:** Hanchen Wang, Tianfan Fu, Yuanqi Du, Wenhao Gao, Kexin Huang, Ziming Liu, Payal Chandak, Shengchao Liu, Peter Van Katwyk, Andreea Deac, Anima Anandkumar, Karianne Bergen, Carla P. Gomes, Shirley Ho, Pushmeet Kohli, Joan Lasenby, Jure Leskovec, Tie-Yan Liu, Arjun Manrai, Debora Marks, Bharath Ramsundar, Le Song, Jimeng Sun, Jian Tang, Petar Veličković, Max Welling, Linfeng Zhang, Connor W. Coley, Yoshua Bengio, Marinka Zitnik
 
@@ -2185,7 +2557,49 @@ The advances in artificial intelligence over the past decade are examined, with 
 
 ---
 
-## 16. High-throughput printing of combinatorial materials from aerosols
+## 49. The rise of self-driving labs in chemical and materials sciences
+
+**Authors:** Milad Abolhasani, Eugenia Kumacheva
+
+**Venue:** Nature Synthesis
+
+**Publication Date:** June 2023
+
+**Volume & Issue:** Volume 2, Issue 6
+
+**Pages:** 483-492
+
+**DOI:** 10.1038/s44160-022-00231-0
+
+**Abstract:**
+Accelerating the discovery of new molecules and materials, as well as developing green and sustainable ways to synthesize them, will help to address global challenges in energy, sustainability and healthcare. The recent growth of data science and automated experimentation techniques has resulted in the advent of self-driving labs (SDLs) via the integration of machine learning, lab automation and robotics. An SDL is a machine-learning-assisted modular experimental platform that iteratively operates a series of experiments selected by the machine learning algorithm to achieve a user-defined objective. These intelligent robotic assistants help researchers to accelerate the pace of fundamental and applied research through rapid exploration of the chemical space. In this Review, we introduce SDLs and provide a roadmap for their implementation by non-expert scientists. We present the status quo of successful SDL implementations in the field and discuss their current limitations and future opportunities to accelerate finding solutions for societal needs.
+
+**Tags:** Design, synthesis and processing, Synthetic chemistry methodology, Techniques and instrumentation
+
+---
+
+## 48. A database of ultrastable MOFs reassembled from stable fragments with machine learning models
+
+**Authors:** Aditya Nandy, Shuwen Yue, Changhwan Oh, Chenru Duan, Gianmarco G. Terrones, Yongchul G. Chung, Heather J. Kulik
+
+**Venue:** Matter
+
+**Publication Date:** May 03, 2023
+
+**Volume & Issue:** Volume 6, Issue 5
+
+**Pages:** 1585-1603
+
+**DOI:** 10.1016/j.matt.2023.03.009
+
+**Abstract:**
+High-throughput screening of hypothetical metal-organic framework (MOF) databases can uncover new materials, but their stability in real-world applications is often unknown. We leverage community knowledge and machine learning (ML) models to identify MOFs that are thermally stable and stable upon activation. We separate these MOFs into their building blocks and recombine them to make a new hypothetical MOF database of over 50,000 structures with orders of magnitude more (1) connectivity nets and (2) inorganic building blocks than were present in prior databases. This database shows a 10-fold enrichment of ultrastable MOF structures that are stable upon activation and more than 1 standard deviation more thermally stable than the average experimentally characterized MOF. For nearly 10,000 ultrastable MOFs, we compute elastic moduli to confirm that these materials have good mechanical stability, and we report methane deliverable capacities. We identify privileged metal nodes in ultrastable MOFs that optimize gas storage and mechanical stability simultaneously.
+
+**Tags:** computational materials design, elastic modulus, machine learning, materials discovery, metal-organic framework, methane deliverable, MOF, shear modulus, stability
+
+---
+
+## 47. High-throughput printing of combinatorial materials from aerosols
 
 **Authors:** Minxiang Zeng, Yipu Du, Qiang Jiang, Nicholas Kempf, Chen Wei, Miles V. Bimrose, A. N. M. Tanvir, Hengrui Xu, Jiahao Chen, Dylan J. Kirsch, Joshua Martin, Brian C. Wyatt, Tatsunori Hayashi, Mortaza Saeidi-Javash, Hirotaka Sakaue, Babak Anasori, Lihua Jin, Michael D. McMurtrey, Yanliang Zhang
 
@@ -2206,7 +2620,7 @@ The development of new materials and their compositional and microstructural opt
 
 ---
 
-## 15. A general-purpose material property data extraction pipeline from large polymer corpora using natural language processing
+## 46. A general-purpose material property data extraction pipeline from large polymer corpora using natural language processing
 
 **Authors:** Pranav Shetty, Arunkumar Chitteth Rajan, Chris Kuenneth, Sonakshi Gupta, Lakshmi Prerana Panchumarti, Lauren Holm, Chao Zhang, Rampi Ramprasad
 
@@ -2227,7 +2641,7 @@ The ever-increasing number of materials science articles makes it hard to infer 
 
 ---
 
-## 14. Evolutionary-scale prediction of atomic-level protein structure with a language model
+## 45. Evolutionary-scale prediction of atomic-level protein structure with a language model
 
 **Authors:** Zeming Lin, Halil Akin, Roshan Rao, Brian Hie, Zhongkai Zhu, Wenting Lu, Nikita Smetanin, Robert Verkuil, Ori Kabeli, Yaniv Shmueli, Allan dos Santos Costa, Maryam Fazel-Zarandi, Tom Sercu, Salvatore Candido, Alexander Rives
 
@@ -2248,7 +2662,28 @@ Recent advances in machine learning have leveraged evolutionary information in m
 
 ---
 
-## 13. Accelerating the design of compositionally complex materials via physics-informed artificial intelligence
+## 44. A multi-modal pre-training transformer for universal transfer learning in metal–organic frameworks
+
+**Authors:** Yeonghun Kang, Hyunsoo Park, Berend Smit, Jihan Kim
+
+**Venue:** Nature Machine Intelligence
+
+**Publication Date:** March 2023
+
+**Volume & Issue:** Volume 5, Issue 3
+
+**Pages:** 309-318
+
+**DOI:** 10.1038/s42256-023-00628-2
+
+**Abstract:**
+Metal–organic frameworks are of high interest for a range of energy and environmental applications due to their stable gas storage properties. A new machine learning approach based on a pre-trained multi-modal transformer can be fine-tuned with small datasets to predict structure-property relationships and design new metal-organic frameworks for a range of specific tasks.
+
+**Tags:** None
+
+---
+
+## 43. Accelerating the design of compositionally complex materials via physics-informed artificial intelligence
 
 **Authors:** Dierk Raabe, Jaber Rezaei Mianroodi, Jörg Neugebauer
 
@@ -2269,7 +2704,70 @@ Machine learning models have been widely applied to boost the computational effi
 
 ---
 
-## 12. The endless search for better alloys
+## 42. Machine Learning-Assisted Synthesis of Two-Dimensional Materials
+
+**Authors:** Mingying Lu, Haining Ji, Yong Zhao, Yongxing Chen, Jundong Tao, Yangyong Ou, Yi Wang, Yan Huang, Junlong Wang, Guolin Hao
+
+**Venue:** ACS Applied Materials & Interfaces
+
+**Publication Date:** January 11, 2023
+
+**Volume & Issue:** Volume 15, Issue 1
+
+**Pages:** 1871-1878
+
+**DOI:** 10.1021/acsami.2c18167
+
+**Abstract:**
+Two-dimensional (2D) materials have intriguing physical and chemical properties, which exhibit promising applications in the fields of electronics, optoelectronics, as well as energy storage. However, the controllable synthesis of 2D materials is highly desirable but remains challenging. Machine learning (ML) facilitates the development of insights and discoveries from a large amount of data in a short time for the materials synthesis, which can significantly reduce the computational costs and shorten the development cycles. Based on this, taking the 2D material MoS2 as an example, the parameters of successfully synthesized materials by chemical vapor deposition (CVD) were explored through four ML algorithms: XGBoost, Support Vector Machine (SVM), Naïve Bayes (NB), and Multilayer Perceptron (MLP). Recall, specificity, accuracy, and other metrics were used to assess the performance of these four models. By comparison, XGBoost was the best performing model among all the models, with an average prediction accuracy of over 88% and a high area under the receiver operating characteristic (AUROC) reaching 0.91. And these findings showed that the reaction temperature (T) had a crucial influence on the growth of MoS2. Furthermore, the importance of the features in the growth mechanism of MoS2 was optimized, such as the reaction temperature (T), Ar gas flow rate (Rf), reaction time (t), and so on. The results demonstrated that ML assisted materials preparation can significantly minimize the time spent on exploration and trial-and-error, which provided perspectives in the preparation of 2D materials.
+
+**Tags:** None
+
+---
+
+## 41. On scientific understanding with artificial intelligence
+
+**Authors:** Mario Krenn, Robert Pollice, Si Yue Guo, Matteo Aldeghi, Alba Cervera-Lierta, Pascal Friederich, Gabriel dos Passos Gomes, Florian Häse, Adrian Jinich, AkshatKumar Nigam, Zhenpeng Yao, Alán Aspuru-Guzik
+
+**Venue:** Nature Reviews Physics
+
+**Publication Date:** December 2022
+
+**Volume & Issue:** Volume 4, Issue 12
+
+**Pages:** 761-769
+
+**DOI:** 10.1038/s42254-022-00518-3
+
+**Abstract:**
+Scientific understanding is one of the main aims of science. This Perspective discusses how advanced computational systems, and artificial intelligence in particular, can contribute to driving scientific understanding.
+
+**Tags:** None
+
+---
+
+## 40. A data-science approach to predict the heat capacity of nanoporous materials
+
+**Authors:** Seyed Mohamad Moosavi, Balázs Álmos Novotny, Daniele Ongari, Elias Moubarak, Mehrdad Asgari, Özge Kadioglu, Charithea Charalambous, Andres Ortega-Guerrero, Amir H. Farmahini, Lev Sarkisov, Susana Garcia, Frank Noé, Berend Smit
+
+**Venue:** Nature Materials
+
+**Publication Date:** December 2022
+
+**Volume & Issue:** Volume 21, Issue 12
+
+**Pages:** 1419-1425
+
+**DOI:** 10.1038/s41563-022-01374-3
+
+**Abstract:**
+The heat capacity of a material is a fundamental property of great practical importance. For example, in a carbon capture process, the heat required to regenerate a solid sorbent is directly related to the heat capacity of the material. However, for most materials suitable for carbon capture applications, the heat capacity is not known, and thus the standard procedure is to assume the same value for all materials. In this work, we developed a machine learning approach, trained on density functional theory simulations, to accurately predict the heat capacity of these materials, that is, zeolites, metal–organic frameworks and covalent–organic frameworks. The accuracy of our prediction is confirmed with experimental data. Finally, for a temperature swing adsorption process that captures carbon from the flue gas of a coal-fired power plant, we show that for some materials, the heat requirement is reduced by as much as a factor of two using the correct heat capacity.
+
+**Tags:** Chemical engineering, Materials chemistry, Metal–organic frameworks, Theory and computation
+
+---
+
+## 39. The endless search for better alloys
 
 **Authors:** Qing-Miao Hu, Rui Yang
 
@@ -2290,7 +2788,7 @@ No abstract available
 
 ---
 
-## 11. Machine learning–enabled high-entropy alloy discovery
+## 38. Machine learning–enabled high-entropy alloy discovery
 
 **Authors:** Ziyuan Rao, Po-Yen Tung, Ruiwen Xie, Ye Wei, Hongbin Zhang, Alberto Ferrari, T.P.C. Klaver, Fritz Körmann, Prithiv Thoudden Sukumar, Alisson Kwiatkowski da Silva, Yao Chen, Zhiming Li, Dirk Ponge, Jörg Neugebauer, Oliver Gutfleisch, Stefan Bauer, Dierk Raabe
 
@@ -2311,7 +2809,7 @@ High-entropy alloys are solid solutions of multiple principal elements that are 
 
 ---
 
-## 10. Machine learning in the search for new fundamental physics
+## 37. Machine learning in the search for new fundamental physics
 
 **Authors:** Georgia Karagiorgi, Gregor Kasieczka, Scott Kravitz, Benjamin Nachman, David Shih
 
@@ -2332,7 +2830,70 @@ Owing to the growing volumes of data from high-energy physics experiments, moder
 
 ---
 
-## 9. Accurate prediction of protein structures and interactions using a three-track neural network
+## 36. High-entropy nanoparticles: Synthesis-structure-property relationships and data-driven discovery
+
+**Authors:** Yonggang Yao, Qi Dong, Alexandra Brozena, Jian Luo, Jianwei Miao, Miaofang Chi, Chao Wang, Ioannis G. Kevrekidis, Zhiyong Jason Ren, Jeffrey Greeley, Guofeng Wang, Abraham Anapolsky, Liangbing Hu
+
+**Venue:** Science
+
+**Publication Date:** April 08, 2022
+
+**Volume & Issue:** Volume 376, Issue 6589
+
+**Pages:** eabn3103
+
+**DOI:** 10.1126/science.abn3103
+
+**Abstract:**
+High-entropy nanoparticles have become a rapidly growing area of research in recent years. Because of their multielemental compositions and unique high-entropy mixing states (i.e., solid-solution) that can lead to tunable activity and enhanced stability, these nanoparticles have received notable attention for catalyst design and exploration. However, this strong potential is also accompanied by grand challenges originating from their vast compositional space and complex atomic structure, which hinder comprehensive exploration and fundamental understanding. Through a multidisciplinary view of synthesis, characterization, catalytic applications, high-throughput screening, and data-driven materials discovery, this review is dedicated to discussing the important progress of high-entropy nanoparticles and unveiling the critical needs for their future development for catalysis, energy, and sustainability applications.
+
+**Tags:** None
+
+---
+
+## 35. Distributed representations of atoms and materials for machine learning
+
+**Authors:** Luis M. Antunes, Ricardo Grau-Crespo, Keith T. Butler
+
+**Venue:** npj Computational Materials
+
+**Publication Date:** March 18, 2022
+
+**Volume & Issue:** Volume 8, Issue 1
+
+**Pages:** 44
+
+**DOI:** 10.1038/s41524-022-00729-3
+
+**Abstract:**
+The use of machine learning is becoming increasingly common in computational materials science. To build effective models of the chemistry of materials, useful machine-based representations of atoms and their compounds are required. We derive distributed representations of compounds from their chemical formulas only, via pooling operations of distributed representations of atoms. These compound representations are evaluated on ten different tasks, such as the prediction of formation energy and band gap, and are found to be competitive with existing benchmarks that make use of structure, and even superior in cases where only composition is available. Finally, we introduce an approach for learning distributed representations of atoms, named SkipAtom, which makes use of the growing information in materials structure databases.
+
+**Tags:** Atomistic models, Computational methods
+
+---
+
+## 34. Machine Learning Driven Synthesis of Few-Layered WTe2 with Geometrical Control
+
+**Authors:** Manzhang Xu, Bijun Tang, Yuhao Lu, Chao Zhu, Qianbo Lu, Chao Zhu, Lu Zheng, Jingyu Zhang, Nannan Han, Weidong Fang, Yuxi Guo, Jun Di, Pin Song, Yongmin He, Lixing Kang, Zhiyong Zhang, Wu Zhao, Cuntai Guan, Xuewen Wang, Zheng Liu
+
+**Venue:** Journal of the American Chemical Society
+
+**Publication Date:** November 03, 2021
+
+**Volume & Issue:** Volume 143, Issue 43
+
+**Pages:** 18103-18113
+
+**DOI:** 10.1021/jacs.1c06786
+
+**Abstract:**
+Reducing the lateral scale of two-dimensional (2D) materials to one-dimensional (1D) has attracted substantial research interest not only to achieve competitive electronic applications but also for the exploration of fundamental physical properties. Controllable synthesis of high-quality 1D nanoribbons (NRs) is thus highly desirable and essential for further study. Here, we report the implementation of supervised machine learning (ML) for the chemical vapor deposition (CVD) synthesis of high-quality quasi-1D few-layered WTe2 NRs. Feature importance analysis indicates that H2 gas flow rate has a profound influence on the formation of WTe2, and the source ratio governs the sample morphology. Notably, the growth mechanism of 1T′ few-layered WTe2 NRs is further proposed, which provides new insights for the growth of intriguing 2D and 1D tellurides and may inspire the growth strategies for other 1D nanostructures. Our findings suggest the effectiveness and capability of ML in guiding the synthesis of 1D nanostructures, opening up new opportunities for intelligent materials development.
+
+**Tags:** None
+
+---
+
+## 33. Accurate prediction of protein structures and interactions using a three-track neural network
 
 **Authors:** Minkyung Baek, Frank DiMaio, Ivan Anishchenko, Justas Dauparas, Sergey Ovchinnikov, Gyu Rie Lee, Jue Wang, Qian Cong, Lisa N. Kinch, R. Dustin Schaeffer, Claudia Millán, Hahnbeom Park, Carson Adams, Caleb R. Glassman, Andy DeGiovanni, Jose H. Pereira, Andria V. Rodrigues, Alberdina A. van Dijk, Ana C. Ebrecht, Diederik J. Opperman, Theo Sagmeister, Christoph Buhlheller, Tea Pavkov-Keller, Manoj K. Rathinaswamy, Udit Dalwadi, Calvin K. Yip, John E. Burke, K. Christopher Garcia, Nick V. Grishin, Paul D. Adams, Randy J. Read, David Baker
 
@@ -2353,7 +2914,7 @@ DeepMind presented notably accurate predictions at the recent 14th Critical Asse
 
 ---
 
-## 8. Highly accurate protein structure prediction with AlphaFold
+## 32. Highly accurate protein structure prediction with AlphaFold
 
 **Authors:** John Jumper, Richard Evans, Alexander Pritzel, Tim Green, Michael Figurnov, Olaf Ronneberger, Kathryn Tunyasuvunakool, Russ Bates, Augustin Žídek, Anna Potapenko, Alex Bridgland, Clemens Meyer, Simon A. A. Kohl, Andrew J. Ballard, Andrew Cowie, Bernardino Romera-Paredes, Stanislav Nikolov, Rishub Jain, Jonas Adler, Trevor Back, Stig Petersen, David Reiman, Ellen Clancy, Michal Zielinski, Martin Steinegger, Michalina Pacholska, Tamas Berghammer, Sebastian Bodenstein, David Silver, Oriol Vinyals, Andrew W. Senior, Koray Kavukcuoglu, Pushmeet Kohli, Demis Hassabis
 
@@ -2374,7 +2935,28 @@ Proteins are essential to life, and understanding their structure can facilitate
 
 ---
 
-## 7. Democratising deep learning for microscopy with ZeroCostDL4Mic
+## 31. Nanoparticle synthesis assisted by machine learning
+
+**Authors:** Huachen Tao, Tianyi Wu, Matteo Aldeghi, Tony C. Wu, Alán Aspuru-Guzik, Eugenia Kumacheva
+
+**Venue:** Nature Reviews Materials
+
+**Publication Date:** August 2021
+
+**Volume & Issue:** Volume 6, Issue 8
+
+**Pages:** 701-716
+
+**DOI:** 10.1038/s41578-021-00337-5
+
+**Abstract:**
+Machine learning can be applied for the controlled synthesis of nanoparticles with precise properties. This Review discusses different machine learning approaches for the synthesis of semiconductor, metal, carbon-based and polymeric nanoparticles, and highlights key approaches for the collection of large datasets.
+
+**Tags:** None
+
+---
+
+## 30. Democratising deep learning for microscopy with ZeroCostDL4Mic
 
 **Authors:** Lucas von Chamier, Romain F. Laine, Johanna Jukkala, Christoph Spahn, Daniel Krentzel, Elias Nehme, Martina Lerche, Sara Hernández-Pérez, Pieta K. Mattila, Eleni Karinou, Séamus Holden, Ahmet Can Solak, Alexander Krull, Tim-Oliver Buchholz, Martin L. Jones, Loïc A. Royer, Christophe Leterrier, Yoav Shechtman, Florian Jug, Mike Heilemann, Guillaume Jacquemet, Ricardo Henriques
 
@@ -2395,7 +2977,70 @@ Deep Learning (DL) methods are powerful analytical tools for microscopy and can 
 
 ---
 
-## 6. A mobile robotic chemist
+## 29. On-the-fly closed-loop materials discovery via Bayesian active learning
+
+**Authors:** A. Gilad Kusne, Heshan Yu, Changming Wu, Huairuo Zhang, Jason Hattrick-Simpers, Brian DeCost, Suchismita Sarker, Corey Oses, Cormac Toher, Stefano Curtarolo, Albert V. Davydov, Ritesh Agarwal, Leonid A. Bendersky, Mo Li, Apurva Mehta, Ichiro Takeuchi
+
+**Venue:** Nature Communications
+
+**Publication Date:** November 24, 2020
+
+**Volume & Issue:** Volume 11, Issue 1
+
+**Pages:** 5966
+
+**DOI:** 10.1038/s41467-020-19597-w
+
+**Abstract:**
+Active learning—the field of machine learning (ML) dedicated to optimal experiment design—has played a part in science as far back as the 18th century when Laplace used it to guide his discovery of celestial mechanics. In this work, we focus a closed-loop, active learning-driven autonomous system on another major challenge, the discovery of advanced materials against the exceedingly complex synthesis-processes-structure-property landscape. We demonstrate an autonomous materials discovery methodology for functional inorganic compounds which allow scientists to fail smarter, learn faster, and spend less resources in their studies, while simultaneously improving trust in scientific results and machine learning tools. This robot science enables science-over-the-network, reducing the economic impact of scientists being physically separated from their labs. The real-time closed-loop, autonomous system for materials exploration and optimization (CAMEO) is implemented at the synchrotron beamline to accelerate the interconnected tasks of phase mapping and property optimization, with each cycle taking seconds to minutes. We also demonstrate an embodiment of human-machine interaction, where human-in-the-loop is called to play a contributing role within each cycle. This work has resulted in the discovery of a novel epitaxial nanocomposite phase-change memory material.
+
+**Tags:** Characterization and analytical techniques, Information storage
+
+---
+
+## 28. Identifying domains of applicability of machine learning models for materials science
+
+**Authors:** Christopher Sutton, Mario Boley, Luca M. Ghiringhelli, Matthias Rupp, Jilles Vreeken, Matthias Scheffler
+
+**Venue:** Nature Communications
+
+**Publication Date:** September 04, 2020
+
+**Volume & Issue:** Volume 11, Issue 1
+
+**Pages:** 4428
+
+**DOI:** 10.1038/s41467-020-17112-9
+
+**Abstract:**
+Although machine learning (ML) models promise to substantially accelerate the discovery of novel materials, their performance is often still insufficient to draw reliable conclusions. Improved ML models are therefore actively researched, but their design is currently guided mainly by monitoring the average model test error. This can render different models indistinguishable although their performance differs substantially across materials, or it can make a model appear generally insufficient while it actually works well in specific sub-domains. Here, we present a method, based on subgroup discovery, for detecting domains of applicability (DA) of models within a materials class. The utility of this approach is demonstrated by analyzing three state-of-the-art ML models for predicting the formation energy of transparent conducting oxides. We find that, despite having a mutually indistinguishable and unsatisfactory average error, the models have DAs with distinctive features and notably improved performance.
+
+**Tags:** Computational methods, Computer science, Structure prediction
+
+---
+
+## 27. Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts
+
+**Authors:** Baicheng Weng, Zhilong Song, Rilong Zhu, Qingyu Yan, Qingde Sun, Corey G. Grice, Yanfa Yan, Wan-Jian Yin
+
+**Venue:** Nature Communications
+
+**Publication Date:** July 14, 2020
+
+**Volume & Issue:** Volume 11, Issue 1
+
+**Pages:** 3513
+
+**DOI:** 10.1038/s41467-020-17263-9
+
+**Abstract:**
+Symbolic regression (SR) is an approach of interpretable machine learning for building mathematical formulas that best fit certain datasets. In this work, SR is used to guide the design of new oxide perovskite catalysts with improved oxygen evolution reaction (OER) activities. A simple descriptor, μ/t, where μ and t are the octahedral and tolerance factors, respectively, is identified, which accelerates the discovery of a series of new oxide perovskite catalysts with improved OER activity. We successfully synthesise five new oxide perovskites and characterise their OER activities. Remarkably, four of them, Cs0.4La0.6Mn0.25Co0.75O3, Cs0.3La0.7NiO3, SrNi0.75Co0.25O3, and Sr0.25Ba0.75NiO3, are among the oxide perovskite catalysts with the highest intrinsic activities. Our results demonstrate the potential of SR for accelerating the data-driven design and discovery of new materials with improved properties.
+
+**Tags:** Computational methods, Electrocatalysis
+
+---
+
+## 26. A mobile robotic chemist
 
 **Authors:** Benjamin Burger, Phillip M. Maffettone, Vladimir V. Gusev, Catherine M. Aitchison, Yang Bai, Xiaoyan Wang, Xiaobo Li, Ben M. Alston, Buyi Li, Rob Clowes, Nicola Rankin, Brandon Harris, Reiner Sebastian Sprick, Andrew I. Cooper
 
@@ -2416,7 +3061,91 @@ A mobile robot autonomously operates analytical instruments in a wet chemistry l
 
 ---
 
-## 5. Improved protein structure prediction using potentials from deep learning
+## 25. Self-driving laboratory for accelerated discovery of thin-film materials
+
+**Authors:** B. P. MacLeod, F. G. L. Parlane, T. D. Morrissey, F. Häse, L. M. Roch, K. E. Dettelbach, R. Moreira, L. P. E. Yunker, M. B. Rooney, J. R. Deeth, V. Lai, G. J. Ng, H. Situ, R. H. Zhang, M. S. Elliott, T. H. Haley, D. J. Dvorak, A. Aspuru-Guzik, J. E. Hein, C. P. Berlinguette
+
+**Venue:** Science Advances
+
+**Publication Date:** May 13, 2020
+
+**Volume & Issue:** Volume 6, Issue 20
+
+**Pages:** eaaz8867
+
+**DOI:** 10.1126/sciadv.aaz8867
+
+**Abstract:**
+Discovering and optimizing commercially viable materials for clean energy applications typically takes more than a decade. Self-driving laboratories that iteratively design, execute, and learn from materials science experiments in a fully autonomous loop present an opportunity to accelerate this research process. We report here a modular robotic platform driven by a model-based optimization algorithm capable of autonomously optimizing the optical and electronic properties of thin-film materials by modifying the film composition and processing conditions. We demonstrate the power of this platform by using it to maximize the hole mobility of organic hole transport materials commonly used in perovskite solar cells and consumer electronics. This demonstration highlights the possibilities of using autonomous laboratories to discover organic and inorganic materials relevant to materials sciences and clean energy technologies.
+
+**Tags:** None
+
+---
+
+## 24. Accelerated discovery of CO2 electrocatalysts using active machine learning
+
+**Authors:** Miao Zhong, Kevin Tran, Yimeng Min, Chuanhao Wang, Ziyun Wang, Cao-Thang Dinh, Phil De Luna, Zongqian Yu, Armin Sedighian Rasouli, Peter Brodersen, Song Sun, Oleksandr Voznyy, Chih-Shan Tan, Mikhail Askerka, Fanglin Che, Min Liu, Ali Seifitokaldani, Yuanjie Pang, Shen-Chuan Lo, Alexander Ip, Zachary Ulissi, Edward H. Sargent
+
+**Venue:** Nature
+
+**Publication Date:** May 2020
+
+**Volume & Issue:** Volume 581, Issue 7807
+
+**Pages:** 178-183
+
+**DOI:** 10.1038/s41586-020-2242-8
+
+**Abstract:**
+Machine learning predicts Cu-Al electrocatalysts provide better efficiency and productivity than copper when using intermittent renewable electricity to convert carbon dioxide to useful chemicals and fuels.
+
+**Tags:** None
+
+---
+
+## 23. Artificial Chemist: An Autonomous Quantum Dot Synthesis Bot
+
+**Authors:** Robert W. Epps, Michael S. Bowen, Amanda A. Volk, Kameel Abdel-Latif, Suyong Han, Kristofer G. Reyes, Aram Amassian, Milad Abolhasani
+
+**Venue:** Advanced Materials
+
+**Publication Date:** 2020
+
+**Volume & Issue:** Volume 32, Issue 30
+
+**Pages:** 2001626
+
+**DOI:** 10.1002/adma.202001626
+
+**Abstract:**
+The optimal synthesis of advanced nanomaterials with numerous reaction parameters, stages, and routes, poses one of the most complex challenges of modern colloidal science, and current strategies often fail to meet the demands of these combinatorially large systems. In response, an Artificial Chemist is presented: the integration of machine-learning-based experiment selection and high-efficiency autonomous flow chemistry. With the self-driving Artificial Chemist, made-to-measure inorganic perovskite quantum dots (QDs) in flow are autonomously synthesized, and their quantum yield and composition polydispersity at target bandgaps, spanning 1.9 to 2.9 eV, are simultaneously tuned. Utilizing the Artificial Chemist, eleven precision-tailored QD synthesis compositions are obtained without any prior knowledge, within 30 h, using less than 210 mL of total starting QD solutions, and without user selection of experiments. Using the knowledge generated from these studies, the Artificial Chemist is pre-trained to use a new batch of precursors and further accelerate the synthetic path discovery of QD compositions, by at least twofold. The knowledge-transfer strategy further enhances the optoelectronic properties of the in-flow synthesized QDs (within the same resources as the no-prior-knowledge experiments) and mitigates the issues of batch-to-batch precursor variability, resulting in QDs averaging within 1 meV from their target peak emission energy.
+
+**Tags:** autonomous synthesis, machine learning, microfluidics, perovskites, quantum dots
+
+---
+
+## 22. Deep-Learning-Enabled Fast Optical Identification and Characterization of 2D Materials
+
+**Authors:** Bingnan Han, Yuxuan Lin, Yafang Yang, Nannan Mao, Wenyue Li, Haozhe Wang, Kenji Yasuda, Xirui Wang, Valla Fatemi, Lin Zhou, Joel I.-Jan Wang, Qiong Ma, Yuan Cao, Daniel Rodan-Legrain, Ya-Qing Bie, Efrén Navarro-Moratalla, Dahlia Klein, David MacNeill, Sanfeng Wu, Hikari Kitadai, Xi Ling, Pablo Jarillo-Herrero, Jing Kong, Jihao Yin, Tomás Palacios
+
+**Venue:** Advanced Materials
+
+**Publication Date:** 2020
+
+**Volume & Issue:** Volume 32, Issue 29
+
+**Pages:** 2000953
+
+**DOI:** 10.1002/adma.202000953
+
+**Abstract:**
+Advanced microscopy and/or spectroscopy tools play indispensable roles in nanoscience and nanotechnology research, as they provide rich information about material processes and properties. However, the interpretation of imaging data heavily relies on the “intuition” of experienced researchers. As a result, many of the deep graphical features obtained through these tools are often unused because of difficulties in processing the data and finding the correlations. Such challenges can be well addressed by deep learning. In this work, the optical characterization of 2D materials is used as a case study, and a neural-network-based algorithm is demonstrated for the material and thickness identification of 2D materials with high prediction accuracy and real-time processing capability. Further analysis shows that the trained network can extract deep graphical features such as contrast, color, edges, shapes, flake sizes, and their distributions, based on which an ensemble approach is developed to predict the most relevant physical properties of 2D materials. Finally, a transfer learning technique is applied to adapt the pretrained network to other optical identification applications. This artificial-intelligence-based material characterization approach is a powerful tool that would speed up the preparation, initial characterization of 2D materials and other nanomaterials, and potentially accelerate new material discoveries.
+
+**Tags:** 2D materials, deep learning, machine learning, material characterization, optical microscopy
+
+---
+
+## 21. Improved protein structure prediction using potentials from deep learning
 
 **Authors:** Andrew W. Senior, Richard Evans, John Jumper, James Kirkpatrick, Laurent Sifre, Tim Green, Chongli Qin, Augustin Žídek, Alexander W. R. Nelson, Alex Bridgland, Hugo Penedones, Stig Petersen, Karen Simonyan, Steve Crossan, Pushmeet Kohli, David T. Jones, David Silver, Koray Kavukcuoglu, Demis Hassabis
 
@@ -2437,7 +3166,7 @@ AlphaFold predicts the distances between pairs of residues, is used to construct
 
 ---
 
-## 4. Machine learning and the physical sciences
+## 20. Machine learning and the physical sciences
 
 **Authors:** Giuseppe Carleo, Ignacio Cirac, Kyle Cranmer, Laurent Daudet, Maria Schuld, Naftali Tishby, Leslie Vogt-Maranto, Lenka Zdeborová
 
@@ -2458,7 +3187,112 @@ Machine learning encompasses a broad range of algorithms and modeling tools used
 
 ---
 
-## 3. Molecular Dynamics Simulation for All
+## 19. Unsupervised word embeddings capture latent knowledge from materials science literature
+
+**Authors:** Vahe Tshitoyan, John Dagdelen, Leigh Weston, Alexander Dunn, Ziqin Rong, Olga Kononova, Kristin A. Persson, Gerbrand Ceder, Anubhav Jain
+
+**Venue:** Nature
+
+**Publication Date:** July 2019
+
+**Volume & Issue:** Volume 571, Issue 7763
+
+**Pages:** 95-98
+
+**DOI:** 10.1038/s41586-019-1335-8
+
+**Abstract:**
+Natural language processing algorithms applied to three million materials science abstracts uncover relationships between words, material compositions and properties, and predict potential new thermoelectric materials.
+
+**Tags:** None
+
+---
+
+## 18. 2DMatPedia, an open computational database of two-dimensional materials from top-down and bottom-up approaches
+
+**Authors:** Jun Zhou, Lei Shen, Miguel Dias Costa, Kristin A. Persson, Shyue Ping Ong, Patrick Huck, Yunhao Lu, Xiaoyang Ma, Yiming Chen, Hanmei Tang, Yuan Ping Feng
+
+**Venue:** Scientific Data
+
+**Publication Date:** June 12, 2019
+
+**Volume & Issue:** Volume 6, Issue 1
+
+**Pages:** 86
+
+**DOI:** 10.1038/s41597-019-0097-3
+
+**Abstract:**
+Two-dimensional (2D) materials have been a hot research topic in the last decade, due to novel fundamental physics in the reduced dimension and appealing applications. Systematic discovery of functional 2D materials has been the focus of many studies. Here, we present a large dataset of 2D materials, with more than 6,000 monolayer structures, obtained from both top-down and bottom-up discovery procedures. First, we screened all bulk materials in the database of Materials Project for layered structures by a topology-based algorithm and theoretically exfoliated them into monolayers. Then, we generated new 2D materials by chemical substitution of elements in known 2D materials by others from the same group in the periodic table. The structural, electronic and energetic properties of these 2D materials are consistently calculated, to provide a starting point for further material screening, data mining, data analysis and artificial intelligence applications. We present the details of computational methodology, data record and technical validation of our publicly available data (http://www.2dmatpedia.org/).
+
+**Tags:** Electronic properties and materials, Theory and computation
+
+---
+
+## 17. Capturing chemical intuition in synthesis of metal-organic frameworks
+
+**Authors:** Seyed Mohamad Moosavi, Arunraj Chidambaram, Leopold Talirz, Maciej Haranczyk, Kyriakos C. Stylianou, Berend Smit
+
+**Venue:** Nature Communications
+
+**Publication Date:** February 01, 2019
+
+**Volume & Issue:** Volume 10, Issue 1
+
+**Pages:** 539
+
+**DOI:** 10.1038/s41467-019-08483-9
+
+**Abstract:**
+We report a methodology using machine learning to capture chemical intuition from a set of (partially) failed attempts to synthesize a metal-organic framework. We define chemical intuition as the collection of unwritten guidelines used by synthetic chemists to find the right synthesis conditions. As (partially) failed experiments usually remain unreported, we have reconstructed a typical track of failed experiments in a successful search for finding the optimal synthesis conditions that yields HKUST-1 with the highest surface area reported to date. We illustrate the importance of quantifying this chemical intuition for the synthesis of novel materials.
+
+**Tags:** Chemical synthesis, Cheminformatics, Energy, Metal–organic frameworks
+
+---
+
+## 16. Data-Driven Materials Science: Status, Challenges, and Perspectives
+
+**Authors:** Lauri Himanen, Amber Geurts, Adam Stuart Foster, Patrick Rinke
+
+**Venue:** Advanced Science
+
+**Publication Date:** 2019
+
+**Volume & Issue:** Volume 6, Issue 21
+
+**Pages:** 1900808
+
+**DOI:** 10.1002/advs.201900808
+
+**Abstract:**
+Data-driven science is heralded as a new paradigm in materials science. In this field, data is the new resource, and knowledge is extracted from materials datasets that are too big or complex for traditional human reasoning—typically with the intent to discover new or improved materials or materials phenomena. Multiple factors, including the open science movement, national funding, and progress in information technology, have fueled its development. Such related tools as materials databases, machine learning, and high-throughput methods are now established as parts of the materials research toolset. However, there are a variety of challenges that impede progress in data-driven materials science: data veracity, integration of experimental and computational data, data longevity, standardization, and the gap between industrial interests and academic efforts. In this perspective article, the historical development and current state of data-driven materials science, building from the early evolution of open science to the rapid expansion of materials data infrastructures are discussed. Key successes and challenges so far are also reviewed, providing a perspective on the future development of the field.
+
+**Tags:** artificial intelligence, data science, databases, machine learning, materials, materials science, open innovation, open science
+
+---
+
+## 15. Active learning for accelerated design of layered materials
+
+**Authors:** Lindsay Bassman Oftelie, Pankaj Rajak, Rajiv K. Kalia, Aiichiro Nakano, Fei Sha, Jifeng Sun, David J. Singh, Muratahan Aykol, Patrick Huck, Kristin Persson, Priya Vashishta
+
+**Venue:** npj Computational Materials
+
+**Publication Date:** December 10, 2018
+
+**Volume & Issue:** Volume 4, Issue 1
+
+**Pages:** 74
+
+**DOI:** 10.1038/s41524-018-0129-0
+
+**Abstract:**
+Hetero-structures made from vertically stacked monolayers of transition metal dichalcogenides hold great potential for optoelectronic and thermoelectric devices. Discovery of the optimal layered material for specific applications necessitates the estimation of key material properties, such as electronic band structure and thermal transport coefficients. However, screening of material properties via brute force ab initio calculations of the entire material structure space exceeds the limits of current computing resources. Moreover, the functional dependence of material properties on the structures is often complicated, making simplistic statistical procedures for prediction difficult to employ without large amounts of data collection. Here, we present a Gaussian process regression model, which predicts material properties of an input hetero-structure, as well as an active learning model based on Bayesian optimization, which can efficiently discover the optimal hetero-structure using a minimal number of ab initio calculations. The electronic band gap, conduction/valence band dispersions, and thermoelectric performance are used as representative material properties for prediction and optimization. The Materials Project platform is used for electronic structure computation, while the BoltzTraP code is used to compute thermoelectric properties. Bayesian optimization is shown to significantly reduce the computational cost of discovering the optimal structure when compared with finding an optimal structure by building a regression model to predict material properties. The models can be used for predictions with respect to any material property and our software, including data preparation code based on the Python Materials Genomics (PyMatGen) library as well as python-based machine learning code, is available open source.
+
+**Tags:** Chemical engineering, Computational methods
+
+---
+
+## 14. Molecular Dynamics Simulation for All
 
 **Authors:** Scott A. Hollingsworth, Ron O. Dror
 
@@ -2479,7 +3313,112 @@ No abstract available
 
 ---
 
-## 2. ChemOS: Orchestrating autonomous experimentation
+## 13. Deep neural networks for accurate predictions of crystal stability
+
+**Authors:** Weike Ye, Chi Chen, Zhenbin Wang, Iek-Heng Chu, Shyue Ping Ong
+
+**Venue:** Nature Communications
+
+**Publication Date:** September 18, 2018
+
+**Volume & Issue:** Volume 9, Issue 1
+
+**Pages:** 3800
+
+**DOI:** 10.1038/s41467-018-06322-x
+
+**Abstract:**
+Predicting the stability of crystals is one of the central problems in materials science. Today, density functional theory (DFT) calculations remain comparatively expensive and scale poorly with system size. Here we show that deep neural networks utilizing just two descriptors—the Pauling electronegativity and ionic radii—can predict the DFT formation energies of C3A2D3O12 garnets and ABO3 perovskites with low mean absolute errors (MAEs) of 7–10 meV atom−1 and 20–34 meV atom−1, respectively, well within the limits of DFT accuracy. Further extension to mixed garnets and perovskites with little loss in accuracy can be achieved using a binary encoding scheme, addressing a critical gap in the extension of machine-learning models from fixed stoichiometry crystals to infinite universe of mixed-species crystals. Finally, we demonstrate the potential of these models to rapidly transverse vast chemical spaces to accurately identify stable compositions, accelerating the discovery of novel materials with potentially superior properties.
+
+**Tags:** Density functional theory, Structural properties, Theory and computation
+
+---
+
+## 12. Accelerated discovery of stable lead-free hybrid organic-inorganic perovskites via machine learning
+
+**Authors:** Shuaihua Lu, Qionghua Zhou, Yixin Ouyang, Yilv Guo, Qiang Li, Jinlan Wang
+
+**Venue:** Nature Communications
+
+**Publication Date:** August 24, 2018
+
+**Volume & Issue:** Volume 9, Issue 1
+
+**Pages:** 3405
+
+**DOI:** 10.1038/s41467-018-05761-w
+
+**Abstract:**
+Rapidly discovering functional materials remains an open challenge because the traditional trial-and-error methods are usually inefficient especially when thousands of candidates are treated. Here, we develop a target-driven method to predict undiscovered hybrid organic-inorganic perovskites (HOIPs) for photovoltaics. This strategy, combining machine learning techniques and density functional theory calculations, aims to quickly screen the HOIPs based on bandgap and solve the problems of toxicity and poor environmental stability in HOIPs. Successfully, six orthorhombic lead-free HOIPs with proper bandgap for solar cells and room temperature thermal stability are screened out from 5158 unexplored HOIPs and two of them stand out with direct bandgaps in the visible region and excellent environmental stability. Essentially, a close structure-property relationship mapping the HOIPs bandgap is established. Our method can achieve high accuracy in a flash and be applicable to a broad class of functional material design.
+
+**Tags:** Computational methods, Solar cells
+
+---
+
+## 11. Inverse molecular design using machine learning: Generative models for matter engineering
+
+**Authors:** Benjamin Sanchez-Lengeling, Alán Aspuru-Guzik
+
+**Venue:** Science
+
+**Publication Date:** July 27, 2018
+
+**Volume & Issue:** Volume 361, Issue 6400
+
+**Pages:** 360-365
+
+**DOI:** 10.1126/science.aat2663
+
+**Abstract:**
+The discovery of new materials can bring enormous societal and technological progress. In this context, exploring completely the large space of potential materials is computationally intractable. Here, we review methods for achieving inverse design, which aims to discover tailored materials from the starting point of a particular desired functionality. Recent advances from the rapidly growing field of artificial intelligence, mostly from the subfield of machine learning, have resulted in a fertile exchange of ideas, where approaches to inverse molecular design are being proposed and employed at a rapid pace. Among these, deep generative models have been applied to numerous classes of materials: rational design of prospective drugs, synthetic routes to organic compounds, and optimization of photovoltaics and redox flow batteries, as well as a variety of other solid-state materials.
+
+**Tags:** None
+
+---
+
+## 10. Insightful classification of crystal structures using deep learning
+
+**Authors:** Angelo Ziletti, Devinder Kumar, Matthias Scheffler, Luca M. Ghiringhelli
+
+**Venue:** Nature Communications
+
+**Publication Date:** July 17, 2018
+
+**Volume & Issue:** Volume 9, Issue 1
+
+**Pages:** 2775
+
+**DOI:** 10.1038/s41467-018-05169-6
+
+**Abstract:**
+Computational methods that automatically extract knowledge from data are critical for enabling data-driven materials science. A reliable identification of lattice symmetry is a crucial first step for materials characterization and analytics. Current methods require a user-specified threshold, and are unable to detect average symmetries for defective structures. Here, we propose a machine learning-based approach to automatically classify structures by crystal symmetry. First, we represent crystals by calculating a diffraction image, then construct a deep learning neural network model for classification. Our approach is able to correctly classify a dataset comprising more than 100,000 simulated crystal structures, including heavily defective ones. The internal operations of the neural network are unraveled through attentive response maps, demonstrating that it uses the same landmarks a materials scientist would use, although never explicitly instructed to do so. Our study paves the way for crystal structure recognition of—possibly noisy and incomplete—three-dimensional structural data in big-data materials science.
+
+**Tags:** Applied mathematics, Structural materials, Theory and computation
+
+---
+
+## 9. Machine learning for molecular and materials science
+
+**Authors:** Keith T. Butler, Daniel W. Davies, Hugh Cartwright, Olexandr Isayev, Aron Walsh
+
+**Venue:** Nature
+
+**Publication Date:** July 2018
+
+**Volume & Issue:** Volume 559, Issue 7715
+
+**Pages:** 547-555
+
+**DOI:** 10.1038/s41586-018-0337-2
+
+**Abstract:**
+Recent progress in machine learning in the chemical sciences and future directions in this field are discussed.
+
+**Tags:** None
+
+---
+
+## 8. ChemOS: Orchestrating autonomous experimentation
 
 **Authors:** Loïc M. Roch, Florian Häse, Christoph Kreisbeck, Teresa Tamayo-Mendoza, Lars P. E. Yunker, Jason E. Hein, Alán Aspuru-Guzik
 
@@ -2500,7 +3439,7 @@ ChemOS aims to catalyze the expansion of autonomous laboratories and to disrupt 
 
 ---
 
-## 1. Accelerated discovery of metallic glasses through iteration of machine learning and high-throughput experiments
+## 7. Accelerated discovery of metallic glasses through iteration of machine learning and high-throughput experiments
 
 **Authors:** Fang Ren, Logan Ward, Travis Williams, Kevin J. Laws, Christopher Wolverton, Jason Hattrick-Simpers, Apurva Mehta
 
@@ -2521,7 +3460,133 @@ With more than a hundred elements in the periodic table, a large number of poten
 
 ---
 
+## 6. Two-dimensional materials from high-throughput computational exfoliation of experimentally known compounds
 
-**Total Papers:** 121
+**Authors:** Nicolas Mounet, Marco Gibertini, Philippe Schwaller, Davide Campi, Andrius Merkys, Antimo Marrazzo, Thibault Sohier, Ivano Eligio Castelli, Andrea Cepellotti, Giovanni Pizzi, Nicola Marzari
 
-**Generation Time:** 2025-09-15 01:23:18
+**Venue:** Nature Nanotechnology
+
+**Publication Date:** March 2018
+
+**Volume & Issue:** Volume 13, Issue 3
+
+**Pages:** 246-252
+
+**DOI:** 10.1038/s41565-017-0035-5
+
+**Abstract:**
+The largest available database of potentially exfoliable 2D materials has been obtained via high-throughput calculations using van der Waals density functional theory.
+
+**Tags:** None
+
+---
+
+## 5. Accelerated Discovery of Large Electrostrains in BaTiO3-Based Piezoelectrics Using Active Learning
+
+**Authors:** Ruihao Yuan, Zhen Liu, Prasanna V. Balachandran, Deqing Xue, Yumei Zhou, Xiangdong Ding, Jun Sun, Dezhen Xue, Turab Lookman
+
+**Venue:** Advanced Materials
+
+**Publication Date:** 2018
+
+**Volume & Issue:** Volume 30, Issue 7
+
+**Pages:** 1702884
+
+**DOI:** 10.1002/adma.201702884
+
+**Abstract:**
+A key challenge in guiding experiments toward materials with desired properties is to effectively navigate the vast search space comprising the chemistry and structure of allowed compounds. Here, it is shown how the use of machine learning coupled to optimization methods can accelerate the discovery of new Pb-free BaTiO3 (BTO-) based piezoelectrics with large electrostrains. By experimentally comparing several design strategies, it is shown that the approach balancing the trade-off between exploration (using uncertainties) and exploitation (using only model predictions) gives the optimal criterion leading to the synthesis of the piezoelectric (Ba0.84Ca0.16)(Ti0.90Zr0.07Sn0.03)O3 with the largest electrostrain of 0.23% in the BTO family. Using Landau theory and insights from density functional theory, it is uncovered that the observed large electrostrain is due to the presence of Sn, which allows for the ease of switching of tetragonal domains under an electric field.
+
+**Tags:** active learning, electrostrain, machine learning, optimal experimental design, piezoelectric
+
+---
+
+## 4. Virtual screening of inorganic materials synthesis parameters with deep learning
+
+**Authors:** Edward Kim, Kevin Huang, Stefanie Jegelka, Elsa Olivetti
+
+**Venue:** npj Computational Materials
+
+**Publication Date:** December 01, 2017
+
+**Volume & Issue:** Volume 3, Issue 1
+
+**Pages:** 53
+
+**DOI:** 10.1038/s41524-017-0055-6
+
+**Abstract:**
+Virtual materials screening approaches have proliferated in the past decade, driven by rapid advances in first-principles computational techniques, and machine-learning algorithms. By comparison, computationally driven materials synthesis screening is still in its infancy, and is mired by the challenges of data sparsity and data scarcity: Synthesis routes exist in a sparse, high-dimensional parameter space that is difficult to optimize over directly, and, for some materials of interest, only scarce volumes of literature-reported syntheses are available. In this article, we present a framework for suggesting quantitative synthesis parameters and potential driving factors for synthesis outcomes. We use a variational autoencoder to compress sparse synthesis representations into a lower dimensional space, which is found to improve the performance of machine-learning tasks. To realize this screening framework even in cases where there are few literature data, we devise a novel data augmentation methodology that incorporates literature synthesis data from related materials systems. We apply this variational autoencoder framework to generate potential SrTiO3 synthesis parameter sets, propose driving factors for brookite TiO2 formation, and identify correlations between alkali-ion intercalation and MnO2 polymorph selection.
+
+**Tags:** Computational methods, Design, Materials science, synthesis and processing
+
+---
+
+## 3. Design of efficient molecular organic light-emitting diodes by a high-throughput virtual screening and experimental approach
+
+**Authors:** Rafael Gómez-Bombarelli, Jorge Aguilera-Iparraguirre, Timothy D. Hirzel, David Duvenaud, Dougal Maclaurin, Martin A. Blood-Forsythe, Hyun Sik Chae, Markus Einzinger, Dong-Gwang Ha, Tony Wu, Georgios Markopoulos, Soonok Jeon, Hosuk Kang, Hiroshi Miyazaki, Masaki Numata, Sunghan Kim, Wenliang Huang, Seong Ik Hong, Marc Baldo, Ryan P. Adams, Alán Aspuru-Guzik
+
+**Venue:** Nature Materials
+
+**Publication Date:** October 2016
+
+**Volume & Issue:** Volume 15, Issue 10
+
+**Pages:** 1120-1127
+
+**DOI:** 10.1038/nmat4717
+
+**Abstract:**
+A high-throughput virtual screening approach is used to select molecules with efficient, thermally activated delayed fluorescence. The good performance of several selected emitters in organic LED applications has also been confirmed experimentally.
+
+**Tags:** None
+
+---
+
+## 2. Machine-learning-assisted materials discovery using failed experiments
+
+**Authors:** Paul Raccuglia, Katherine C. Elbert, Philip D. F. Adler, Casey Falk, Malia B. Wenny, Aurelio Mollo, Matthias Zeller, Sorelle A. Friedler, Joshua Schrier, Alexander J. Norquist
+
+**Venue:** Nature
+
+**Publication Date:** May 2016
+
+**Volume & Issue:** Volume 533, Issue 7601
+
+**Pages:** 73-76
+
+**DOI:** 10.1038/nature17439
+
+**Abstract:**
+Failed chemical reactions are rarely reported, even though they could still provide information about the bounds on the reaction conditions needed for product formation; here data from such reactions are used to train a machine-learning algorithm, which is subsequently able to predict reaction outcomes with greater accuracy than human intuition.
+
+**Tags:** Computer science, Solid-state chemistry, Theory and computation
+
+---
+
+## 1. Accelerated search for materials with targeted properties by adaptive design
+
+**Authors:** Dezhen Xue, Prasanna V. Balachandran, John Hogden, James Theiler, Deqing Xue, Turab Lookman
+
+**Venue:** Nature Communications
+
+**Publication Date:** April 15, 2016
+
+**Volume & Issue:** Volume 7, Issue 1
+
+**Pages:** 11241
+
+**DOI:** 10.1038/ncomms11241
+
+**Abstract:**
+Finding new materials with targeted properties has traditionally been guided by intuition, and trial and error. With increasing chemical complexity, the combinatorial possibilities are too large for an Edisonian approach to be practical. Here we show how an adaptive design strategy, tightly coupled with experiments, can accelerate the discovery process by sequentially identifying the next experiments or calculations, to effectively navigate the complex search space. Our strategy uses inference and global optimization to balance the trade-off between exploitation and exploration of the search space. We demonstrate this by finding very low thermal hysteresis (ΔT) NiTi-based shape memory alloys, with Ti50.0Ni46.7Cu0.8Fe2.3Pd0.2 possessing the smallest ΔT (1.84 K). We synthesize and characterize 36 predicted compositions (9 feedback loops) from a potential space of ∼800,000 compositions. Of these, 14 had smaller ΔT than any of the 22 in the original data set.
+
+**Tags:** Condensed-matter physics, Metals and alloys
+
+---
+
+
+**Total Papers:** 172
+
+**Generation Time:** 2025-09-15 02:09:23
