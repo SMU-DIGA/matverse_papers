@@ -4,6 +4,7 @@ import os
 from datetime import datetime
 from typing import List, Dict, Any
 import matplotlib.pyplot as plt
+from collections import defaultdict
 from collections import Counter
 
 
@@ -303,6 +304,59 @@ def generate_yearly_publication_chart(
     return chart_path
 
 
+def generate_journal_index(papers: List[Dict]) -> str:
+    """
+    Generate journal index section for the markdown file
+
+    Args:
+        papers: List of paper dictionaries with item, date_obj, date_str
+
+    Returns:
+        Markdown string for journal index
+    """
+    # Group papers by journal
+    journal_papers = defaultdict(list)
+
+    for i, paper in enumerate(papers):
+        item = paper["item"]
+        venue = item.get("publicationTitle", "Unknown Journal")
+        title = item.get("title", "Untitled")
+        paper_number = len(papers) - i  # Since papers are sorted newest first
+
+        journal_papers[venue].append(
+            {"title": title, "number": paper_number, "date_str": paper["date_str"]}
+        )
+
+    # Sort journals alphabetically
+    sorted_journals = sorted(journal_papers.keys())
+
+    # Generate markdown for journal index
+    index_lines = [
+        "## 📚 Journal Index\n",
+        "This section provides a quick overview of papers organized by publication venue for easy navigation.\n",
+    ]
+
+    for journal in sorted_journals:
+        papers_in_journal = journal_papers[journal]
+        # Sort papers within each journal by number (newest first)
+        papers_in_journal.sort(key=lambda x: x["number"], reverse=True)
+
+        index_lines.append(f"### {journal} ({len(papers_in_journal)} papers)\n")
+
+        for paper in papers_in_journal:
+            # Create anchor link to the paper section
+            anchor = f"#{paper['number']}-{paper['title'].lower().replace(' ', '-').replace(',', '').replace('.', '').replace('(', '').replace(')', '').replace(':', '').replace('[', '').replace(']', '')}"
+            index_lines.append(
+                f"- [{paper['number']}. {paper['title']}]({anchor}) *({paper['date_str']})*"
+            )
+
+        index_lines.append("")  # Add empty line between journals
+
+    index_lines.append("---\n")
+
+    return "\n".join(index_lines)
+
+
 def process_zotero_json(json_file_path: str, output_file_path: str = None) -> str:
     """
     Process Zotero JSON export file and generate Markdown
@@ -352,12 +406,18 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
     if chart_path:
         markdown_lines.extend(
             [
-                "## Publication Timeline\n",
+                "## 📈 Publication Timeline\n",
                 f'<img src="{chart_path}" alt="Yearly Publication Distribution" width="800">\n',
             ]
         )
 
     markdown_lines.extend(["---\n"])
+
+    # Add journal index section
+    journal_index = generate_journal_index(papers)
+    markdown_lines.append(journal_index)
+
+    markdown_lines.append("## 📑 Papers (Chronological Order)\n")
 
     num_papers = len(papers)
     for i, paper in enumerate(papers, 1):
