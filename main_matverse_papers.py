@@ -252,7 +252,7 @@ def generate_yearly_publication_chart(
     ax.set_xlabel("Year", fontsize=18, fontweight="bold")
     ax.set_ylabel("Number of Publications", fontsize=18, fontweight="bold")
     ax.set_title(
-        "Publications by Year and Journal", fontsize=18, fontweight="bold", pad=25
+        "Year and Journal over {} Publications".format(len(papers)), fontsize=18, fontweight="bold", pad=25
     )
 
     # Add subtle grid
@@ -273,7 +273,7 @@ def generate_yearly_publication_chart(
 
     # Create a clean legend
     handles, labels = ax.get_legend_handles_labels()
-    ax.legend(
+    legend = ax.legend(
         handles,
         labels,
         loc="upper left",
@@ -281,11 +281,15 @@ def generate_yearly_publication_chart(
         framealpha=0.95,
         fontsize=18,
         title="Journals",
+        # title_fontweight='bold',
         title_fontsize=18,
         borderaxespad=0,
         columnspacing=1,
         handletextpad=0.5,
     )
+    legend.get_title().set_fontweight("bold")
+
+    # ax.legend.get_title().set_fontweight('bold')
 
     # Adjust layout and save
 
