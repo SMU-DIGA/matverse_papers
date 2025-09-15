@@ -20,8 +20,9 @@ This section provides a quick overview of papers organized by publication venue 
 
 - [47. Machine Learning-Assisted Synthesis of Two-Dimensional Materials](#47-machine-learning-assisted-synthesis-of-two-dimensional-materials) *(January 11, 2023)*
 
-### Acta Materialia (5 papers)
+### Acta Materialia (6 papers)
 
+- [224. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space](#224-accelerated-multi-objective-alloy-discovery-through-efficient-bayesian-methods-application-to-the-fcc-high-entropy-alloy-space) *(September 15, 2025)*
 - [215. Generalizable descriptors for automatic titanium alloys design by learning from texts via large language model](#215-generalizable-descriptors-for-automatic-titanium-alloys-design-by-learning-from-texts-via-large-language-model) *(September 01, 2025)*
 - [189. A novel training-free approach to efficiently extracting material microstructures via visual large model](#189-a-novel-training-free-approach-to-efficiently-extracting-material-microstructures-via-visual-large-model) *(May 15, 2025)*
 - [170. Developing novel low-density high-entropy superalloys with high strength and superior creep resistance guided by automated machine learning](#170-developing-novel-low-density-high-entropy-superalloys-with-high-strength-and-superior-creep-resistance-guided-by-automated-machine-learning) *(February 15, 2025)*
@@ -368,6 +369,27 @@ This section provides a quick overview of papers organized by publication venue 
 ---
 
 ## 📑 Papers (Chronological Order)
+
+## 224. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space
+
+**Authors:** Trevor Hastings, Mrinalini Mulukutla, Danial Khatamsaz, Daniel Salas, Wenle Xu, Daniel Lewis, Nicole Person, Matthew Skokan, Braden Miller, James Paramore, Brady Butler, Douglas Allaire, Vahid Attari, Ibrahim Karaman, George Pharr, Ankit Srivastava, Raymundo Arróyave
+
+**Venue:** Acta Materialia
+
+**Publication Date:** September 15, 2025
+
+**Volume & Issue:** Volume 297
+
+**Pages:** 121173
+
+**DOI:** 10.1016/j.actamat.2025.121173
+
+**Abstract:**
+This study introduces BIRDSHOT, an integrated Bayesian materials discovery framework designed to efficiently explore complex compositional spaces while optimizing multiple material properties. We applied this framework to the CoCrFeNiVAl FCC high entropy alloy (HEA) system, targeting three key performance objectives: ultimate tensile strength/yield strength ratio, hardness, and strain rate sensitivity. The experimental campaign employed an integrated cyber-physical approach that combined vacuum arc melting (VAM) for alloy synthesis with advanced mechanical testing, including tensile and high-strain-rate nanoindentation testing. By incorporating batch Bayesian optimization schemes that allowed the parallel exploration of the alloy space, we completed five iterative design-make-test-learn loops, identifying a non-trivial three-objective Pareto set in a high-dimensional alloy space. Notably, this was achieved by exploring only 0.15 % of the feasible design space, representing a significant acceleration in discovery rate relative to traditional methods. This work demonstrates the capability of BIRDSHOT to navigate complex, multi-objective optimization challenges and highlights its potential for broader application in accelerating materials discovery.
+
+**Tags:** Bayesian optimization, High-throughput, Machine learning, Materials discovery, Multi-objective optimization
+
+---
 
 ## 223. Towards agentic science for advancing scientific discovery
 
@@ -5009,6 +5031,6 @@ Finding new materials with targeted properties has traditionally been guided by 
 ---
 
 
-**Total Papers:** 223
+**Total Papers:** 224
 
-**Generation Time:** 2025-09-15 20:59:15
+**Generation Time:** 2025-09-15 21:14:08
