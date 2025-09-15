@@ -4588,4 +4588,4 @@ Finding new materials with targeted properties has traditionally been guided by 
 
 **Total Papers:** 204
 
-**Generation Time:** 2025-09-15 17:41:23
+**Generation Time:** 2025-09-15 20:01:15

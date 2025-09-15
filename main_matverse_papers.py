@@ -195,8 +195,8 @@ def generate_yearly_publication_chart(
         if sum(journal_counts) > 0:
             # Shorten journal names for better display
             display_name = journal
-            if len(journal) > 25:
-                display_name = journal[:22] + "..."
+            # if len(journal) > 25:
+            #     display_name = journal[:22] + "..."
 
             bars = ax.bar(
                 sorted_years,
