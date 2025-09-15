@@ -2,6 +2,7 @@ import json
 import re
 from datetime import datetime
 from typing import List, Dict, Any
+from collections import defaultdict
 
 
 def parse_date(date_str: str) -> tuple:
@@ -92,9 +93,62 @@ def clean_abstract(abstract: str) -> str:
     return abstract
 
 
+def generate_journal_index(papers: List[Dict]) -> str:
+    """
+    Generate journal index section for the markdown file
+
+    Args:
+        papers: List of paper dictionaries with item, date_obj, date_str
+
+    Returns:
+        Markdown string for journal index
+    """
+    # Group papers by journal
+    journal_papers = defaultdict(list)
+
+    for i, paper in enumerate(papers):
+        item = paper["item"]
+        venue = item.get("publicationTitle", "Unknown Journal")
+        title = item.get("title", "Untitled")
+        paper_number = len(papers) - i  # Since papers are sorted newest first
+
+        journal_papers[venue].append({
+            "title": title,
+            "number": paper_number,
+            "date_str": paper["date_str"]
+        })
+
+    # Sort journals alphabetically
+    sorted_journals = sorted(journal_papers.keys())
+
+    # Generate markdown for journal index
+    index_lines = [
+        "## 📚 Journal Index\n",
+        "This section provides a quick overview of papers organized by publication venue for easy navigation.\n"
+    ]
+
+    for journal in sorted_journals:
+        papers_in_journal = journal_papers[journal]
+        # Sort papers within each journal by number (newest first)
+        papers_in_journal.sort(key=lambda x: x["number"], reverse=True)
+
+        index_lines.append(f"### {journal} ({len(papers_in_journal)} papers)\n")
+
+        for paper in papers_in_journal:
+            # Create anchor link to the paper section
+            anchor = f"#{paper['number']}-{paper['title'].lower().replace(' ', '-').replace(',', '').replace('.', '').replace('(', '').replace(')', '').replace(':', '').replace('[', '').replace(']', '')}"
+            index_lines.append(f"- [{paper['number']}. {paper['title']}]({anchor}) *({paper['date_str']})*")
+
+        index_lines.append("")  # Add empty line between journals
+
+    index_lines.append("---\n")
+
+    return "\n".join(index_lines)
+
+
 def process_zotero_json(json_file_path: str, output_file_path: str = None) -> str:
     """
-    Process Zotero JSON export file and generate Markdown
+    Process Zotero JSON export file and generate Markdown with journal index
 
     Args:
         json_file_path: Path to the Zotero JSON file
@@ -127,11 +181,21 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
     papers.sort(key=lambda x: x["date_obj"], reverse=True)
 
     # Generate Markdown content
-    # <img src="image.jpg" alt="描述" width="300">
-    markdown_lines = ['<img src="./assets/matverse_logo.png" alt="" width="300">\n', "# MatVerse AI4(M)S Paper Collection\n",
-                      "This is a regularly updated paper collection about AI for science, with a specific focus on materials science, "
-                      "associated with the MatVerse paper.\n",
-                      "---\n"]
+    markdown_lines = [
+        '<img src="./assets/matverse_logo.png" alt="" width="300">\n',
+        "# MatVerse AI4(M)S Paper Collection\n",
+        "This is a regularly updated paper collection about AI for science, with a specific focus on materials science, "
+        "associated with the MatVerse paper.\n",
+        "---\n"
+    ]
+
+    # Add journal index section
+    journal_index = generate_journal_index(papers)
+    markdown_lines.append(journal_index)
+
+    # Add main paper sections
+    markdown_lines.append("## 📑 Papers (Chronological Order)\n")
+
     num_papers = len(papers)
     for i, paper in enumerate(papers, 1):
         item = paper["item"]
@@ -152,8 +216,9 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
         abstract = clean_abstract(item.get("abstractNote", ""))
         tags = format_tags(item.get("tags", []))
 
-        # Build paper section
-        markdown_lines.append(f"## {num_papers - i + 1}. {title}\n")
+        # Build paper section with anchor
+        paper_number = num_papers - i + 1
+        markdown_lines.append(f"### {paper_number}. {title}\n")
         markdown_lines.append(f"**Authors:** {authors}\n")
         markdown_lines.append(f"**Venue:** {venue}\n")
         markdown_lines.append(f"**Publication Date:** {date_str}\n")
@@ -185,7 +250,7 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
     markdown_lines.append("---\n")
     current_time = datetime.now()
     markdown_lines.append(f"\n**Total Papers:** {len(papers)}\n")
-    markdown_lines.append(f"**Generation Time:** {current_time.strftime('%Y-%m-%d %H:%M:%S')}",)
+    markdown_lines.append(f"**Generation Time:** {current_time.strftime('%Y-%m-%d %H:%M:%S')}")
 
     # Join all lines
     markdown_content = "\n".join(markdown_lines)
@@ -195,7 +260,17 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
         with open(output_file_path, "w", encoding="utf-8") as f:
             f.write(markdown_content)
         print(f"Markdown file saved to: {output_file_path}")
-        print(f"\nTotal Papers: {len(papers)}\n")
+        print(f"\nTotal Papers: {len(papers)}")
+
+        # Print journal distribution
+        journal_counts = defaultdict(int)
+        for paper in papers:
+            venue = paper["item"].get("publicationTitle", "Unknown")
+            journal_counts[venue] += 1
+
+        print(f"\nJournal Distribution:")
+        for journal, count in sorted(journal_counts.items(), key=lambda x: x[1], reverse=True):
+            print(f"  {journal}: {count} papers")
 
     return markdown_content
 
@@ -211,12 +286,6 @@ def main():
     try:
         process_zotero_json(input_file, output_file)
         print("Processing completed successfully!")
-        # print(f"\nFirst 500 characters of generated markdown:")
-        # print(
-        #     markdown_content[:500] + "..."
-        #     if len(markdown_content) > 500
-        #     else markdown_content
-        # )
 
     except Exception as e:
         print(f"Error processing file: {e}")
