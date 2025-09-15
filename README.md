@@ -74,6 +74,10 @@ This section provides a quick overview of papers organized by publication venue 
 
 - [209. SAGERank: inductive learning of protein–protein interaction from antibody–antigen recognition](#209-sagerank-inductive-learning-of-protein–protein-interaction-from-antibody–antigen-recognition) *(August 12, 2025)*
 
+### Chemical Society Reviews (1 papers)
+
+- [165. From text to insight: large language models for chemical data extraction](#165-from-text-to-insight-large-language-models-for-chemical-data-extraction) *(February 03, 2025)*
+
 ### Communications Chemistry (1 papers)
 
 - [90. A generative artificial intelligence framework based on a molecular diffusion model for the design of metal-organic frameworks for carbon capture](#90-a-generative-artificial-intelligence-framework-based-on-a-molecular-diffusion-model-for-the-design-of-metal-organic-frameworks-for-carbon-capture) *(February 14, 2024)*
@@ -351,10 +355,6 @@ This section provides a quick overview of papers organized by publication venue 
 
 - [206. Deep learning for property prediction of natural fiber polymer composites](#206-deep-learning-for-property-prediction-of-natural-fiber-polymer-composites) *(July 30, 2025)*
 - [80. Data-driven analysis and prediction of stable phases for high-entropy alloy design](#80-data-driven-analysis-and-prediction-of-stable-phases-for-high-entropy-alloy-design) *(December 18, 2023)*
-
-### Unknown Journal (1 papers)
-
-- [165. From text to insight: large language models for chemical data extraction](#165-from-text-to-insight-large-language-models-for-chemical-data-extraction) *(February 03, 2025)*
 
 ### npj Computational Materials (6 papers)
 
@@ -1555,7 +1555,7 @@ The vast size of composition space poses a significant challenge for materials c
 
 **Authors:** Mara Schilling-Wilhelmi, Martiño Ríos-García, Sherjeel Shabih, María Victoria Gil, Santiago Miret, Christoph T. Koch, José A. Márquez, Kevin Maik Jablonka
 
-**Venue:** Unknown
+**Venue:** Chemical Society Reviews
 
 **Publication Date:** February 03, 2025
 
@@ -5011,4 +5011,4 @@ Finding new materials with targeted properties has traditionally been guided by 
 
 **Total Papers:** 223
 
-**Generation Time:** 2025-09-15 20:55:16
+**Generation Time:** 2025-09-15 20:59:15
