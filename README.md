@@ -1,6 +1,8 @@
-<img src="./assets/matverse_logo.png" alt="" width="300">
+<div align="center">
+<img src="./assets/matverse_logo.png" width="300"><h1>MatVerse AI4(M)S Paper Collection</h1>
+</div>
 
-# MatVerse AI4(M)S Paper Collection
+---
 
 This is a regularly updated paper collection about AI for science, with a specific focus on materials science, associated with the MatVerse paper.
 
@@ -3875,4 +3877,4 @@ Finding new materials with targeted properties has traditionally been guided by 
 
 **Total Papers:** 172
 
-**Generation Time:** 2025-09-15 12:07:51
+**Generation Time:** 2025-09-15 12:17:02

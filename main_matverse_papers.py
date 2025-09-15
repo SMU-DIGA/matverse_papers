@@ -97,7 +97,7 @@ def clean_abstract(abstract: str) -> str:
 
 
 def generate_yearly_publication_chart(
-    papers: List[Dict], output_dir: str = "./assets"
+        papers: List[Dict], output_dir: str = "./assets"
 ) -> str:
     """
     Generate a stacked bar chart showing yearly publication distribution by journal
@@ -219,7 +219,7 @@ def generate_yearly_publication_chart(
                     segment_ratio = count / total_height if total_height > 0 else 0
 
                     if (
-                        segment_ratio >= 0.08
+                            segment_ratio >= 0.08
                     ):  # Only label if segment is at least 8% of total
                         ax.text(
                             bar.get_x() + bar.get_width() / 2,
@@ -395,12 +395,21 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
     chart_path = generate_yearly_publication_chart(papers)
 
     # Generate Markdown content
+
     markdown_lines = [
-        '<img src="./assets/matverse_logo.png" alt="" width="300">\n',
-        "# MatVerse AI4(M)S Paper Collection\n",
+        f"""<div align="center">
+<img src="./assets/matverse_logo.png" width="300"><h1>MatVerse AI4(M)S Paper Collection</h1>
+</div>\n\n---\n""",
         "This is a regularly updated paper collection about AI for science, with a specific focus on materials science, "
         "associated with the MatVerse paper.\n",
     ]
+
+    # markdown_lines = [
+    #     '<img src="./assets/matverse_logo.png" alt="" width="300">\n',
+    #     "# MatVerse AI4(M)S Paper Collection\n",
+    #     "This is a regularly updated paper collection about AI for science, with a specific focus on materials science, "
+    #     "associated with the MatVerse paper.\n",
+    # ]
 
     # Add yearly publication chart if generated
     if chart_path:
@@ -509,7 +518,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 
 # Additional utility functions
 
