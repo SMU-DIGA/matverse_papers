@@ -22,8 +22,8 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Acta Materialia (6 papers)
 
-- [261. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space](#261-accelerated-multi-objective-alloy-discovery-through-efficient-bayesian-methods-application-to-the-fcc-high-entropy-alloy-space) *(September 15, 2025)*
-- [250. Generalizable descriptors for automatic titanium alloys design by learning from texts via large language model](#250-generalizable-descriptors-for-automatic-titanium-alloys-design-by-learning-from-texts-via-large-language-model) *(September 01, 2025)*
+- [262. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space](#262-accelerated-multi-objective-alloy-discovery-through-efficient-bayesian-methods-application-to-the-fcc-high-entropy-alloy-space) *(September 15, 2025)*
+- [251. Generalizable descriptors for automatic titanium alloys design by learning from texts via large language model](#251-generalizable-descriptors-for-automatic-titanium-alloys-design-by-learning-from-texts-via-large-language-model) *(September 01, 2025)*
 - [218. A novel training-free approach to efficiently extracting material microstructures via visual large model](#218-a-novel-training-free-approach-to-efficiently-extracting-material-microstructures-via-visual-large-model) *(May 15, 2025)*
 - [196. Developing novel low-density high-entropy superalloys with high strength and superior creep resistance guided by automated machine learning](#196-developing-novel-low-density-high-entropy-superalloys-with-high-strength-and-superior-creep-resistance-guided-by-automated-machine-learning) *(February 15, 2025)*
 - [180. Topological data analysis assisted machine learning for polar topological structures in oxide superlattices](#180-topological-data-analysis-assisted-machine-learning-for-polar-topological-structures-in-oxide-superlattices) *(January 01, 2025)*
@@ -38,11 +38,11 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Advanced Materials (23 papers)
 
-- [257. AI-Driven Defect Engineering for Advanced Thermoelectric Materials](#257-ai-driven-defect-engineering-for-advanced-thermoelectric-materials) *(September 04, 2025)*
-- [256. Artificial Intelligence-Driven Approaches in Semiconductor Research](#256-artificial-intelligence-driven-approaches-in-semiconductor-research) *(September 04, 2025)*
-- [243. Empowering Generalist Material Intelligence with Large Language Models](#243-empowering-generalist-material-intelligence-with-large-language-models) *(August 14, 2025)*
-- [235. Biomimetic Intelligent Thermal Management Materials: From Nature-Inspired Design to Machine-Learning-Driven Discovery](#235-biomimetic-intelligent-thermal-management-materials-from-nature-inspired-design-to-machine-learning-driven-discovery) *(July 29, 2025)*
-- [230. Self-Evolving Discovery of Carrier Biomaterials with Ultra-Low Nonspecific Protein Adsorption for Single Cell Analysis](#230-self-evolving-discovery-of-carrier-biomaterials-with-ultra-low-nonspecific-protein-adsorption-for-single-cell-analysis) *(July 02, 2025)*
+- [258. AI-Driven Defect Engineering for Advanced Thermoelectric Materials](#258-ai-driven-defect-engineering-for-advanced-thermoelectric-materials) *(September 04, 2025)*
+- [257. Artificial Intelligence-Driven Approaches in Semiconductor Research](#257-artificial-intelligence-driven-approaches-in-semiconductor-research) *(September 04, 2025)*
+- [244. Empowering Generalist Material Intelligence with Large Language Models](#244-empowering-generalist-material-intelligence-with-large-language-models) *(August 14, 2025)*
+- [236. Biomimetic Intelligent Thermal Management Materials: From Nature-Inspired Design to Machine-Learning-Driven Discovery](#236-biomimetic-intelligent-thermal-management-materials-from-nature-inspired-design-to-machine-learning-driven-discovery) *(July 29, 2025)*
+- [231. Self-Evolving Discovery of Carrier Biomaterials with Ultra-Low Nonspecific Protein Adsorption for Single Cell Analysis](#231-self-evolving-discovery-of-carrier-biomaterials-with-ultra-low-nonspecific-protein-adsorption-for-single-cell-analysis) *(July 02, 2025)*
 - [222. SciAgents: Automating Scientific Discovery Through Bioinspired Multi-Agent Intelligent Graph Reasoning](#222-sciagents-automating-scientific-discovery-through-bioinspired-multi-agent-intelligent-graph-reasoning) *(June 05, 2025)*
 - [199. Artificial Intelligence and Multiscale Modeling for Sustainable Biopolymers and Bioinspired Materials](#199-artificial-intelligence-and-multiscale-modeling-for-sustainable-biopolymers-and-bioinspired-materials) *(March 10, 2025)*
 - [195. Machine Learning in Solid-State Hydrogen Storage Materials: Challenges and Perspectives](#195-machine-learning-in-solid-state-hydrogen-storage-materials-challenges-and-perspectives) *(February 12, 2025)*
@@ -79,7 +79,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Chemical Science (1 papers)
 
-- [242. SAGERank: inductive learning of protein–protein interaction from antibody–antigen recognition](#242-sagerank-inductive-learning-of-protein–protein-interaction-from-antibody–antigen-recognition) *(August 12, 2025)*
+- [243. SAGERank: inductive learning of protein–protein interaction from antibody–antigen recognition](#243-sagerank-inductive-learning-of-protein–protein-interaction-from-antibody–antigen-recognition) *(August 12, 2025)*
 
 ### Chemical Society Reviews (1 papers)
 
@@ -101,10 +101,11 @@ This section provides a quick overview of papers organized by publication venue 
 
 - [212. Large language model-driven database for thermoelectric materials](#212-large-language-model-driven-database-for-thermoelectric-materials) *(May 01, 2025)*
 
-### Journal of the American Chemical Society (14 papers)
+### Journal of the American Chemical Society (15 papers)
 
-- [233. Artificial Intelligence Paradigms for Next-Generation Metal–Organic Framework Research](#233-artificial-intelligence-paradigms-for-next-generation-metal–organic-framework-research) *(July 09, 2025)*
-- [231. Natural-Language-Interfaced Robotic Synthesis for AI-Copilot-Assisted Exploration of Inorganic Materials](#231-natural-language-interfaced-robotic-synthesis-for-ai-copilot-assisted-exploration-of-inorganic-materials) *(July 02, 2025)*
+- [234. Artificial Intelligence Paradigms for Next-Generation Metal–Organic Framework Research](#234-artificial-intelligence-paradigms-for-next-generation-metal–organic-framework-research) *(July 09, 2025)*
+- [232. Natural-Language-Interfaced Robotic Synthesis for AI-Copilot-Assisted Exploration of Inorganic Materials](#232-natural-language-interfaced-robotic-synthesis-for-ai-copilot-assisted-exploration-of-inorganic-materials) *(July 02, 2025)*
+- [223. Data-Driven Design of Random Heteropolypeptides as Synthetic Polyclonal Antibodies](#223-data-driven-design-of-random-heteropolypeptides-as-synthetic-polyclonal-antibodies) *(June 18, 2025)*
 - [205. A Multiagent-Driven Robotic AI Chemist Enabling Autonomous Chemical Research On Demand](#205-a-multiagent-driven-robotic-ai-chemist-enabling-autonomous-chemical-research-on-demand) *(April 16, 2025)*
 - [192. Harnessing Large Language Models to Collect and Analyze Metal–Organic Framework Property Data Set](#192-harnessing-large-language-models-to-collect-and-analyze-metal–organic-framework-property-data-set) *(February 05, 2025)*
 - [167. Crystal Structure Determination from Powder Diffraction Patterns with Generative Machine Learning](#167-crystal-structure-determination-from-powder-diffraction-patterns-with-generative-machine-learning) *(November 06, 2024)*
@@ -120,7 +121,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Matter (8 papers)
 
-- [254. Machine learning in X-ray diffraction for materials discovery and characterization](#254-machine-learning-in-x-ray-diffraction-for-materials-discovery-and-characterization) *(September 03, 2025)*
+- [255. Machine learning in X-ray diffraction for materials discovery and characterization](#255-machine-learning-in-x-ray-diffraction-for-materials-discovery-and-characterization) *(September 03, 2025)*
 - [221. A data-driven platform for automated characterization of polymer electrolytes](#221-a-data-driven-platform-for-automated-characterization-of-polymer-electrolytes) *(June 04, 2025)*
 - [202. Physics-informed, dual-objective optimization of high-entropy-alloy nanozymes by a robotic AI chemist](#202-physics-informed-dual-objective-optimization-of-high-entropy-alloy-nanozymes-by-a-robotic-ai-chemist) *(April 02, 2025)*
 - [193. ORGANA: A robotic assistant for automated chemistry experimentation and characterization](#193-organa-a-robotic-assistant-for-automated-chemistry-experimentation-and-characterization) *(February 05, 2025)*
@@ -131,13 +132,13 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Nature (32 papers)
 
-- [255. Supervised learning in DNA neural networks](#255-supervised-learning-in-dna-neural-networks) *(September 03, 2025)*
-- [251. Electron flow matching for generative reaction mechanism prediction](#251-electron-flow-matching-for-generative-reaction-mechanism-prediction) *(September 2025)*
-- [249. One-shot design of functional protein binders with BindCraft](#249-one-shot-design-of-functional-protein-binders-with-bindcraft) *(August 27, 2025)*
-- [241. Data-driven de novo design of super-adhesive hydrogels](#241-data-driven-de-novo-design-of-super-adhesive-hydrogels) *(August 2025)*
-- [236. The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies](#236-the-virtual-lab-of-ai-agents-designs-new-sars-cov-2-nanobodies) *(July 29, 2025)*
-- [227. Machine-learning design of ductile FeNiCoAlTa alloys with high strength](#227-machine-learning-design-of-ductile-fenicoalta-alloys-with-high-strength) *(July 2025)*
-- [226. Ultrabroadband and band-selective thermal meta-emitters by machine learning](#226-ultrabroadband-and-band-selective-thermal-meta-emitters-by-machine-learning) *(July 2025)*
+- [256. Supervised learning in DNA neural networks](#256-supervised-learning-in-dna-neural-networks) *(September 03, 2025)*
+- [252. Electron flow matching for generative reaction mechanism prediction](#252-electron-flow-matching-for-generative-reaction-mechanism-prediction) *(September 2025)*
+- [250. One-shot design of functional protein binders with BindCraft](#250-one-shot-design-of-functional-protein-binders-with-bindcraft) *(August 27, 2025)*
+- [242. Data-driven de novo design of super-adhesive hydrogels](#242-data-driven-de-novo-design-of-super-adhesive-hydrogels) *(August 2025)*
+- [237. The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies](#237-the-virtual-lab-of-ai-agents-designs-new-sars-cov-2-nanobodies) *(July 29, 2025)*
+- [228. Machine-learning design of ductile FeNiCoAlTa alloys with high strength](#228-machine-learning-design-of-ductile-fenicoalta-alloys-with-high-strength) *(July 2025)*
+- [227. Ultrabroadband and band-selective thermal meta-emitters by machine learning](#227-ultrabroadband-and-band-selective-thermal-meta-emitters-by-machine-learning) *(July 2025)*
 - [214. End-to-end data-driven weather prediction](#214-end-to-end-data-driven-weather-prediction) *(May 2025)*
 - [201. Towards multimodal foundation models in molecular cell biology](#201-towards-multimodal-foundation-models-in-molecular-cell-biology) *(April 2025)*
 - [198. A generative model for inorganic materials design](#198-a-generative-model-for-inorganic-materials-design) *(March 2025)*
@@ -170,8 +171,8 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Nature Biomedical Engineering (2 papers)
 
-- [253. A generalizable pathology foundation model using a unified knowledge distillation pretraining framework](#253-a-generalizable-pathology-foundation-model-using-a-unified-knowledge-distillation-pretraining-framework) *(September 02, 2025)*
-- [237. Accelerating primer design for amplicon sequencing using large language model-powered agents](#237-accelerating-primer-design-for-amplicon-sequencing-using-large-language-model-powered-agents) *(July 30, 2025)*
+- [254. A generalizable pathology foundation model using a unified knowledge distillation pretraining framework](#254-a-generalizable-pathology-foundation-model-using-a-unified-knowledge-distillation-pretraining-framework) *(September 02, 2025)*
+- [238. Accelerating primer design for amplicon sequencing using large language model-powered agents](#238-accelerating-primer-design-for-amplicon-sequencing-using-large-language-model-powered-agents) *(July 30, 2025)*
 
 ### Nature Catalysis (1 papers)
 
@@ -191,9 +192,9 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Nature Communications (55 papers)
 
-- [245. An automated framework for exploring and learning potential-energy surfaces](#245-an-automated-framework-for-exploring-and-learning-potential-energy-surfaces) *(August 18, 2025)*
-- [234. Generative AI enables medical image segmentation in ultra low-data regimes](#234-generative-ai-enables-medical-image-segmentation-in-ultra-low-data-regimes) *(July 14, 2025)*
-- [228. A generalized platform for artificial intelligence-powered autonomous enzyme engineering](#228-a-generalized-platform-for-artificial-intelligence-powered-autonomous-enzyme-engineering) *(July 01, 2025)*
+- [246. An automated framework for exploring and learning potential-energy surfaces](#246-an-automated-framework-for-exploring-and-learning-potential-energy-surfaces) *(August 18, 2025)*
+- [235. Generative AI enables medical image segmentation in ultra low-data regimes](#235-generative-ai-enables-medical-image-segmentation-in-ultra-low-data-regimes) *(July 14, 2025)*
+- [229. A generalized platform for artificial intelligence-powered autonomous enzyme engineering](#229-a-generalized-platform-for-artificial-intelligence-powered-autonomous-enzyme-engineering) *(July 01, 2025)*
 - [220. IvoryOS: an interoperable web interface for orchestrating Python-based self-driving laboratories](#220-ivoryos-an-interoperable-web-interface-for-orchestrating-python-based-self-driving-laboratories) *(June 04, 2025)*
 - [216. Exploration of crystal chemical space using text-guided generative artificial intelligence](#216-exploration-of-crystal-chemical-space-using-text-guided-generative-artificial-intelligence) *(May 12, 2025)*
 - [215. Using GNN property predictors as molecule generators](#215-using-gnn-property-predictors-as-molecule-generators) *(May 08, 2025)*
@@ -249,8 +250,8 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Nature Computational Science (10 papers)
 
-- [248. Digital Twin for Chemical Science: a case study on water interactions on the Ag(111) surface](#248-digital-twin-for-chemical-science-a-case-study-on-water-interactions-on-the-ag111-surface) *(August 27, 2025)*
-- [224. Rethinking chemical research in the age of large language models](#224-rethinking-chemical-research-in-the-age-of-large-language-models) *(June 24, 2025)*
+- [249. Digital Twin for Chemical Science: a case study on water interactions on the Ag(111) surface](#249-digital-twin-for-chemical-science-a-case-study-on-water-interactions-on-the-ag111-surface) *(August 27, 2025)*
+- [225. Rethinking chemical research in the age of large language models](#225-rethinking-chemical-research-in-the-age-of-large-language-models) *(June 24, 2025)*
 - [188. Balancing autonomy and expertise in autonomous synthesis laboratories](#188-balancing-autonomy-and-expertise-in-autonomous-synthesis-laboratories) *(February 2025)*
 - [144. Promising directions of machine learning for partial differential equations](#144-promising-directions-of-machine-learning-for-partial-differential-equations) *(July 2024)*
 - [127. Designing semiconductor materials and devices in the post-Moore era by tackling computational challenges with data-driven strategies](#127-designing-semiconductor-materials-and-devices-in-the-post-moore-era-by-tackling-computational-challenges-with-data-driven-strategies) *(May 2024)*
@@ -262,7 +263,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Nature Energy (1 papers)
 
-- [239. An actor–critic algorithm to maximize the power delivered from direct methanol fuel cells](#239-an-actor–critic-algorithm-to-maximize-the-power-delivered-from-direct-methanol-fuel-cells) *(August 2025)*
+- [240. An actor–critic algorithm to maximize the power delivered from direct methanol fuel cells](#240-an-actor–critic-algorithm-to-maximize-the-power-delivered-from-direct-methanol-fuel-cells) *(August 2025)*
 
 ### Nature Human Behaviour (1 papers)
 
@@ -270,11 +271,11 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Nature Machine Intelligence (12 papers)
 
-- [260. Towards agentic science for advancing scientific discovery](#260-towards-agentic-science-for-advancing-scientific-discovery) *(September 10, 2025)*
-- [247. A unified pre-trained deep learning framework for cross-task reaction performance prediction and synthesis planning](#247-a-unified-pre-trained-deep-learning-framework-for-cross-task-reaction-performance-prediction-and-synthesis-planning) *(August 19, 2025)*
-- [240. Kolmogorov–Arnold graph neural networks for molecular property prediction](#240-kolmogorov–arnold-graph-neural-networks-for-molecular-property-prediction) *(August 2025)*
-- [229. Enabling large language models for real-world materials discovery](#229-enabling-large-language-models-for-real-world-materials-discovery) *(July 2025)*
-- [225. Large language models to accelerate organic chemistry synthesis](#225-large-language-models-to-accelerate-organic-chemistry-synthesis) *(July 2025)*
+- [261. Towards agentic science for advancing scientific discovery](#261-towards-agentic-science-for-advancing-scientific-discovery) *(September 10, 2025)*
+- [248. A unified pre-trained deep learning framework for cross-task reaction performance prediction and synthesis planning](#248-a-unified-pre-trained-deep-learning-framework-for-cross-task-reaction-performance-prediction-and-synthesis-planning) *(August 19, 2025)*
+- [241. Kolmogorov–Arnold graph neural networks for molecular property prediction](#241-kolmogorov–arnold-graph-neural-networks-for-molecular-property-prediction) *(August 2025)*
+- [230. Enabling large language models for real-world materials discovery](#230-enabling-large-language-models-for-real-world-materials-discovery) *(July 2025)*
+- [226. Large language models to accelerate organic chemistry synthesis](#226-large-language-models-to-accelerate-organic-chemistry-synthesis) *(July 2025)*
 - [186. Battery lifetime prediction across diverse ageing conditions with inter-cell deep learning](#186-battery-lifetime-prediction-across-diverse-ageing-conditions-with-inter-cell-deep-learning) *(February 2025)*
 - [172. Learning spatiotemporal dynamics with a pretrained generative model](#172-learning-spatiotemporal-dynamics-with-a-pretrained-generative-model) *(December 2024)*
 - [160. Machine learning for data-centric epidemic forecasting](#160-machine-learning-for-data-centric-epidemic-forecasting) *(October 2024)*
@@ -285,7 +286,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Nature Materials (6 papers)
 
-- [232. Accelerated data-driven materials science with the Materials Project](#232-accelerated-data-driven-materials-science-with-the-materials-project) *(July 03, 2025)*
+- [233. Accelerated data-driven materials science with the Materials Project](#233-accelerated-data-driven-materials-science-with-the-materials-project) *(July 03, 2025)*
 - [209. Ab initio structure solutions from nanocrystalline powder diffraction data via diffusion models](#209-ab-initio-structure-solutions-from-nanocrystalline-powder-diffraction-data-via-diffusion-models) *(April 28, 2025)*
 - [143. Prediction of DNA origami shape using graph neural network](#143-prediction-of-dna-origami-shape-using-graph-neural-network) *(July 2024)*
 - [108. Active learning guides discovery of a champion four-metal perovskite oxide for oxygen evolution electrocatalysis](#108-active-learning-guides-discovery-of-a-champion-four-metal-perovskite-oxide-for-oxygen-evolution-electrocatalysis) *(January 2024)*
@@ -309,12 +310,12 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Nature Reviews Chemistry (2 papers)
 
-- [252. Developing machine learning for heterogeneous catalysis with experimental and computational data](#252-developing-machine-learning-for-heterogeneous-catalysis-with-experimental-and-computational-data) *(September 2025)*
-- [246. Steering towards safe self-driving laboratories](#246-steering-towards-safe-self-driving-laboratories) *(August 18, 2025)*
+- [253. Developing machine learning for heterogeneous catalysis with experimental and computational data](#253-developing-machine-learning-for-heterogeneous-catalysis-with-experimental-and-computational-data) *(September 2025)*
+- [247. Steering towards safe self-driving laboratories](#247-steering-towards-safe-self-driving-laboratories) *(August 18, 2025)*
 
 ### Nature Reviews Materials (5 papers)
 
-- [258. High-throughput platforms for machine learning-guided lipid nanoparticle design](#258-high-throughput-platforms-for-machine-learning-guided-lipid-nanoparticle-design) *(September 08, 2025)*
+- [259. High-throughput platforms for machine learning-guided lipid nanoparticle design](#259-high-throughput-platforms-for-machine-learning-guided-lipid-nanoparticle-design) *(September 08, 2025)*
 - [173. Multifunctional high-entropy materials](#173-multifunctional-high-entropy-materials) *(December 2024)*
 - [171. Towards the holistic design of alloys with large language models](#171-towards-the-holistic-design-of-alloys-with-large-language-models) *(December 2024)*
 - [36. Nanoparticle synthesis assisted by machine learning](#36-nanoparticle-synthesis-assisted-by-machine-learning) *(August 2021)*
@@ -334,7 +335,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Nature Synthesis (9 papers)
 
-- [259. Molecular-dynamics-simulation-guided directed evolution of flavoenzymes for atroposelective desaturation](#259-molecular-dynamics-simulation-guided-directed-evolution-of-flavoenzymes-for-atroposelective-desaturation) *(September 10, 2025)*
+- [260. Molecular-dynamics-simulation-guided directed evolution of flavoenzymes for atroposelective desaturation](#260-molecular-dynamics-simulation-guided-directed-evolution-of-flavoenzymes-for-atroposelective-desaturation) *(September 10, 2025)*
 - [170. Synthesis of high-entropy materials](#170-synthesis-of-high-entropy-materials) *(December 2024)*
 - [129. Robotic synthesis decoded through phase diagram mastery](#129-robotic-synthesis-decoded-through-phase-diagram-mastery) *(May 2024)*
 - [128. Navigating phase diagram complexity to guide robotic inorganic materials synthesis](#128-navigating-phase-diagram-complexity-to-guide-robotic-inorganic-materials-synthesis) *(May 2024)*
@@ -379,7 +380,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Science Advances (8 papers)
 
-- [244. Accelerated design of gold nanoparticles with enhanced plasmonic performance](#244-accelerated-design-of-gold-nanoparticles-with-enhanced-plasmonic-performance) *(August 15, 2025)*
+- [245. Accelerated design of gold nanoparticles with enhanced plasmonic performance](#245-accelerated-design-of-gold-nanoparticles-with-enhanced-plasmonic-performance) *(August 15, 2025)*
 - [204. Leveraging data mining, active learning, and domain adaptation for efficient discovery of advanced oxygen evolution electrocatalysts](#204-leveraging-data-mining-active-learning-and-domain-adaptation-for-efficient-discovery-of-advanced-oxygen-evolution-electrocatalysts) *(April 04, 2025)*
 - [203. A high-throughput experimentation platform for data-driven discovery in electrochemistry](#203-a-high-throughput-experimentation-platform-for-data-driven-discovery-in-electrochemistry) *(April 04, 2025)*
 - [99. AI-driven robotic chemist for autonomous synthesis of organic molecules](#99-ai-driven-robotic-chemist-for-autonomous-synthesis-of-organic-molecules) *(November 2023)*
@@ -400,12 +401,12 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Scientific Reports (2 papers)
 
-- [238. Deep learning for property prediction of natural fiber polymer composites](#238-deep-learning-for-property-prediction-of-natural-fiber-polymer-composites) *(July 30, 2025)*
+- [239. Deep learning for property prediction of natural fiber polymer composites](#239-deep-learning-for-property-prediction-of-natural-fiber-polymer-composites) *(July 30, 2025)*
 - [105. Data-driven analysis and prediction of stable phases for high-entropy alloy design](#105-data-driven-analysis-and-prediction-of-stable-phases-for-high-entropy-alloy-design) *(December 18, 2023)*
 
 ### npj Computational Materials (6 papers)
 
-- [223. Agent-based multimodal information extraction for nanomaterials](#223-agent-based-multimodal-information-extraction-for-nanomaterials) *(June 23, 2025)*
+- [224. Agent-based multimodal information extraction for nanomaterials](#224-agent-based-multimodal-information-extraction-for-nanomaterials) *(June 23, 2025)*
 - [200. Applications of natural language processing and large language models in materials discovery](#200-applications-of-natural-language-processing-and-large-language-models-in-materials-discovery) *(March 24, 2025)*
 - [66. A general-purpose material property data extraction pipeline from large polymer corpora using natural language processing](#66-a-general-purpose-material-property-data-extraction-pipeline-from-large-polymer-corpora-using-natural-language-processing) *(April 05, 2023)*
 - [45. Distributed representations of atoms and materials for machine learning](#45-distributed-representations-of-atoms-and-materials-for-machine-learning) *(March 18, 2022)*
@@ -416,7 +417,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ## 📑 Papers (Chronological Order)
 
-## 261. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space
+## 262. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space
 
 **Authors:** Trevor Hastings, Mrinalini Mulukutla, Danial Khatamsaz, Daniel Salas, Wenle Xu, Daniel Lewis, Nicole Person, Matthew Skokan, Braden Miller, James Paramore, Brady Butler, Douglas Allaire, Vahid Attari, Ibrahim Karaman, George Pharr, Ankit Srivastava, Raymundo Arróyave
 
@@ -437,7 +438,7 @@ This study introduces BIRDSHOT, an integrated Bayesian materials discovery frame
 
 ---
 
-## 260. Towards agentic science for advancing scientific discovery
+## 261. Towards agentic science for advancing scientific discovery
 
 **Authors:** Hongliang Xin, John R. Kitchin, Heather J. Kulik
 
@@ -456,7 +457,7 @@ Artificial intelligence is transforming scientific discovery through (semi-)auto
 
 ---
 
-## 259. Molecular-dynamics-simulation-guided directed evolution of flavoenzymes for atroposelective desaturation
+## 260. Molecular-dynamics-simulation-guided directed evolution of flavoenzymes for atroposelective desaturation
 
 **Authors:** Hong-Ning Yin, Zhao Chen, Xiang Zhao, Zihan Liu, Feng Yu, Sanduo Zheng, Niu Huang, Zhen Liu
 
@@ -475,7 +476,7 @@ Molecular-dynamics-simulation-guided evolution of flavoenzymes produces efficien
 
 ---
 
-## 258. High-throughput platforms for machine learning-guided lipid nanoparticle design
+## 259. High-throughput platforms for machine learning-guided lipid nanoparticle design
 
 **Authors:** Andrew R. Hanna, David A. Issadore, Michael J. Mitchell
 
@@ -494,7 +495,7 @@ Discovering lipid nanoparticles for unmet clinical needs relies heavily on the s
 
 ---
 
-## 257. AI-Driven Defect Engineering for Advanced Thermoelectric Materials
+## 258. AI-Driven Defect Engineering for Advanced Thermoelectric Materials
 
 **Authors:** Chu-Liang Fu, Mouyang Cheng, Nguyen Tuan Hung, Eunbi Rha, Zhantao Chen, Ryotaro Okabe, Denisse Córdova Carrizales, Manasi Mandal, Yongqiang Cheng, Mingda Li
 
@@ -515,7 +516,7 @@ Thermoelectric materials offer a promising pathway to directly convert waste hea
 
 ---
 
-## 256. Artificial Intelligence-Driven Approaches in Semiconductor Research
+## 257. Artificial Intelligence-Driven Approaches in Semiconductor Research
 
 **Authors:** Yiqiang Zheng, Hao Xu, Zhexin Li, Linlin Li, Yongchao Yu, Pengfei Jiang, Yanmeng Shi, Jing Zhang, Yuqing Huang, Qing Luo, Zheng Lou, Lili Wang
 
@@ -536,7 +537,7 @@ To address the persistent challenges of scaling and power consumption in integra
 
 ---
 
-## 255. Supervised learning in DNA neural networks
+## 256. Supervised learning in DNA neural networks
 
 **Authors:** Kevin M. Cherry, Lulu Qian
 
@@ -555,7 +556,7 @@ Learning enables biological organisms to begin life simple yet develop immensely
 
 ---
 
-## 254. Machine learning in X-ray diffraction for materials discovery and characterization
+## 255. Machine learning in X-ray diffraction for materials discovery and characterization
 
 **Authors:** Connor Davel, Nazanin Bassiri-Gharb, Juan-Pablo Correa-Baena
 
@@ -574,7 +575,7 @@ No abstract available
 
 ---
 
-## 253. A generalizable pathology foundation model using a unified knowledge distillation pretraining framework
+## 254. A generalizable pathology foundation model using a unified knowledge distillation pretraining framework
 
 **Authors:** Jiabo Ma, Zhengrui Guo, Fengtao Zhou, Yihui Wang, Yingxue Xu, Jinbang Li, Fang Yan, Yu Cai, Zhengjie Zhu, Cheng Jin, Yi Lin, Xinrui Jiang, Chenglong Zhao, Danyi Li, Anjia Han, Zhenhui Li, Ronald Cheong Kin Chan, Jiguang Wang, Peng Fei, Kwang-Ting Cheng, Shaoting Zhang, Li Liang, Hao Chen
 
@@ -593,7 +594,7 @@ Generalizable Pathology Foundation Model (GPFM) consolidates expertise from a va
 
 ---
 
-## 252. Developing machine learning for heterogeneous catalysis with experimental and computational data
+## 253. Developing machine learning for heterogeneous catalysis with experimental and computational data
 
 **Authors:** Carlota Bozal-Ginesta, Sergio Pablo-García, Changhyeok Choi, Albert Tarancón, Alán Aspuru-Guzik
 
@@ -614,7 +615,7 @@ Machine learning aids heterogeneous catalysis research by linking performance to
 
 ---
 
-## 251. Electron flow matching for generative reaction mechanism prediction
+## 252. Electron flow matching for generative reaction mechanism prediction
 
 **Authors:** Joonyoung F. Joung, Mun Hong Fong, Nicholas Casetti, Jordan P. Liles, Ne S. Dassanayake, Connor W. Coley
 
@@ -635,7 +636,7 @@ A new tool based on generative machine learning called FlowER uses flow matching
 
 ---
 
-## 250. Generalizable descriptors for automatic titanium alloys design by learning from texts via large language model
+## 251. Generalizable descriptors for automatic titanium alloys design by learning from texts via large language model
 
 **Authors:** Ping Wang, Yuan Jiang, Weijie Liao, Rong Wang, Minjie Lai, Hongchao Kou, Xiubing Liang, Jinshan Li, Turab Lookman, Ruihao Yuan
 
@@ -656,7 +657,7 @@ Descriptors are essential prerequisites for the success of machine learning-base
 
 ---
 
-## 249. One-shot design of functional protein binders with BindCraft
+## 250. One-shot design of functional protein binders with BindCraft
 
 **Authors:** Martin Pacesa, Lennart Nickel, Christian Schellhaas, Joseph Schmidt, Ekaterina Pyatova, Lucas Kissling, Patrick Barendse, Jagrity Choudhury, Srajan Kapoor, Ana Alcaraz-Serna, Yehlin Cho, Kourosh H. Ghamary, Laura Vinué, Brahm J. Yachnin, Andrew M. Wollacott, Stephen Buckley, Adrie H. Westphal, Simon Lindhoud, Sandrine Georgeon, Casper A. Goverde, Georgios N. Hatzopoulos, Pierre Gönczy, Yannick D. Muller, Gerald Schwank, Daan C. Swarts, Alex J. Vecchio, Bernard L. Schneider, Sergey Ovchinnikov, Bruno E. Correia
 
@@ -675,7 +676,7 @@ Protein–protein interactions are at the core of all key biological processes. 
 
 ---
 
-## 248. Digital Twin for Chemical Science: a case study on water interactions on the Ag(111) surface
+## 249. Digital Twin for Chemical Science: a case study on water interactions on the Ag(111) surface
 
 **Authors:** Jin Qian, Asmita Jana, Siddarth Menon, Andrew E. Bogdan, Rebecca Hamlyn, Johannes Mahl, Ethan J. Crumlin
 
@@ -694,7 +695,7 @@ Directly visualizing chemical trajectories offers insights into catalysis, gas-p
 
 ---
 
-## 247. A unified pre-trained deep learning framework for cross-task reaction performance prediction and synthesis planning
+## 248. A unified pre-trained deep learning framework for cross-task reaction performance prediction and synthesis planning
 
 **Authors:** Li-Cheng Xu, Miao-Jiong Tang, Junyi An, Fenglei Cao, Yuan Qi
 
@@ -713,7 +714,7 @@ Xu et al. present RXNGraphormer, a pre-trained model that learns bond transforma
 
 ---
 
-## 246. Steering towards safe self-driving laboratories
+## 247. Steering towards safe self-driving laboratories
 
 **Authors:** Shi Xuan Leong, Caleb E. Griesbach, Rui Zhang, Kourosh Darvish, Yuchi Zhao, Abhijoy Mandal, Yunheng Zou, Han Hao, Varinia Bernales, Alán Aspuru-Guzik
 
@@ -732,7 +733,7 @@ Self-driving laboratories promise accelerated discovery. As the scope of chemica
 
 ---
 
-## 245. An automated framework for exploring and learning potential-energy surfaces
+## 246. An automated framework for exploring and learning potential-energy surfaces
 
 **Authors:** Yuanbin Liu, Joe D. Morrow, Christina Ertural, Natascia L. Fragapane, John L. A. Gardner, Aakash A. Naik, Yuxing Zhou, Janine George, Volker L. Deringer
 
@@ -753,7 +754,7 @@ Machine learning has become ubiquitous in materials modelling and now routinely 
 
 ---
 
-## 244. Accelerated design of gold nanoparticles with enhanced plasmonic performance
+## 245. Accelerated design of gold nanoparticles with enhanced plasmonic performance
 
 **Authors:** José Luis Montaño-Priede, Anish Rao, Ana Sánchez-Iglesias, Marek Grzelczak
 
@@ -774,7 +775,7 @@ Finding the optimal dimensions of metal nanoparticles to maximize their plasmoni
 
 ---
 
-## 243. Empowering Generalist Material Intelligence with Large Language Models
+## 244. Empowering Generalist Material Intelligence with Large Language Models
 
 **Authors:** Wenhao Yuan, Guangyao Chen, Zhilong Wang, Fengqi You
 
@@ -795,7 +796,7 @@ Large language models (LLMs) are steering the development of generalist material
 
 ---
 
-## 242. SAGERank: inductive learning of protein–protein interaction from antibody–antigen recognition
+## 243. SAGERank: inductive learning of protein–protein interaction from antibody–antigen recognition
 
 **Authors:** Chuance Sun, Xiangyi Li, Honglin Xu, Yike Tang, Ganggang Bai, Yanjing Wang, Buyong Ma
 
@@ -812,7 +813,7 @@ Predicting Antibody–Antigen (Ab–Ag) docking and structure-based design repre
 
 ---
 
-## 241. Data-driven de novo design of super-adhesive hydrogels
+## 242. Data-driven de novo design of super-adhesive hydrogels
 
 **Authors:** Hongguang Liao, Sheng Hu, Hu Yang, Lei Wang, Shinya Tanaka, Ichigaku Takigawa, Wei Li, Hailong Fan, Jian Ping Gong
 
@@ -833,7 +834,7 @@ Data-driven methodologies have transformed the discovery and prediction of hard 
 
 ---
 
-## 240. Kolmogorov–Arnold graph neural networks for molecular property prediction
+## 241. Kolmogorov–Arnold graph neural networks for molecular property prediction
 
 **Authors:** Longlong Li, Yipeng Zhang, Guanghui Wang, Kelin Xia
 
@@ -854,7 +855,7 @@ Graph neural networks (GNNs) have shown remarkable success in molecular property
 
 ---
 
-## 239. An actor–critic algorithm to maximize the power delivered from direct methanol fuel cells
+## 240. An actor–critic algorithm to maximize the power delivered from direct methanol fuel cells
 
 **Authors:** Hongbin Xu, Yang Jeong Park, Zhichu Ren, Daniel J. Zheng, Davide Menga, Haojun Jia, Chenru Duan, Guanzhou Zhu, Yuriy Román-Leshkov, Yang Shao-Horn, Ju Li
 
@@ -875,7 +876,7 @@ Direct methanol fuel cells offer high energy densities but face challenges inclu
 
 ---
 
-## 238. Deep learning for property prediction of natural fiber polymer composites
+## 239. Deep learning for property prediction of natural fiber polymer composites
 
 **Authors:** Ivan P. Malashin, Dmitry Martysyuk, Vladimir Nelyub, Aleksei Borodulin, Andrei Gantimurov, Vadim Tynchenko
 
@@ -896,7 +897,7 @@ The increasing availability of diverse experimental and computational data has a
 
 ---
 
-## 237. Accelerating primer design for amplicon sequencing using large language model-powered agents
+## 238. Accelerating primer design for amplicon sequencing using large language model-powered agents
 
 **Authors:** Yi Wang, Yuejie Hou, Lin Yang, Shisen Li, Weiting Tang, Hui Tang, Qiushun He, Siyuan Lin, Yanyan Zhang, Xingyu Li, Shiwen Chen, Yusheng Huang, Lingsong Kong, Huijun Zhang, Duncan Yu, Feng Mu, Huanming Yang, Jian Wang, Nattiya Hirankarn, Meng Yang
 
@@ -915,7 +916,7 @@ The PrimeGen framework is a multi-agent large language model system used to navi
 
 ---
 
-## 236. The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies
+## 237. The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies
 
 **Authors:** Kyle Swanson, Wesley Wu, Nash L. Bulaong, John E. Pak, James Zou
 
@@ -934,7 +935,7 @@ Human collaboration with a team of artificial intelligence (AI) agents powered b
 
 ---
 
-## 235. Biomimetic Intelligent Thermal Management Materials: From Nature-Inspired Design to Machine-Learning-Driven Discovery
+## 236. Biomimetic Intelligent Thermal Management Materials: From Nature-Inspired Design to Machine-Learning-Driven Discovery
 
 **Authors:** Heng Zhang, Qingxia He, Fei Zhang, Yanshuai Duan, Mengmeng Qin, Wei Feng
 
@@ -955,7 +956,7 @@ The development of biomimetic intelligent thermal management materials (BITMs) i
 
 ---
 
-## 234. Generative AI enables medical image segmentation in ultra low-data regimes
+## 235. Generative AI enables medical image segmentation in ultra low-data regimes
 
 **Authors:** Li Zhang, Basu Jindal, Ahmed Alaa, Robert Weinreb, David Wilson, Eran Segal, James Zou, Pengtao Xie
 
@@ -976,7 +977,7 @@ Semantic segmentation of medical images is pivotal in applications like disease 
 
 ---
 
-## 233. Artificial Intelligence Paradigms for Next-Generation Metal–Organic Framework Research
+## 234. Artificial Intelligence Paradigms for Next-Generation Metal–Organic Framework Research
 
 **Authors:** Aydin Ozcan, François-Xavier Coudert, Sven M. J. Rogge, Greta Heydenrych, Dong Fan, Antonios P. Sarikas, Seda Keskin, Guillaume Maurin, George E. Froudakis, Stefan Wuttke, Ilknur Erucar
 
@@ -997,7 +998,7 @@ After the development of the famous “Transformer” network architecture and t
 
 ---
 
-## 232. Accelerated data-driven materials science with the Materials Project
+## 233. Accelerated data-driven materials science with the Materials Project
 
 **Authors:** Matthew K. Horton, Patrick Huck, Ruo Xi Yang, Jason M. Munro, Shyam Dwaraknath, Alex M. Ganose, Ryan S. Kingsbury, Mingjian Wen, Jimmy X. Shen, Tyler S. Mathis, Aaron D. Kaplan, Karlo Berket, Janosh Riebesell, Janine George, Andrew S. Rosen, Evan W. C. Spotte-Smith, Matthew J. McDermott, Orion A. Cohen, Alex Dunn, Matthew C. Kuner, Gian-Marco Rignanese, Guido Petretto, David Waroquiers, Sinead M. Griffin, Jeffrey B. Neaton, Daryl C. Chrzan, Mark Asta, Geoffroy Hautier, Shreyas Cholia, Gerbrand Ceder, Shyue Ping Ong, Anubhav Jain, Kristin A. Persson
 
@@ -1016,7 +1017,7 @@ Materials design and informatics have become increasingly prominent over the pas
 
 ---
 
-## 231. Natural-Language-Interfaced Robotic Synthesis for AI-Copilot-Assisted Exploration of Inorganic Materials
+## 232. Natural-Language-Interfaced Robotic Synthesis for AI-Copilot-Assisted Exploration of Inorganic Materials
 
 **Authors:** Lin Huang, Chao Zhang, Yun Fu, Yibin Jiang, Enyu He, Ming-Qiang Qi, Ming-Hao Du, Xiang-Jian Kong, Jun Cheng, Leroy Cronin, Cheng Wang
 
@@ -1037,7 +1038,7 @@ The automation of chemical synthesis presents opportunities to enhance experimen
 
 ---
 
-## 230. Self-Evolving Discovery of Carrier Biomaterials with Ultra-Low Nonspecific Protein Adsorption for Single Cell Analysis
+## 231. Self-Evolving Discovery of Carrier Biomaterials with Ultra-Low Nonspecific Protein Adsorption for Single Cell Analysis
 
 **Authors:** Songtao Hu, Wenhui Lu, Xijia Ding, Yingying Xue, Congcong Liu, Tian Xie, Yinjun Deng, Haoran Li, Zhuocheng Gong, Yanming Xia, Peishen He, Lingliao Zeng, Zhong Wang, Jian Jin, Zhi Luo, Xi Shi, Zhike Peng, Tao Xu, Xiaobao Cao
 
@@ -1058,7 +1059,7 @@ Carrier biomaterials used in single-cell analysis face a bottleneck in protein d
 
 ---
 
-## 229. Enabling large language models for real-world materials discovery
+## 230. Enabling large language models for real-world materials discovery
 
 **Authors:** Santiago Miret, N. M. Anoop Krishnan
 
@@ -1079,7 +1080,7 @@ Miret and Krishnan discuss the promise of large language models (LLMs) to revolu
 
 ---
 
-## 228. A generalized platform for artificial intelligence-powered autonomous enzyme engineering
+## 229. A generalized platform for artificial intelligence-powered autonomous enzyme engineering
 
 **Authors:** Nilmani Singh, Stephan Lane, Tianhao Yu, Jingxia Lu, Adrianna Ramos, Haiyang Cui, Huimin Zhao
 
@@ -1100,7 +1101,7 @@ Proteins are the molecular machines of life with numerous applications in energy
 
 ---
 
-## 227. Machine-learning design of ductile FeNiCoAlTa alloys with high strength
+## 228. Machine-learning design of ductile FeNiCoAlTa alloys with high strength
 
 **Authors:** Yasir Sohail, Chongle Zhang, Dezhen Xue, Jinyu Zhang, Dongdong Zhang, Shaohua Gao, Yang Yang, Xiaoxuan Fan, Hang Zhang, Gang Liu, Jun Sun, En Ma
 
@@ -1121,7 +1122,7 @@ The pursuit of strong yet ductile alloys has been ongoing for centuries. However
 
 ---
 
-## 226. Ultrabroadband and band-selective thermal meta-emitters by machine learning
+## 227. Ultrabroadband and band-selective thermal meta-emitters by machine learning
 
 **Authors:** Chengyu Xiao, Mengqi Liu, Kan Yao, Yifan Zhang, Mengqi Zhang, Max Yan, Ya Sun, Xianghui Liu, Xuanyu Cui, Tongxiang Fan, Changying Zhao, Wansu Hua, Yinqiao Ying, Yuebing Zheng, Di Zhang, Cheng-Wei Qiu, Han Zhou
 
@@ -1142,7 +1143,7 @@ An unconventional&nbsp;machine learning-based inverse design framework enables t
 
 ---
 
-## 225. Large language models to accelerate organic chemistry synthesis
+## 226. Large language models to accelerate organic chemistry synthesis
 
 **Authors:** Yu Zhang, Yang Han, Shuai Chen, Ruijie Yu, Xin Zhao, Xianbin Liu, Kaipeng Zeng, Mengdi Yu, Jidong Tian, Feng Zhu, Xiaokang Yang, Yaohui Jin, Yanyan Xu
 
@@ -1163,7 +1164,7 @@ Large language models (LLMs) can be useful tools for science, but they often lac
 
 ---
 
-## 224. Rethinking chemical research in the age of large language models
+## 225. Rethinking chemical research in the age of large language models
 
 **Authors:** Robert MacKnight, Daniil A. Boiko, Jose Emilio Regio, Liliana C. Gallegos, Théo A. Neukomm, Gabe Gomes
 
@@ -1182,7 +1183,7 @@ This Perspective highlights the potential integrations of large language models 
 
 ---
 
-## 223. Agent-based multimodal information extraction for nanomaterials
+## 224. Agent-based multimodal information extraction for nanomaterials
 
 **Authors:** R. Odobesku, K. Romanova, S. Mirzaeva, O. Zagorulko, R. Sim, R. Khakimullin, J. Razlivina, A. Dmitrenko, V. Vinogradov
 
@@ -1200,6 +1201,27 @@ This Perspective highlights the potential integrations of large language models 
 Automating structured data extraction from scientific literature is a critical challenge with broad implications across domains. We introduce nanoMINER, a multi-agent system combining large language models and multimodal analysis to extract essential information from scientific research articles on nanomaterials. This system processes documents end-to-end, utilizing tools such as YOLO for visual data extraction and GPT-4o for linking textual and visual information. At its core, the ReAct agent orchestrates specialized agents to ensure comprehensive data extraction. We demonstrate the efficacy of the system by automating the assembly of nanomaterial and nanozyme datasets previously manually curated by domain experts. NanoMINER achieves high precision in extracting nanomaterial properties like chemical formulas, crystal systems, and surface characteristics. For nanozymes, we obtain near-perfect precision (0.98) for kinetic parameters and essential features such as Cmin and Cmax. To benchmark the system performance, we also compare nanoMINER to several baseline LLMs, including the most recent multimodal GPT-4.1, and show consistently higher extraction precision and recall. Our approach is extensible to other domains of materials science and fields like biomedicine, advancing data-driven research methodologies and automated knowledge extraction.
 
 **Tags:** Heterogeneous catalysis, Nanoscale materials
+
+---
+
+## 223. Data-Driven Design of Random Heteropolypeptides as Synthetic Polyclonal Antibodies
+
+**Authors:** Haisen Zhou, Guangqi Wu, Zuo Zhang, Zhen Zhu, Tanfeng Zhao, Qiankang Zhou, Haolin Chen, Zhenzhong Zhao, Yuanhao Dai, Xiaodong Jing, Wei Ji, Xuehai Yan, Lijiang Yang, Yiqin Gao, Huan Wang, Hua Lu
+
+**Venue:** Journal of the American Chemical Society
+
+**Publication Date:** June 18, 2025
+
+**Volume & Issue:** Volume 147, Issue 24
+
+**Pages:** 21077-21088
+
+**DOI:** 10.1021/jacs.5c06240
+
+**Abstract:**
+Antibodies are indispensable in biomedicine. However, conventional antibody development faces challenges, including high costs and lengthy production timelines spanning months. Here, we present a data-driven workflow for engineering random heteropolypeptides (RHPs) as synthetic polyclonal antibodies (SpAbs) with programmable binding properties. By combining high-throughput synthesis of selenopolypeptide derivatives with algorithm-assisted optimization, we rapidly identified SpAbs targeting human interferon-α (IFN) and tumor necrosis factor-α (TNF-α) within 2 weeks. The SpAbs exhibited binding affinities comparable to natural antibodies, with the top candidate achieving a dissociation constant of 7.9 nM for TNF-α and 418-fold selectivity over human serum albumin, effectively neutralizing TNF-α-induced cytotoxicity. Liquid-phase electron microscopy revealed flexible, intrinsically disordered protein-like conformations and folding-upon-binding dynamics. This study establishes a robust framework for SpAb discovery, demonstrating that sequence-independent RHPs can serve as functional antibody mimics with tunable binding properties, rapid optimization, and broad potential in diagnostics and therapeutics.
+
+**Tags:** None
 
 ---
 
@@ -5852,6 +5874,6 @@ Finding new materials with targeted properties has traditionally been guided by 
 ---
 
 
-**Total Papers:** 261
+**Total Papers:** 262
 
-**Generation Time:** 2025-09-16 00:20:36
+**Generation Time:** 2025-09-16 01:11:14
