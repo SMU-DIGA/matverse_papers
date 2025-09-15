@@ -22,7 +22,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Acta Materialia (6 papers)
 
-- [262. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space](#262-accelerated-multi-objective-alloy-discovery-through-efficient-bayesian-methods-application-to-the-fcc-high-entropy-alloy-space) *(September 15, 2025)*
+- [263. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space](#263-accelerated-multi-objective-alloy-discovery-through-efficient-bayesian-methods-application-to-the-fcc-high-entropy-alloy-space) *(September 15, 2025)*
 - [251. Generalizable descriptors for automatic titanium alloys design by learning from texts via large language model](#251-generalizable-descriptors-for-automatic-titanium-alloys-design-by-learning-from-texts-via-large-language-model) *(September 01, 2025)*
 - [218. A novel training-free approach to efficiently extracting material microstructures via visual large model](#218-a-novel-training-free-approach-to-efficiently-extracting-material-microstructures-via-visual-large-model) *(May 15, 2025)*
 - [196. Developing novel low-density high-entropy superalloys with high strength and superior creep resistance guided by automated machine learning](#196-developing-novel-low-density-high-entropy-superalloys-with-high-strength-and-superior-creep-resistance-guided-by-automated-machine-learning) *(February 15, 2025)*
@@ -100,6 +100,10 @@ This section provides a quick overview of papers organized by publication venue 
 ### Computational Materials Science (1 papers)
 
 - [212. Large language model-driven database for thermoelectric materials](#212-large-language-model-driven-database-for-thermoelectric-materials) *(May 01, 2025)*
+
+### Journal of Molecular Biology (1 papers)
+
+- [262. Structural Insights into Autophagy in the AlphaFold Era](#262-structural-insights-into-autophagy-in-the-alphafold-era) *(September 15, 2025)*
 
 ### Journal of the American Chemical Society (15 papers)
 
@@ -417,7 +421,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ## 📑 Papers (Chronological Order)
 
-## 262. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space
+## 263. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space
 
 **Authors:** Trevor Hastings, Mrinalini Mulukutla, Danial Khatamsaz, Daniel Salas, Wenle Xu, Daniel Lewis, Nicole Person, Matthew Skokan, Braden Miller, James Paramore, Brady Butler, Douglas Allaire, Vahid Attari, Ibrahim Karaman, George Pharr, Ankit Srivastava, Raymundo Arróyave
 
@@ -435,6 +439,27 @@ This section provides a quick overview of papers organized by publication venue 
 This study introduces BIRDSHOT, an integrated Bayesian materials discovery framework designed to efficiently explore complex compositional spaces while optimizing multiple material properties. We applied this framework to the CoCrFeNiVAl FCC high entropy alloy (HEA) system, targeting three key performance objectives: ultimate tensile strength/yield strength ratio, hardness, and strain rate sensitivity. The experimental campaign employed an integrated cyber-physical approach that combined vacuum arc melting (VAM) for alloy synthesis with advanced mechanical testing, including tensile and high-strain-rate nanoindentation testing. By incorporating batch Bayesian optimization schemes that allowed the parallel exploration of the alloy space, we completed five iterative design-make-test-learn loops, identifying a non-trivial three-objective Pareto set in a high-dimensional alloy space. Notably, this was achieved by exploring only 0.15 % of the feasible design space, representing a significant acceleration in discovery rate relative to traditional methods. This work demonstrates the capability of BIRDSHOT to navigate complex, multi-objective optimization challenges and highlights its potential for broader application in accelerating materials discovery.
 
 **Tags:** Bayesian optimization, High-throughput, Machine learning, Materials discovery, Multi-objective optimization
+
+---
+
+## 262. Structural Insights into Autophagy in the AlphaFold Era
+
+**Authors:** Tatsuro Maruyama, Nobuo N. Noda
+
+**Venue:** Journal of Molecular Biology
+
+**Publication Date:** September 15, 2025
+
+**Volume & Issue:** Volume 437, Issue 18
+
+**Pages:** 169235
+
+**DOI:** 10.1016/j.jmb.2025.169235
+
+**Abstract:**
+Autophagy, a lysosomal intracellular degradation system, is characterized by the de novo biogenesis of autophagosomes. This biogenesis is mediated by approximately 20 core Atg proteins, exhibiting a high degree of conservation from yeast to humans. Over the preceding two decades, the structural biology of autophagy has been investigated predominantly through X-ray crystallography, NMR spectroscopy, and, more recently, cryo-electron microscopy, collectively contributing to the elucidation of the structural basis of core Atg proteins. The recent introduction of AlphaFold has significantly improved the precision of structure prediction and is transforming structural biology research. In this review, we aim to synthesize the structural basis of the operational mechanisms of the core Atg proteins, employing structures predicted by AlphaFold, and to discuss the molecular mechanisms that drive autophagosome biogenesis.
+
+**Tags:** AlphaFold, AlphaFold2, AlphaFold3, autophagosome formation, autophagy
 
 ---
 
@@ -5874,6 +5899,6 @@ Finding new materials with targeted properties has traditionally been guided by 
 ---
 
 
-**Total Papers:** 262
+**Total Papers:** 263
 
-**Generation Time:** 2025-09-16 01:22:47
+**Generation Time:** 2025-09-16 01:30:57
