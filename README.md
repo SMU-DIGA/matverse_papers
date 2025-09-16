@@ -379,6 +379,27 @@ This section provides a quick overview of papers organized by publication venue 
 
 - [15. Molecular Dynamics Simulation for All](#15-molecular-dynamics-simulation-for-all) *(September 19, 2018)*
 
+### Preprint (18 papers)
+
+- [299. From Automation to Autonomy: A Survey on Large Language Models in Scientific Discovery](#299-from-automation-to-autonomy-a-survey-on-large-language-models-in-scientific-discovery) *(August 30, 2025)*
+- [288. Chem3DLLM: 3D Multimodal Large Language Models for Chemistry](#288-chem3dllm-3d-multimodal-large-language-models-for-chemistry) *(August 14, 2025)*
+- [282. GenoMAS: A Multi-Agent Framework for Scientific Discovery via Code-Driven Gene Expression Analysis](#282-genomas-a-multi-agent-framework-for-scientific-discovery-via-code-driven-gene-expression-analysis) *(July 31, 2025)*
+- [276. Atomistic Generative Diffusion for Materials Modeling](#276-atomistic-generative-diffusion-for-materials-modeling) *(July 24, 2025)*
+- [274. AutoMAT: A Hierarchical Framework for Autonomous Alloy Discovery](#274-automat-a-hierarchical-framework-for-autonomous-alloy-discovery) *(July 21, 2025)*
+- [273. DiffuMeta: Algebraic Language Models for Inverse Design of Metamaterials via Diffusion Transformers](#273-diffumeta-algebraic-language-models-for-inverse-design-of-metamaterials-via-diffusion-transformers) *(July 21, 2025)*
+- [270. AlphaGenome: advancing regulatory variant effect prediction with a unified DNA sequence model](#270-alphagenome-advancing-regulatory-variant-effect-prediction-with-a-unified-dna-sequence-model) *(July 11, 2025)*
+- [257. UMA: A Family of Universal Models for Atoms](#257-uma-a-family-of-universal-models-for-atoms) *(June 30, 2025)*
+- [252. Agents for self-driving laboratories applied to quantum computing](#252-agents-for-self-driving-laboratories-applied-to-quantum-computing) *(June 05, 2025)*
+- [248. Biomni: A General-Purpose Biomedical AI Agent](#248-biomni-a-general-purpose-biomedical-ai-agent) *(June 02, 2025)*
+- [234. MatterChat: A Multi-Modal LLM for Material Science](#234-matterchat-a-multi-modal-llm-for-material-science) *(April 26, 2025)*
+- [231. Learning Smooth and Expressive Interatomic Potentials for Physical Property Prediction](#231-learning-smooth-and-expressive-interatomic-potentials-for-physical-property-prediction) *(April 23, 2025)*
+- [206. InterPLM: Discovering Interpretable Features in Protein Language Models via Sparse Autoencoders](#206-interplm-discovering-interpretable-features-in-protein-language-models-via-sparse-autoencoders) *(January 28, 2025)*
+- [178. Open Materials 2024 (OMat24) Inorganic Materials Dataset and Models](#178-open-materials-2024-omat24-inorganic-materials-dataset-and-models) *(October 16, 2024)*
+- [174. De novo design of high-affinity protein binders with AlphaProteo](#174-de-novo-design-of-high-affinity-protein-binders-with-alphaproteo) *(September 12, 2024)*
+- [156. LLMatDesign: Autonomous Materials Discovery with Large Language Models](#156-llmatdesign-autonomous-materials-discovery-with-large-language-models) *(June 19, 2024)*
+- [150. Scalable Diffusion for Materials Generation](#150-scalable-diffusion-for-materials-generation) *(June 03, 2024)*
+- [142. MatterSim: A Deep Learning Atomistic Model Across Elements, Temperatures and Pressures](#142-mattersim-a-deep-learning-atomistic-model-across-elements-temperatures-and-pressures) *(May 10, 2024)*
+
 ### Proceedings of the National Academy of Sciences (2 papers)
 
 - [213. Automating the practice of science: Opportunities, challenges, and implications](#213-automating-the-practice-of-science-opportunities-challenges-and-implications) *(February 04, 2025)*
@@ -440,27 +461,6 @@ This section provides a quick overview of papers organized by publication venue 
 ### Small (1 papers)
 
 - [241. Discovery of Sustainable Energy Materials Via the Machine-Learned Material Space](#241-discovery-of-sustainable-energy-materials-via-the-machine-learned-material-space) *(May 05, 2025)*
-
-### Unknown (18 papers)
-
-- [299. From Automation to Autonomy: A Survey on Large Language Models in Scientific Discovery](#299-from-automation-to-autonomy-a-survey-on-large-language-models-in-scientific-discovery) *(August 30, 2025)*
-- [288. Chem3DLLM: 3D Multimodal Large Language Models for Chemistry](#288-chem3dllm-3d-multimodal-large-language-models-for-chemistry) *(August 14, 2025)*
-- [282. GenoMAS: A Multi-Agent Framework for Scientific Discovery via Code-Driven Gene Expression Analysis](#282-genomas-a-multi-agent-framework-for-scientific-discovery-via-code-driven-gene-expression-analysis) *(July 31, 2025)*
-- [276. Atomistic Generative Diffusion for Materials Modeling](#276-atomistic-generative-diffusion-for-materials-modeling) *(July 24, 2025)*
-- [274. AutoMAT: A Hierarchical Framework for Autonomous Alloy Discovery](#274-automat-a-hierarchical-framework-for-autonomous-alloy-discovery) *(July 21, 2025)*
-- [273. DiffuMeta: Algebraic Language Models for Inverse Design of Metamaterials via Diffusion Transformers](#273-diffumeta-algebraic-language-models-for-inverse-design-of-metamaterials-via-diffusion-transformers) *(July 21, 2025)*
-- [270. AlphaGenome: advancing regulatory variant effect prediction with a unified DNA sequence model](#270-alphagenome-advancing-regulatory-variant-effect-prediction-with-a-unified-dna-sequence-model) *(July 11, 2025)*
-- [257. UMA: A Family of Universal Models for Atoms](#257-uma-a-family-of-universal-models-for-atoms) *(June 30, 2025)*
-- [252. Agents for self-driving laboratories applied to quantum computing](#252-agents-for-self-driving-laboratories-applied-to-quantum-computing) *(June 05, 2025)*
-- [248. Biomni: A General-Purpose Biomedical AI Agent](#248-biomni-a-general-purpose-biomedical-ai-agent) *(June 02, 2025)*
-- [234. MatterChat: A Multi-Modal LLM for Material Science](#234-matterchat-a-multi-modal-llm-for-material-science) *(April 26, 2025)*
-- [231. Learning Smooth and Expressive Interatomic Potentials for Physical Property Prediction](#231-learning-smooth-and-expressive-interatomic-potentials-for-physical-property-prediction) *(April 23, 2025)*
-- [206. InterPLM: Discovering Interpretable Features in Protein Language Models via Sparse Autoencoders](#206-interplm-discovering-interpretable-features-in-protein-language-models-via-sparse-autoencoders) *(January 28, 2025)*
-- [178. Open Materials 2024 (OMat24) Inorganic Materials Dataset and Models](#178-open-materials-2024-omat24-inorganic-materials-dataset-and-models) *(October 16, 2024)*
-- [174. De novo design of high-affinity protein binders with AlphaProteo](#174-de-novo-design-of-high-affinity-protein-binders-with-alphaproteo) *(September 12, 2024)*
-- [156. LLMatDesign: Autonomous Materials Discovery with Large Language Models](#156-llmatdesign-autonomous-materials-discovery-with-large-language-models) *(June 19, 2024)*
-- [150. Scalable Diffusion for Materials Generation](#150-scalable-diffusion-for-materials-generation) *(June 03, 2024)*
-- [142. MatterSim: A Deep Learning Atomistic Model Across Elements, Temperatures and Pressures](#142-mattersim-a-deep-learning-atomistic-model-across-elements-temperatures-and-pressures) *(May 10, 2024)*
 
 ### npj Computational Materials (16 papers)
 
@@ -750,7 +750,7 @@ Descriptors are essential prerequisites for the success of machine learning-base
 
 **Authors:** Tianshi Zheng, Zheye Deng, Hong Ting Tsang, Weiqi Wang, Jiaxin Bai, Zihao Wang, Yangqiu Song
 
-**Venue:** Unknown
+**Venue:** Preprint
 
 **Publication Date:** August 30, 2025
 
@@ -969,7 +969,7 @@ Finding the optimal dimensions of metal nanoparticles to maximize their plasmoni
 
 **Authors:** Lei Jiang, Shuzhou Sun, Biqing Qi, Yuchen Fu, Xiaohua Xu, Yuqiang Li, Dongzhan Zhou, Tianfan Fu
 
-**Venue:** Unknown
+**Venue:** Preprint
 
 **Publication Date:** August 14, 2025
 
@@ -1087,7 +1087,7 @@ Direct methanol fuel cells offer high energy densities but face challenges inclu
 
 **Authors:** Haoyang Liu, Yijiang Li, Haohan Wang
 
-**Venue:** Unknown
+**Venue:** Preprint
 
 **Publication Date:** July 31, 2025
 
@@ -1205,7 +1205,7 @@ The development of biomimetic intelligent thermal management materials (BITMs) i
 
 **Authors:** Nikolaj Rønne, Bjørk Hammer
 
-**Venue:** Unknown
+**Venue:** Preprint
 
 **Publication Date:** July 24, 2025
 
@@ -1243,7 +1243,7 @@ Electrolytes are an essential part of rechargeable batteries, such as lithium ba
 
 **Authors:** Penghui Yang, Chendong Zhao, Bijun Tang, Zhonghan Zhang, Xinrun Wang, Yanchen Deng, Yuhao Lu, Cuntai Guan, Zheng Liu, Bo An
 
-**Venue:** Unknown
+**Venue:** Preprint
 
 **Publication Date:** July 21, 2025
 
@@ -1260,7 +1260,7 @@ Alloy discovery is central to advancing modern industry but remains hindered by 
 
 **Authors:** Li Zheng, Siddhant Kumar, Dennis M. Kochmann
 
-**Venue:** Unknown
+**Venue:** Preprint
 
 **Publication Date:** July 21, 2025
 
@@ -1319,7 +1319,7 @@ Semantic segmentation of medical images is pivotal in applications like disease 
 
 **Authors:** Žiga Avsec, Natasha Latysheva, Jun Cheng, Guido Novati, Kyle R. Taylor, Tom Ward, Clare Bycroft, Lauren Nicolaisen, Eirini Arvaniti, Joshua Pan, Raina Thomas, Vincent Dutordoir, Matteo Perino, Soham De, Alexander Karollus, Adam Gayoso, Toby Sargeant, Anne Mottram, Lai Hong Wong, Pavol Drotár, Adam Kosiorek, Andrew Senior, Richard Tanburn, Taylor Applebaum, Souradeep Basu, Demis Hassabis, Pushmeet Kohli
 
-**Venue:** Unknown
+**Venue:** Preprint
 
 **Publication Date:** July 11, 2025
 
@@ -1584,7 +1584,7 @@ Large language models (LLMs) can be useful tools for science, but they often lac
 
 **Authors:** Brandon M. Wood, Misko Dzamba, Xiang Fu, Meng Gao, Muhammed Shuaibi, Luis Barroso-Luque, Kareem Abdelmaqsoud, Vahe Gharakhanyan, John R. Kitchin, Daniel S. Levine, Kyle Michel, Anuroop Sriram, Taco Cohen, Abhishek Das, Ammar Rizvi, Sushree Jagriti Sahoo, Zachary W. Ulissi, C. Lawrence Zitnick
 
-**Venue:** Unknown
+**Venue:** Preprint
 
 **Publication Date:** June 30, 2025
 
@@ -1677,7 +1677,7 @@ Antibodies are indispensable in biomedicine. However, conventional antibody deve
 
 **Authors:** Shuxiang Cao, Zijian Zhang, Mohammed Alghadeer, Simone D. Fasciati, Michele Piscitelli, Mustafa Bakr, Peter Leek, Alán Aspuru-Guzik
 
-**Venue:** Unknown
+**Venue:** Preprint
 
 **Publication Date:** June 05, 2025
 
@@ -1755,7 +1755,7 @@ Self-driving laboratories (SDLs), powered by robotics, automation and artificial
 
 **Authors:** Kexin Huang, Serena Zhang, Hanchen Wang, Yuanhao Qu, Yingzhou Lu, Yusuf Roohani, Ryan Li, Lin Qiu, Gavin Li, Junze Zhang, Di Yin, Shruti Marwaha, Jennefer N. Carter, Xin Zhou, Matthew Wheeler, Jonathan A. Bernstein, Mengdi Wang, Peng He, Jingtian Zhou, Michael Snyder, Le Cong, Aviv Regev, Jure Leskovec
 
-**Venue:** Unknown
+**Venue:** Preprint
 
 **Publication Date:** June 02, 2025
 
@@ -2045,7 +2045,7 @@ The multidimensional chemical parameter space for nanoparticle synthesis is too 
 
 **Authors:** Yingheng Tang, Wenbin Xu, Jie Cao, Weilu Gao, Steve Farrell, Benjamin Erichson, Michael W. Mahoney, Andy Nonaka, Zhi Yao
 
-**Venue:** Unknown
+**Venue:** Preprint
 
 **Publication Date:** April 26, 2025
 
@@ -2104,7 +2104,7 @@ In the evolving landscape of scientific research, the complexity of global chall
 
 **Authors:** Xiang Fu, Brandon M. Wood, Luis Barroso-Luque, Daniel S. Levine, Meng Gao, Misko Dzamba, C. Lawrence Zitnick
 
-**Venue:** Unknown
+**Venue:** Preprint
 
 **Publication Date:** April 23, 2025
 
@@ -2619,7 +2619,7 @@ The bidirectional interactions between metamaterials and artificial intelligence
 
 **Authors:** Elana Simon, James Zou
 
-**Venue:** Unknown
+**Venue:** Preprint
 
 **Publication Date:** January 28, 2025
 
@@ -3199,7 +3199,7 @@ Laboratories in chemistry, biochemistry, and materials science are at the leadin
 
 **Authors:** Luis Barroso-Luque, Muhammed Shuaibi, Xiang Fu, Brandon M. Wood, Misko Dzamba, Meng Gao, Ammar Rizvi, C. Lawrence Zitnick, Zachary W. Ulissi
 
-**Venue:** Unknown
+**Venue:** Preprint
 
 **Publication Date:** October 16, 2024
 
@@ -3279,7 +3279,7 @@ In computational molecular and materials science, determining equilibrium struct
 
 **Authors:** Vinicius Zambaldi, David La, Alexander E. Chu, Harshnira Patani, Amy E. Danson, Tristan O. C. Kwan, Thomas Frerix, Rosalia G. Schneider, David Saxton, Ashok Thillaisundaram, Zachary Wu, Isabel Moraes, Oskar Lange, Eliseo Papa, Gabriella Stanton, Victor Martin, Sukhdeep Singh, Lai H. Wong, Russ Bates, Simon A. Kohl, Josh Abramson, Andrew W. Senior, Yilmaz Alguel, Mary Y. Wu, Irene M. Aspalter, Katie Bentley, David L. V. Bauer, Peter Cherepanov, Demis Hassabis, Pushmeet Kohli, Rob Fergus, Jue Wang
 
-**Venue:** Unknown
+**Venue:** Preprint
 
 **Publication Date:** September 12, 2024
 
@@ -3653,7 +3653,7 @@ Data scarcity is one of the critical bottlenecks to utilizing machine learning i
 
 **Authors:** Shuyi Jia, Chao Zhang, Victor Fung
 
-**Venue:** Unknown
+**Venue:** Preprint
 
 **Publication Date:** June 19, 2024
 
@@ -3775,7 +3775,7 @@ ChatMOF is an artificial intelligence (AI) system that is built to predict and g
 
 **Authors:** Sherry Yang, KwangHwan Cho, Amil Merchant, Pieter Abbeel, Dale Schuurmans, Igor Mordatch, Ekin Dogus Cubuk
 
-**Venue:** Unknown
+**Venue:** Preprint
 
 **Publication Date:** June 03, 2024
 
@@ -3939,7 +3939,7 @@ Accurate state-of-health (SOH) estimation is critical for reliable and safe oper
 
 **Authors:** Han Yang, Chenxi Hu, Yichi Zhou, Xixian Liu, Yu Shi, Jielan Li, Guanzhi Li, Zekun Chen, Shuizhou Chen, Claudio Zeni, Matthew Horton, Robert Pinsler, Andrew Fowler, Daniel Zügner, Tian Xie, Jake Smith, Lixin Sun, Qian Wang, Lingyu Kong, Chang Liu, Hongxia Hao, Ziheng Lu
 
-**Venue:** Unknown
+**Venue:** Preprint
 
 **Publication Date:** May 10, 2024
 
@@ -6916,4 +6916,4 @@ The Open Quantum Materials Database (OQMD) is a high-throughput database current
 
 **Total Papers:** 312
 
-**Generation Time:** 2025-09-16 21:56:31
+**Generation Time:** 2025-09-16 21:59:30

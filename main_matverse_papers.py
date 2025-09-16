@@ -19,8 +19,8 @@ def get_venue(paper):
 
     if publication_type == "journalArticle":
         venue = paper["item"].get("publicationTitle", "")
-    elif publication_type == "Preprint":
-        venue = "preprint"
+    elif publication_type == "preprint":
+        venue = "Preprint"
     elif publication_type == "conferencePaper":
         conf_name = paper["item"].get("conferenceName", "")
         for conf in conference_list:
