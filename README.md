@@ -22,8 +22,8 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Acta Materialia (6 papers)
 
-- [272. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space](#272-accelerated-multi-objective-alloy-discovery-through-efficient-bayesian-methods-application-to-the-fcc-high-entropy-alloy-space) *(September 15, 2025)*
-- [260. Generalizable descriptors for automatic titanium alloys design by learning from texts via large language model](#260-generalizable-descriptors-for-automatic-titanium-alloys-design-by-learning-from-texts-via-large-language-model) *(September 01, 2025)*
+- [273. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space](#273-accelerated-multi-objective-alloy-discovery-through-efficient-bayesian-methods-application-to-the-fcc-high-entropy-alloy-space) *(September 15, 2025)*
+- [261. Generalizable descriptors for automatic titanium alloys design by learning from texts via large language model](#261-generalizable-descriptors-for-automatic-titanium-alloys-design-by-learning-from-texts-via-large-language-model) *(September 01, 2025)*
 - [225. A novel training-free approach to efficiently extracting material microstructures via visual large model](#225-a-novel-training-free-approach-to-efficiently-extracting-material-microstructures-via-visual-large-model) *(May 15, 2025)*
 - [202. Developing novel low-density high-entropy superalloys with high strength and superior creep resistance guided by automated machine learning](#202-developing-novel-low-density-high-entropy-superalloys-with-high-strength-and-superior-creep-resistance-guided-by-automated-machine-learning) *(February 15, 2025)*
 - [185. Topological data analysis assisted machine learning for polar topological structures in oxide superlattices](#185-topological-data-analysis-assisted-machine-learning-for-polar-topological-structures-in-oxide-superlattices) *(January 01, 2025)*
@@ -38,8 +38,8 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Advanced Materials (23 papers)
 
-- [267. AI-Driven Defect Engineering for Advanced Thermoelectric Materials](#267-ai-driven-defect-engineering-for-advanced-thermoelectric-materials) *(September 04, 2025)*
-- [266. Artificial Intelligence-Driven Approaches in Semiconductor Research](#266-artificial-intelligence-driven-approaches-in-semiconductor-research) *(September 04, 2025)*
+- [268. AI-Driven Defect Engineering for Advanced Thermoelectric Materials](#268-ai-driven-defect-engineering-for-advanced-thermoelectric-materials) *(September 04, 2025)*
+- [267. Artificial Intelligence-Driven Approaches in Semiconductor Research](#267-artificial-intelligence-driven-approaches-in-semiconductor-research) *(September 04, 2025)*
 - [252. Empowering Generalist Material Intelligence with Large Language Models](#252-empowering-generalist-material-intelligence-with-large-language-models) *(August 14, 2025)*
 - [244. Biomimetic Intelligent Thermal Management Materials: From Nature-Inspired Design to Machine-Learning-Driven Discovery](#244-biomimetic-intelligent-thermal-management-materials-from-nature-inspired-design-to-machine-learning-driven-discovery) *(July 29, 2025)*
 - [239. Self-Evolving Discovery of Carrier Biomaterials with Ultra-Low Nonspecific Protein Adsorption for Single Cell Analysis](#239-self-evolving-discovery-of-carrier-biomaterials-with-ultra-low-nonspecific-protein-adsorption-for-single-cell-analysis) *(July 02, 2025)*
@@ -107,7 +107,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Journal of Molecular Biology (1 papers)
 
-- [271. Structural Insights into Autophagy in the AlphaFold Era](#271-structural-insights-into-autophagy-in-the-alphafold-era) *(September 15, 2025)*
+- [272. Structural Insights into Autophagy in the AlphaFold Era](#272-structural-insights-into-autophagy-in-the-alphafold-era) *(September 15, 2025)*
 
 ### Journal of the American Chemical Society (15 papers)
 
@@ -129,7 +129,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Matter (8 papers)
 
-- [264. Machine learning in X-ray diffraction for materials discovery and characterization](#264-machine-learning-in-x-ray-diffraction-for-materials-discovery-and-characterization) *(September 03, 2025)*
+- [265. Machine learning in X-ray diffraction for materials discovery and characterization](#265-machine-learning-in-x-ray-diffraction-for-materials-discovery-and-characterization) *(September 03, 2025)*
 - [229. A data-driven platform for automated characterization of polymer electrolytes](#229-a-data-driven-platform-for-automated-characterization-of-polymer-electrolytes) *(June 04, 2025)*
 - [209. Physics-informed, dual-objective optimization of high-entropy-alloy nanozymes by a robotic AI chemist](#209-physics-informed-dual-objective-optimization-of-high-entropy-alloy-nanozymes-by-a-robotic-ai-chemist) *(April 02, 2025)*
 - [199. ORGANA: A robotic assistant for automated chemistry experimentation and characterization](#199-organa-a-robotic-assistant-for-automated-chemistry-experimentation-and-characterization) *(February 05, 2025)*
@@ -140,9 +140,9 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Nature (32 papers)
 
-- [265. Supervised learning in DNA neural networks](#265-supervised-learning-in-dna-neural-networks) *(September 03, 2025)*
-- [261. Electron flow matching for generative reaction mechanism prediction](#261-electron-flow-matching-for-generative-reaction-mechanism-prediction) *(September 2025)*
-- [259. One-shot design of functional protein binders with BindCraft](#259-one-shot-design-of-functional-protein-binders-with-bindcraft) *(August 27, 2025)*
+- [266. Supervised learning in DNA neural networks](#266-supervised-learning-in-dna-neural-networks) *(September 03, 2025)*
+- [262. Electron flow matching for generative reaction mechanism prediction](#262-electron-flow-matching-for-generative-reaction-mechanism-prediction) *(September 2025)*
+- [260. One-shot design of functional protein binders with BindCraft](#260-one-shot-design-of-functional-protein-binders-with-bindcraft) *(August 27, 2025)*
 - [250. Data-driven de novo design of super-adhesive hydrogels](#250-data-driven-de-novo-design-of-super-adhesive-hydrogels) *(August 2025)*
 - [245. The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies](#245-the-virtual-lab-of-ai-agents-designs-new-sars-cov-2-nanobodies) *(July 29, 2025)*
 - [236. Machine-learning design of ductile FeNiCoAlTa alloys with high strength](#236-machine-learning-design-of-ductile-fenicoalta-alloys-with-high-strength) *(July 2025)*
@@ -179,7 +179,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Nature Biomedical Engineering (2 papers)
 
-- [263. A generalizable pathology foundation model using a unified knowledge distillation pretraining framework](#263-a-generalizable-pathology-foundation-model-using-a-unified-knowledge-distillation-pretraining-framework) *(September 02, 2025)*
+- [264. A generalizable pathology foundation model using a unified knowledge distillation pretraining framework](#264-a-generalizable-pathology-foundation-model-using-a-unified-knowledge-distillation-pretraining-framework) *(September 02, 2025)*
 - [246. Accelerating primer design for amplicon sequencing using large language model-powered agents](#246-accelerating-primer-design-for-amplicon-sequencing-using-large-language-model-powered-agents) *(July 30, 2025)*
 
 ### Nature Catalysis (1 papers)
@@ -260,7 +260,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Nature Computational Science (10 papers)
 
-- [258. Digital Twin for Chemical Science: a case study on water interactions on the Ag(111) surface](#258-digital-twin-for-chemical-science-a-case-study-on-water-interactions-on-the-ag111-surface) *(August 27, 2025)*
+- [259. Digital Twin for Chemical Science: a case study on water interactions on the Ag(111) surface](#259-digital-twin-for-chemical-science-a-case-study-on-water-interactions-on-the-ag111-surface) *(August 27, 2025)*
 - [233. Rethinking chemical research in the age of large language models](#233-rethinking-chemical-research-in-the-age-of-large-language-models) *(June 24, 2025)*
 - [194. Balancing autonomy and expertise in autonomous synthesis laboratories](#194-balancing-autonomy-and-expertise-in-autonomous-synthesis-laboratories) *(February 2025)*
 - [148. Promising directions of machine learning for partial differential equations](#148-promising-directions-of-machine-learning-for-partial-differential-equations) *(July 2024)*
@@ -282,7 +282,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Nature Machine Intelligence (13 papers)
 
-- [270. Towards agentic science for advancing scientific discovery](#270-towards-agentic-science-for-advancing-scientific-discovery) *(September 10, 2025)*
+- [271. Towards agentic science for advancing scientific discovery](#271-towards-agentic-science-for-advancing-scientific-discovery) *(September 10, 2025)*
 - [257. A unified pre-trained deep learning framework for cross-task reaction performance prediction and synthesis planning](#257-a-unified-pre-trained-deep-learning-framework-for-cross-task-reaction-performance-prediction-and-synthesis-planning) *(August 19, 2025)*
 - [249. Kolmogorov–Arnold graph neural networks for molecular property prediction](#249-kolmogorov–arnold-graph-neural-networks-for-molecular-property-prediction) *(August 2025)*
 - [238. Enabling large language models for real-world materials discovery](#238-enabling-large-language-models-for-real-world-materials-discovery) *(July 2025)*
@@ -322,12 +322,12 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Nature Reviews Chemistry (2 papers)
 
-- [262. Developing machine learning for heterogeneous catalysis with experimental and computational data](#262-developing-machine-learning-for-heterogeneous-catalysis-with-experimental-and-computational-data) *(September 2025)*
+- [263. Developing machine learning for heterogeneous catalysis with experimental and computational data](#263-developing-machine-learning-for-heterogeneous-catalysis-with-experimental-and-computational-data) *(September 2025)*
 - [256. Steering towards safe self-driving laboratories](#256-steering-towards-safe-self-driving-laboratories) *(August 18, 2025)*
 
 ### Nature Reviews Materials (5 papers)
 
-- [268. High-throughput platforms for machine learning-guided lipid nanoparticle design](#268-high-throughput-platforms-for-machine-learning-guided-lipid-nanoparticle-design) *(September 08, 2025)*
+- [269. High-throughput platforms for machine learning-guided lipid nanoparticle design](#269-high-throughput-platforms-for-machine-learning-guided-lipid-nanoparticle-design) *(September 08, 2025)*
 - [177. Multifunctional high-entropy materials](#177-multifunctional-high-entropy-materials) *(December 2024)*
 - [175. Towards the holistic design of alloys with large language models](#175-towards-the-holistic-design-of-alloys-with-large-language-models) *(December 2024)*
 - [36. Nanoparticle synthesis assisted by machine learning](#36-nanoparticle-synthesis-assisted-by-machine-learning) *(August 2021)*
@@ -347,7 +347,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Nature Synthesis (9 papers)
 
-- [269. Molecular-dynamics-simulation-guided directed evolution of flavoenzymes for atroposelective desaturation](#269-molecular-dynamics-simulation-guided-directed-evolution-of-flavoenzymes-for-atroposelective-desaturation) *(September 10, 2025)*
+- [270. Molecular-dynamics-simulation-guided directed evolution of flavoenzymes for atroposelective desaturation](#270-molecular-dynamics-simulation-guided-directed-evolution-of-flavoenzymes-for-atroposelective-desaturation) *(September 10, 2025)*
 - [174. Synthesis of high-entropy materials](#174-synthesis-of-high-entropy-materials) *(December 2024)*
 - [133. Robotic synthesis decoded through phase diagram mastery](#133-robotic-synthesis-decoded-through-phase-diagram-mastery) *(May 2024)*
 - [132. Navigating phase diagram complexity to guide robotic inorganic materials synthesis](#132-navigating-phase-diagram-complexity-to-guide-robotic-inorganic-materials-synthesis) *(May 2024)*
@@ -417,8 +417,9 @@ This section provides a quick overview of papers organized by publication venue 
 - [247. Deep learning for property prediction of natural fiber polymer composites](#247-deep-learning-for-property-prediction-of-natural-fiber-polymer-composites) *(July 30, 2025)*
 - [109. Data-driven analysis and prediction of stable phases for high-entropy alloy design](#109-data-driven-analysis-and-prediction-of-stable-phases-for-high-entropy-alloy-design) *(December 18, 2023)*
 
-### npj Computational Materials (9 papers)
+### npj Computational Materials (10 papers)
 
+- [258. Capturing short-range order in high-entropy alloys with machine learning potentials](#258-capturing-short-range-order-in-high-entropy-alloys-with-machine-learning-potentials) *(August 21, 2025)*
 - [232. Agent-based multimodal information extraction for nanomaterials](#232-agent-based-multimodal-information-extraction-for-nanomaterials) *(June 23, 2025)*
 - [227. Probabilistic phase labeling and lattice refinement for autonomous materials research](#227-probabilistic-phase-labeling-and-lattice-refinement-for-autonomous-materials-research) *(May 24, 2025)*
 - [207. Applications of natural language processing and large language models in materials discovery](#207-applications-of-natural-language-processing-and-large-language-models-in-materials-discovery) *(March 24, 2025)*
@@ -433,7 +434,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ## 📑 Papers (Chronological Order)
 
-## 272. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space
+## 273. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space
 
 **Authors:** Trevor Hastings, Mrinalini Mulukutla, Danial Khatamsaz, Daniel Salas, Wenle Xu, Daniel Lewis, Nicole Person, Matthew Skokan, Braden Miller, James Paramore, Brady Butler, Douglas Allaire, Vahid Attari, Ibrahim Karaman, George Pharr, Ankit Srivastava, Raymundo Arróyave
 
@@ -454,7 +455,7 @@ This study introduces BIRDSHOT, an integrated Bayesian materials discovery frame
 
 ---
 
-## 271. Structural Insights into Autophagy in the AlphaFold Era
+## 272. Structural Insights into Autophagy in the AlphaFold Era
 
 **Authors:** Tatsuro Maruyama, Nobuo N. Noda
 
@@ -475,7 +476,7 @@ Autophagy, a lysosomal intracellular degradation system, is characterized by the
 
 ---
 
-## 270. Towards agentic science for advancing scientific discovery
+## 271. Towards agentic science for advancing scientific discovery
 
 **Authors:** Hongliang Xin, John R. Kitchin, Heather J. Kulik
 
@@ -494,7 +495,7 @@ Artificial intelligence is transforming scientific discovery through (semi-)auto
 
 ---
 
-## 269. Molecular-dynamics-simulation-guided directed evolution of flavoenzymes for atroposelective desaturation
+## 270. Molecular-dynamics-simulation-guided directed evolution of flavoenzymes for atroposelective desaturation
 
 **Authors:** Hong-Ning Yin, Zhao Chen, Xiang Zhao, Zihan Liu, Feng Yu, Sanduo Zheng, Niu Huang, Zhen Liu
 
@@ -513,7 +514,7 @@ Molecular-dynamics-simulation-guided evolution of flavoenzymes produces efficien
 
 ---
 
-## 268. High-throughput platforms for machine learning-guided lipid nanoparticle design
+## 269. High-throughput platforms for machine learning-guided lipid nanoparticle design
 
 **Authors:** Andrew R. Hanna, David A. Issadore, Michael J. Mitchell
 
@@ -532,7 +533,7 @@ Discovering lipid nanoparticles for unmet clinical needs relies heavily on the s
 
 ---
 
-## 267. AI-Driven Defect Engineering for Advanced Thermoelectric Materials
+## 268. AI-Driven Defect Engineering for Advanced Thermoelectric Materials
 
 **Authors:** Chu-Liang Fu, Mouyang Cheng, Nguyen Tuan Hung, Eunbi Rha, Zhantao Chen, Ryotaro Okabe, Denisse Córdova Carrizales, Manasi Mandal, Yongqiang Cheng, Mingda Li
 
@@ -553,7 +554,7 @@ Thermoelectric materials offer a promising pathway to directly convert waste hea
 
 ---
 
-## 266. Artificial Intelligence-Driven Approaches in Semiconductor Research
+## 267. Artificial Intelligence-Driven Approaches in Semiconductor Research
 
 **Authors:** Yiqiang Zheng, Hao Xu, Zhexin Li, Linlin Li, Yongchao Yu, Pengfei Jiang, Yanmeng Shi, Jing Zhang, Yuqing Huang, Qing Luo, Zheng Lou, Lili Wang
 
@@ -574,7 +575,7 @@ To address the persistent challenges of scaling and power consumption in integra
 
 ---
 
-## 265. Supervised learning in DNA neural networks
+## 266. Supervised learning in DNA neural networks
 
 **Authors:** Kevin M. Cherry, Lulu Qian
 
@@ -593,7 +594,7 @@ Learning enables biological organisms to begin life simple yet develop immensely
 
 ---
 
-## 264. Machine learning in X-ray diffraction for materials discovery and characterization
+## 265. Machine learning in X-ray diffraction for materials discovery and characterization
 
 **Authors:** Connor Davel, Nazanin Bassiri-Gharb, Juan-Pablo Correa-Baena
 
@@ -612,7 +613,7 @@ No abstract available
 
 ---
 
-## 263. A generalizable pathology foundation model using a unified knowledge distillation pretraining framework
+## 264. A generalizable pathology foundation model using a unified knowledge distillation pretraining framework
 
 **Authors:** Jiabo Ma, Zhengrui Guo, Fengtao Zhou, Yihui Wang, Yingxue Xu, Jinbang Li, Fang Yan, Yu Cai, Zhengjie Zhu, Cheng Jin, Yi Lin, Xinrui Jiang, Chenglong Zhao, Danyi Li, Anjia Han, Zhenhui Li, Ronald Cheong Kin Chan, Jiguang Wang, Peng Fei, Kwang-Ting Cheng, Shaoting Zhang, Li Liang, Hao Chen
 
@@ -631,7 +632,7 @@ Generalizable Pathology Foundation Model (GPFM) consolidates expertise from a va
 
 ---
 
-## 262. Developing machine learning for heterogeneous catalysis with experimental and computational data
+## 263. Developing machine learning for heterogeneous catalysis with experimental and computational data
 
 **Authors:** Carlota Bozal-Ginesta, Sergio Pablo-García, Changhyeok Choi, Albert Tarancón, Alán Aspuru-Guzik
 
@@ -652,7 +653,7 @@ Machine learning aids heterogeneous catalysis research by linking performance to
 
 ---
 
-## 261. Electron flow matching for generative reaction mechanism prediction
+## 262. Electron flow matching for generative reaction mechanism prediction
 
 **Authors:** Joonyoung F. Joung, Mun Hong Fong, Nicholas Casetti, Jordan P. Liles, Ne S. Dassanayake, Connor W. Coley
 
@@ -673,7 +674,7 @@ A new tool based on generative machine learning called FlowER uses flow matching
 
 ---
 
-## 260. Generalizable descriptors for automatic titanium alloys design by learning from texts via large language model
+## 261. Generalizable descriptors for automatic titanium alloys design by learning from texts via large language model
 
 **Authors:** Ping Wang, Yuan Jiang, Weijie Liao, Rong Wang, Minjie Lai, Hongchao Kou, Xiubing Liang, Jinshan Li, Turab Lookman, Ruihao Yuan
 
@@ -694,7 +695,7 @@ Descriptors are essential prerequisites for the success of machine learning-base
 
 ---
 
-## 259. One-shot design of functional protein binders with BindCraft
+## 260. One-shot design of functional protein binders with BindCraft
 
 **Authors:** Martin Pacesa, Lennart Nickel, Christian Schellhaas, Joseph Schmidt, Ekaterina Pyatova, Lucas Kissling, Patrick Barendse, Jagrity Choudhury, Srajan Kapoor, Ana Alcaraz-Serna, Yehlin Cho, Kourosh H. Ghamary, Laura Vinué, Brahm J. Yachnin, Andrew M. Wollacott, Stephen Buckley, Adrie H. Westphal, Simon Lindhoud, Sandrine Georgeon, Casper A. Goverde, Georgios N. Hatzopoulos, Pierre Gönczy, Yannick D. Muller, Gerald Schwank, Daan C. Swarts, Alex J. Vecchio, Bernard L. Schneider, Sergey Ovchinnikov, Bruno E. Correia
 
@@ -713,7 +714,7 @@ Protein–protein interactions are at the core of all key biological processes. 
 
 ---
 
-## 258. Digital Twin for Chemical Science: a case study on water interactions on the Ag(111) surface
+## 259. Digital Twin for Chemical Science: a case study on water interactions on the Ag(111) surface
 
 **Authors:** Jin Qian, Asmita Jana, Siddarth Menon, Andrew E. Bogdan, Rebecca Hamlyn, Johannes Mahl, Ethan J. Crumlin
 
@@ -729,6 +730,27 @@ Protein–protein interactions are at the core of all key biological processes. 
 Directly visualizing chemical trajectories offers insights into catalysis, gas-phase reactions and photoinduced dynamics. Tracking the transformation of chemical species is best achieved by coupling theory and experiment. Here we developed Digital Twin for Chemical Science (DTCS) v.01, which integrates theory, experiment and their bidirectional feedback loops into a unified platform for chemical characterization. DTCS addresses a core question: given a set of experimental conditions, what is the expected outcome and why? It consists of a forward solver that takes a chemical reaction network and predicts spectra under experimental conditions, and an inverse solver that infers kinetics from measured spectra. We applied DTCS to ambient-pressure X-ray photoelectron spectroscopy measurements of the Ag–H2O interface as an example. This approach enables real-time knowledge extraction and guides experiments until a stopping condition is met based on accuracy and degeneracy. As a step toward autonomous chemical characterization, DTCS provides mechanistic knowledge in a verified, standardized manner.
 
 **Tags:** Chemistry, Energy and society, Materials science
+
+---
+
+## 258. Capturing short-range order in high-entropy alloys with machine learning potentials
+
+**Authors:** Yifan Cao, Killian Sheriff, Rodrigo Freitas
+
+**Venue:** npj Computational Materials
+
+**Publication Date:** August 21, 2025
+
+**Volume & Issue:** Volume 11, Issue 1
+
+**Pages:** 268
+
+**DOI:** 10.1038/s41524-025-01722-2
+
+**Abstract:**
+Chemical short-range order (SRO) affects the distribution of elements throughout the solid-solution phase of metallic alloys, thereby modifying the background against which microstructural evolution occurs. Investigating such chemistry–microstructure relationships requires atomistic models that act at the appropriate length scales while capturing the intricacies of chemical bonds leading to SRO. Here, we consider various approaches for the construction of training data sets for machine learning potentials (MLPs) for CrCoNi and evaluate their performance in capturing SRO and its effects on materials quantities of relevance for mechanical properties, such as stacking-fault energy and phase stability. It is demonstrated that energy accuracy on test sets often does not correlate with accuracy in capturing material properties, which is fundamental in enabling large-scale atomistic simulations of metallic alloys with high physical fidelity. Based on this analysis, we systematically derive design principles for the rational construction of MLPs that capture SRO in the crystal and liquid phases of alloys.
+
+**Tags:** Structural materials, Theory and computation
 
 ---
 
@@ -6100,6 +6122,6 @@ Finding new materials with targeted properties has traditionally been guided by 
 ---
 
 
-**Total Papers:** 272
+**Total Papers:** 273
 
-**Generation Time:** 2025-09-16 11:38:57
+**Generation Time:** 2025-09-16 15:44:11
