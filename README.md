@@ -107,7 +107,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 - [221. The deep finite element method: A deep learning framework integrating the physics-informed neural networks with the finite element method](#221-the-deep-finite-element-method-a-deep-learning-framework-integrating-the-physics-informed-neural-networks-with-the-finite-element-method) *(March 01, 2025)*
 
-### Forty-second International Conference on Machine Learning (1 papers)
+### International Conference on Machine Learning (1 papers)
 
 - [254. All-atom Diffusion Transformers: Unified generative modelling of molecules and materials](#254-all-atom-diffusion-transformers-unified-generative-modelling-of-molecules-and-materials) *(June 18, 2025)*
 
@@ -1641,7 +1641,7 @@ Automating structured data extraction from scientific literature is a critical c
 
 **Authors:** Chaitanya K. Joshi, Xiang Fu, Yi-Lun Liao, Vahe Gharakhanyan, Benjamin Kurt Miller, Anuroop Sriram, Zachary Ward Ulissi
 
-**Venue:** Forty-second International Conference on Machine Learning
+**Venue:** International Conference on Machine Learning
 
 **Publication Date:** June 18, 2025
 
@@ -6916,4 +6916,4 @@ The Open Quantum Materials Database (OQMD) is a high-throughput database current
 
 **Total Papers:** 312
 
-**Generation Time:** 2025-09-16 21:42:34
+**Generation Time:** 2025-09-16 21:56:31

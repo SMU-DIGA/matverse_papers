@@ -7,7 +7,11 @@ import matplotlib.pyplot as plt
 from collections import defaultdict
 from collections import Counter
 
-conference_list = []
+conference_list = [
+    "Neural Information Processing Systems",
+    'International Conference on Machine Learning',
+    "International Conference on Learning Representations",
+]
 
 
 def get_venue(paper):
@@ -18,7 +22,13 @@ def get_venue(paper):
     elif publication_type == "Preprint":
         venue = "preprint"
     elif publication_type == "conferencePaper":
-        venue = paper["item"].get("conferenceName", "")
+        conf_name = paper["item"].get("conferenceName", "")
+        for conf in conference_list:
+            if conf in conf_name:
+                venue = conf
+                break
+        else:
+            venue = conf_name
     else:
         venue = "Unknown"
 
