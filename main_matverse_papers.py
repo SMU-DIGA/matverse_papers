@@ -447,6 +447,7 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
         issue = item.get("issue", "")
         pages = item.get("pages", "")
         doi = item.get("DOI", "")
+        url = item.get('url', "")
 
         # Abstract and tags
         abstract = clean_abstract(item.get("abstractNote", ""))
@@ -473,6 +474,9 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
 
         if doi:
             markdown_lines.append(f"**DOI:** {doi}\n")
+
+        if url:
+            markdown_lines.append(f"**URL:** {url}\n")
 
         markdown_lines.append(f"**Abstract:**\n{abstract}\n")
         markdown_lines.append(f"**Tags:** {tags}\n")
