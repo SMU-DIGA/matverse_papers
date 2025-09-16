@@ -750,7 +750,7 @@ Descriptors are essential prerequisites for the success of machine learning-base
 
 **Authors:** Tianshi Zheng, Zheye Deng, Hong Ting Tsang, Weiqi Wang, Jiaxin Bai, Zihao Wang, Yangqiu Song
 
-**Venue:** Preprint
+**Venue:** Unknown
 
 **Publication Date:** August 30, 2025
 
@@ -969,7 +969,7 @@ Finding the optimal dimensions of metal nanoparticles to maximize their plasmoni
 
 **Authors:** Lei Jiang, Shuzhou Sun, Biqing Qi, Yuchen Fu, Xiaohua Xu, Yuqiang Li, Dongzhan Zhou, Tianfan Fu
 
-**Venue:** Preprint
+**Venue:** Unknown
 
 **Publication Date:** August 14, 2025
 
@@ -1087,7 +1087,7 @@ Direct methanol fuel cells offer high energy densities but face challenges inclu
 
 **Authors:** Haoyang Liu, Yijiang Li, Haohan Wang
 
-**Venue:** Preprint
+**Venue:** Unknown
 
 **Publication Date:** July 31, 2025
 
@@ -1205,7 +1205,7 @@ The development of biomimetic intelligent thermal management materials (BITMs) i
 
 **Authors:** Nikolaj Rønne, Bjørk Hammer
 
-**Venue:** Preprint
+**Venue:** Unknown
 
 **Publication Date:** July 24, 2025
 
@@ -1243,7 +1243,7 @@ Electrolytes are an essential part of rechargeable batteries, such as lithium ba
 
 **Authors:** Penghui Yang, Chendong Zhao, Bijun Tang, Zhonghan Zhang, Xinrun Wang, Yanchen Deng, Yuhao Lu, Cuntai Guan, Zheng Liu, Bo An
 
-**Venue:** Preprint
+**Venue:** Unknown
 
 **Publication Date:** July 21, 2025
 
@@ -1260,7 +1260,7 @@ Alloy discovery is central to advancing modern industry but remains hindered by 
 
 **Authors:** Li Zheng, Siddhant Kumar, Dennis M. Kochmann
 
-**Venue:** Preprint
+**Venue:** Unknown
 
 **Publication Date:** July 21, 2025
 
@@ -1319,7 +1319,7 @@ Semantic segmentation of medical images is pivotal in applications like disease 
 
 **Authors:** Žiga Avsec, Natasha Latysheva, Jun Cheng, Guido Novati, Kyle R. Taylor, Tom Ward, Clare Bycroft, Lauren Nicolaisen, Eirini Arvaniti, Joshua Pan, Raina Thomas, Vincent Dutordoir, Matteo Perino, Soham De, Alexander Karollus, Adam Gayoso, Toby Sargeant, Anne Mottram, Lai Hong Wong, Pavol Drotár, Adam Kosiorek, Andrew Senior, Richard Tanburn, Taylor Applebaum, Souradeep Basu, Demis Hassabis, Pushmeet Kohli
 
-**Venue:** Preprint
+**Venue:** Unknown
 
 **Publication Date:** July 11, 2025
 
@@ -1584,7 +1584,7 @@ Large language models (LLMs) can be useful tools for science, but they often lac
 
 **Authors:** Brandon M. Wood, Misko Dzamba, Xiang Fu, Meng Gao, Muhammed Shuaibi, Luis Barroso-Luque, Kareem Abdelmaqsoud, Vahe Gharakhanyan, John R. Kitchin, Daniel S. Levine, Kyle Michel, Anuroop Sriram, Taco Cohen, Abhishek Das, Ammar Rizvi, Sushree Jagriti Sahoo, Zachary W. Ulissi, C. Lawrence Zitnick
 
-**Venue:** Preprint
+**Venue:** Unknown
 
 **Publication Date:** June 30, 2025
 
@@ -1677,7 +1677,7 @@ Antibodies are indispensable in biomedicine. However, conventional antibody deve
 
 **Authors:** Shuxiang Cao, Zijian Zhang, Mohammed Alghadeer, Simone D. Fasciati, Michele Piscitelli, Mustafa Bakr, Peter Leek, Alán Aspuru-Guzik
 
-**Venue:** Preprint
+**Venue:** Unknown
 
 **Publication Date:** June 05, 2025
 
@@ -1755,7 +1755,7 @@ Self-driving laboratories (SDLs), powered by robotics, automation and artificial
 
 **Authors:** Kexin Huang, Serena Zhang, Hanchen Wang, Yuanhao Qu, Yingzhou Lu, Yusuf Roohani, Ryan Li, Lin Qiu, Gavin Li, Junze Zhang, Di Yin, Shruti Marwaha, Jennefer N. Carter, Xin Zhou, Matthew Wheeler, Jonathan A. Bernstein, Mengdi Wang, Peng He, Jingtian Zhou, Michael Snyder, Le Cong, Aviv Regev, Jure Leskovec
 
-**Venue:** Preprint
+**Venue:** Unknown
 
 **Publication Date:** June 02, 2025
 
@@ -2045,7 +2045,7 @@ The multidimensional chemical parameter space for nanoparticle synthesis is too 
 
 **Authors:** Yingheng Tang, Wenbin Xu, Jie Cao, Weilu Gao, Steve Farrell, Benjamin Erichson, Michael W. Mahoney, Andy Nonaka, Zhi Yao
 
-**Venue:** Preprint
+**Venue:** Unknown
 
 **Publication Date:** April 26, 2025
 
@@ -2104,7 +2104,7 @@ In the evolving landscape of scientific research, the complexity of global chall
 
 **Authors:** Xiang Fu, Brandon M. Wood, Luis Barroso-Luque, Daniel S. Levine, Meng Gao, Misko Dzamba, C. Lawrence Zitnick
 
-**Venue:** Preprint
+**Venue:** Unknown
 
 **Publication Date:** April 23, 2025
 
@@ -2619,7 +2619,7 @@ The bidirectional interactions between metamaterials and artificial intelligence
 
 **Authors:** Elana Simon, James Zou
 
-**Venue:** Preprint
+**Venue:** Unknown
 
 **Publication Date:** January 28, 2025
 
@@ -3199,7 +3199,7 @@ Laboratories in chemistry, biochemistry, and materials science are at the leadin
 
 **Authors:** Luis Barroso-Luque, Muhammed Shuaibi, Xiang Fu, Brandon M. Wood, Misko Dzamba, Meng Gao, Ammar Rizvi, C. Lawrence Zitnick, Zachary W. Ulissi
 
-**Venue:** Preprint
+**Venue:** Unknown
 
 **Publication Date:** October 16, 2024
 
@@ -3279,7 +3279,7 @@ In computational molecular and materials science, determining equilibrium struct
 
 **Authors:** Vinicius Zambaldi, David La, Alexander E. Chu, Harshnira Patani, Amy E. Danson, Tristan O. C. Kwan, Thomas Frerix, Rosalia G. Schneider, David Saxton, Ashok Thillaisundaram, Zachary Wu, Isabel Moraes, Oskar Lange, Eliseo Papa, Gabriella Stanton, Victor Martin, Sukhdeep Singh, Lai H. Wong, Russ Bates, Simon A. Kohl, Josh Abramson, Andrew W. Senior, Yilmaz Alguel, Mary Y. Wu, Irene M. Aspalter, Katie Bentley, David L. V. Bauer, Peter Cherepanov, Demis Hassabis, Pushmeet Kohli, Rob Fergus, Jue Wang
 
-**Venue:** Preprint
+**Venue:** Unknown
 
 **Publication Date:** September 12, 2024
 
@@ -3653,7 +3653,7 @@ Data scarcity is one of the critical bottlenecks to utilizing machine learning i
 
 **Authors:** Shuyi Jia, Chao Zhang, Victor Fung
 
-**Venue:** Preprint
+**Venue:** Unknown
 
 **Publication Date:** June 19, 2024
 
@@ -3775,7 +3775,7 @@ ChatMOF is an artificial intelligence (AI) system that is built to predict and g
 
 **Authors:** Sherry Yang, KwangHwan Cho, Amil Merchant, Pieter Abbeel, Dale Schuurmans, Igor Mordatch, Ekin Dogus Cubuk
 
-**Venue:** Preprint
+**Venue:** Unknown
 
 **Publication Date:** June 03, 2024
 
@@ -3939,7 +3939,7 @@ Accurate state-of-health (SOH) estimation is critical for reliable and safe oper
 
 **Authors:** Han Yang, Chenxi Hu, Yichi Zhou, Xixian Liu, Yu Shi, Jielan Li, Guanzhi Li, Zekun Chen, Shuizhou Chen, Claudio Zeni, Matthew Horton, Robert Pinsler, Andrew Fowler, Daniel Zügner, Tian Xie, Jake Smith, Lixin Sun, Qian Wang, Lingyu Kong, Chang Liu, Hongxia Hao, Ziheng Lu
 
-**Venue:** Preprint
+**Venue:** Unknown
 
 **Publication Date:** May 10, 2024
 
@@ -6916,4 +6916,4 @@ The Open Quantum Materials Database (OQMD) is a high-throughput database current
 
 **Total Papers:** 312
 
-**Generation Time:** 2025-09-16 21:39:10
+**Generation Time:** 2025-09-16 21:42:34

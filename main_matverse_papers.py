@@ -7,8 +7,22 @@ import matplotlib.pyplot as plt
 from collections import defaultdict
 from collections import Counter
 
-
 conference_list = []
+
+
+def get_venue(paper):
+    publication_type = paper["item"].get("itemType", "")
+
+    if publication_type == "journalArticle":
+        venue = paper["item"].get("publicationTitle", "")
+    elif publication_type == "Preprint":
+        venue = "preprint"
+    elif publication_type == "conferencePaper":
+        venue = paper["item"].get("conferenceName", "")
+    else:
+        venue = "Unknown"
+
+    return venue
 
 
 def parse_date(date_str: str) -> tuple:
@@ -100,7 +114,7 @@ def clean_abstract(abstract: str) -> str:
 
 
 def generate_yearly_publication_chart(
-    papers: List[Dict], output_dir: str = "./assets"
+        papers: List[Dict], output_dir: str = "./assets"
 ) -> str:
     """
     Generate a stacked bar chart showing yearly publication distribution by journal
@@ -124,16 +138,7 @@ def generate_yearly_publication_chart(
         if date_obj != datetime.min:
             year = date_obj.year
 
-            publication_type = paper["item"].get("itemType", "")
-
-            if publication_type == "journalArticle":
-                venue = paper["item"].get("publicationTitle", "")
-            elif publication_type == "Preprint":
-                venue = "preprint"
-            elif publication_type == "conferencePaper":
-                venue = paper["item"].get("conferenceName", "")
-            else:
-                venue = "Unknown"
+            venue = get_venue(paper)
 
             if year not in yearly_journal_data:
                 yearly_journal_data[year] = {}
@@ -232,7 +237,7 @@ def generate_yearly_publication_chart(
                     segment_ratio = count / total_height if total_height > 0 else 0
 
                     if (
-                        segment_ratio >= 0.08
+                            segment_ratio >= 0.08
                     ):  # Only label if segment is at least 8% of total
                         ax.text(
                             bar.get_x() + bar.get_width() / 2,
@@ -340,16 +345,7 @@ def generate_journal_index(papers: List[Dict]) -> str:
     for i, paper in enumerate(papers):
         item = paper["item"]
         # venue = item.get("publicationTitle", "Unknown Journal")
-        publication_type = paper["item"].get("itemType", "")
-
-        if publication_type == "journalArticle":
-            venue = paper["item"].get("publicationTitle", "")
-        elif publication_type == "Preprint":
-            venue = "preprint"
-        elif publication_type == "conferencePaper":
-            venue = paper["item"].get("conferenceName", "")
-        else:
-            venue = "Unknown"
+        venue = get_venue(paper)
         title = item.get("title", "Untitled")
         paper_number = len(papers) - i  # Since papers are sorted newest first
 
@@ -468,16 +464,7 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
         title = item.get("title", "Untitled")
         authors = format_authors(item.get("creators", []))
         # venue = item.get("publicationTitle", "Unknown")
-        publication_type = paper["item"].get("itemType", "")
-
-        if publication_type == "journalArticle":
-            venue = paper["item"].get("publicationTitle", "")
-        elif publication_type == "preprint":
-            venue = "Preprint"
-        elif publication_type == "conferencePaper":
-            venue = paper["item"].get("conferenceName", "")
-        else:
-            venue = "Unknown"
+        venue = get_venue(paper)
         date_str = paper["date_str"]
 
         # Volume and issue information
