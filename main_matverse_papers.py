@@ -24,7 +24,7 @@ def get_venue(paper):
     elif publication_type == "conferencePaper":
         conf_name = paper["item"].get("conferenceName", "")
         for conf in conference_list:
-            if conf in conf_name:
+            if conf.lower() in conf_name.lower():
                 venue = conf
                 break
         else:
