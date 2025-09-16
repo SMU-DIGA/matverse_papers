@@ -8,6 +8,11 @@ from collections import defaultdict
 from collections import Counter
 
 
+conference_list = [
+
+]
+
+
 def parse_date(date_str: str) -> tuple:
     """
     Parse date string and return (datetime_object, formatted_string)
@@ -97,7 +102,7 @@ def clean_abstract(abstract: str) -> str:
 
 
 def generate_yearly_publication_chart(
-        papers: List[Dict], output_dir: str = "./assets"
+    papers: List[Dict], output_dir: str = "./assets"
 ) -> str:
     """
     Generate a stacked bar chart showing yearly publication distribution by journal
@@ -120,7 +125,17 @@ def generate_yearly_publication_chart(
         date_obj = paper["date_obj"]
         if date_obj != datetime.min:
             year = date_obj.year
-            venue = paper["item"].get("publicationTitle", "Unknown")
+
+            publication_type = paper["item"].get('itemType', '')
+
+            if publication_type == "journalArticle":
+                venue = paper["item"].get("publicationTitle", "")
+            elif publication_type == "preprint":
+                venue = "preprint"
+            elif publication_type == "conferencePaper":
+                venue = paper["item"].get("conferenceName", "")
+            else:
+                venue = "Unknown"
 
             if year not in yearly_journal_data:
                 yearly_journal_data[year] = {}
@@ -219,7 +234,7 @@ def generate_yearly_publication_chart(
                     segment_ratio = count / total_height if total_height > 0 else 0
 
                     if (
-                            segment_ratio >= 0.08
+                        segment_ratio >= 0.08
                     ):  # Only label if segment is at least 8% of total
                         ax.text(
                             bar.get_x() + bar.get_width() / 2,
@@ -252,7 +267,10 @@ def generate_yearly_publication_chart(
     ax.set_xlabel("Year", fontsize=18, fontweight="bold")
     ax.set_ylabel("Number of Publications", fontsize=18, fontweight="bold")
     ax.set_title(
-        "Year and Journal over {} Publications".format(len(papers)), fontsize=18, fontweight="bold", pad=25
+        "Year and Venue over {} Publications".format(len(papers)),
+        fontsize=18,
+        fontweight="bold",
+        pad=25,
     )
 
     # Add subtle grid
@@ -280,7 +298,7 @@ def generate_yearly_publication_chart(
         bbox_to_anchor=(0.02, 1),
         framealpha=0.95,
         fontsize=18,
-        title="Journals",
+        title="Venues",
         # title_fontweight='bold',
         title_fontsize=18,
         borderaxespad=0,
@@ -441,7 +459,17 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
         # Basic information
         title = item.get("title", "Untitled")
         authors = format_authors(item.get("creators", []))
-        venue = item.get("publicationTitle", "Unknown")
+        # venue = item.get("publicationTitle", "Unknown")
+        publication_type = paper["item"].get('itemType', '')
+
+        if publication_type == "journalArticle":
+            venue = paper["item"].get("publicationTitle", "")
+        elif publication_type == "preprint":
+            venue = "preprint"
+        elif publication_type == "conferencePaper":
+            venue = paper["item"].get("conferenceName", "")
+        else:
+            venue = "Unknown"
         date_str = paper["date_str"]
 
         # Volume and issue information
