@@ -385,12 +385,14 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
     # Extract items
     items = data.get("items", [])
 
+    print("number of items {}".format(len(items)))
+
     # Filter journal articles and sort by date (newest first)
     papers = []
     for item in items:
-        if item.get("itemType") == "journalArticle":
-            date_obj, date_str = parse_date(item.get("date", ""))
-            papers.append({"item": item, "date_obj": date_obj, "date_str": date_str})
+        # if item.get("itemType") == "journalArticle":
+        date_obj, date_str = parse_date(item.get("date", ""))
+        papers.append({"item": item, "date_obj": date_obj, "date_str": date_str})
 
     # Sort by date (newest first)
     papers.sort(key=lambda x: x["date_obj"], reverse=True)
