@@ -130,7 +130,7 @@ def generate_yearly_publication_chart(
 
             if publication_type == "journalArticle":
                 venue = paper["item"].get("publicationTitle", "")
-            elif publication_type == "preprint":
+            elif publication_type == "Preprint":
                 venue = "preprint"
             elif publication_type == "conferencePaper":
                 venue = paper["item"].get("conferenceName", "")
@@ -341,7 +341,17 @@ def generate_journal_index(papers: List[Dict]) -> str:
 
     for i, paper in enumerate(papers):
         item = paper["item"]
-        venue = item.get("publicationTitle", "Unknown Journal")
+        # venue = item.get("publicationTitle", "Unknown Journal")
+        publication_type = paper["item"].get('itemType', '')
+
+        if publication_type == "journalArticle":
+            venue = paper["item"].get("publicationTitle", "")
+        elif publication_type == "Preprint":
+            venue = "preprint"
+        elif publication_type == "conferencePaper":
+            venue = paper["item"].get("conferenceName", "")
+        else:
+            venue = "Unknown"
         title = item.get("title", "Untitled")
         paper_number = len(papers) - i  # Since papers are sorted newest first
 
@@ -465,7 +475,7 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
         if publication_type == "journalArticle":
             venue = paper["item"].get("publicationTitle", "")
         elif publication_type == "preprint":
-            venue = "preprint"
+            venue = "Preprint"
         elif publication_type == "conferencePaper":
             venue = paper["item"].get("conferenceName", "")
         else:
