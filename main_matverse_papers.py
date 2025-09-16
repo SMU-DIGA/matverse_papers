@@ -8,9 +8,7 @@ from collections import defaultdict
 from collections import Counter
 
 
-conference_list = [
-
-]
+conference_list = []
 
 
 def parse_date(date_str: str) -> tuple:
@@ -126,7 +124,7 @@ def generate_yearly_publication_chart(
         if date_obj != datetime.min:
             year = date_obj.year
 
-            publication_type = paper["item"].get('itemType', '')
+            publication_type = paper["item"].get("itemType", "")
 
             if publication_type == "journalArticle":
                 venue = paper["item"].get("publicationTitle", "")
@@ -342,7 +340,7 @@ def generate_journal_index(papers: List[Dict]) -> str:
     for i, paper in enumerate(papers):
         item = paper["item"]
         # venue = item.get("publicationTitle", "Unknown Journal")
-        publication_type = paper["item"].get('itemType', '')
+        publication_type = paper["item"].get("itemType", "")
 
         if publication_type == "journalArticle":
             venue = paper["item"].get("publicationTitle", "")
@@ -470,7 +468,7 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
         title = item.get("title", "Untitled")
         authors = format_authors(item.get("creators", []))
         # venue = item.get("publicationTitle", "Unknown")
-        publication_type = paper["item"].get('itemType', '')
+        publication_type = paper["item"].get("itemType", "")
 
         if publication_type == "journalArticle":
             venue = paper["item"].get("publicationTitle", "")
