@@ -1,5 +1,6 @@
 <div align="center">
-<img src="./assets/matverse_logo.png" width="300"><h1>MatVerse AI4(M)S Paper Collection</h1>
+<img src="./assets/matverse_logo.png" width="300"><h1>MatVerse AI4(M)S Paper Collection</h1> 
+<h3>Generation Time: 2025-09-17</h3>
 </div>
 
 ---
@@ -12,9 +13,9 @@ This is a regularly updated paper collection about AI for science, with a specif
 
 ---
 
-## 📚 Journal Index
+## 📚 Venue Index
 
-This section provides a quick overview of papers organized by publication venue for easy navigation.
+This section provides a quick overview of papers organized by publication venues for easy navigation.
 
 ### ACS Applied Materials & Interfaces (1 papers)
 
@@ -7530,8 +7531,3 @@ The Open Quantum Materials Database (OQMD) is a high-throughput database current
 **Tags:** Computational methods, Materials chemistry, Materials for energy and catalysis, Electronic structure
 
 ---
-
-
-**Total Papers:** 342
-
-**Generation Time:** 2025-09-17 15:50:34

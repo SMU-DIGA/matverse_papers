@@ -9,7 +9,7 @@ from collections import Counter
 
 conference_list = [
     "Neural Information Processing Systems",
-    'International Conference on Machine Learning',
+    "International Conference on Machine Learning",
     "International Conference on Learning Representations",
 ]
 
@@ -124,7 +124,7 @@ def clean_abstract(abstract: str) -> str:
 
 
 def generate_yearly_publication_chart(
-        papers: List[Dict], output_dir: str = "./assets"
+    papers: List[Dict], output_dir: str = "./assets"
 ) -> str:
     """
     Generate a stacked bar chart showing yearly publication distribution by journal
@@ -247,7 +247,7 @@ def generate_yearly_publication_chart(
                     segment_ratio = count / total_height if total_height > 0 else 0
 
                     if (
-                            segment_ratio >= 0.08
+                        segment_ratio >= 0.08
                     ):  # Only label if segment is at least 8% of total
                         ax.text(
                             bar.get_x() + bar.get_width() / 2,
@@ -368,8 +368,8 @@ def generate_journal_index(papers: List[Dict]) -> str:
 
     # Generate markdown for journal index
     index_lines = [
-        "## 📚 Journal Index\n",
-        "This section provides a quick overview of papers organized by publication venue for easy navigation.\n",
+        "## 📚 Venue Index\n",
+        "This section provides a quick overview of papers organized by publication venues for easy navigation.\n",
     ]
 
     for journal in sorted_journals:
@@ -433,11 +433,13 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
     chart_path = generate_yearly_publication_chart(papers)
 
     # Generate Markdown content
-
+    current_time = datetime.now()
     markdown_lines = [
         f"""<div align="center">
-<img src="./assets/matverse_logo.png" width="300"><h1>MatVerse AI4(M)S Paper Collection</h1>
+<img src="./assets/matverse_logo.png" width="300"><h1>MatVerse AI4(M)S Paper Collection</h1> 
+<h3>Generation Time: {current_time.strftime('%Y-%m-%d')}</h3>
 </div>\n\n---\n""",
+        # f"**Generation Time:** {current_time.strftime('%Y-%m-%d %H:%M:%S')}\n---\n",
         "This is a regularly updated paper collection about AI for science, with a specific focus on materials science, "
         "associated with the MatVerse paper.\n",
     ]
@@ -522,11 +524,11 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
 
     # Add summary
     markdown_lines.append("---\n")
-    current_time = datetime.now()
-    markdown_lines.append(f"\n**Total Papers:** {len(papers)}\n")
-    markdown_lines.append(
-        f"**Generation Time:** {current_time.strftime('%Y-%m-%d %H:%M:%S')}"
-    )
+    # current_time = datetime.now()
+    # markdown_lines.append(f"\n**Total Papers:** {len(papers)}\n")
+    # markdown_lines.append(
+    #     f"**Generation Time:** {current_time.strftime('%Y-%m-%d %H:%M:%S')}"
+    # )
 
     # Join all lines
     markdown_content = "\n".join(markdown_lines)
