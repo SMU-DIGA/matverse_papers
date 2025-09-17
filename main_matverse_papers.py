@@ -440,8 +440,7 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
 <h3>Update Time: {current_time.strftime('%Y-%m-%d')}</h3>
 </div>\n\n---\n""",
         # f"**Generation Time:** {current_time.strftime('%Y-%m-%d %H:%M:%S')}\n---\n",
-        "This is a regularly updated paper collection about AI for science, with a specific focus on materials science, "
-        "associated with the MatVerse paper.\n",
+        "This is a regularly updated paper collection about AI for science, with a specific focus on materials science.\n",
     ]
 
     # markdown_lines = [
