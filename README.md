@@ -22,7 +22,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Acta Materialia (6 papers)
 
-- [326. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space](#326-accelerated-multi-objective-alloy-discovery-through-efficient-bayesian-methods-application-to-the-fcc-high-entropy-alloy-space) *(September 15, 2025)*
+- [328. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space](#328-accelerated-multi-objective-alloy-discovery-through-efficient-bayesian-methods-application-to-the-fcc-high-entropy-alloy-space) *(September 15, 2025)*
 - [314. Generalizable descriptors for automatic titanium alloys design by learning from texts via large language model](#314-generalizable-descriptors-for-automatic-titanium-alloys-design-by-learning-from-texts-via-large-language-model) *(September 01, 2025)*
 - [259. A novel training-free approach to efficiently extracting material microstructures via visual large model](#259-a-novel-training-free-approach-to-efficiently-extracting-material-microstructures-via-visual-large-model) *(May 15, 2025)*
 - [228. Developing novel low-density high-entropy superalloys with high strength and superior creep resistance guided by automated machine learning](#228-developing-novel-low-density-high-entropy-superalloys-with-high-strength-and-superior-creep-resistance-guided-by-automated-machine-learning) *(February 15, 2025)*
@@ -120,7 +120,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Journal of Molecular Biology (1 papers)
 
-- [325. Structural Insights into Autophagy in the AlphaFold Era](#325-structural-insights-into-autophagy-in-the-alphafold-era) *(September 15, 2025)*
+- [327. Structural Insights into Autophagy in the AlphaFold Era](#327-structural-insights-into-autophagy-in-the-alphafold-era) *(September 15, 2025)*
 
 ### Journal of the American Chemical Society (14 papers)
 
@@ -330,8 +330,12 @@ This section provides a quick overview of papers organized by publication venue 
 - [66. A data-science approach to predict the heat capacity of nanoporous materials](#66-a-data-science-approach-to-predict-the-heat-capacity-of-nanoporous-materials) *(December 2022)*
 - [4. Design of efficient molecular organic light-emitting diodes by a high-throughput virtual screening and experimental approach](#4-design-of-efficient-molecular-organic-light-emitting-diodes-by-a-high-throughput-virtual-screening-and-experimental-approach) *(October 2016)*
 
-### Nature Methods (3 papers)
+### Nature Methods (7 papers)
 
+- [330. MSnLib: efficient generation of open multi-stage fragmentation mass spectral libraries](#330-msnlib-efficient-generation-of-open-multi-stage-fragmentation-mass-spectral-libraries) *(September 15, 2025)*
+- [329. Spatial gene expression at single-cell resolution from histology using deep learning with GHIST](#329-spatial-gene-expression-at-single-cell-resolution-from-histology-using-deep-learning-with-ghist) *(September 15, 2025)*
+- [326. Integrating diverse experimental information to assist protein complex structure prediction by GRASP](#326-integrating-diverse-experimental-information-to-assist-protein-complex-structure-prediction-by-grasp) *(September 15, 2025)*
+- [325. De novo discovery of conserved gene clusters in microbial genomes with Spacedust](#325-de-novo-discovery-of-conserved-gene-clusters-in-microbial-genomes-with-spacedust) *(September 15, 2025)*
 - [167. OpenFold: retraining AlphaFold2 yields new insights into its learning mechanisms and capacity for generalization](#167-openfold-retraining-alphafold2-yields-new-insights-into-its-learning-mechanisms-and-capacity-for-generalization) *(August 2024)*
 - [166. Large-scale foundation model on single-cell transcriptomics](#166-large-scale-foundation-model-on-single-cell-transcriptomics) *(August 2024)*
 - [112. Uncovering developmental time and tempo using deep learning](#112-uncovering-developmental-time-and-tempo-using-deep-learning) *(December 2023)*
@@ -502,7 +506,45 @@ This section provides a quick overview of papers organized by publication venue 
 
 ## 📑 Papers (Chronological Order)
 
-## 326. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space
+## 330. MSnLib: efficient generation of open multi-stage fragmentation mass spectral libraries
+
+**Authors:** Corinna Brungs, Robin Schmid, Steffen Heuckeroth, Aninda Mazumdar, Matúš Drexler, Pavel Šácha, Pieter C. Dorrestein, Daniel Petras, Louis-Felix Nothias, Václav Veverka, Radim Nencka, Zdeněk Kameník, Tomáš Pluskal
+
+**Venue:** Nature Methods
+
+**Publication Date:** September 15, 2025
+
+**Pages:** 1-4
+
+**DOI:** https://doi.org/10.1038/s41592-025-02813-0
+
+**Abstract:**
+Untargeted high-resolution mass spectrometry is a key tool in clinical metabolomics, natural product discovery and exposomics, with compound identification remaining the major bottleneck. Currently, the standard workflow applies spectral library matching against tandem mass spectrometry (MS2) fragmentation data. Multi-stage fragmentation (MSn) yields more profound insights into substructures, enabling validation of fragmentation pathways; however, the community lacks open MSn reference data of diverse natural products and other chemicals. Here we describe MSnLib, a machine learning-ready open resource of >2 million spectra in MSn trees of 30,008 unique small molecules, built with a high-throughput data acquisition and processing pipeline in the open-source software mzmine.
+
+**Tags:** Mass spectrometry, Metabolomics
+
+---
+
+## 329. Spatial gene expression at single-cell resolution from histology using deep learning with GHIST
+
+**Authors:** Xiaohang Fu, Yue Cao, Beilei Bian, Chuhan Wang, Dinny Graham, Nirmala Pathmanathan, Ellis Patrick, Jinman Kim, Jean Yee Hwa Yang
+
+**Venue:** Nature Methods
+
+**Publication Date:** September 15, 2025
+
+**Pages:** 1-11
+
+**DOI:** https://doi.org/10.1038/s41592-025-02795-z
+
+**Abstract:**
+The increased use of spatially resolved transcriptomics provides new biological insights into disease mechanisms. However, the high cost and complexity of these methods are barriers to broader application. Consequently, methods have been created to predict spot-based gene expression from routinely collected histology images. Recent benchmarking showed that current methodologies have limited accuracy and spatial resolution, constraining translational capacity. Here, we introduce GHIST, a deep learning-based framework that predicts spatial gene expression at single-cell resolution by leveraging subcellular spatial transcriptomics and synergistic relationships between multiple layers of biological information. We validated GHIST using public datasets and The Cancer Genome Atlas data, demonstrating its flexibility across different spatial resolutions and superior performance. Our results underscore the utility of in silico generation of single-cell spatial gene expression measurements and the capacity to enrich existing datasets with a spatially resolved omics modality, paving the way for scalable multi-omics analysis and biomarker identification.
+
+**Tags:** Computational models, Functional genomics, Gene expression, Image processing, Machine learning
+
+---
+
+## 328. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space
 
 **Authors:** Trevor Hastings, Mrinalini Mulukutla, Danial Khatamsaz, Daniel Salas, Wenle Xu, Daniel Lewis, Nicole Person, Matthew Skokan, Braden Miller, James Paramore, Brady Butler, Douglas Allaire, Vahid Attari, Ibrahim Karaman, George Pharr, Ankit Srivastava, Raymundo Arróyave
 
@@ -523,7 +565,7 @@ This study introduces BIRDSHOT, an integrated Bayesian materials discovery frame
 
 ---
 
-## 325. Structural Insights into Autophagy in the AlphaFold Era
+## 327. Structural Insights into Autophagy in the AlphaFold Era
 
 **Authors:** Tatsuro Maruyama, Nobuo N. Noda
 
@@ -541,6 +583,44 @@ This study introduces BIRDSHOT, an integrated Bayesian materials discovery frame
 Autophagy, a lysosomal intracellular degradation system, is characterized by the de novo biogenesis of autophagosomes. This biogenesis is mediated by approximately 20 core Atg proteins, exhibiting a high degree of conservation from yeast to humans. Over the preceding two decades, the structural biology of autophagy has been investigated predominantly through X-ray crystallography, NMR spectroscopy, and, more recently, cryo-electron microscopy, collectively contributing to the elucidation of the structural basis of core Atg proteins. The recent introduction of AlphaFold has significantly improved the precision of structure prediction and is transforming structural biology research. In this review, we aim to synthesize the structural basis of the operational mechanisms of the core Atg proteins, employing structures predicted by AlphaFold, and to discuss the molecular mechanisms that drive autophagosome biogenesis.
 
 **Tags:** AlphaFold, AlphaFold2, AlphaFold3, autophagosome formation, autophagy
+
+---
+
+## 326. Integrating diverse experimental information to assist protein complex structure prediction by GRASP
+
+**Authors:** Yuhao Xie, Chengwei Zhang, Shimian Li, Xinyu Du, Yanjiao Lu, Min Wang, Yingtong Hu, Zhenyu Chen, Sirui Liu, Yi Qin Gao
+
+**Venue:** Nature Methods
+
+**Publication Date:** September 15, 2025
+
+**Pages:** 1-13
+
+**DOI:** https://doi.org/10.1038/s41592-025-02820-1
+
+**Abstract:**
+GRASP is a protein complex structure prediction model that integrates diverse forms of simulated and real-world experimental restraints, including those from crosslinking, covalent labeling, chemical shift perturbation and deep mutational scanning.
+
+**Tags:** None
+
+---
+
+## 325. De novo discovery of conserved gene clusters in microbial genomes with Spacedust
+
+**Authors:** Ruoshi Zhang, Milot Mirdita, Johannes Söding
+
+**Venue:** Nature Methods
+
+**Publication Date:** September 15, 2025
+
+**Pages:** 1-9
+
+**DOI:** https://doi.org/10.1038/s41592-025-02816-x
+
+**Abstract:**
+Metagenomics has revolutionized environmental and human-associated microbiome studies. However, the limited fraction of proteins with known biological processes and molecular functions presents a major bottleneck. In prokaryotes and viruses, evolution favors keeping genes participating in the same biological processes colocalized as conserved gene clusters. Conversely, conservation of gene neighborhood indicates functional association. Here we present Spacedust, a tool for systematic, de novo discovery of conserved gene clusters. To find homologous protein matches, Spacedust uses fast and sensitive structure comparison with Foldseek. Partially conserved clusters are detected using novel clustering and order conservation P values. We demonstrate Spacedust’s sensitivity with an all-versus-all analysis of 1,308 bacterial genomes, identifying 72,843 conserved gene clusters containing 58% of the 4.2 million genes. It recovered 95% of antiviral defense system clusters annotated by the specialized tool PADLOC. Spacedust’s high sensitivity and speed will facilitate the annotation of large numbers of sequenced bacterial, archaeal and viral genomes.
+
+**Tags:** Genome informatics, Metagenomics, Software
 
 ---
 
@@ -1467,7 +1547,7 @@ Carrier biomaterials used in single-cell analysis face a bottleneck in protein d
 **Abstract:**
 No abstract available
 
-**Tags:** agentic systems, artificial intelligence, density functional theory, foundation models, large language models, MAP 4: Demonstrate, quantum computational chemistry, time-dependent density functional theory
+**Tags:** artificial intelligence, MAP 4: Demonstrate, density functional theory, large language models, agentic systems, foundation models, quantum computational chemistry, time-dependent density functional theory
 
 ---
 
@@ -2431,7 +2511,7 @@ Deep learning-based generative models have emerged as powerful tools for modelin
 **Abstract:**
 Global optimization of crystal compositions is a significant yet computationally intensive method to identify stable structures within chemical space. The specific physical properties linked to a three-dimensional atomic arrangement make this an essential task in the development of new materials. We present a method that efficiently uses active learning of neural network force fields for structure relaxation, minimizing the required number of steps in the process. This is achieved by neural network force fields equipped with uncertainty estimation, which iteratively guide a pool of randomly generated candidates toward their respective local minima. Using this approach, we are able to effectively identify the most promising candidates for further evaluation using density functional theory (DFT). Our method not only reliably reduces computational costs by up to two orders of magnitude across the benchmark systems Si16, Na8Cl8, Ga8As8 and Al4O6 but also excels in finding the most stable minimum for the unseen, more complex systems Si46 and Al16O24. Moreover, we demonstrate at the example of Si16 that our method can find multiple relevant local minima while only adding minor computational effort.
 
-**Tags:** Atomistic models, Computational methods
+**Tags:** Computational methods, Atomistic models
 
 ---
 
@@ -3489,7 +3569,7 @@ In materials science, microstructures and their associated extrinsic properties 
 **Abstract:**
 Large Language Models (LLMs) create exciting possibilities for powerful language processing tools to accelerate research in materials science. While LLMs have great potential to accelerate materials understanding and discovery, they currently fall short in being practical materials science tools. In this position paper, we show relevant failure cases of LLMs in materials science that reveal current limitations of LLMs related to comprehending and reasoning over complex, interconnected materials science knowledge. Given those shortcomings, we outline a framework for developing Materials Science LLMs (MatSci-LLMs) that are grounded in materials science knowledge and hypothesis generation followed by hypothesis testing. The path to attaining performant MatSci-LLMs rests in large part on building high-quality, multi-modal datasets sourced from scientific literature where various information extraction challenges persist. As such, we describe key materials science information extraction challenges which need to be overcome in order to build large-scale, multi-modal datasets that capture valuable materials science knowledge. Finally, we outline a roadmap for applying future MatSci-LLMs for real-world materials discovery via: 1. Automated Knowledge Base Generation; 2. Automated In-Silico Material Design; and 3. MatSci-LLM Integrated Self-Driving Materials Laboratories.
 
-**Tags:** Computer Science - Artificial Intelligence, Computer Science - Computation and Language, Computer Science - Machine Learning, Condensed Matter - Materials Science
+**Tags:** Condensed Matter - Materials Science, Computer Science - Artificial Intelligence, Computer Science - Machine Learning, Computer Science - Computation and Language
 
 ---
 
@@ -7189,6 +7269,6 @@ The Open Quantum Materials Database (OQMD) is a high-throughput database current
 ---
 
 
-**Total Papers:** 326
+**Total Papers:** 330
 
-**Generation Time:** 2025-09-16 22:18:26
+**Generation Time:** 2025-09-17 11:34:59
