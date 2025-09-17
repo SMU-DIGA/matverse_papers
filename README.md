@@ -22,7 +22,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Acta Materialia (6 papers)
 
-- [331. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space](#331-accelerated-multi-objective-alloy-discovery-through-efficient-bayesian-methods-application-to-the-fcc-high-entropy-alloy-space) *(September 15, 2025)*
+- [332. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space](#332-accelerated-multi-objective-alloy-discovery-through-efficient-bayesian-methods-application-to-the-fcc-high-entropy-alloy-space) *(September 15, 2025)*
 - [316. Generalizable descriptors for automatic titanium alloys design by learning from texts via large language model](#316-generalizable-descriptors-for-automatic-titanium-alloys-design-by-learning-from-texts-via-large-language-model) *(September 01, 2025)*
 - [259. A novel training-free approach to efficiently extracting material microstructures via visual large model](#259-a-novel-training-free-approach-to-efficiently-extracting-material-microstructures-via-visual-large-model) *(May 15, 2025)*
 - [229. Developing novel low-density high-entropy superalloys with high strength and superior creep resistance guided by automated machine learning](#229-developing-novel-low-density-high-entropy-superalloys-with-high-strength-and-superior-creep-resistance-guided-by-automated-machine-learning) *(February 15, 2025)*
@@ -81,6 +81,10 @@ This section provides a quick overview of papers organized by publication venue 
 - [290. Uni-Electrolyte: An Artificial Intelligence Platform for Designing Electrolyte Molecules for Rechargeable Batteries](#290-uni-electrolyte-an-artificial-intelligence-platform-for-designing-electrolyte-molecules-for-rechargeable-batteries) *(July 21, 2025)*
 - [223. Exploration of Chemical Space Through Automated Reasoning](#223-exploration-of-chemical-space-through-automated-reasoning) *(February 03, 2025)*
 
+### Cell (1 papers)
+
+- [325. AI mirrors experimental science to uncover a mechanism of gene transfer crucial to bacterial evolution](#325-ai-mirrors-experimental-science-to-uncover-a-mechanism-of-gene-transfer-crucial-to-bacterial-evolution) *(September 09, 2025)*
+
 ### Chemical Science (1 papers)
 
 - [302. SAGERank: inductive learning of protein–protein interaction from antibody–antigen recognition](#302-sagerank-inductive-learning-of-protein–protein-interaction-from-antibody–antigen-recognition) *(August 12, 2025)*
@@ -120,7 +124,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Journal of Molecular Biology (1 papers)
 
-- [330. Structural Insights into Autophagy in the AlphaFold Era](#330-structural-insights-into-autophagy-in-the-alphafold-era) *(September 15, 2025)*
+- [331. Structural Insights into Autophagy in the AlphaFold Era](#331-structural-insights-into-autophagy-in-the-alphafold-era) *(September 15, 2025)*
 
 ### Journal of the American Chemical Society (14 papers)
 
@@ -309,7 +313,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Nature Machine Intelligence (14 papers)
 
-- [327. Towards agentic science for advancing scientific discovery](#327-towards-agentic-science-for-advancing-scientific-discovery) *(September 10, 2025)*
+- [328. Towards agentic science for advancing scientific discovery](#328-towards-agentic-science-for-advancing-scientific-discovery) *(September 10, 2025)*
 - [309. A unified pre-trained deep learning framework for cross-task reaction performance prediction and synthesis planning](#309-a-unified-pre-trained-deep-learning-framework-for-cross-task-reaction-performance-prediction-and-synthesis-planning) *(August 19, 2025)*
 - [299. Kolmogorov–Arnold graph neural networks for molecular property prediction](#299-kolmogorov–arnold-graph-neural-networks-for-molecular-property-prediction) *(August 2025)*
 - [277. Enabling large language models for real-world materials discovery](#277-enabling-large-language-models-for-real-world-materials-discovery) *(July 2025)*
@@ -334,10 +338,10 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Nature Methods (7 papers)
 
-- [333. MSnLib: efficient generation of open multi-stage fragmentation mass spectral libraries](#333-msnlib-efficient-generation-of-open-multi-stage-fragmentation-mass-spectral-libraries) *(September 15, 2025)*
-- [332. Spatial gene expression at single-cell resolution from histology using deep learning with GHIST](#332-spatial-gene-expression-at-single-cell-resolution-from-histology-using-deep-learning-with-ghist) *(September 15, 2025)*
-- [329. Integrating diverse experimental information to assist protein complex structure prediction by GRASP](#329-integrating-diverse-experimental-information-to-assist-protein-complex-structure-prediction-by-grasp) *(September 15, 2025)*
-- [328. De novo discovery of conserved gene clusters in microbial genomes with Spacedust](#328-de-novo-discovery-of-conserved-gene-clusters-in-microbial-genomes-with-spacedust) *(September 15, 2025)*
+- [334. MSnLib: efficient generation of open multi-stage fragmentation mass spectral libraries](#334-msnlib-efficient-generation-of-open-multi-stage-fragmentation-mass-spectral-libraries) *(September 15, 2025)*
+- [333. Spatial gene expression at single-cell resolution from histology using deep learning with GHIST](#333-spatial-gene-expression-at-single-cell-resolution-from-histology-using-deep-learning-with-ghist) *(September 15, 2025)*
+- [330. Integrating diverse experimental information to assist protein complex structure prediction by GRASP](#330-integrating-diverse-experimental-information-to-assist-protein-complex-structure-prediction-by-grasp) *(September 15, 2025)*
+- [329. De novo discovery of conserved gene clusters in microbial genomes with Spacedust](#329-de-novo-discovery-of-conserved-gene-clusters-in-microbial-genomes-with-spacedust) *(September 15, 2025)*
 - [167. OpenFold: retraining AlphaFold2 yields new insights into its learning mechanisms and capacity for generalization](#167-openfold-retraining-alphafold2-yields-new-insights-into-its-learning-mechanisms-and-capacity-for-generalization) *(August 2024)*
 - [166. Large-scale foundation model on single-cell transcriptomics](#166-large-scale-foundation-model-on-single-cell-transcriptomics) *(August 2024)*
 - [112. Uncovering developmental time and tempo using deep learning](#112-uncovering-developmental-time-and-tempo-using-deep-learning) *(December 2023)*
@@ -379,7 +383,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Nature Synthesis (10 papers)
 
-- [326. Molecular-dynamics-simulation-guided directed evolution of flavoenzymes for atroposelective desaturation](#326-molecular-dynamics-simulation-guided-directed-evolution-of-flavoenzymes-for-atroposelective-desaturation) *(September 10, 2025)*
+- [327. Molecular-dynamics-simulation-guided directed evolution of flavoenzymes for atroposelective desaturation](#327-molecular-dynamics-simulation-guided-directed-evolution-of-flavoenzymes-for-atroposelective-desaturation) *(September 10, 2025)*
 - [194. Synthesis of high-entropy materials](#194-synthesis-of-high-entropy-materials) *(December 2024)*
 - [187. Reproducibility in automated chemistry laboratories using computer science abstractions](#187-reproducibility-in-automated-chemistry-laboratories-using-computer-science-abstractions) *(November 2024)*
 - [142. Robotic synthesis decoded through phase diagram mastery](#142-robotic-synthesis-decoded-through-phase-diagram-mastery) *(May 2024)*
@@ -396,7 +400,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ### Preprint (24 papers)
 
-- [325. RoboChemist: Long-Horizon and Safety-Compliant Robotic Chemical Experimentation](#325-robochemist-long-horizon-and-safety-compliant-robotic-chemical-experimentation) *(September 10, 2025)*
+- [326. RoboChemist: Long-Horizon and Safety-Compliant Robotic Chemical Experimentation](#326-robochemist-long-horizon-and-safety-compliant-robotic-chemical-experimentation) *(September 10, 2025)*
 - [315. From Automation to Autonomy: A Survey on Large Language Models in Scientific Discovery](#315-from-automation-to-autonomy-a-survey-on-large-language-models-in-scientific-discovery) *(August 30, 2025)*
 - [304. Chem3DLLM: 3D Multimodal Large Language Models for Chemistry](#304-chem3dllm-3d-multimodal-large-language-models-for-chemistry) *(August 14, 2025)*
 - [297. GenoMAS: A Multi-Agent Framework for Scientific Discovery via Code-Driven Gene Expression Analysis](#297-genomas-a-multi-agent-framework-for-scientific-discovery-via-code-driven-gene-expression-analysis) *(July 31, 2025)*
@@ -509,7 +513,7 @@ This section provides a quick overview of papers organized by publication venue 
 
 ## 📑 Papers (Chronological Order)
 
-## 333. MSnLib: efficient generation of open multi-stage fragmentation mass spectral libraries
+## 334. MSnLib: efficient generation of open multi-stage fragmentation mass spectral libraries
 
 **Authors:** Corinna Brungs, Robin Schmid, Steffen Heuckeroth, Aninda Mazumdar, Matúš Drexler, Pavel Šácha, Pieter C. Dorrestein, Daniel Petras, Louis-Felix Nothias, Václav Veverka, Radim Nencka, Zdeněk Kameník, Tomáš Pluskal
 
@@ -528,7 +532,7 @@ Untargeted high-resolution mass spectrometry is a key tool in clinical metabolom
 
 ---
 
-## 332. Spatial gene expression at single-cell resolution from histology using deep learning with GHIST
+## 333. Spatial gene expression at single-cell resolution from histology using deep learning with GHIST
 
 **Authors:** Xiaohang Fu, Yue Cao, Beilei Bian, Chuhan Wang, Dinny Graham, Nirmala Pathmanathan, Ellis Patrick, Jinman Kim, Jean Yee Hwa Yang
 
@@ -547,7 +551,7 @@ The increased use of spatially resolved transcriptomics provides new biological 
 
 ---
 
-## 331. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space
+## 332. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space
 
 **Authors:** Trevor Hastings, Mrinalini Mulukutla, Danial Khatamsaz, Daniel Salas, Wenle Xu, Daniel Lewis, Nicole Person, Matthew Skokan, Braden Miller, James Paramore, Brady Butler, Douglas Allaire, Vahid Attari, Ibrahim Karaman, George Pharr, Ankit Srivastava, Raymundo Arróyave
 
@@ -568,7 +572,7 @@ This study introduces BIRDSHOT, an integrated Bayesian materials discovery frame
 
 ---
 
-## 330. Structural Insights into Autophagy in the AlphaFold Era
+## 331. Structural Insights into Autophagy in the AlphaFold Era
 
 **Authors:** Tatsuro Maruyama, Nobuo N. Noda
 
@@ -589,7 +593,7 @@ Autophagy, a lysosomal intracellular degradation system, is characterized by the
 
 ---
 
-## 329. Integrating diverse experimental information to assist protein complex structure prediction by GRASP
+## 330. Integrating diverse experimental information to assist protein complex structure prediction by GRASP
 
 **Authors:** Yuhao Xie, Chengwei Zhang, Shimian Li, Xinyu Du, Yanjiao Lu, Min Wang, Yingtong Hu, Zhenyu Chen, Sirui Liu, Yi Qin Gao
 
@@ -608,7 +612,7 @@ GRASP is a protein complex structure prediction model that integrates diverse fo
 
 ---
 
-## 328. De novo discovery of conserved gene clusters in microbial genomes with Spacedust
+## 329. De novo discovery of conserved gene clusters in microbial genomes with Spacedust
 
 **Authors:** Ruoshi Zhang, Milot Mirdita, Johannes Söding
 
@@ -627,7 +631,7 @@ Metagenomics has revolutionized environmental and human-associated microbiome st
 
 ---
 
-## 327. Towards agentic science for advancing scientific discovery
+## 328. Towards agentic science for advancing scientific discovery
 
 **Authors:** Hongliang Xin, John R. Kitchin, Heather J. Kulik
 
@@ -646,7 +650,7 @@ Artificial intelligence is transforming scientific discovery through (semi-)auto
 
 ---
 
-## 326. Molecular-dynamics-simulation-guided directed evolution of flavoenzymes for atroposelective desaturation
+## 327. Molecular-dynamics-simulation-guided directed evolution of flavoenzymes for atroposelective desaturation
 
 **Authors:** Hong-Ning Yin, Zhao Chen, Xiang Zhao, Zihan Liu, Feng Yu, Sanduo Zheng, Niu Huang, Zhen Liu
 
@@ -665,7 +669,7 @@ Molecular-dynamics-simulation-guided evolution of flavoenzymes produces efficien
 
 ---
 
-## 325. RoboChemist: Long-Horizon and Safety-Compliant Robotic Chemical Experimentation
+## 326. RoboChemist: Long-Horizon and Safety-Compliant Robotic Chemical Experimentation
 
 **Authors:** Zongzheng Zhang, Chenghao Yue, Haobo Xu, Minwen Liao, Xianglin Qi, Huan-ang Gao, Ziwei Wang, Hao Zhao
 
@@ -679,6 +683,25 @@ Molecular-dynamics-simulation-guided evolution of flavoenzymes produces efficien
 Robotic chemists promise to both liberate human experts from repetitive tasks and accelerate scientific discovery, yet remain in their infancy. Chemical experiments involve long-horizon procedures over hazardous and deformable substances, where success requires not only task completion but also strict compliance with experimental norms. To address these challenges, we propose \textit{RoboChemist}, a dual-loop framework that integrates Vision-Language Models (VLMs) with Vision-Language-Action (VLA) models. Unlike prior VLM-based systems (e.g., VoxPoser, ReKep) that rely on depth perception and struggle with transparent labware, and existing VLA systems (e.g., RDT, pi0) that lack semantic-level feedback for complex tasks, our method leverages a VLM to serve as (1) a planner to decompose tasks into primitive actions, (2) a visual prompt generator to guide VLA models, and (3) a monitor to assess task success and regulatory compliance. Notably, we introduce a VLA interface that accepts image-based visual targets from the VLM, enabling precise, goal-conditioned control. Our system successfully executes both primitive actions and complete multi-step chemistry protocols. Results show 23.57% higher average success rate and a 0.298 average increase in compliance rate over state-of-the-art VLA baselines, while also demonstrating strong generalization to objects and tasks.
 
 **Tags:** Computer Science - Robotics
+
+---
+
+## 325. AI mirrors experimental science to uncover a mechanism of gene transfer crucial to bacterial evolution
+
+**Authors:** José R. Penadés, Juraj Gottweis, Lingchen He, Jonasz B. Patkowski, Alexander Daryin, Wei-Hung Weng, Tao Tu, Anil Palepu, Artiom Myaskovsky, Annalisa Pawlosky, Vivek Natarajan, Alan Karthikesalingam, Tiago R. D. Costa
+
+**Venue:** Cell
+
+**Publication Date:** September 09, 2025
+
+**Volume & Issue:** Volume 0, Issue 0
+
+**DOI:** https://doi.org/10.1016/j.cell.2025.08.018
+
+**Abstract:**
+No abstract available
+
+**Tags:** AI-driven discovery, bacterial evolution, cf-PICIs, gene transfer, inter-species transfer, large language models, tail hijacking
 
 ---
 
@@ -1036,7 +1059,7 @@ Self-driving laboratories promise accelerated discovery. As the scope of chemica
 **Abstract:**
 Machine learning has become ubiquitous in materials modelling and now routinely enables large-scale atomistic simulations with quantum-mechanical accuracy. However, developing machine-learned interatomic potentials requires high-quality training data, and the manual generation and curation of such data can be a major bottleneck. Here, we introduce an automated framework for the exploration and fitting of potential-energy surfaces, implemented in an openly available software package that we call autoplex (‘automatic potential-landscape explorer’). We discuss design choices, particularly the interoperability with existing software architectures, and the ability for the end user to easily use the computational workflows provided. We show wide-ranging capability demonstrations: for the titanium–oxygen system, SiO2, crystalline and liquid water, as well as phase-change memory materials. More generally, our study illustrates how automation can speed up atomistic machine learning in computational materials science.
 
-**Tags:** Computational methods, Atomistic models, Computational chemistry
+**Tags:** Atomistic models, Computational chemistry, Computational methods
 
 ---
 
@@ -7333,6 +7356,6 @@ The Open Quantum Materials Database (OQMD) is a high-throughput database current
 ---
 
 
-**Total Papers:** 333
+**Total Papers:** 334
 
-**Generation Time:** 2025-09-17 11:46:55
+**Generation Time:** 2025-09-17 12:22:25
