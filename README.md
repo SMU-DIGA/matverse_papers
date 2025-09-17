@@ -5,7 +5,7 @@
 
 ---
 
-This is a regularly updated paper collection about AI for science, with a specific focus on materials science, associated with the MatVerse paper.
+This is a regularly updated paper collection about AI for science, with a specific focus on materials science.
 
 ## 📈 Publication Timeline
 
