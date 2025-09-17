@@ -9,7 +9,9 @@ This is a regularly updated paper collection about AI for science, with a specif
 
 ## 📈 Publication Timeline
 
-<img src="./assets/yearly_publications.svg" alt="Yearly Publication Distribution" width="800">
+<div align="center">
+<img src="./assets/yearly_publications.svg"  width="800">
+</div>
 
 ---
 

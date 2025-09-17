@@ -456,11 +456,14 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
         markdown_lines.extend(
             [
                 "## 📈 Publication Timeline\n",
-                f'<img src="{chart_path}" alt="Yearly Publication Distribution" width="800">\n',
+                # f'<img src="{chart_path}" alt="Yearly Publication Distribution" width="800">\n',
+                f"""<div align="center">
+<img src="{chart_path}"  width="800">
+</div>\n\n---\n""",
             ]
         )
 
-    markdown_lines.extend(["---\n"])
+    # markdown_lines.extend(["---\n"])
 
     # Add journal index section
     journal_index = generate_journal_index(papers)
