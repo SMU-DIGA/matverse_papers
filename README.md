@@ -25,7 +25,7 @@ This section provides a quick overview of papers organized by publication venues
 
 ### Acta Materialia (6 papers)
 
-- [353. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space](#353-accelerated-multi-objective-alloy-discovery-through-efficient-bayesian-methods-application-to-the-fcc-high-entropy-alloy-space) *(September 15, 2025)*
+- [354. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space](#354-accelerated-multi-objective-alloy-discovery-through-efficient-bayesian-methods-application-to-the-fcc-high-entropy-alloy-space) *(September 15, 2025)*
 - [333. Generalizable descriptors for automatic titanium alloys design by learning from texts via large language model](#333-generalizable-descriptors-for-automatic-titanium-alloys-design-by-learning-from-texts-via-large-language-model) *(September 01, 2025)*
 - [264. A novel training-free approach to efficiently extracting material microstructures via visual large model](#264-a-novel-training-free-approach-to-efficiently-extracting-material-microstructures-via-visual-large-model) *(May 15, 2025)*
 - [233. Developing novel low-density high-entropy superalloys with high strength and superior creep resistance guided by automated machine learning](#233-developing-novel-low-density-high-entropy-superalloys-with-high-strength-and-superior-creep-resistance-guided-by-automated-machine-learning) *(February 15, 2025)*
@@ -128,11 +128,11 @@ This section provides a quick overview of papers organized by publication venues
 
 ### Journal of Molecular Biology (1 papers)
 
-- [351. Structural Insights into Autophagy in the AlphaFold Era](#351-structural-insights-into-autophagy-in-the-alphafold-era) *(September 15, 2025)*
+- [352. Structural Insights into Autophagy in the AlphaFold Era](#352-structural-insights-into-autophagy-in-the-alphafold-era) *(September 15, 2025)*
 
 ### Journal of the American Chemical Society (16 papers)
 
-- [357. Modeling-Making-Modulating High-Entropy Alloy with Activated Water-Dissociation Centers for Superior Electrocatalysis](#357-modeling-making-modulating-high-entropy-alloy-with-activated-water-dissociation-centers-for-superior-electrocatalysis) *(September 17, 2025)*
+- [360. Modeling-Making-Modulating High-Entropy Alloy with Activated Water-Dissociation Centers for Superior Electrocatalysis](#360-modeling-making-modulating-high-entropy-alloy-with-activated-water-dissociation-centers-for-superior-electrocatalysis) *(September 17, 2025)*
 - [313. Designing Pb-Free High-Entropy Relaxor Ferroelectrics with Machine Learning Assistance for High Energy Storage](#313-designing-pb-free-high-entropy-relaxor-ferroelectrics-with-machine-learning-assistance-for-high-energy-storage) *(August 06, 2025)*
 - [291. Artificial Intelligence Paradigms for Next-Generation Metal–Organic Framework Research](#291-artificial-intelligence-paradigms-for-next-generation-metal–organic-framework-research) *(July 09, 2025)*
 - [289. Natural-Language-Interfaced Robotic Synthesis for AI-Copilot-Assisted Exploration of Inorganic Materials](#289-natural-language-interfaced-robotic-synthesis-for-ai-copilot-assisted-exploration-of-inorganic-materials) *(July 02, 2025)*
@@ -165,7 +165,7 @@ This section provides a quick overview of papers organized by publication venues
 
 ### Nature (33 papers)
 
-- [356. Learning the natural history of human disease with generative transformers](#356-learning-the-natural-history-of-human-disease-with-generative-transformers) *(September 17, 2025)*
+- [359. Learning the natural history of human disease with generative transformers](#359-learning-the-natural-history-of-human-disease-with-generative-transformers) *(September 17, 2025)*
 - [338. Supervised learning in DNA neural networks](#338-supervised-learning-in-dna-neural-networks) *(September 03, 2025)*
 - [334. Electron flow matching for generative reaction mechanism prediction](#334-electron-flow-matching-for-generative-reaction-mechanism-prediction) *(September 2025)*
 - [329. One-shot design of functional protein binders with BindCraft](#329-one-shot-design-of-functional-protein-binders-with-bindcraft) *(August 27, 2025)*
@@ -350,13 +350,13 @@ This section provides a quick overview of papers organized by publication venues
 
 ### Nature Methods (11 papers)
 
-- [355. MSnLib: efficient generation of open multi-stage fragmentation mass spectral libraries](#355-msnlib-efficient-generation-of-open-multi-stage-fragmentation-mass-spectral-libraries) *(September 15, 2025)*
-- [354. Spatial gene expression at single-cell resolution from histology using deep learning with GHIST](#354-spatial-gene-expression-at-single-cell-resolution-from-histology-using-deep-learning-with-ghist) *(September 15, 2025)*
-- [352. Bridging histology and spatial gene expression across scales](#352-bridging-histology-and-spatial-gene-expression-across-scales) *(September 15, 2025)*
-- [350. Scaling up spatial transcriptomics for large-sized tissues: uncovering cellular-level tissue architecture beyond conventional platforms with iSCALE](#350-scaling-up-spatial-transcriptomics-for-large-sized-tissues-uncovering-cellular-level-tissue-architecture-beyond-conventional-platforms-with-iscale) *(September 15, 2025)*
-- [349. Integrating diverse experimental information to assist protein complex structure prediction by GRASP](#349-integrating-diverse-experimental-information-to-assist-protein-complex-structure-prediction-by-grasp) *(September 15, 2025)*
-- [348. De novo discovery of conserved gene clusters in microbial genomes with Spacedust](#348-de-novo-discovery-of-conserved-gene-clusters-in-microbial-genomes-with-spacedust) *(September 15, 2025)*
-- [347. MIFA: Metadata, Incentives, Formats and Accessibility guidelines to improve the reuse of AI datasets for bioimage analysis](#347-mifa-metadata-incentives-formats-and-accessibility-guidelines-to-improve-the-reuse-of-ai-datasets-for-bioimage-analysis) *(September 15, 2025)*
+- [356. MSnLib: efficient generation of open multi-stage fragmentation mass spectral libraries](#356-msnlib-efficient-generation-of-open-multi-stage-fragmentation-mass-spectral-libraries) *(September 15, 2025)*
+- [355. Spatial gene expression at single-cell resolution from histology using deep learning with GHIST](#355-spatial-gene-expression-at-single-cell-resolution-from-histology-using-deep-learning-with-ghist) *(September 15, 2025)*
+- [353. Bridging histology and spatial gene expression across scales](#353-bridging-histology-and-spatial-gene-expression-across-scales) *(September 15, 2025)*
+- [351. Scaling up spatial transcriptomics for large-sized tissues: uncovering cellular-level tissue architecture beyond conventional platforms with iSCALE](#351-scaling-up-spatial-transcriptomics-for-large-sized-tissues-uncovering-cellular-level-tissue-architecture-beyond-conventional-platforms-with-iscale) *(September 15, 2025)*
+- [350. Integrating diverse experimental information to assist protein complex structure prediction by GRASP](#350-integrating-diverse-experimental-information-to-assist-protein-complex-structure-prediction-by-grasp) *(September 15, 2025)*
+- [349. De novo discovery of conserved gene clusters in microbial genomes with Spacedust](#349-de-novo-discovery-of-conserved-gene-clusters-in-microbial-genomes-with-spacedust) *(September 15, 2025)*
+- [348. MIFA: Metadata, Incentives, Formats and Accessibility guidelines to improve the reuse of AI datasets for bioimage analysis](#348-mifa-metadata-incentives-formats-and-accessibility-guidelines-to-improve-the-reuse-of-ai-datasets-for-bioimage-analysis) *(September 15, 2025)*
 - [346. Biophysics-based protein language models for protein engineering](#346-biophysics-based-protein-language-models-for-protein-engineering) *(September 11, 2025)*
 - [170. OpenFold: retraining AlphaFold2 yields new insights into its learning mechanisms and capacity for generalization](#170-openfold-retraining-alphafold2-yields-new-insights-into-its-learning-mechanisms-and-capacity-for-generalization) *(August 2024)*
 - [169. Large-scale foundation model on single-cell transcriptomics](#169-large-scale-foundation-model-on-single-cell-transcriptomics) *(August 2024)*
@@ -414,8 +414,11 @@ This section provides a quick overview of papers organized by publication venues
 
 - [15. Molecular Dynamics Simulation for All](#15-molecular-dynamics-simulation-for-all) *(September 19, 2018)*
 
-### Preprint (24 papers)
+### Preprint (27 papers)
 
+- [358. Automated and modular protein binder design with BinderFlow](#358-automated-and-modular-protein-binder-design-with-binderflow) *(September 16, 2025)*
+- [357. A Generative Foundation Model for Antibody Design](#357-a-generative-foundation-model-for-antibody-design) *(September 16, 2025)*
+- [347. Guided multi-agent AI invents highly accurate, uncertainty-aware transcriptomic aging clocks](#347-guided-multi-agent-ai-invents-highly-accurate-uncertainty-aware-transcriptomic-aging-clocks) *(September 12, 2025)*
 - [343. RoboChemist: Long-Horizon and Safety-Compliant Robotic Chemical Experimentation](#343-robochemist-long-horizon-and-safety-compliant-robotic-chemical-experimentation) *(September 10, 2025)*
 - [332. From Automation to Autonomy: A Survey on Large Language Models in Scientific Discovery](#332-from-automation-to-autonomy-a-survey-on-large-language-models-in-scientific-discovery) *(August 30, 2025)*
 - [317. Chem3DLLM: 3D Multimodal Large Language Models for Chemistry](#317-chem3dllm-3d-multimodal-large-language-models-for-chemistry) *(August 14, 2025)*
@@ -539,7 +542,7 @@ This section provides a quick overview of papers organized by publication venues
 
 ## 📑 Papers (Chronological Order)
 
-## 357. Modeling-Making-Modulating High-Entropy Alloy with Activated Water-Dissociation Centers for Superior Electrocatalysis
+## 360. Modeling-Making-Modulating High-Entropy Alloy with Activated Water-Dissociation Centers for Superior Electrocatalysis
 
 **Authors:** Ho Ngoc Nam, Ravi Nandan, Lei Fu, Yingji Zhao, Yunqing Kang, Tetsuya Fukushima, Kazunori Sato, Yusuke Asakura, Ovidiu Cretu, Jun Kikkawa, Joel Henzie, Jonathan P. Hill, Takeshi Yanai, Quan Manh Phung, Yusuke Yamauchi
 
@@ -560,7 +563,7 @@ High-entropy alloys (HEAs) have recently emerged as promising electrocatalysts f
 
 ---
 
-## 356. Learning the natural history of human disease with generative transformers
+## 359. Learning the natural history of human disease with generative transformers
 
 **Authors:** Artem Shmatko, Alexander Wolfgang Jung, Kumar Gaurav, Søren Brunak, Laust Hvas Mortensen, Ewan Birney, Tom Fitzgerald, Moritz Gerstung
 
@@ -579,7 +582,41 @@ Decision-making in healthcare relies on understanding patients’ past and curre
 
 ---
 
-## 355. MSnLib: efficient generation of open multi-stage fragmentation mass spectral libraries
+## 358. Automated and modular protein binder design with BinderFlow
+
+**Authors:** Carlos Chacon-Sanchez, Nayim Gonzalez-Rodriguez, Oscar Llorca, Rafael Fernandez-Leiro
+
+**Venue:** Preprint
+
+**Publication Date:** September 16, 2025
+
+**DOI:** https://doi.org/10.1101/2025.09.10.675490
+
+**Abstract:**
+Deep learning has revolutionised de novo protein design, with new models achieving unprecedented success in creating novel proteins with specific functions, including artificial protein binders. However, current methods remain computationally demanding and challenging to operate without specialised infrastructure and expertise. To overcome these limitations, we developed BinderFlow, a structured and parallelised pipeline for protein binder design. Its batch-based nature enables live monitoring of design campaigns, seamless coexistence with other GPU-intensive processes, and reduces human intervention. Furthermore, BinderFlow's modular structure enables straightforward modifications to the design pipeline to incorporate new models and tools or to implement alternative design strategies. Complementing this, we developed BFmonitor, a web-based dashboard that simplifies campaign monitoring, design evaluation, and hit selection. Together, these tools lower the entry barrier for non-specialised users and streamline expert workflows, making generative protein design more accessible, scalable and practical for both exploratory and production-level research.
+
+**Tags:** None
+
+---
+
+## 357. A Generative Foundation Model for Antibody Design
+
+**Authors:** Rubo Wang, Fandi Wu, Jiale Shi, Yidong Song, Yu Kong, Jian Ma, Bing He, Qihong Yan, Tianlei Ying, Xingyu Gao, Peilin Zhao, Jianhua Yao
+
+**Venue:** Preprint
+
+**Publication Date:** September 16, 2025
+
+**DOI:** https://doi.org/10.1101/2025.09.12.675771
+
+**Abstract:**
+Antibodies are indispensable components of the immune system, yet the design of high-affinity antibodies remains a time-consuming and experimentally intensive process. To address this challenge, we present IgGM, a novel generative foundation model designed to accelerate high-affinity antibody engineering. IgGM learns the complex relationships underlying the binding interactions between antigens and antibodies, as well as the mapping between antibody sequences and structures. By conditioning on different inputs, IgGM supports a wide range of antibody design tasks, including complex structure prediction, inverse design, affinity maturation, framework optimization, humanization, and de novo antibody design. It is compatible with both conventional antibodies and nanobodies, and allows user-defined CDR loop lengths for flexible design. To prioritize candidates, we introduce a frequency-based computational screening strategy that enhances design efficiency. Extensive evaluation through both in silico benchmarks and in vitro experiments across diverse antigens such as PD-L1, Protein A, TNF-alpha, IL-33, SARS-CoV-2 RBD and its variants demonstrates that IgGM consistently generates antibodies or nanobodies with high measured affinity. These results underscore IgGM's versatility and effectiveness as a powerful tool for next-generation antibody discovery and optimization.
+
+**Tags:** None
+
+---
+
+## 356. MSnLib: efficient generation of open multi-stage fragmentation mass spectral libraries
 
 **Authors:** Corinna Brungs, Robin Schmid, Steffen Heuckeroth, Aninda Mazumdar, Matúš Drexler, Pavel Šácha, Pieter C. Dorrestein, Daniel Petras, Louis-Felix Nothias, Václav Veverka, Radim Nencka, Zdeněk Kameník, Tomáš Pluskal
 
@@ -598,7 +635,7 @@ Untargeted high-resolution mass spectrometry is a key tool in clinical metabolom
 
 ---
 
-## 354. Spatial gene expression at single-cell resolution from histology using deep learning with GHIST
+## 355. Spatial gene expression at single-cell resolution from histology using deep learning with GHIST
 
 **Authors:** Xiaohang Fu, Yue Cao, Beilei Bian, Chuhan Wang, Dinny Graham, Nirmala Pathmanathan, Ellis Patrick, Jinman Kim, Jean Yee Hwa Yang
 
@@ -617,7 +654,7 @@ The increased use of spatially resolved transcriptomics provides new biological 
 
 ---
 
-## 353. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space
+## 354. Accelerated multi-objective alloy discovery through efficient bayesian methods: Application to the FCC high entropy alloy space
 
 **Authors:** Trevor Hastings, Mrinalini Mulukutla, Danial Khatamsaz, Daniel Salas, Wenle Xu, Daniel Lewis, Nicole Person, Matthew Skokan, Braden Miller, James Paramore, Brady Butler, Douglas Allaire, Vahid Attari, Ibrahim Karaman, George Pharr, Ankit Srivastava, Raymundo Arróyave
 
@@ -638,7 +675,7 @@ This study introduces BIRDSHOT, an integrated Bayesian materials discovery frame
 
 ---
 
-## 352. Bridging histology and spatial gene expression across scales
+## 353. Bridging histology and spatial gene expression across scales
 
 **Authors:** Ying Ma
 
@@ -657,7 +694,7 @@ Two deep-learning frameworks — GHIST and iSCALE — turn routine histology ima
 
 ---
 
-## 351. Structural Insights into Autophagy in the AlphaFold Era
+## 352. Structural Insights into Autophagy in the AlphaFold Era
 
 **Authors:** Tatsuro Maruyama, Nobuo N. Noda
 
@@ -678,7 +715,7 @@ Autophagy, a lysosomal intracellular degradation system, is characterized by the
 
 ---
 
-## 350. Scaling up spatial transcriptomics for large-sized tissues: uncovering cellular-level tissue architecture beyond conventional platforms with iSCALE
+## 351. Scaling up spatial transcriptomics for large-sized tissues: uncovering cellular-level tissue architecture beyond conventional platforms with iSCALE
 
 **Authors:** Amelia Schroeder, Melanie L. Loth, Chunyu Luo, Sicong Yao, Hanying Yan, Daiwei Zhang, Sarbottam Piya, Edward Plowey, Wenxing Hu, Jean R. Clemenceau, Inyeop Jang, Minji Kim, Isabel Barnfather, Su Jing Chan, Taylor L. Reynolds, Thomas Carlile, Patrick Cullen, Ji-Youn Sung, Hui-Hsin Tsai, Jeong Hwan Park, Tae Hyun Hwang, Baohong Zhang, Mingyao Li
 
@@ -697,7 +734,7 @@ Recent advances in spatial transcriptomics (ST) technologies have transformed ou
 
 ---
 
-## 349. Integrating diverse experimental information to assist protein complex structure prediction by GRASP
+## 350. Integrating diverse experimental information to assist protein complex structure prediction by GRASP
 
 **Authors:** Yuhao Xie, Chengwei Zhang, Shimian Li, Xinyu Du, Yanjiao Lu, Min Wang, Yingtong Hu, Zhenyu Chen, Sirui Liu, Yi Qin Gao
 
@@ -716,7 +753,7 @@ GRASP is a protein complex structure prediction model that integrates diverse fo
 
 ---
 
-## 348. De novo discovery of conserved gene clusters in microbial genomes with Spacedust
+## 349. De novo discovery of conserved gene clusters in microbial genomes with Spacedust
 
 **Authors:** Ruoshi Zhang, Milot Mirdita, Johannes Söding
 
@@ -735,7 +772,7 @@ Metagenomics has revolutionized environmental and human-associated microbiome st
 
 ---
 
-## 347. MIFA: Metadata, Incentives, Formats and Accessibility guidelines to improve the reuse of AI datasets for bioimage analysis
+## 348. MIFA: Metadata, Incentives, Formats and Accessibility guidelines to improve the reuse of AI datasets for bioimage analysis
 
 **Authors:** Teresa Zulueta-Coarasa, Florian Jug, Aastha Mathur, Josh Moore, Arrate Muñoz-Barrutia, Liviu Anita, Kolawole Babalola, Peter Bankhead, Perrine Gilloteaux, Nodar Gogoberidze, Martin L. Jones, Gerard J. Kleywegt, Paul Korir, Anna Kreshuk, Aybüke Küpcü Yoldaş, Luca Marconato, Kedar Narayan, Nils Norlin, Bugra Oezdemir, Jessica L. Riesterer, Craig Russell, Norman Rzepka, Ugis Sarkans, Beatriz Serrano-Solano, Christian Tischer, Virginie Uhlmann, Vladimír Ulman, Matthew Hartley
 
@@ -751,6 +788,23 @@ Metagenomics has revolutionized environmental and human-associated microbiome st
 This Perspective discusses challenges associated with sharing annotated image datasets and offers specific guidance to improve the reuse of bioimages and annotations for AI applications.
 
 **Tags:** Data publication and archiving, Image processing, Standards
+
+---
+
+## 347. Guided multi-agent AI invents highly accurate, uncertainty-aware transcriptomic aging clocks
+
+**Authors:** Vinayak Agarwal, Orion Li, Christopher A. Petty, Timothy Kassis, Paul W.K.Rothemund, David A. Sinclair, Ashwin Gopinath
+
+**Venue:** Preprint
+
+**Publication Date:** September 12, 2025
+
+**DOI:** https://doi.org/10.1101/2025.09.08.674588
+
+**Abstract:**
+Scientific discovery has long relied on human creativity, with computation limited to analysis. Here we report an AI-guided system, K-Dense, that accelerates hypothesis testing and delivers robust scientific discoveries. Trained on ARCHS4 (57,584 samples, 28 tissues, 1,039 cohorts, ages 1–114), the unified ensemble clock achieved R2 = 0.854 and MAE = 4.26 years—while uniquely providing calibrated confidence intervals. This self-aware design flags predictions made at transitional or extreme ages, where biological heterogeneity peaks, suggesting clinical utility for uncertainty itself. Development revealed stage-specific markers, including CDKN2A/p16 (senescence), AMPD3 (muscle wasting), MIR29B2CHG (progeroid traits), and SEPTIN3 (neurodegeneration resistance). Sliding-window analysis across 85 overlapping ranges uncovered wave-like shifts in gene importance, showing that transcriptomic aging signatures evolve continuously, not discretely. By transforming biological age assessment from static point estimates to calibrated predictions with explicit uncertainty, this approach establishes reliable and interpretable clocks. Beyond the clock itself, K-Dense demonstrates how guided AI can compress months of exploration into weeks, pointing toward a scalable framework for accelerated scientific discovery.
+
+**Tags:** None
 
 ---
 
