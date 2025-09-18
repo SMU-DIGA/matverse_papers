@@ -295,7 +295,7 @@ def generate_yearly_publication_chart(
     ax.set_xlabel("Year", fontsize=18, fontweight="bold")
     ax.set_ylabel("Number of Publications", fontsize=18, fontweight="bold")
     ax.set_title(
-        "Year and Venue over {} Publications".format(len(papers)),
+        "Years and Venues over {} Publications".format(len(papers)),
         fontsize=18,
         fontweight="bold",
         pad=25,
