@@ -6,7 +6,7 @@ permalink: /ml_infos/
             
 <div align="center">
     <h1>Machine Learning Infos in AI4(M)S Papers</h1> 
-    <h3>Update Time: 2025-10-05 03:21:21</h3>
+    <h3>Update Time: 2025-10-05 03:22:11</h3>
     </div>
 
 ---
@@ -22,7 +22,7 @@ ML Solution = Model × Learning Method × Task
 
 ```
 
-### 📊 Table 1: Models (What to Use) [**18 Categories** → 102 Specifics]
+### 📊 Table 1: Models (What to Use) [18 Categories → 102 Specifics]
 
 | Category | Items |
 |----------|-------|
@@ -48,7 +48,7 @@ ML Solution = Model × Learning Method × Task
 ---
 
 
-### 🎓 Table 2: Learning Methods (How to Learn) [**11 Categories** → 82 Specifics]
+### 🎓 Table 2: Learning Methods (How to Learn) [11 Categories → 82 Specifics]
 
 | Category | Items |
 |----------|-------|
@@ -67,7 +67,7 @@ ML Solution = Model × Learning Method × Task
 ---
 
 
-### 🎯 Table 3: Tasks (What to Solve) [**16 Categories** → 91 Specifics]
+### 🎯 Table 3: Tasks (What to Solve) [16 Categories → 91 Specifics]
 
 | Category | Items |
 |----------|-------|
