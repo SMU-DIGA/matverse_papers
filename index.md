@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Homepage
+title: Index
+#permalink: /mlinfo/
 ---
 
 This is a paper
