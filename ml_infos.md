@@ -6,7 +6,7 @@ permalink: /ml_infos/
             
 <div align="center">
     <h1>Machine Learning Infos in AI4(M)S Papers</h1> 
-    <h3>Update Time: 2025-10-05 03:27:57</h3>
+    <h3>Update Time: 2025-10-05 03:33:04</h3>
     </div>
 
 ---
@@ -14,13 +14,22 @@ permalink: /ml_infos/
 ## 📈 Machine Learning Taxonomy
 
 
-```
+<div align="center">
 
-ML Solution = Model × Learning Method × Task
-
-              (What)   (How)            (Why)
 
 ```
+
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║        ML Solution = Model × Method × Task                     ║
+║                      (What)  (How)   (Why)                     ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+```
+
+</div>
+
 
 ### 📊 Table 1: Models (What to Use) [18 Categories → 102 Specifics]
 

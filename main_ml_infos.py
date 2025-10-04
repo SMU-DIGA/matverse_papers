@@ -441,10 +441,21 @@ def render_ml_taxonomy():
     #     f"\n- **{len(tasks_data)} Task Categories** → {total_tasks} specific tasks\n"
     # )
     # output.append("\n### The ML Framework")
+    # output.append("\n```")
+    # output.append("\nML Solution = Model × Learning Method × Task")
+    # output.append("\n              (What)   (How)            (Why)")
+    # output.append("\n```")
+
+    output.append("\n<div align=\"center\">\n")
+    output.append("\n```\n")
+    output.append("╔════════════════════════════════════════════════════════════════╗")
+    output.append("║                                                                ║")
+    output.append("║        ML Solution = Model × Method × Task                     ║")
+    output.append("║                      (What)  (How)   (Why)                     ║")
+    output.append("║                                                                ║")
+    output.append("╚════════════════════════════════════════════════════════════════╝")
     output.append("\n```")
-    output.append("\nML Solution = Model × Learning Method × Task")
-    output.append("\n              (What)   (How)            (Why)")
-    output.append("\n```")
+    output.append("\n</div>\n")
 
     output.append(
         create_table(
