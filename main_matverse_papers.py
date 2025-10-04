@@ -394,14 +394,14 @@ def is_review_paper(item: Dict):
         "comprehensive review",
         "systematic review",
         "literature review",
-        "recent advances",
-        "recent progress",
-        "state of the art",
+        # "recent advances",
+        # "recent progress",
+        # "state of the art",
         "this paper reviews",
         "this article reviews",
         "overview of",
-        "summarize the",
-        "summarizes the",
+        # "summarize the",
+        # "summarizes the",
     ]
 
     tag_keywords = [
@@ -503,12 +503,8 @@ def generate_review(papers: List[Dict]) -> str:
         title = item.get("title", "Untitled")
         paper_number = len(papers) - i  # Since papers are sorted newest first
 
-        # journal_papers[venue].append(
-        #     {"title": title, "number": paper_number, "date_str": paper["date_str"]}
-        # )
-
         zotero_item = paper["item"]
-        is_review, _ = is_review_paper(zotero_item)
+        is_review, reason = is_review_paper(zotero_item)
         if is_review:
             anchor = f"#{paper_number}-{title.lower().replace(' ', '-').replace(',', '').replace('.', '').replace('(', '').replace(')', '').replace(':', '').replace('[', '').replace(']', '')}"
             index_lines.append(

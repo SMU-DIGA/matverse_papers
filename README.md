@@ -1,6 +1,6 @@
 <div align="center">
 <img src="./assets/matverse_logo.png" width="300"><h1>MatVerse AI4(M)S Paper Collection</h1> 
-<h3>Update Time: 2025-10-04 15:50:14</h3>
+<h3>Update Time: 2025-10-04 15:55:26</h3>
 </div>
 
 ---
@@ -20,7 +20,6 @@ This is a regularly updated paper collection about AI for science, with a specif
 This section presents all review papers.
 
 - [377. Structural Insights into Autophagy in the AlphaFold Era](#377-structural-insights-into-autophagy-in-the-alphafold-era), Journal of Molecular Biology *(September 15, 2025)*
-- [376. Scaling up spatial transcriptomics for large-sized tissues: uncovering cellular-level tissue architecture beyond conventional platforms with iSCALE](#376-scaling-up-spatial-transcriptomics-for-large-sized-tissues-uncovering-cellular-level-tissue-architecture-beyond-conventional-platforms-with-iscale), Nature Methods *(September 15, 2025)*
 - [364. High-throughput platforms for machine learning-guided lipid nanoparticle design](#364-high-throughput-platforms-for-machine-learning-guided-lipid-nanoparticle-design), Nature Reviews Materials *(September 08, 2025)*
 - [363. AI-driven protein design](#363-ai-driven-protein-design), Nature Reviews Bioengineering *(September 08, 2025)*
 - [361. AI-Driven Defect Engineering for Advanced Thermoelectric Materials](#361-ai-driven-defect-engineering-for-advanced-thermoelectric-materials), Advanced Materials *(September 04, 2025)*
@@ -45,7 +44,6 @@ This section presents all review papers.
 - [217. Machine learning for the physics of climate](#217-machine-learning-for-the-physics-of-climate), Nature Reviews Physics *(January 2025)*
 - [215. AI4Materials: Transforming the landscape of materials science and enigneering](#215-ai4materials-transforming-the-landscape-of-materials-science-and-enigneering), Review of Materials Research *(January 01, 2025)*
 - [214. Computational microscopy with coherent diffractive imaging and ptychography](#214-computational-microscopy-with-coherent-diffractive-imaging-and-ptychography), Nature *(January 2025)*
-- [213. Probabilistic weather forecasting with machine learning](#213-probabilistic-weather-forecasting-with-machine-learning), Nature *(January 2025)*
 - [209. Poseidon: Efficient Foundation Models for PDEs](#209-poseidon-efficient-foundation-models-for-pdes), Advances in Neural Information Processing Systems *(December 16, 2024)*
 - [208. Navigating Chemical Space with Latent Flows](#208-navigating-chemical-space-with-latent-flows), Advances in Neural Information Processing Systems *(December 16, 2024)*
 - [207. Generative Hierarchical Materials Search](#207-generative-hierarchical-materials-search), Advances in Neural Information Processing Systems *(December 16, 2024)*
@@ -53,31 +51,22 @@ This section presents all review papers.
 - [203. Multifunctional high-entropy materials](#203-multifunctional-high-entropy-materials), Nature Reviews Materials *(December 2024)*
 - [201. Towards the holistic design of alloys with large language models](#201-towards-the-holistic-design-of-alloys-with-large-language-models), Nature Reviews Materials *(December 2024)*
 - [200. Synthesis of high-entropy materials](#200-synthesis-of-high-entropy-materials), Nature Synthesis *(December 2024)*
-- [196. Deep learning generative model for crystal structure prediction](#196-deep-learning-generative-model-for-crystal-structure-prediction), npj Computational Materials *(November 12, 2024)*
 - [185. Generative deep learning for the inverse design of materials](#185-generative-deep-learning-for-the-inverse-design-of-materials), Preprint *(September 27, 2024)*
 - [177. AI-driven research in pure mathematics and theoretical physics](#177-ai-driven-research-in-pure-mathematics-and-theoretical-physics), Nature Reviews Physics *(September 2024)*
 - [164. Promising directions of machine learning for partial differential equations](#164-promising-directions-of-machine-learning-for-partial-differential-equations), Nature Computational Science *(July 2024)*
-- [161. LLMatDesign: Autonomous Materials Discovery with Large Language Models](#161-llmatdesign-autonomous-materials-discovery-with-large-language-models), Preprint *(June 19, 2024)*
-- [160. Deep learning probability flows and entropy production rates in active matter](#160-deep-learning-probability-flows-and-entropy-production-rates-in-active-matter), Proceedings of the National Academy of Sciences *(June 18, 2024)*
 - [151. High-Entropy Photothermal Materials](#151-high-entropy-photothermal-materials), Advanced Materials *(June 2024)*
-- [142. Autonomous closed-loop mechanistic investigation of molecular electrochemistry via automation](#142-autonomous-closed-loop-mechanistic-investigation-of-molecular-electrochemistry-via-automation), Nature Communications *(March 30, 2024)*
 - [133. Data-Driven Design for Metamaterials and Multiscale Systems: A Review](#133-data-driven-design-for-metamaterials-and-multiscale-systems-a-review), Advanced Materials *(February 22, 2024)*
 - [126. Expanding the Horizons of Machine Learning in Nanomaterials to Chiral Nanostructures](#126-expanding-the-horizons-of-machine-learning-in-nanomaterials-to-chiral-nanostructures), Advanced Materials *(January 19, 2024)*
 - [108. Finite-difference time-domain methods](#108-finite-difference-time-domain-methods), Nature Reviews Methods Primers *(October 05, 2023)*
-- [96. Enhancing corrosion-resistant alloy design through natural language processing and deep learning](#96-enhancing-corrosion-resistant-alloy-design-through-natural-language-processing-and-deep-learning), Science Advances *(August 11, 2023)*
 - [94. Machine Learning Descriptors for Data-Driven Catalysis Study](#94-machine-learning-descriptors-for-data-driven-catalysis-study), Advanced Science *(August 04, 2023)*
 - [85. The rise of self-driving labs in chemical and materials sciences](#85-the-rise-of-self-driving-labs-in-chemical-and-materials-sciences), Nature Synthesis *(June 2023)*
 - [84. Combinatorial synthesis for AI-driven materials discovery](#84-combinatorial-synthesis-for-ai-driven-materials-discovery), Nature Synthesis *(June 2023)*
-- [76. Evolutionary-scale prediction of atomic-level protein structure with a language model](#76-evolutionary-scale-prediction-of-atomic-level-protein-structure-with-a-language-model), Science *(March 17, 2023)*
-- [72. Accelerating the design of compositionally complex materials via physics-informed artificial intelligence](#72-accelerating-the-design-of-compositionally-complex-materials-via-physics-informed-artificial-intelligence), Nature Computational Science *(March 2023)*
 - [67. On scientific understanding with artificial intelligence](#67-on-scientific-understanding-with-artificial-intelligence), Nature Reviews Physics *(December 2022)*
 - [57. Deep-learning seismology](#57-deep-learning-seismology), Science *(August 12, 2022)*
 - [56. Machine learning in the search for new fundamental physics](#56-machine-learning-in-the-search-for-new-fundamental-physics), Nature Reviews Physics *(June 2022)*
 - [53. High-entropy nanoparticles: Synthesis-structure-property relationships and data-driven discovery](#53-high-entropy-nanoparticles-synthesis-structure-property-relationships-and-data-driven-discovery), Science *(April 08, 2022)*
-- [51. Autonomous platforms for data-driven organic synthesis](#51-autonomous-platforms-for-data-driven-organic-synthesis), Nature Communications *(February 28, 2022)*
 - [47. Innovative Materials Science via Machine Learning](#47-innovative-materials-science-via-machine-learning), Advanced Functional Materials *(February 03, 2022)*
 - [45. Applied Machine Learning for Developing Next-Generation Functional Materials](#45-applied-machine-learning-for-developing-next-generation-functional-materials), Advanced Functional Materials *(December 16, 2021)*
-- [40. Highly accurate protein structure prediction with AlphaFold](#40-highly-accurate-protein-structure-prediction-with-alphafold), Nature *(August 2021)*
 - [39. Nanoparticle synthesis assisted by machine learning](#39-nanoparticle-synthesis-assisted-by-machine-learning), Nature Reviews Materials *(August 2021)*
 - [38. Physics-informed machine learning](#38-physics-informed-machine-learning), Nature Reviews Physics *(June 2021)*
 - [35. Materials design by synthetic biology](#35-materials-design-by-synthetic-biology), Nature Reviews Materials *(April 2021)*
@@ -85,7 +74,6 @@ This section presents all review papers.
 - [21. Data-Driven Materials Science: Status, Challenges, and Perspectives](#21-data-driven-materials-science-status-challenges-and-perspectives), Advanced Science *(September 01, 2019)*
 - [18. Structure prediction drives materials discovery](#18-structure-prediction-drives-materials-discovery), Nature Reviews Materials *(May 2019)*
 - [12. Inverse molecular design using machine learning: Generative models for matter engineering](#12-inverse-molecular-design-using-machine-learning-generative-models-for-matter-engineering), Science *(July 27, 2018)*
-- [10. Machine learning for molecular and materials science](#10-machine-learning-for-molecular-and-materials-science), Nature *(July 2018)*
 
 
 ## 📚 Venue Index
