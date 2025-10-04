@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Index
+title: Homepage
 #permalink: /mlinfo/
 ---
 
 
 <div align="center">
-<img src="{{{{ site.baseurl }}}}/assets/matverse_logo.png" width="300">
+<img src="{{ site.baseurl }}/assets/matverse_logo.png" width="300">
 <h1>MatVerse AI4(M)S Paper Collection</h1>
 </div>
 
