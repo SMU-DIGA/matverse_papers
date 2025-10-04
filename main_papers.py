@@ -737,6 +737,17 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
     #     f"**Generation Time:** {current_time.strftime('%Y-%m-%d %H:%M:%S')}"
     # )
 
+    markdown_lines = (
+        [
+            """---
+layout: default
+title: Papers
+permalink: /papers/
+---
+        """
+        ]
+        + markdown_lines
+    )
     # Join all lines
     markdown_content = "\n".join(markdown_lines)
 

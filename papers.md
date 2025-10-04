@@ -3,12 +3,10 @@ layout: default
 title: Papers
 permalink: /papers/
 ---
-
-
-
+        
 <div align="center">
 <img src="./assets/matverse_logo.png" width="300"><h1>MatVerse AI4(M)S Paper Collection</h1> 
-<h3>Update Time: 2025-10-04 16:00:32</h3>
+<h3>Update Time: 2025-10-04 17:57:55</h3>
 </div>
 
 ---
@@ -25,7 +23,7 @@ This is a regularly updated paper collection about AI for science, with a specif
 
 ## 📝 Review/Survey (55 papers)
 
-This section presents all review papers.
+This section presents all review/survey papers in this paper collection.
 
 - [377. Structural Insights into Autophagy in the AlphaFold Era](#377-structural-insights-into-autophagy-in-the-alphafold-era), Journal of Molecular Biology *(September 15, 2025)*
 - [364. High-throughput platforms for machine learning-guided lipid nanoparticle design](#364-high-throughput-platforms-for-machine-learning-guided-lipid-nanoparticle-design), Nature Reviews Materials *(September 08, 2025)*

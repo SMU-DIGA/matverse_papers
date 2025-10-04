@@ -6,6 +6,6 @@ title: Index
 
 This is a paper
 
-- [Homepage]({{ site.baseurl }}/)
+[//]: # (- [Homepage]&#40;{{ site.baseurl }}/&#41;)
 - [Papers]({{ site.baseurl }}/papers/)
 - [ML Infos]({{ site.baseurl }}/ml_infos/)
