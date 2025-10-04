@@ -6,10 +6,47 @@ permalink: /ml_infos/
             
 <div align="center">
     <h1>Machine Learning Infos in AI4(M)S Papers</h1> 
-    <h3>Update Time: 2025-10-05 02:36:29</h3>
+    <h3>Update Time: 2025-10-05 02:46:00</h3>
     </div>
 
 ---
+
+## Machine Learning Taxonomy
+
+**A comprehensive classification of ML models, learning methods, and tasks**
+
+
+---
+
+
+---
+
+
+## 📈 Taxonomy Summary
+
+
+This ML taxonomy provides a structured view of machine learning through three fundamental dimensions:
+
+
+- **102 Models**: The building blocks and architectures
+
+- **82 Learning Methods**: The training strategies and paradigms
+
+- **92 Tasks**: The problems to solve
+
+
+Together, these form a comprehensive framework for understanding and navigating the ML landscape.
+
+
+### The ML Equation
+
+```
+
+Machine Learning Solution = Model × Learning Method × Task
+
+                          (What)   (How)            (Why)
+
+```
 
 ## 📑 ML Infos in Papers (Chronological Order)
 
