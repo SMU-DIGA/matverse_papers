@@ -1,6 +1,6 @@
 <div align="center">
 <img src="./assets/matverse_logo.png" width="300"><h1>MatVerse AI4(M)S Paper Collection</h1> 
-<h3>Update Time: 2025-10-04 15:55:26</h3>
+<h3>Update Time: 2025-10-04 16:00:32</h3>
 </div>
 
 ---
@@ -15,7 +15,7 @@ This is a regularly updated paper collection about AI for science, with a specif
 
 ---
 
-## 📝 Review Papers
+## 📝 Review/Survey (55 papers)
 
 This section presents all review papers.
 
