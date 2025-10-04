@@ -6,7 +6,7 @@ permalink: /ml_infos/
             
 <div align="center">
     <h1>Machine Learning Infos in AI4(M)S Papers</h1> 
-    <h3>Update Time: 2025-10-05 03:37:58</h3>
+    <h3>Update Time: 2025-10-05 03:56:31</h3>
     </div>
 
 ---
@@ -16,23 +16,7 @@ permalink: /ml_infos/
 
 <div align="center">
 
-
-```
-
-╔════════════════════════════════════════════════════════════════╗
-
-║                                                                ║
-
-║        ML Solution = Model × Method × Task                     ║
-
-║                      (What)  (How)   (Why)                     ║
-
-║                                                                ║
-
-╚════════════════════════════════════════════════════════════════╝
-
-
-```
+<img src="{{{{ site.baseurl }}}}/assets/ml_solution.png"  width="300">
 
 </div>
 
