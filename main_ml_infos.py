@@ -447,7 +447,7 @@ def render_ml_taxonomy():
     # output.append("\n```")
 
     output.append("\n<div align=\"center\">\n")
-    output.append("""<img src="{{{{ site.baseurl }}}}/assets/ml_solution.png"  width="300">""")
+    output.append("""<img src="{{ site.baseurl }}/assets/ml_solution.png"  width="300">""")
     # output.append("\n```\n")
     # output.append("╔════════════════════════════════════════════════════════════════╗\n")
     # output.append("║                                                                ║\n")
