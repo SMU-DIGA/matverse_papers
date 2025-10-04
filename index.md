@@ -4,6 +4,12 @@ title: Index
 #permalink: /mlinfo/
 ---
 
+
+<div align="center">
+<img src="{{{{ site.baseurl }}}}/assets/matverse_logo.png" width="300">
+<h1>MatVerse AI4(M)S Paper Collection</h1>
+</div>
+
 This site provides a concise list of resources for fresh researchers to conduct the research on AI for (Materials) Science,
 i.e., AI(M)S. Specifically, we provide a [paper collection]({{ site.baseurl }}/papers/) to summarize the relevant papers, and
 a [ML Infos]({{ site.baseurl }}/ml_infos/) of these papers. 
