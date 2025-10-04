@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ML Infos
-#permalink: /mlinfo/
+#permalink: /ml_infos/
 ---
 
 
