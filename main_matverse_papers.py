@@ -514,6 +514,7 @@ def generate_review(papers: List[Dict]) -> str:
             index_lines.append(
                 f"- [{paper_number}. {title}]({anchor}), {venue} *({paper['date_str']})*"
             )
+    index_lines.append("\n")
     # for journal in sorted_journals:
     #     papers_in_journal = journal_papers[journal]
     # Sort papers within each journal by number (newest first)
