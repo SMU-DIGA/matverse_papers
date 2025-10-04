@@ -422,7 +422,7 @@ def render_ml_taxonomy():
         return "\n".join(lines)
 
     # Generate full taxonomy
-    output = ["## 📈 Machine Learning Taxonomy\n"]
+    output = ["## 🌳 Machine Learning Taxonomy\n"]
     # output.append(
     #     "**A comprehensive classification of ML models, learning methods, and tasks**\n"
     # )
