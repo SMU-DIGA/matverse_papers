@@ -224,7 +224,7 @@ def extract_ml_infos(input_file, from_scratch=False):
 
             items_to_process[zotero_item["key"]] = content
 
-    batch_size = 1
+    batch_size = 5
     num_items_to_process = len(items_to_process)
     num_batch = (num_items_to_process // batch_size) + (
         0 if num_items_to_process % batch_size == 0 else 1
@@ -257,7 +257,8 @@ def extract_ml_infos(input_file, from_scratch=False):
 
                     process_records[key_list[batch_start + idx]]["ml_infos"] = True
 
-                break
+                if batch_idx > 2:
+                    break
             except:
                 continue
 
@@ -283,10 +284,12 @@ def render_to_markdown_table(input_file):
     with open(ml_infos_path, "r", encoding="utf-8") as f:
         ml_infos = json.load(f)
 
-    markdown_lines = [
-        "| Paper ID | Datasets | Tasks | Models | Learning Methods | Performance Highlights | Application Domains |",
-        "|----------|----------|-------|--------|------------------|------------------------|---------------------|",
-    ]
+    # markdown_lines = [
+    #     "| Paper ID | Datasets | Tasks | Models | Learning Methods | Performance Highlights | Application Domains |",
+    #     "|----------|----------|-------|--------|------------------|------------------------|---------------------|",
+    # ]
+
+    markdown_lines = []
 
     # Extract items
     items = data.get("items", [])
@@ -309,45 +312,74 @@ def render_to_markdown_table(input_file):
         if paper["item"]["key"] not in ml_infos:
             continue
 
-        paper_info = json.loads(ml_infos[paper["item"]["key"]])
+        try:
+            paper_info = json.loads(ml_infos[paper["item"]["key"]])
 
-        # Extract dataset names (one per line)
-        datasets = [d["name"] for d in paper_info.get("datasets", [])]
-        datasets_str = "<br>".join(datasets) if datasets else "-"
+            # Extract dataset names (one per line)
+            datasets = [d["name"] for d in paper_info.get("datasets", [])]
+            # datasets_str = "<br>".join(datasets) if datasets else "-"
 
-        # Extract task names (one per line)
-        tasks = [t["name"] for t in paper_info.get("tasks_addressed", [])]
-        tasks_str = "<br>".join(tasks) if tasks else "-"
+            # Extract task names (one per line)
+            tasks = [t["name"] for t in paper_info.get("tasks_addressed", [])]
+            # tasks_str = "<br>".join(tasks) if tasks else "-"
 
-        # Extract model names (one per line)
-        models = [m["name"] for m in paper_info.get("models_used", [])]
-        models_str = "<br>".join(models) if models else "-"
+            # Extract model names (one per line)
+            models = [m["name"] for m in paper_info.get("models_used", [])]
+            # models_str = "<br>".join(models) if models else "-"
 
-        # Extract learning method names (one per line)
-        learning_methods = [
-            lm["name"] for lm in paper_info.get("learning_methods_used", [])
-        ]
-        learning_str = "<br>".join(learning_methods) if learning_methods else "-"
+            # Extract learning method names (one per line)
+            learning_methods = [
+                lm["name"] for lm in paper_info.get("learning_methods_used", [])
+            ]
+            # learning_str = "<br>".join(learning_methods) if learning_methods else "-"
 
-        # Extract performance highlights (one per line)
-        performances = []
-        for combo in paper_info.get("model_task_learning_combinations", []):
-            perf = combo.get("performance", {})
-            metrics = perf.get("metrics", {})
-            if metrics:
-                perf_items = [f"{k}: {v}" for k, v in metrics.items()]
-                performances.extend(perf_items)
-        performance_str = "<br>".join(performances) if performances else "-"
-        performance_str = ''
+            # Extract performance highlights (one per line)
+            performances = []
+            for combo in paper_info.get("model_task_learning_combinations", []):
+                perf = combo.get("performance", {})
+                metrics = perf.get("metrics", {})
+                if metrics:
+                    perf_items = [f"{k}: {v}" for k, v in metrics.items()]
+                    performances.extend(perf_items)
+            # performance_str = "<br>".join(performances) if performances else "-"
+            # performance_str = ''
 
-        # Extract application domains (one per line)
-        domains = paper_info.get("application_domains", [])
-        domains_str = "<br>".join(domains) if domains else "-"
+            def join_with_comma(items):
+                """adding comma for the items not last"""
+                if not items:
+                    return "_None_"
+                if len(items) == 1:
+                    return items[0]
+                #
+                formatted_items = [f"{item}," for item in items[:-1]]
+                formatted_items.append(items[-1])  #
+                return "<br>".join(formatted_items)
 
-        # Add row to markdown table
-        markdown_lines.append(
-            f"| {paper_id} | {datasets_str} | {tasks_str} | {models_str} | {learning_str} | {performance_str} | {domains_str} |\n"
-        )
+            # Extract application domains (one per line)
+            domains = paper_info.get("application_domains", [])
+
+            markdown_line = ""
+            markdown_line += f"## Paper ID: {paper_id}\n\n"
+            markdown_line += "| Category | Items |\n"
+            markdown_line += "|----------|-------|\n"
+            markdown_line += f"| **Models** | {join_with_comma(models)} |\n"
+            markdown_line += f"| **Datasets** | {join_with_comma(datasets)} |\n"
+            markdown_line += f"| **Tasks** | {join_with_comma(tasks)} |\n"
+            markdown_line += (
+                f"| **Learning Methods** | {join_with_comma(learning_methods)} |\n"
+            )
+            markdown_line += (
+                f"| **Performance Highlights** | {join_with_comma(performances)} |\n"
+            )
+            markdown_line += (
+                f"| **Application Domains** | {join_with_comma(domains)} |\n\n"
+            )
+            markdown_line += "---\n\n"
+
+            markdown_lines.append(markdown_line)
+
+        except:
+            continue
 
     return markdown_lines
 
