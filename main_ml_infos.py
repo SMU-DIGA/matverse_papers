@@ -8,7 +8,12 @@ from tqdm import tqdm
 
 import os.path as osp
 from datetime import datetime
-from prompt_templates import prompt_template_clean, models_data, learning_methods_data, tasks_data
+from prompt_templates import (
+    prompt_template_clean,
+    models_data,
+    learning_methods_data,
+    tasks_data,
+)
 from utils import parse_date, get_venue
 
 
@@ -421,28 +426,15 @@ def render_ml_taxonomy():
 
     # Generate full taxonomy
     output = []
-    output.append("## Machine Learning Taxonomy\n")
-    output.append(
-        "**A comprehensive classification of ML models, learning methods, and tasks**\n"
-    )
+    output.append("## 📈 Machine Learning Taxonomy\n")
+    # output.append(
+    #     "**A comprehensive classification of ML models, learning methods, and tasks**\n"
+    # )
 
-    output.append(create_table(models_data, "📊 Table 1: Models (What to Use)"))
-    output.append("\n---\n")
-    output.append(
-        create_table(
-            learning_methods_data, "🎓 Table 2: Learning Methods (How to Learn)"
-        )
-    )
-    output.append("\n---\n")
-    output.append(create_table(tasks_data, "🎯 Table 3: Tasks (What to Solve)"))
-
-    # Summary
     total_models = sum(len(items) for _, items in models_data)
     total_methods = sum(len(items) for _, items in learning_methods_data)
     total_tasks = sum(len(items) for _, items in tasks_data)
 
-    output.append("\n---\n")
-    output.append("\n### 📈 Taxonomy Summary\n")
     output.append(
         f"\n- **{len(models_data)} Model Categories** → {total_models} specific models"
     )
@@ -458,101 +450,21 @@ def render_ml_taxonomy():
     output.append("\n              (What)   (How)            (Why)")
     output.append("\n```")
 
+    output.append(create_table(models_data, "📊 Table 1: Models (What to Use)"))
+    output.append("\n---\n")
+    output.append(
+        create_table(
+            learning_methods_data, "🎓 Table 2: Learning Methods (How to Learn)"
+        )
+    )
+    output.append("\n---\n")
+    output.append(create_table(tasks_data, "🎯 Table 3: Tasks (What to Solve)"))
+
+    # Summary
+
+    output.append("\n---\n")
+
     return output
-
-
-#
-# def render_ml_taxonomy():
-#     """Generate three markdown tables for ML taxonomy"""
-#
-#     output = []
-#     output.append("## Machine Learning Taxonomy\n")
-#     output.append(
-#         "**A comprehensive classification of ML models, learning methods, and tasks**\n"
-#     )
-#     output.append("\n---\n")
-#
-#     # # Table 1: Models
-#     # output.append("\n## 📊 Table 1: Models (What to Use)\n")
-#     # output.append(
-#     #     "*The architectures and algorithms used to learn patterns from data*\n"
-#     # )
-#     # output.append("\n| # | Model | # | Model | # | Model |")
-#     # output.append("\n|---|-------|---|-------|---|-------|")
-#     #
-#     # for i in range(0, len(models), 3):
-#     #     row = []
-#     #     for j in range(3):
-#     #         idx = i + j
-#     #         if idx < len(models):
-#     #             row.append(f"| {idx + 1} | {models[idx]} ")
-#     #         else:
-#     #             row.append("| | ")
-#     #     output.append("\n" + "".join(row) + "|")
-#     #
-#     # output.append(f"\n\n**Total Models: {len(models)}**\n")
-#     #
-#     # # Table 2: Learning Methods
-#     # output.append("\n---\n")
-#     # output.append("\n## 🎓 Table 2: Learning Methods (How to Learn)\n")
-#     # output.append("*The strategies and paradigms for training models*\n")
-#     # output.append("\n| # | Method | # | Method | # | Method |")
-#     # output.append("\n|---|--------|---|--------|---|--------|")
-#     #
-#     # for i in range(0, len(learning_methods), 3):
-#     #     row = []
-#     #     for j in range(3):
-#     #         idx = i + j
-#     #         if idx < len(learning_methods):
-#     #             row.append(f"| {idx + 1} | {learning_methods[idx]} ")
-#     #         else:
-#     #             row.append("| | ")
-#     #     output.append("\n" + "".join(row) + "|")
-#     #
-#     # output.append(f"\n\n**Total Learning Methods: {len(learning_methods)}**\n")
-#     #
-#     # # Table 3: Tasks
-#     # output.append("\n---\n")
-#     # output.append("\n## 🎯 Table 3: Tasks (What to Solve)\n")
-#     # output.append("*The problems and objectives that ML aims to address*\n")
-#     # output.append("\n| # | Task | # | Task | # | Task |")
-#     # output.append("\n|---|------|---|------|---|------|")
-#     #
-#     # for i in range(0, len(tasks), 3):
-#     #     row = []
-#     #     for j in range(3):
-#     #         idx = i + j
-#     #         if idx < len(tasks):
-#     #             row.append(f"| {idx + 1} | {tasks[idx]} ")
-#     #         else:
-#     #             row.append("| | ")
-#     #     output.append("\n" + "".join(row) + "|")
-#     #
-#     # output.append(f"\n\n**Total Tasks: {len(tasks)}**\n")
-#
-#     # Summary
-#     output.append("\n---\n")
-#     output.append("\n## 📈 Taxonomy Summary\n")
-#     output.append(
-#         "\nThis ML taxonomy provides a structured view of machine learning through three fundamental dimensions:\n"
-#     )
-#     output.append(
-#         f"\n- **{len(models)} Models**: The building blocks and architectures"
-#     )
-#     output.append(
-#         f"\n- **{len(learning_methods)} Learning Methods**: The training strategies and paradigms"
-#     )
-#     output.append(f"\n- **{len(tasks)} Tasks**: The problems to solve")
-#     output.append(
-#         "\n\nTogether, these form a comprehensive framework for understanding and navigating the ML landscape."
-#     )
-#     output.append("\n\n### The ML Equation")
-#     output.append("\n```")
-#     output.append("\nMachine Learning Solution = Model × Learning Method × Task")
-#     output.append("\n                          (What)   (How)            (Why)")
-#     output.append("\n```\n")
-#
-#     return output
 
 
 def export_to_markdown(output_file_path, output_contents):
