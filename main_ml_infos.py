@@ -306,7 +306,6 @@ def render_to_markdown_table(input_file):
     # Sort by date (newest first)
     papers.sort(key=lambda x: x["date_obj"], reverse=True)
 
-    num_all_papers = len(papers)
     for paper_id, paper in enumerate(papers):
         # Parse the nested JSON string if needed
 
@@ -364,7 +363,7 @@ def render_to_markdown_table(input_file):
             # venue = item.get("publicationTitle", "Unknown Journal")
             venue = get_venue(paper)
             title = item.get("title", "Untitled")
-            paper_number = len(papers) - i  # Since papers are sorted newest first
+            paper_number = len(papers) - paper_id  # Since papers are sorted newest first
 
             # index_lines.append(
             #     f"- [{paper_number}. {title}]({anchor}), {venue} *({paper['date_str']})*"
