@@ -1,5 +1,5 @@
 title: MatVerse
 description: This is a site about AI for Science
-theme: jekyll-theme-minimal  #
+theme: jekyll-theme-architect #
 baseurl: "/matverse_papers"
 url: "https://smu-diga.github.io"
