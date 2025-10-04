@@ -527,7 +527,7 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
             markdown_lines.append(f"**Pages:** {pages}\n")
 
         if doi:
-            markdown_lines.append(f"**DOI:** https://doi.org/{doi}\n")
+            markdown_lines.append(f"**DOI:** [https://doi.org/{doi}](https://doi.org/{doi})\n")
 
         # if url:
         #     markdown_lines.append(f"**URL:** {url}\n")
