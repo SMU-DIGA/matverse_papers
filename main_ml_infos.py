@@ -447,14 +447,15 @@ def render_ml_taxonomy():
     # output.append("\n```")
 
     output.append("\n<div align=\"center\">\n")
-    output.append("\n```\n")
-    output.append("╔════════════════════════════════════════════════════════════════╗\n")
-    output.append("║                                                                ║\n")
-    output.append("║        ML Solution = Model × Method × Task                     ║\n")
-    output.append("║                      (What)  (How)   (Why)                     ║\n")
-    output.append("║                                                                ║\n")
-    output.append("╚════════════════════════════════════════════════════════════════╝\n")
-    output.append("\n```")
+    output.append("""<img src="{{{{ site.baseurl }}}}/assets/ml_solution.png"  width="300">""")
+    # output.append("\n```\n")
+    # output.append("╔════════════════════════════════════════════════════════════════╗\n")
+    # output.append("║                                                                ║\n")
+    # output.append("║        ML Solution = Model × Method × Task                     ║\n")
+    # output.append("║                      (What)  (How)   (Why)                     ║\n")
+    # output.append("║                                                                ║\n")
+    # output.append("╚════════════════════════════════════════════════════════════════╝\n")
+    # output.append("\n```")
     output.append("\n</div>\n")
 
     output.append(
