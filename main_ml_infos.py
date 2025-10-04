@@ -383,8 +383,8 @@ def render_to_markdown_table(input_file):
             markdown_line += f"### [{paper_number}. {title}]({anchor}), {venue} *({paper['date_str']})*\n\n"
             markdown_line += "| Category | Items |\n"
             markdown_line += "|----------|-------|\n"
-            markdown_line += f"| **Models** | {join_with_comma(models)} |\n"
             markdown_line += f"| **Datasets** | {join_with_comma(datasets)} |\n"
+            markdown_line += f"| **Models** | {join_with_comma(models)} |\n"
             markdown_line += f"| **Tasks** | {join_with_comma(tasks)} |\n"
             markdown_line += (
                 f"| **Learning Methods** | {join_with_comma(learning_methods)} |\n"
