@@ -6,19 +6,12 @@ permalink: /ml_infos/
             
 <div align="center">
     <h1>Machine Learning Infos in AI4(M)S Papers</h1> 
-    <h3>Update Time: 2025-10-05 03:10:52</h3>
+    <h3>Update Time: 2025-10-05 03:20:16</h3>
     </div>
 
 ---
 
 ## 📈 Machine Learning Taxonomy
-
-
-- **18 Model Categories** → 102 specific models
-
-- **11 Learning Method Categories** → 82 specific methods
-
-- **16 Task Categories** → 91 specific tasks
 
 
 ```
@@ -29,7 +22,7 @@ ML Solution = Model × Learning Method × Task
 
 ```
 
-### 📊 Table 1: Models (What to Use)
+### 📊 Table 1: Models (What to Use) [**18 Categories** → 102 Specifics]
 
 | Category | Items |
 |----------|-------|
@@ -52,13 +45,10 @@ ML Solution = Model × Learning Method × Task
 | *Point Cloud Models* | PointNet, PointNet++ |
 | *Matrix Factorization* | Matrix Factorization, Non-negative Matrix Factorization, Singular Value Decomposition |
 
-**Total: 102 items**
-
-
 ---
 
 
-### 🎓 Table 2: Learning Methods (How to Learn)
+### 🎓 Table 2: Learning Methods (How to Learn) [**11 Categories** → 82 Specifics]
 
 | Category | Items |
 |----------|-------|
@@ -74,13 +64,10 @@ ML Solution = Model × Learning Method × Task
 | *Representation Learning* | Representation Learning, Feature Learning, Metric Learning, Distance Learning, Embedding Learning, Dictionary Learning, Manifold Learning |
 | *Learning Modes* | Generative Learning, Discriminative Learning, Transductive Learning, Inductive Learning |
 
-**Total: 82 items**
-
-
 ---
 
 
-### 🎯 Table 3: Tasks (What to Solve)
+### 🎯 Table 3: Tasks (What to Solve) [**16 Categories** → 91 Specifics]
 
 | Category | Items |
 |----------|-------|
@@ -100,9 +87,6 @@ ML Solution = Model × Learning Method × Task
 | *Matching and Alignment* | Entity Matching, Entity Alignment, Record Linkage, Image Matching |
 | *Generative Tasks* | Data Generation, Data Augmentation, Synthetic Data Generation |
 | *Causal Tasks* | Causal Inference, Treatment Effect Estimation, Counterfactual Reasoning |
-
-**Total: 91 items**
-
 
 ---
 
