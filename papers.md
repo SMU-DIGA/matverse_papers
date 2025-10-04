@@ -5,9 +5,8 @@ permalink: /papers/
 ---
         
 <div align="center">
-# <img src="{{ site.baseurl }}/assets/matverse_logo.png" width="300">
-<h1>MatVerse AI4(M)S Paper Collection</h1> 
-<h3>Update Time: 2025-10-04 18:29:49</h3>
+<h1>AI4(M)S Paper Collection</h1> 
+<h3>Update Time: 2025-10-04 18:37:26</h3>
 </div>
 
 ---
