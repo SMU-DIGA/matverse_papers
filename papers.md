@@ -5,7 +5,7 @@ permalink: /papers/
 ---
         
 <div align="center">
-<img src="./assets/matverse_logo.png" width="300"><h1>MatVerse AI4(M)S Paper Collection</h1> 
+<img src="{{ site.baseurl }}/assets/matverse_logo.png" width="300"><h1>MatVerse AI4(M)S Paper Collection</h1> 
 <h3>Update Time: 2025-10-04 17:57:55</h3>
 </div>
 
@@ -16,7 +16,7 @@ This is a regularly updated paper collection about AI for science, with a specif
 ## 📈 Publication Timeline
 
 <div align="center">
-<img src="./assets/yearly_publications.svg"  width="800">
+<img src="{{ site.baseurl }}/assets/yearly_publications.svg"  width="800">
 </div>
 
 ---
