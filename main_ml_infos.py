@@ -289,7 +289,7 @@ def render_to_markdown_table(input_file):
     #     "|----------|----------|-------|--------|------------------|------------------------|---------------------|",
     # ]
 
-    markdown_lines = []
+    markdown_lines = ["## 📑 ML Infos in Papers (Chronological Order)\n"]
 
     # Extract items
     items = data.get("items", [])
@@ -372,7 +372,7 @@ def render_to_markdown_table(input_file):
             anchor = f"(https://doi.org/{doi})"
 
             markdown_line = ""
-            markdown_line += f"## [{paper_number}. {title}]({anchor}), {venue} *({paper['date_str']})*\n\n"
+            markdown_line += f"### [{paper_number}. {title}]({anchor}), {venue} *({paper['date_str']})*\n\n"
             markdown_line += "| Category | Items |\n"
             markdown_line += "|----------|-------|\n"
             markdown_line += f"| **Models** | {join_with_comma(models)} |\n"
