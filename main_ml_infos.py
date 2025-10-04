@@ -9,7 +9,7 @@ from tqdm import tqdm
 import os.path as osp
 from datetime import datetime
 from prompt_templates import prompt_template_clean
-from utils import parse_date
+from utils import parse_date, get_venue
 
 # from npsolver import MODELS
 
@@ -306,6 +306,7 @@ def render_to_markdown_table(input_file):
     # Sort by date (newest first)
     papers.sort(key=lambda x: x["date_obj"], reverse=True)
 
+    num_all_papers = len(papers)
     for paper_id, paper in enumerate(papers):
         # Parse the nested JSON string if needed
 
@@ -341,6 +342,7 @@ def render_to_markdown_table(input_file):
                 if metrics:
                     perf_items = [f"{k}: {v}" for k, v in metrics.items()]
                     performances.extend(perf_items)
+
             # performance_str = "<br>".join(performances) if performances else "-"
             # performance_str = ''
 
@@ -358,8 +360,20 @@ def render_to_markdown_table(input_file):
             # Extract application domains (one per line)
             domains = paper_info.get("application_domains", [])
 
+            item = paper["item"]
+            # venue = item.get("publicationTitle", "Unknown Journal")
+            venue = get_venue(paper)
+            title = item.get("title", "Untitled")
+            paper_number = len(papers) - i  # Since papers are sorted newest first
+
+            # index_lines.append(
+            #     f"- [{paper_number}. {title}]({anchor}), {venue} *({paper['date_str']})*"
+            # )
+            doi = item.get("DOI", "")
+            anchor = f"(https://doi.org/{doi})"
+
             markdown_line = ""
-            markdown_line += f"## Paper ID: {paper_id}\n\n"
+            markdown_line += f"## [{paper_number}. {title}]({anchor}), {venue} *({paper['date_str']})*\n\n"
             markdown_line += "| Category | Items |\n"
             markdown_line += "|----------|-------|\n"
             markdown_line += f"| **Models** | {join_with_comma(models)} |\n"
