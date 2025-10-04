@@ -1,334 +1,462 @@
-# Models - Model Architectures/Structures (架构)
-models = [
-    # Linear Models
-    "Linear Model",
-    "Polynomial Model",
-    "Generalized Linear Model",
-    # Tree-based Models
-    "Decision Tree",
-    "Random Forest",
-    "Gradient Boosting Tree",
-    "XGBoost",
-    "LightGBM",
-    "CatBoost",
-    # Kernel-based Models
-    "Support Vector Machine",
-    "Gaussian Process",
-    "Radial Basis Function Network",
-    # Probabilistic Models
-    "Naive Bayes",
-    "Bayesian Network",
-    "Hidden Markov Model",
-    "Markov Random Field",
-    "Conditional Random Field",
-    "Gaussian Mixture Model",
-    "Latent Dirichlet Allocation",
-    # Basic Neural Networks
-    "Perceptron",
-    "Multi-Layer Perceptron",
-    "Feedforward Neural Network",
-    "Radial Basis Function Network",
-    # Convolutional Neural Networks
-    "Convolutional Neural Network",
-    "LeNet",
-    "AlexNet",
-    "VGG",
-    "ResNet",
-    "Inception",
-    "DenseNet",
-    "MobileNet",
-    "EfficientNet",
-    "SqueezeNet",
-    "ResNeXt",
-    "SENet",
-    "NASNet",
-    "U-Net",
-    # Recurrent Neural Networks
-    "Recurrent Neural Network",
-    "Long Short-Term Memory",
-    "Gated Recurrent Unit",
-    "Bidirectional RNN",
-    "Bidirectional LSTM",
-    # Transformer Architectures
-    "Transformer",
-    "BERT",
-    "GPT",
-    "T5",
-    "Vision Transformer",
-    "CLIP",
-    "DALL-E",
-    "Swin Transformer",
-    # Attention Mechanisms
-    "Attention Mechanism",
-    "Self-Attention Network",
-    "Multi-Head Attention",
-    "Cross-Attention",
-    # Graph Neural Networks
-    "Graph Neural Network",
-    "Graph Convolutional Network",
-    "Graph Attention Network",
-    "GraphSAGE",
-    "Message Passing Neural Network",
-    "Graph Isomorphism Network",
-    "Temporal Graph Network",
-    # Generative Models
-    "Autoencoder",
-    "Variational Autoencoder",
-    "Generative Adversarial Network",
-    "Conditional GAN",
-    "Deep Convolutional GAN",
-    "StyleGAN",
-    "CycleGAN",
-    "Diffusion Model",
-    "Denoising Diffusion Probabilistic Model",
-    "Normalizing Flow",
-    # Energy-based Models
-    "Boltzmann Machine",
-    "Restricted Boltzmann Machine",
-    "Hopfield Network",
-    # Memory Networks
-    "Neural Turing Machine",
-    "Memory Network",
-    "Differentiable Neural Computer",
-    # Specialized Architectures
-    "Capsule Network",
-    "Siamese Network",
-    "Triplet Network",
-    "Attention Network",
-    "Pointer Network",
-    "WaveNet",
-    "Seq2Seq",
-    "Encoder-Decoder",
-    # Object Detection Models
-    "YOLO",
-    "R-CNN",
-    "Fast R-CNN",
-    "Faster R-CNN",
-    "Mask R-CNN",
-    "FPN",
-    "RetinaNet",
-    # Time Series Models
-    "ARIMA Model",
-    "SARIMA Model",
-    "State Space Model",
-    "Temporal Convolutional Network",
-    "Prophet",
-    # Point Cloud Models
-    "PointNet",
-    "PointNet++",
-    # Matrix Factorization
-    "Matrix Factorization",
-    "Non-negative Matrix Factorization",
-    "Singular Value Decomposition",
+models_data = [
+    (
+        "Linear Models",
+        ["Linear Model", "Polynomial Model", "Generalized Linear Model"],
+    ),
+    (
+        "Tree-based Models",
+        [
+            "Decision Tree",
+            "Random Forest",
+            "Gradient Boosting Tree",
+            "XGBoost",
+            "LightGBM",
+            "CatBoost",
+        ],
+    ),
+    (
+        "Kernel-based Models",
+        [
+            "Support Vector Machine",
+            "Gaussian Process",
+            "Radial Basis Function Network",
+        ],
+    ),
+    (
+        "Probabilistic Models",
+        [
+            "Naive Bayes",
+            "Bayesian Network",
+            "Hidden Markov Model",
+            "Markov Random Field",
+            "Conditional Random Field",
+            "Gaussian Mixture Model",
+            "Latent Dirichlet Allocation",
+        ],
+    ),
+    (
+        "Basic Neural Networks",
+        [
+            "Perceptron",
+            "Multi-Layer Perceptron",
+            "Feedforward Neural Network",
+            "Radial Basis Function Network",
+        ],
+    ),
+    (
+        "Convolutional Neural Networks",
+        [
+            "Convolutional Neural Network",
+            "LeNet",
+            "AlexNet",
+            "VGG",
+            "ResNet",
+            "Inception",
+            "DenseNet",
+            "MobileNet",
+            "EfficientNet",
+            "SqueezeNet",
+            "ResNeXt",
+            "SENet",
+            "NASNet",
+            "U-Net",
+        ],
+    ),
+    (
+        "Recurrent Neural Networks",
+        [
+            "Recurrent Neural Network",
+            "Long Short-Term Memory",
+            "Gated Recurrent Unit",
+            "Bidirectional RNN",
+            "Bidirectional LSTM",
+        ],
+    ),
+    (
+        "Transformer Architectures",
+        [
+            "Transformer",
+            "BERT",
+            "GPT",
+            "T5",
+            "Vision Transformer",
+            "CLIP",
+            "DALL-E",
+            "Swin Transformer",
+        ],
+    ),
+    (
+        "Attention Mechanisms",
+        [
+            "Attention Mechanism",
+            "Self-Attention Network",
+            "Multi-Head Attention",
+            "Cross-Attention",
+        ],
+    ),
+    (
+        "Graph Neural Networks",
+        [
+            "Graph Neural Network",
+            "Graph Convolutional Network",
+            "Graph Attention Network",
+            "GraphSAGE",
+            "Message Passing Neural Network",
+            "Graph Isomorphism Network",
+            "Temporal Graph Network",
+        ],
+    ),
+    (
+        "Generative Models",
+        [
+            "Autoencoder",
+            "Variational Autoencoder",
+            "Generative Adversarial Network",
+            "Conditional GAN",
+            "Deep Convolutional GAN",
+            "StyleGAN",
+            "CycleGAN",
+            "Diffusion Model",
+            "Denoising Diffusion Probabilistic Model",
+            "Normalizing Flow",
+        ],
+    ),
+    (
+        "Energy-based Models",
+        ["Boltzmann Machine", "Restricted Boltzmann Machine", "Hopfield Network"],
+    ),
+    (
+        "Memory Networks",
+        [
+            "Neural Turing Machine",
+            "Memory Network",
+            "Differentiable Neural Computer",
+        ],
+    ),
+    (
+        "Specialized Architectures",
+        [
+            "Capsule Network",
+            "Siamese Network",
+            "Triplet Network",
+            "Attention Network",
+            "Pointer Network",
+            "WaveNet",
+            "Seq2Seq",
+            "Encoder-Decoder",
+        ],
+    ),
+    (
+        "Object Detection Models",
+        [
+            "YOLO",
+            "R-CNN",
+            "Fast R-CNN",
+            "Faster R-CNN",
+            "Mask R-CNN",
+            "FPN",
+            "RetinaNet",
+        ],
+    ),
+    (
+        "Time Series Models",
+        [
+            "ARIMA Model",
+            "SARIMA Model",
+            "State Space Model",
+            "Temporal Convolutional Network",
+            "Prophet",
+        ],
+    ),
+    ("Point Cloud Models", ["PointNet", "PointNet++"]),
+    (
+        "Matrix Factorization",
+        [
+            "Matrix Factorization",
+            "Non-negative Matrix Factorization",
+            "Singular Value Decomposition",
+        ],
+    ),
 ]
 
-# Learning Methods - How to Learn (学习方法/策略)
-learning_methods = [
-    # Basic Learning Paradigms
-    "Supervised Learning",
-    "Unsupervised Learning",
-    "Semi-Supervised Learning",
-    "Self-Supervised Learning",
-    "Reinforcement Learning",
-    # Advanced Learning Paradigms
-    "Transfer Learning",
-    "Multi-Task Learning",
-    "Meta-Learning",
-    "Few-Shot Learning",
-    "Zero-Shot Learning",
-    "One-Shot Learning",
-    "Active Learning",
-    "Online Learning",
-    "Incremental Learning",
-    "Continual Learning",
-    "Lifelong Learning",
-    "Curriculum Learning",
-    # Training Strategies
-    "Batch Learning",
-    "Mini-Batch Learning",
-    "Stochastic Learning",
-    "End-to-End Learning",
-    "Adversarial Training",
-    "Contrastive Learning",
-    "Knowledge Distillation",
-    "Fine-Tuning",
-    "Pre-training",
-    "Prompt Learning",
-    "In-Context Learning",
-    # Optimization Methods
-    "Gradient Descent",
-    "Stochastic Gradient Descent",
-    "Backpropagation",
-    "Maximum Likelihood Estimation",
-    "Maximum A Posteriori",
-    "Expectation-Maximization",
-    "Variational Inference",
-    "Evolutionary Learning",
-    # Reinforcement Learning Methods
-    "Q-Learning",
-    "Policy Gradient",
-    "Value Iteration",
-    "Policy Iteration",
-    "Temporal Difference Learning",
-    "Monte Carlo Learning",
-    "Actor-Critic",
-    "Model-Free Learning",
-    "Model-Based Learning",
-    "Inverse Reinforcement Learning",
-    "Imitation Learning",
-    "Multi-Agent Learning",
-    # Special Learning Settings
-    "Weakly Supervised Learning",
-    "Noisy Label Learning",
-    "Positive-Unlabeled Learning",
-    "Cost-Sensitive Learning",
-    "Imbalanced Learning",
-    "Multi-Instance Learning",
-    "Multi-View Learning",
-    "Co-Training",
-    "Self-Training",
-    "Pseudo-Labeling",
-    # Domain and Distribution
-    "Domain Adaptation",
-    "Domain Generalization",
-    "Covariate Shift Adaptation",
-    "Out-of-Distribution Learning",
-    # Collaborative Learning
-    "Federated Learning",
-    "Distributed Learning",
-    "Collaborative Learning",
-    "Privacy-Preserving Learning",
-    # Ensemble Methods
-    "Ensemble Learning",
-    "Bagging",
-    "Boosting",
-    "Stacking",
-    "Blending",
-    # Representation Learning
-    "Representation Learning",
-    "Feature Learning",
-    "Metric Learning",
-    "Distance Learning",
-    "Embedding Learning",
-    "Dictionary Learning",
-    "Manifold Learning",
-    # Learning Modes
-    "Generative Learning",
-    "Discriminative Learning",
-    "Transductive Learning",
-    "Inductive Learning",
+# Learning Methods with categories
+learning_methods_data = [
+    (
+        "Basic Learning Paradigms",
+        [
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Semi-Supervised Learning",
+            "Self-Supervised Learning",
+            "Reinforcement Learning",
+        ],
+    ),
+    (
+        "Advanced Learning Paradigms",
+        [
+            "Transfer Learning",
+            "Multi-Task Learning",
+            "Meta-Learning",
+            "Few-Shot Learning",
+            "Zero-Shot Learning",
+            "One-Shot Learning",
+            "Active Learning",
+            "Online Learning",
+            "Incremental Learning",
+            "Continual Learning",
+            "Lifelong Learning",
+            "Curriculum Learning",
+        ],
+    ),
+    (
+        "Training Strategies",
+        [
+            "Batch Learning",
+            "Mini-Batch Learning",
+            "Stochastic Learning",
+            "End-to-End Learning",
+            "Adversarial Training",
+            "Contrastive Learning",
+            "Knowledge Distillation",
+            "Fine-Tuning",
+            "Pre-training",
+            "Prompt Learning",
+            "In-Context Learning",
+        ],
+    ),
+    (
+        "Optimization Methods",
+        [
+            "Gradient Descent",
+            "Stochastic Gradient Descent",
+            "Backpropagation",
+            "Maximum Likelihood Estimation",
+            "Maximum A Posteriori",
+            "Expectation-Maximization",
+            "Variational Inference",
+            "Evolutionary Learning",
+        ],
+    ),
+    (
+        "Reinforcement Learning Methods",
+        [
+            "Q-Learning",
+            "Policy Gradient",
+            "Value Iteration",
+            "Policy Iteration",
+            "Temporal Difference Learning",
+            "Monte Carlo Learning",
+            "Actor-Critic",
+            "Model-Free Learning",
+            "Model-Based Learning",
+            "Inverse Reinforcement Learning",
+            "Imitation Learning",
+            "Multi-Agent Learning",
+        ],
+    ),
+    (
+        "Special Learning Settings",
+        [
+            "Weakly Supervised Learning",
+            "Noisy Label Learning",
+            "Positive-Unlabeled Learning",
+            "Cost-Sensitive Learning",
+            "Imbalanced Learning",
+            "Multi-Instance Learning",
+            "Multi-View Learning",
+            "Co-Training",
+            "Self-Training",
+            "Pseudo-Labeling",
+        ],
+    ),
+    (
+        "Domain and Distribution",
+        [
+            "Domain Adaptation",
+            "Domain Generalization",
+            "Covariate Shift Adaptation",
+            "Out-of-Distribution Learning",
+        ],
+    ),
+    (
+        "Collaborative Learning",
+        [
+            "Federated Learning",
+            "Distributed Learning",
+            "Collaborative Learning",
+            "Privacy-Preserving Learning",
+        ],
+    ),
+    (
+        "Ensemble Methods",
+        ["Ensemble Learning", "Bagging", "Boosting", "Stacking", "Blending"],
+    ),
+    (
+        "Representation Learning",
+        [
+            "Representation Learning",
+            "Feature Learning",
+            "Metric Learning",
+            "Distance Learning",
+            "Embedding Learning",
+            "Dictionary Learning",
+            "Manifold Learning",
+        ],
+    ),
+    (
+        "Learning Modes",
+        [
+            "Generative Learning",
+            "Discriminative Learning",
+            "Transductive Learning",
+            "Inductive Learning",
+        ],
+    ),
 ]
 
-# Tasks - What to Solve (任务/目标)
-tasks = [
-    # Prediction Tasks
-    "Regression",
-    "Classification",
-    "Binary Classification",
-    "Multi-class Classification",
-    "Multi-label Classification",
-    "Ordinal Regression",
-    "Time Series Forecasting",
-    "Survival Analysis",
-    # Ranking and Retrieval
-    "Ranking",
-    "Information Retrieval",
-    "Recommendation",
-    "Collaborative Filtering",
-    "Content-Based Filtering",
-    # Clustering and Grouping
-    "Clustering",
-    "Community Detection",
-    "Grouping",
-    # Dimensionality Reduction
-    "Dimensionality Reduction",
-    "Feature Selection",
-    "Feature Extraction",
-    # Anomaly and Outlier
-    "Anomaly Detection",
-    "Outlier Detection",
-    "Novelty Detection",
-    "Fraud Detection",
-    # Density and Distribution
-    "Density Estimation",
-    "Distribution Estimation",
-    # Structured Prediction
-    "Structured Prediction",
-    "Sequence Labeling",
-    "Named Entity Recognition",
-    "Part-of-Speech Tagging",
-    "Sequence-to-Sequence",
-    # Computer Vision Tasks
-    "Image Classification",
-    "Object Detection",
-    "Object Localization",
-    "Semantic Segmentation",
-    "Instance Segmentation",
-    "Panoptic Segmentation",
-    "Pose Estimation",
-    "Action Recognition",
-    "Video Classification",
-    "Optical Flow Estimation",
-    "Depth Estimation",
-    "Image Super-Resolution",
-    "Image Denoising",
-    "Image Inpainting",
-    "Style Transfer",
-    "Image-to-Image Translation",
-    "Image Generation",
-    "Video Generation",
-    # Natural Language Processing Tasks
-    "Language Modeling",
-    "Text Classification",
-    "Sentiment Analysis",
-    "Machine Translation",
-    "Text Summarization",
-    "Question Answering",
-    "Reading Comprehension",
-    "Dialog Generation",
-    "Text Generation",
-    "Paraphrase Generation",
-    "Text-to-Speech",
-    "Speech Recognition",
-    "Speech Synthesis",
-    # Graph Tasks
-    "Node Classification",
-    "Link Prediction",
-    "Graph Classification",
-    "Graph Generation",
-    "Graph Matching",
-    "Community Detection",
-    "Influence Maximization",
-    # Decision Making
-    "Decision Making",
-    "Policy Learning",
-    "Control",
-    "Planning",
-    "Optimization",
-    "Resource Allocation",
-    # Design Tasks
-    "Experimental Design",
-    "Hyperparameter Optimization",
-    "Architecture Search",
-    "AutoML",
-    "Neural Architecture Search",
-    # Association and Pattern
-    "Association Rule Mining",
-    "Pattern Recognition",
-    "Motif Discovery",
-    # Matching and Alignment
-    "Entity Matching",
-    "Entity Alignment",
-    "Record Linkage",
-    "Image Matching",
-    # Generative Tasks
-    "Data Generation",
-    "Data Augmentation",
-    "Synthetic Data Generation",
-    # Causal Tasks
-    "Causal Inference",
-    "Treatment Effect Estimation",
-    "Counterfactual Reasoning",
+# Tasks with categories
+tasks_data = [
+    (
+        "Prediction Tasks",
+        [
+            "Regression",
+            "Classification",
+            "Binary Classification",
+            "Multi-class Classification",
+            "Multi-label Classification",
+            "Ordinal Regression",
+            "Time Series Forecasting",
+            "Survival Analysis",
+        ],
+    ),
+    (
+        "Ranking and Retrieval",
+        [
+            "Ranking",
+            "Information Retrieval",
+            "Recommendation",
+            "Collaborative Filtering",
+            "Content-Based Filtering",
+        ],
+    ),
+    ("Clustering and Grouping", ["Clustering", "Community Detection", "Grouping"]),
+    (
+        "Dimensionality Reduction",
+        ["Dimensionality Reduction", "Feature Selection", "Feature Extraction"],
+    ),
+    (
+        "Anomaly and Outlier",
+        [
+            "Anomaly Detection",
+            "Outlier Detection",
+            "Novelty Detection",
+            "Fraud Detection",
+        ],
+    ),
+    ("Density and Distribution", ["Density Estimation", "Distribution Estimation"]),
+    (
+        "Structured Prediction",
+        [
+            "Structured Prediction",
+            "Sequence Labeling",
+            "Named Entity Recognition",
+            "Part-of-Speech Tagging",
+            "Sequence-to-Sequence",
+        ],
+    ),
+    (
+        "Computer Vision Tasks",
+        [
+            "Image Classification",
+            "Object Detection",
+            "Object Localization",
+            "Semantic Segmentation",
+            "Instance Segmentation",
+            "Panoptic Segmentation",
+            "Pose Estimation",
+            "Action Recognition",
+            "Video Classification",
+            "Optical Flow Estimation",
+            "Depth Estimation",
+            "Image Super-Resolution",
+            "Image Denoising",
+            "Image Inpainting",
+            "Style Transfer",
+            "Image-to-Image Translation",
+            "Image Generation",
+            "Video Generation",
+        ],
+    ),
+    (
+        "Natural Language Processing Tasks",
+        [
+            "Language Modeling",
+            "Text Classification",
+            "Sentiment Analysis",
+            "Machine Translation",
+            "Text Summarization",
+            "Question Answering",
+            "Reading Comprehension",
+            "Dialog Generation",
+            "Text Generation",
+            "Paraphrase Generation",
+            "Text-to-Speech",
+            "Speech Recognition",
+            "Speech Synthesis",
+        ],
+    ),
+    (
+        "Graph Tasks",
+        [
+            "Node Classification",
+            "Link Prediction",
+            "Graph Classification",
+            "Graph Generation",
+            "Graph Matching",
+            "Influence Maximization",
+        ],
+    ),
+    (
+        "Decision Making",
+        [
+            "Decision Making",
+            "Policy Learning",
+            "Control",
+            "Planning",
+            "Optimization",
+            "Resource Allocation",
+        ],
+    ),
+    (
+        "Design Tasks",
+        [
+            "Experimental Design",
+            "Hyperparameter Optimization",
+            "Architecture Search",
+            "AutoML",
+            "Neural Architecture Search",
+        ],
+    ),
+    (
+        "Association and Pattern",
+        ["Association Rule Mining", "Pattern Recognition", "Motif Discovery"],
+    ),
+    (
+        "Matching and Alignment",
+        ["Entity Matching", "Entity Alignment", "Record Linkage", "Image Matching"],
+    ),
+    (
+        "Generative Tasks",
+        ["Data Generation", "Data Augmentation", "Synthetic Data Generation"],
+    ),
+    (
+        "Causal Tasks",
+        [
+            "Causal Inference",
+            "Treatment Effect Estimation",
+            "Counterfactual Reasoning",
+        ],
+    ),
 ]
 
 
@@ -448,11 +576,24 @@ Now analyze the following paper text:
 Return only the JSON object, no additional text.
 """
 
+
+all_models = []
+for cate_models in models_data:
+    all_models += cate_models[1]
+all_learning_methods = []
+for cate_learning_methods in learning_methods_data:
+    all_learning_methods += cate_learning_methods[1]
+
+all_tasks = []
+for cate_tasks in tasks_data:
+    all_tasks += cate_tasks[1]
+
+
 # Format the template with the lists
 prompt_template_clean = prompt_template_clean_draft.format(
-    models="\n".join([f"- {m}" for m in models]),
-    learning_methods="\n".join([f"- {lm}" for lm in learning_methods]),
-    tasks="\n".join([f"- {t}" for t in tasks]),
+    models="\n".join([f"- {m}" for m in all_models]),
+    learning_methods="\n".join([f"- {lm}" for lm in all_learning_methods]),
+    tasks="\n".join([f"- {t}" for t in all_tasks]),
 )
 
 prompt_template = """You are an expert at extracting structured information from scientific papers in the AI for Science domain. Your task is to analyze the provided paper text and extract ALL AI-related information in JSON format, including multiple models, datasets, and their performances.

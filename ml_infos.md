@@ -6,7 +6,7 @@ permalink: /ml_infos/
             
 <div align="center">
     <h1>Machine Learning Infos in AI4(M)S Papers</h1> 
-    <h3>Update Time: 2025-10-05 02:46:00</h3>
+    <h3>Update Time: 2025-10-05 03:04:01</h3>
     </div>
 
 ---
@@ -16,38 +16,101 @@ permalink: /ml_infos/
 **A comprehensive classification of ML models, learning methods, and tasks**
 
 
----
+## 📊 Table 1: Models (What to Use)
+
+| Category | Items |
+|----------|-------|
+| Linear Models | Linear Model, Polynomial Model, Generalized Linear Model |
+| Tree-based Models | Decision Tree, Random Forest, Gradient Boosting Tree, XGBoost, LightGBM, CatBoost |
+| Kernel-based Models | Support Vector Machine, Gaussian Process, Radial Basis Function Network |
+| Probabilistic Models | Naive Bayes, Bayesian Network, Hidden Markov Model, Markov Random Field, Conditional Random Field, Gaussian Mixture Model, Latent Dirichlet Allocation |
+| Basic Neural Networks | Perceptron, Multi-Layer Perceptron, Feedforward Neural Network, Radial Basis Function Network |
+| Convolutional Neural Networks | Convolutional Neural Network, LeNet, AlexNet, VGG, ResNet, Inception, DenseNet, MobileNet, EfficientNet, SqueezeNet, ResNeXt, SENet, NASNet, U-Net |
+| Recurrent Neural Networks | Recurrent Neural Network, Long Short-Term Memory, Gated Recurrent Unit, Bidirectional RNN, Bidirectional LSTM |
+| Transformer Architectures | Transformer, BERT, GPT, T5, Vision Transformer, CLIP, DALL-E, Swin Transformer |
+| Attention Mechanisms | Attention Mechanism, Self-Attention Network, Multi-Head Attention, Cross-Attention |
+| Graph Neural Networks | Graph Neural Network, Graph Convolutional Network, Graph Attention Network, GraphSAGE, Message Passing Neural Network, Graph Isomorphism Network, Temporal Graph Network |
+| Generative Models | Autoencoder, Variational Autoencoder, Generative Adversarial Network, Conditional GAN, Deep Convolutional GAN, StyleGAN, CycleGAN, Diffusion Model, Denoising Diffusion Probabilistic Model, Normalizing Flow |
+| Energy-based Models | Boltzmann Machine, Restricted Boltzmann Machine, Hopfield Network |
+| Memory Networks | Neural Turing Machine, Memory Network, Differentiable Neural Computer |
+| Specialized Architectures | Capsule Network, Siamese Network, Triplet Network, Attention Network, Pointer Network, WaveNet, Seq2Seq, Encoder-Decoder |
+| Object Detection Models | YOLO, R-CNN, Fast R-CNN, Faster R-CNN, Mask R-CNN, FPN, RetinaNet |
+| Time Series Models | ARIMA Model, SARIMA Model, State Space Model, Temporal Convolutional Network, Prophet |
+| Point Cloud Models | PointNet, PointNet++ |
+| Matrix Factorization | Matrix Factorization, Non-negative Matrix Factorization, Singular Value Decomposition |
+
+**Total: 102 items**
 
 
 ---
 
 
-## 📈 Taxonomy Summary
+## 🎓 Table 2: Learning Methods (How to Learn)
+
+| Category | Items |
+|----------|-------|
+| Basic Learning Paradigms | Supervised Learning, Unsupervised Learning, Semi-Supervised Learning, Self-Supervised Learning, Reinforcement Learning |
+| Advanced Learning Paradigms | Transfer Learning, Multi-Task Learning, Meta-Learning, Few-Shot Learning, Zero-Shot Learning, One-Shot Learning, Active Learning, Online Learning, Incremental Learning, Continual Learning, Lifelong Learning, Curriculum Learning |
+| Training Strategies | Batch Learning, Mini-Batch Learning, Stochastic Learning, End-to-End Learning, Adversarial Training, Contrastive Learning, Knowledge Distillation, Fine-Tuning, Pre-training, Prompt Learning, In-Context Learning |
+| Optimization Methods | Gradient Descent, Stochastic Gradient Descent, Backpropagation, Maximum Likelihood Estimation, Maximum A Posteriori, Expectation-Maximization, Variational Inference, Evolutionary Learning |
+| Reinforcement Learning Methods | Q-Learning, Policy Gradient, Value Iteration, Policy Iteration, Temporal Difference Learning, Monte Carlo Learning, Actor-Critic, Model-Free Learning, Model-Based Learning, Inverse Reinforcement Learning, Imitation Learning, Multi-Agent Learning |
+| Special Learning Settings | Weakly Supervised Learning, Noisy Label Learning, Positive-Unlabeled Learning, Cost-Sensitive Learning, Imbalanced Learning, Multi-Instance Learning, Multi-View Learning, Co-Training, Self-Training, Pseudo-Labeling |
+| Domain and Distribution | Domain Adaptation, Domain Generalization, Covariate Shift Adaptation, Out-of-Distribution Learning |
+| Collaborative Learning | Federated Learning, Distributed Learning, Collaborative Learning, Privacy-Preserving Learning |
+| Ensemble Methods | Ensemble Learning, Bagging, Boosting, Stacking, Blending |
+| Representation Learning | Representation Learning, Feature Learning, Metric Learning, Distance Learning, Embedding Learning, Dictionary Learning, Manifold Learning |
+| Learning Modes | Generative Learning, Discriminative Learning, Transductive Learning, Inductive Learning |
+
+**Total: 82 items**
 
 
-This ML taxonomy provides a structured view of machine learning through three fundamental dimensions:
+---
 
 
-- **102 Models**: The building blocks and architectures
+## 🎯 Table 3: Tasks (What to Solve)
 
-- **82 Learning Methods**: The training strategies and paradigms
+| Category | Items |
+|----------|-------|
+| Prediction Tasks | Regression, Classification, Binary Classification, Multi-class Classification, Multi-label Classification, Ordinal Regression, Time Series Forecasting, Survival Analysis |
+| Ranking and Retrieval | Ranking, Information Retrieval, Recommendation, Collaborative Filtering, Content-Based Filtering |
+| Clustering and Grouping | Clustering, Community Detection, Grouping |
+| Dimensionality Reduction | Dimensionality Reduction, Feature Selection, Feature Extraction |
+| Anomaly and Outlier | Anomaly Detection, Outlier Detection, Novelty Detection, Fraud Detection |
+| Density and Distribution | Density Estimation, Distribution Estimation |
+| Structured Prediction | Structured Prediction, Sequence Labeling, Named Entity Recognition, Part-of-Speech Tagging, Sequence-to-Sequence |
+| Computer Vision Tasks | Image Classification, Object Detection, Object Localization, Semantic Segmentation, Instance Segmentation, Panoptic Segmentation, Pose Estimation, Action Recognition, Video Classification, Optical Flow Estimation, Depth Estimation, Image Super-Resolution, Image Denoising, Image Inpainting, Style Transfer, Image-to-Image Translation, Image Generation, Video Generation |
+| Natural Language Processing Tasks | Language Modeling, Text Classification, Sentiment Analysis, Machine Translation, Text Summarization, Question Answering, Reading Comprehension, Dialog Generation, Text Generation, Paraphrase Generation, Text-to-Speech, Speech Recognition, Speech Synthesis |
+| Graph Tasks | Node Classification, Link Prediction, Graph Classification, Graph Generation, Graph Matching, Influence Maximization |
+| Decision Making | Decision Making, Policy Learning, Control, Planning, Optimization, Resource Allocation |
+| Design Tasks | Experimental Design, Hyperparameter Optimization, Architecture Search, AutoML, Neural Architecture Search |
+| Association and Pattern | Association Rule Mining, Pattern Recognition, Motif Discovery |
+| Matching and Alignment | Entity Matching, Entity Alignment, Record Linkage, Image Matching |
+| Generative Tasks | Data Generation, Data Augmentation, Synthetic Data Generation |
+| Causal Tasks | Causal Inference, Treatment Effect Estimation, Counterfactual Reasoning |
 
-- **92 Tasks**: The problems to solve
+**Total: 91 items**
 
 
-Together, these form a comprehensive framework for understanding and navigating the ML landscape.
+---
 
 
-### The ML Equation
+### 📈 Taxonomy Summary
+
+
+- **18 Model Categories** → 102 specific models
+
+- **11 Learning Method Categories** → 82 specific methods
+
+- **16 Task Categories** → 91 specific tasks
+
 
 ```
 
-Machine Learning Solution = Model × Learning Method × Task
+ML Solution = Model × Learning Method × Task
 
-                          (What)   (How)            (Why)
+              (What)   (How)            (Why)
 
 ```
-
 ## 📑 ML Infos in Papers (Chronological Order)
 
 ### [395. Activation entropy of dislocation glide in body-centered cubic metals from atomistic simulations]((https://doi.org/10.1038/s41467-025-62390-w)), Nature Communications *(September 24, 2025)*
