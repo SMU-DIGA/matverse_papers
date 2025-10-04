@@ -7,7 +7,6 @@ title: Homepage
 
 <div align="center">
 <img src="{{ site.baseurl }}/assets/matverse_logo.png" width="300">
-<h1>MatVerse AI4(M)S Paper Collection</h1>
 </div>
 
 This site provides a concise list of resources for fresh researchers to conduct the research on AI for (Materials) Science,
