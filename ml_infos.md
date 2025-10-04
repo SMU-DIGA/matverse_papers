@@ -6,12 +6,14 @@ permalink: /ml_infos/
             
 <div align="center">
     <h1>Machine Learning Infos in AI4(M)S Papers</h1> 
-    <h3>Update Time: 2025-10-05 02:18:58</h3>
+    <h3>Update Time: 2025-10-05 02:36:29</h3>
     </div>
 
 ---
 
-## [395. Activation entropy of dislocation glide in body-centered cubic metals from atomistic simulations]((https://doi.org/10.1038/s41467-025-62390-w)), Nature Communications *(September 24, 2025)*
+## 📑 ML Infos in Papers (Chronological Order)
+
+### [395. Activation entropy of dislocation glide in body-centered cubic metals from atomistic simulations]((https://doi.org/10.1038/s41467-025-62390-w)), Nature Communications *(September 24, 2025)*
 
 | Category | Items |
 |----------|-------|
@@ -25,7 +27,7 @@ permalink: /ml_infos/
 ---
 
 
-## [391. Active Learning for Machine Learning Driven Molecular Dynamics]((https://doi.org/10.48550/arXiv.2509.17208)), Preprint *(September 21, 2025)*
+### [391. Active Learning for Machine Learning Driven Molecular Dynamics]((https://doi.org/10.48550/arXiv.2509.17208)), Preprint *(September 21, 2025)*
 
 | Category | Items |
 |----------|-------|
@@ -39,7 +41,7 @@ permalink: /ml_infos/
 ---
 
 
-## [372. Guided multi-agent AI invents highly accurate, uncertainty-aware transcriptomic aging clocks]((https://doi.org/10.1101/2025.09.08.674588)), Preprint *(September 12, 2025)*
+### [372. Guided multi-agent AI invents highly accurate, uncertainty-aware transcriptomic aging clocks]((https://doi.org/10.1101/2025.09.08.674588)), Preprint *(September 12, 2025)*
 
 | Category | Items |
 |----------|-------|
@@ -53,7 +55,7 @@ permalink: /ml_infos/
 ---
 
 
-## [326. Probing the limitations of multimodal language models for chemistry and materials research]((https://doi.org/10.1038/s43588-025-00836-3)), Nature Computational Science *(August 11, 2025)*
+### [326. Probing the limitations of multimodal language models for chemistry and materials research]((https://doi.org/10.1038/s43588-025-00836-3)), Nature Computational Science *(August 11, 2025)*
 
 | Category | Items |
 |----------|-------|
@@ -67,7 +69,7 @@ permalink: /ml_infos/
 ---
 
 
-## [300. AlphaGenome: advancing regulatory variant effect prediction with a unified DNA sequence model]((https://doi.org/10.1101/2025.06.25.661532)), Preprint *(July 11, 2025)*
+### [300. AlphaGenome: advancing regulatory variant effect prediction with a unified DNA sequence model]((https://doi.org/10.1101/2025.06.25.661532)), Preprint *(July 11, 2025)*
 
 | Category | Items |
 |----------|-------|
@@ -81,7 +83,7 @@ permalink: /ml_infos/
 ---
 
 
-## [264. End-to-end data-driven weather prediction]((https://doi.org/10.1038/s41586-025-08897-0)), Nature *(May 2025)*
+### [264. End-to-end data-driven weather prediction]((https://doi.org/10.1038/s41586-025-08897-0)), Nature *(May 2025)*
 
 | Category | Items |
 |----------|-------|
@@ -95,7 +97,7 @@ permalink: /ml_infos/
 ---
 
 
-## [205. Crystal structure generation with autoregressive large language modeling]((https://doi.org/10.1038/s41467-024-54639-7)), Nature Communications *(December 06, 2024)*
+### [205. Crystal structure generation with autoregressive large language modeling]((https://doi.org/10.1038/s41467-024-54639-7)), Nature Communications *(December 06, 2024)*
 
 | Category | Items |
 |----------|-------|
@@ -109,7 +111,7 @@ permalink: /ml_infos/
 ---
 
 
-## [189. Transforming science labs into automated factories of discovery]((https://doi.org/10.1126/scirobotics.adm6991)), Science Robotics *(October 23, 2024)*
+### [189. Transforming science labs into automated factories of discovery]((https://doi.org/10.1126/scirobotics.adm6991)), Science Robotics *(October 23, 2024)*
 
 | Category | Items |
 |----------|-------|
@@ -123,7 +125,7 @@ permalink: /ml_infos/
 ---
 
 
-## [188. Open Materials 2024 (OMat24) Inorganic Materials Dataset and Models]((https://doi.org/10.48550/arXiv.2410.12771)), Preprint *(October 16, 2024)*
+### [188. Open Materials 2024 (OMat24) Inorganic Materials Dataset and Models]((https://doi.org/10.48550/arXiv.2410.12771)), Preprint *(October 16, 2024)*
 
 | Category | Items |
 |----------|-------|
@@ -137,7 +139,7 @@ permalink: /ml_infos/
 ---
 
 
-## [178. Closed-loop transfer enables artificial intelligence to yield chemical knowledge]((https://doi.org/10.1038/s41586-024-07892-1)), Nature *(September 2024)*
+### [178. Closed-loop transfer enables artificial intelligence to yield chemical knowledge]((https://doi.org/10.1038/s41586-024-07892-1)), Nature *(September 2024)*
 
 | Category | Items |
 |----------|-------|
@@ -151,7 +153,7 @@ permalink: /ml_infos/
 ---
 
 
-## [172. The power and pitfalls of AlphaFold2 for structure prediction beyond rigid globular proteins]((https://doi.org/10.1038/s41589-024-01638-w)), Nature Chemical Biology *(August 2024)*
+### [172. The power and pitfalls of AlphaFold2 for structure prediction beyond rigid globular proteins]((https://doi.org/10.1038/s41589-024-01638-w)), Nature Chemical Biology *(August 2024)*
 
 | Category | Items |
 |----------|-------|
@@ -165,7 +167,7 @@ permalink: /ml_infos/
 ---
 
 
-## [171. OpenFold: retraining AlphaFold2 yields new insights into its learning mechanisms and capacity for generalization]((https://doi.org/10.1038/s41592-024-02272-z)), Nature Methods *(August 2024)*
+### [171. OpenFold: retraining AlphaFold2 yields new insights into its learning mechanisms and capacity for generalization]((https://doi.org/10.1038/s41592-024-02272-z)), Nature Methods *(August 2024)*
 
 | Category | Items |
 |----------|-------|
@@ -179,7 +181,7 @@ permalink: /ml_infos/
 ---
 
 
-## [157. Closed-Loop Multi-Objective Optimization for Cu–Sb–S Photo-Electrocatalytic Materials’ Discovery]((https://doi.org/10.1002/adma.202304269)), Advanced Materials *(June 04, 2024)*
+### [157. Closed-Loop Multi-Objective Optimization for Cu–Sb–S Photo-Electrocatalytic Materials’ Discovery]((https://doi.org/10.1002/adma.202304269)), Advanced Materials *(June 04, 2024)*
 
 | Category | Items |
 |----------|-------|
@@ -193,7 +195,7 @@ permalink: /ml_infos/
 ---
 
 
-## [127. A dynamic knowledge graph approach to distributed self-driving laboratories]((https://doi.org/10.1038/s41467-023-44599-9)), Nature Communications *(January 23, 2024)*
+### [127. A dynamic knowledge graph approach to distributed self-driving laboratories]((https://doi.org/10.1038/s41467-023-44599-9)), Nature Communications *(January 23, 2024)*
 
 | Category | Items |
 |----------|-------|
@@ -207,7 +209,7 @@ permalink: /ml_infos/
 ---
 
 
-## [85. The rise of self-driving labs in chemical and materials sciences]((https://doi.org/10.1038/s44160-022-00231-0)), Nature Synthesis *(June 2023)*
+### [85. The rise of self-driving labs in chemical and materials sciences]((https://doi.org/10.1038/s44160-022-00231-0)), Nature Synthesis *(June 2023)*
 
 | Category | Items |
 |----------|-------|
@@ -221,7 +223,7 @@ permalink: /ml_infos/
 ---
 
 
-## [78. Generative Models as an Emerging Paradigm in the Chemical Sciences]((https://doi.org/10.1021/jacs.2c13467)), Journal of the American Chemical Society *(April 26, 2023)*
+### [78. Generative Models as an Emerging Paradigm in the Chemical Sciences]((https://doi.org/10.1021/jacs.2c13467)), Journal of the American Chemical Society *(April 26, 2023)*
 
 | Category | Items |
 |----------|-------|
@@ -235,7 +237,7 @@ permalink: /ml_infos/
 ---
 
 
-## [52. Distributed representations of atoms and materials for machine learning]((https://doi.org/10.1038/s41524-022-00729-3)), npj Computational Materials *(March 18, 2022)*
+### [52. Distributed representations of atoms and materials for machine learning]((https://doi.org/10.1038/s41524-022-00729-3)), npj Computational Materials *(March 18, 2022)*
 
 | Category | Items |
 |----------|-------|
@@ -249,7 +251,7 @@ permalink: /ml_infos/
 ---
 
 
-## [41. Accurate prediction of protein structures and interactions using a three-track neural network]((https://doi.org/10.1126/science.abj8754)), Science *(August 20, 2021)*
+### [41. Accurate prediction of protein structures and interactions using a three-track neural network]((https://doi.org/10.1126/science.abj8754)), Science *(August 20, 2021)*
 
 | Category | Items |
 |----------|-------|
@@ -263,7 +265,7 @@ permalink: /ml_infos/
 ---
 
 
-## [26. Coevolutionary search for optimal materials in the space of all possible compounds]((https://doi.org/10.1038/s41524-020-0322-9)), npj Computational Materials *(May 14, 2020)*
+### [26. Coevolutionary search for optimal materials in the space of all possible compounds]((https://doi.org/10.1038/s41524-020-0322-9)), npj Computational Materials *(May 14, 2020)*
 
 | Category | Items |
 |----------|-------|
@@ -277,7 +279,7 @@ permalink: /ml_infos/
 ---
 
 
-## [16. Active learning for accelerated design of layered materials]((https://doi.org/10.1038/s41524-018-0129-0)), npj Computational Materials *(December 10, 2018)*
+### [16. Active learning for accelerated design of layered materials]((https://doi.org/10.1038/s41524-018-0129-0)), npj Computational Materials *(December 10, 2018)*
 
 | Category | Items |
 |----------|-------|
