@@ -703,11 +703,23 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
         abstract = clean_abstract(item.get("abstractNote", ""))
         tags = format_tags(item.get("tags", []))
 
+        item = paper["item"]
+        # venue = item.get("publicationTitle", "Unknown Journal")
+        venue = get_venue(paper)
+        title = item.get("title", "Untitled")
+        paper_number = len(papers) - i  # Since papers are sorted newest first
+
+        # index_lines.append(
+        #     f"- [{paper_number}. {title}]({anchor}), {venue} *({paper['date_str']})*"
+        # )
+        doi = item.get("DOI", "")
+        anchor = f"(https://doi.org/{doi})"
+
         # Build paper section
-        markdown_lines.append(f"## {num_papers - i + 1}. {title}\n")
+        markdown_lines.append(f"## [{paper_number}. {title}]({anchor}), {venue} *({paper['date_str']})*\n\n")
         markdown_lines.append(f"**Authors:** {authors}\n")
-        markdown_lines.append(f"**Venue:** {venue}\n")
-        markdown_lines.append(f"**Publication Date:** {date_str}\n")
+        # markdown_lines.append(f"**Venue:** {venue}\n")
+        # markdown_lines.append(f"**Publication Date:** {date_str}\n")
 
         # Add volume/issue/pages if available
         vol_info = []
@@ -722,10 +734,10 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
         if pages:
             markdown_lines.append(f"**Pages:** {pages}\n")
 
-        if doi:
-            markdown_lines.append(
-                f"**DOI:** [https://doi.org/{doi}](https://doi.org/{doi})\n"
-            )
+        # if doi:
+        #     markdown_lines.append(
+        #         f"**DOI:** [https://doi.org/{doi}](https://doi.org/{doi})\n"
+        #     )
 
         # if url:
         #     markdown_lines.append(f"**URL:** {url}\n")
