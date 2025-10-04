@@ -411,22 +411,18 @@ def render_ml_taxonomy():
     # Models with categories
 
     def create_table(data, title):
-        lines = []
-        lines.append(f"\n### {title}\n")
-        lines.append("| Category | Items |")
-        lines.append("|----------|-------|")
+        lines = [f"\n### {title}\n", "| Category | Items |", "|----------|-------|"]
 
         for category, items in data:
             items_str = ", ".join(items)
-            lines.append(f"| {category} | {items_str} |")
+            lines.append(f"| *{category}* | {items_str} |")
 
         total_items = sum(len(items) for _, items in data)
         lines.append(f"\n**Total: {total_items} items**\n")
         return "\n".join(lines)
 
     # Generate full taxonomy
-    output = []
-    output.append("## 📈 Machine Learning Taxonomy\n")
+    output = ["## 📈 Machine Learning Taxonomy\n"]
     # output.append(
     #     "**A comprehensive classification of ML models, learning methods, and tasks**\n"
     # )
