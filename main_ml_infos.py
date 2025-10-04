@@ -377,7 +377,7 @@ def render_to_markdown_table(input_file):
             #     f"- [{paper_number}. {title}]({anchor}), {venue} *({paper['date_str']})*"
             # )
             doi = item.get("DOI", "")
-            anchor = f"(https://doi.org/{doi})"
+            anchor = f"https://doi.org/{doi}"
 
             markdown_line = ""
             markdown_line += f"### [{paper_number}. {title}]({anchor}), {venue} *({paper['date_str']})*\n\n"
