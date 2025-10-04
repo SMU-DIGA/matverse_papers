@@ -355,11 +355,11 @@ def export_to_markdown(output_file_path, output_contents):
     current_time = datetime.now()
     markdown_lines = [
         f"""<div align="center">
-    <h1>ML Infos</h1> 
+    <h1>Machine Learning Infos in AI4(M)S Papers</h1> 
     <h3>Update Time: {current_time.strftime('%Y-%m-%d %H:%M:%S')}</h3>
     </div>\n\n---\n""",
         # f"**Generation Time:** {current_time.strftime('%Y-%m-%d %H:%M:%S')}\n---\n",
-        "This is a summary of the ML information in the AI4(M)S Papers.\n",
+        # "This is a summary of the ML information in the AI4(M)S Papers.\n",
     ]
 
     markdown_lines = (
