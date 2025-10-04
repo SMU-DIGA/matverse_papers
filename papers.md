@@ -1,3 +1,11 @@
+---
+layout: default
+title: Papers
+permalink: /papers/
+---
+
+
+
 <div align="center">
 <img src="./assets/matverse_logo.png" width="300"><h1>MatVerse AI4(M)S Paper Collection</h1> 
 <h3>Update Time: 2025-10-04 16:00:32</h3>

@@ -758,7 +758,7 @@ def main():
     """
     # Example usage
     input_file = "AI4S.json"  # Replace with your JSON file path
-    output_file = "README.md"  # Output markdown file
+    output_file = "papers.md"  # Output markdown file
 
     # process_zotero_json(input_file, output_file)
 

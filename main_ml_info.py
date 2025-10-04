@@ -67,12 +67,6 @@ prompt_template = """You are an expert at extracting structured information from
 Analyze the paper and extract ALL instances of models, datasets, and performances. Output your response as a valid JSON object with this exact structure:
 
 {
-  "paper_metadata": {
-    "title": "extracted paper title if available",
-    "authors": "main authors if mentioned",
-    "year": "publication year if available",
-    "venue": "conference/journal if mentioned"
-  },
   "datasets": [
     {
       "name": "dataset name",
