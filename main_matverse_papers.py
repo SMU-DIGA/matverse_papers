@@ -354,6 +354,185 @@ def generate_yearly_publication_chart(
     return chart_path
 
 
+def is_review_paper(item: Dict):
+    """
+    Check if a Zotero item is a review paper
+
+    Args:
+        item: A single Zotero exported item (dict format)
+
+    Returns:
+        (is_review, reasons):
+            - is_review: bool, whether it's a review paper
+            - reasons: List[str], list of matching reasons
+    """
+
+    # Define keywords
+    title_keywords = [
+        "review",
+        "survey",
+        "overview",
+        "state of the art",
+        "recent advances",
+        "systematic review",
+        "meta-analysis",
+        "literature review",
+        "scoping review",
+        "critical review",
+        "narrative review",
+        "umbrella review",
+        "perspectives",
+        "recent progress",
+        "recent developments",
+    ]
+
+    abstract_keywords = [
+        "this review",
+        "this survey",
+        "we review",
+        "we survey",
+        "comprehensive review",
+        "systematic review",
+        "literature review",
+        "recent advances",
+        "recent progress",
+        "state of the art",
+        "this paper reviews",
+        "this article reviews",
+        "overview of",
+        "summarize the",
+        "summarizes the",
+    ]
+
+    tag_keywords = [
+        "review",
+        "survey",
+        "systematic review",
+        "meta-analysis",
+        "literature review",
+        "scoping review",
+    ]
+
+    journal_keywords = [
+        "annual review",
+        "trends in",
+        "nature reviews",
+        "reviews of",
+        "advances in",
+        "current opinion",
+        "critical reviews",
+    ]
+
+    # Collect matching reasons
+    reasons = []
+
+    # 1. Check item type (only check article types)
+    # if item.get("itemType") not in ["journalArticle", "conferencePaper", "preprint"]:
+    #     return False, ["Not an article type"]
+
+    # 2. Check title
+    title = item.get("title", "").lower()
+    for keyword in title_keywords:
+        if keyword in title:
+            reasons.append(f"📝 Title contains: '{keyword}'")
+            break
+
+    # 3. Check abstract
+    abstract = item.get("abstractNote", "").lower()
+    if abstract:
+        for keyword in abstract_keywords:
+            if keyword in abstract:
+                reasons.append(f"📄 Abstract contains: '{keyword}'")
+                break
+
+    # 4. Check tags
+    tags = [tag.get("tag", "").lower() for tag in item.get("tags", [])]
+    for keyword in tag_keywords:
+        if any(keyword in tag for tag in tags):
+            reasons.append(f"🏷️ Tag contains: '{keyword}'")
+            break
+
+    # 5. Check journal/publication name
+    publication = item.get("publicationTitle", "").lower()
+    for keyword in journal_keywords:
+        if keyword in publication:
+            reasons.append(f"📚 Journal name contains: '{keyword}'")
+            break
+
+    # Determine if it's a review (at least one condition matched)
+    is_review = len(reasons) > 0
+
+    return is_review, reasons
+
+
+def generate_review(papers: List[Dict]) -> str:
+    """
+    Generate journal index section for the markdown file
+
+    Args:
+        papers: List of paper dictionaries with item, date_obj, date_str
+
+    Returns:
+        Markdown string for journal index
+    """
+    # Group papers by journal
+    journal_papers = defaultdict(list)
+
+
+    #     # venue = item.get("publicationTitle", "Unknown Journal")
+    #     venue = get_venue(paper)
+    #     title = item.get("title", "Untitled")
+    #     paper_number = len(papers) - i  # Since papers are sorted newest first
+    #
+    #     journal_papers[venue].append(
+    #         {"title": title, "number": paper_number, "date_str": paper["date_str"]}
+    #     )
+    #
+    # # Sort journals alphabetically
+    # sorted_journals = sorted(journal_papers.keys())
+
+    # Generate markdown for journal index
+
+    index_lines = ["## 📝 Review Papers\n", "This section presents all review papers.\n"]
+
+    # all_paper = len(papers)
+    for i, paper in enumerate(papers):
+        item = paper["item"]
+        # venue = item.get("publicationTitle", "Unknown Journal")
+        venue = get_venue(paper)
+        title = item.get("title", "Untitled")
+        paper_number = len(papers) - i  # Since papers are sorted newest first
+
+        # journal_papers[venue].append(
+        #     {"title": title, "number": paper_number, "date_str": paper["date_str"]}
+        # )
+
+        zotero_item = paper["item"]
+        is_review, _ = is_review_paper(zotero_item)
+        if is_review:
+            anchor = f"#{paper_number}-{title.lower().replace(' ', '-').replace(',', '').replace('.', '').replace('(', '').replace(')', '').replace(':', '').replace('[', '').replace(']', '')}"
+            index_lines.append(
+                f"- [{paper_number}. {title}]({anchor}), {venue} *({paper['date_str']})*"
+            )
+    # for journal in sorted_journals:
+    #     papers_in_journal = journal_papers[journal]
+    # Sort papers within each journal by number (newest first)
+    # papers_in_journal.sort(key=lambda x: x["number"], reverse=True)
+
+    # index_lines.append(f"### {journal} ({len(papers_in_journal)} papers)\n")
+
+    # for paper in papers_in_journal:
+    #     # Create anchor link to the paper section
+    #     anchor = f"#{paper['number']}-{paper['title'].lower().replace(' ', '-').replace(',', '').replace('.', '').replace('(', '').replace(')', '').replace(':', '').replace('[', '').replace(']', '')}"
+    #     index_lines.append(
+    #         f"- [{paper['number']}. {paper['title']}]({anchor}) *({paper['date_str']})*"
+    #     )
+
+    # index_lines.append("")  # Add empty line between journals
+
+    return "\n".join(index_lines)
+
+
 def generate_journal_index(papers: List[Dict]) -> str:
     """
     Generate journal index section for the markdown file
@@ -479,6 +658,11 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
 
     # markdown_lines.extend(["---\n"])
 
+    # markdown_lines.append("## 📝 Review Papers")
+
+    review_papers = generate_review(papers)
+    markdown_lines.append(review_papers)
+
     # Add journal index section
     journal_index = generate_journal_index(papers)
     markdown_lines.append(journal_index)
@@ -527,7 +711,9 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
             markdown_lines.append(f"**Pages:** {pages}\n")
 
         if doi:
-            markdown_lines.append(f"**DOI:** [https://doi.org/{doi}](https://doi.org/{doi})\n")
+            markdown_lines.append(
+                f"**DOI:** [https://doi.org/{doi}](https://doi.org/{doi})\n"
+            )
 
         # if url:
         #     markdown_lines.append(f"**URL:** {url}\n")
@@ -569,6 +755,8 @@ def main():
     # Example usage
     input_file = "AI4S.json"  # Replace with your JSON file path
     output_file = "README.md"  # Output markdown file
+
+    # process_zotero_json(input_file, output_file)
 
     try:
         process_zotero_json(input_file, output_file)
