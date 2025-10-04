@@ -407,7 +407,7 @@ def render_ml_taxonomy():
 
     def create_table(data, title):
         lines = []
-        lines.append(f"\n## {title}\n")
+        lines.append(f"\n### {title}\n")
         lines.append("| Category | Items |")
         lines.append("|----------|-------|")
 

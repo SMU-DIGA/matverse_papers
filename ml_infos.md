@@ -6,7 +6,7 @@ permalink: /ml_infos/
             
 <div align="center">
     <h1>Machine Learning Infos in AI4(M)S Papers</h1> 
-    <h3>Update Time: 2025-10-05 03:04:01</h3>
+    <h3>Update Time: 2025-10-05 03:06:00</h3>
     </div>
 
 ---
@@ -16,7 +16,7 @@ permalink: /ml_infos/
 **A comprehensive classification of ML models, learning methods, and tasks**
 
 
-## 📊 Table 1: Models (What to Use)
+### 📊 Table 1: Models (What to Use)
 
 | Category | Items |
 |----------|-------|
@@ -45,7 +45,7 @@ permalink: /ml_infos/
 ---
 
 
-## 🎓 Table 2: Learning Methods (How to Learn)
+### 🎓 Table 2: Learning Methods (How to Learn)
 
 | Category | Items |
 |----------|-------|
@@ -67,7 +67,7 @@ permalink: /ml_infos/
 ---
 
 
-## 🎯 Table 3: Tasks (What to Solve)
+### 🎯 Table 3: Tasks (What to Solve)
 
 | Category | Items |
 |----------|-------|
