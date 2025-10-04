@@ -478,7 +478,6 @@ def generate_review(papers: List[Dict]) -> str:
     # Group papers by journal
     journal_papers = defaultdict(list)
 
-
     #     # venue = item.get("publicationTitle", "Unknown Journal")
     #     venue = get_venue(paper)
     #     title = item.get("title", "Untitled")
@@ -493,7 +492,9 @@ def generate_review(papers: List[Dict]) -> str:
 
     # Generate markdown for journal index
 
-    index_lines = [ "This section presents all review papers.\n"]
+    index_lines = [
+        "This section presents all review/survey papers in this paper collection.\n"
+    ]
 
     # all_paper = len(papers)
     num_review_papers = 0
@@ -529,7 +530,9 @@ def generate_review(papers: List[Dict]) -> str:
 
     # index_lines.append("")  # Add empty line between journals
 
-    index_lines = ["## 📝 Review/Survey ({} papers)\n".format(num_review_papers),] + index_lines
+    index_lines = [
+        "## 📝 Review/Survey ({} papers)\n".format(num_review_papers),
+    ] + index_lines
 
     return "\n".join(index_lines)
 
