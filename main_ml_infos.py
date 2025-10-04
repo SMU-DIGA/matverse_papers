@@ -448,12 +448,12 @@ def render_ml_taxonomy():
 
     output.append("\n<div align=\"center\">\n")
     output.append("\n```\n")
-    output.append("╔════════════════════════════════════════════════════════════════╗")
-    output.append("║                                                                ║")
-    output.append("║        ML Solution = Model × Method × Task                     ║")
-    output.append("║                      (What)  (How)   (Why)                     ║")
-    output.append("║                                                                ║")
-    output.append("╚════════════════════════════════════════════════════════════════╝")
+    output.append("╔════════════════════════════════════════════════════════════════╗\n")
+    output.append("║                                                                ║\n")
+    output.append("║        ML Solution = Model × Method × Task                     ║\n")
+    output.append("║                      (What)  (How)   (Why)                     ║\n")
+    output.append("║                                                                ║\n")
+    output.append("╚════════════════════════════════════════════════════════════════╝\n")
     output.append("\n```")
     output.append("\n</div>\n")
 
