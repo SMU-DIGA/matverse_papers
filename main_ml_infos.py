@@ -415,7 +415,7 @@ def render_ml_taxonomy():
 
         for category, items in data:
             items_str = ", ".join(items)
-            lines.append(f"| *{category}* | {items_str} |")
+            lines.append(f"| **{category}** | {items_str} |")
 
         # total_items = sum(len(items) for _, items in data)
         # lines.append(f"\n**Total: {total_items} items**\n")
