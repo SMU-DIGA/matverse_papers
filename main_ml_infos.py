@@ -338,6 +338,7 @@ def render_to_markdown_table(input_file):
                 perf_items = [f"{k}: {v}" for k, v in metrics.items()]
                 performances.extend(perf_items)
         performance_str = "<br>".join(performances) if performances else "-"
+        performance_str = ''
 
         # Extract application domains (one per line)
         domains = paper_info.get("application_domains", [])
