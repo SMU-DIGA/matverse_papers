@@ -6,12 +6,12 @@ permalink: /ml_infos/
             
 <div align="center">
     <h1>Machine Learning Infos in AI4(M)S Papers</h1> 
-    <h3>Update Time: 2025-10-05 03:34:35</h3>
+    <h3>Update Time: 2025-10-05 03:36:09</h3>
     </div>
 
 ---
 
-## 📈 Machine Learning Taxonomy
+## 🌳 Machine Learning Taxonomy
 
 
 <div align="center">
