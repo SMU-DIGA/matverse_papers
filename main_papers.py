@@ -351,7 +351,7 @@ def generate_yearly_publication_chart(
     plt.close()
 
     # Return relative path for markdown
-    return chart_path
+    return "yearly_publications.svg"
 
 
 def is_review_paper(item: Dict):
@@ -634,7 +634,8 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
     current_time = datetime.now()
     markdown_lines = [
         f"""<div align="center">
-<img src="./assets/matverse_logo.png" width="300"><h1>MatVerse AI4(M)S Paper Collection</h1> 
+# <img src="{{{{ site.baseurl }}}}/assets/matverse_logo.png" width="300">
+<h1>MatVerse AI4(M)S Paper Collection</h1> 
 <h3>Update Time: {current_time.strftime('%Y-%m-%d %H:%M:%S')}</h3>
 </div>\n\n---\n""",
         # f"**Generation Time:** {current_time.strftime('%Y-%m-%d %H:%M:%S')}\n---\n",
@@ -655,7 +656,7 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
                 "## 📈 Publication Timeline\n",
                 # f'<img src="{chart_path}" alt="Yearly Publication Distribution" width="800">\n',
                 f"""<div align="center">
-<img src="{chart_path}"  width="800">
+<img src="{{{{ site.baseurl }}}}{chart_path}"  width="800">
 </div>\n\n---\n""",
             ]
         )
