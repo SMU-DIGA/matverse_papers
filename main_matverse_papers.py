@@ -493,9 +493,10 @@ def generate_review(papers: List[Dict]) -> str:
 
     # Generate markdown for journal index
 
-    index_lines = ["## 📝 Review Papers\n", "This section presents all review papers.\n"]
+    index_lines = [ "This section presents all review papers.\n"]
 
     # all_paper = len(papers)
+    num_review_papers = 0
     for i, paper in enumerate(papers):
         item = paper["item"]
         # venue = item.get("publicationTitle", "Unknown Journal")
@@ -506,6 +507,7 @@ def generate_review(papers: List[Dict]) -> str:
         zotero_item = paper["item"]
         is_review, reason = is_review_paper(zotero_item)
         if is_review:
+            num_review_papers += 1
             anchor = f"#{paper_number}-{title.lower().replace(' ', '-').replace(',', '').replace('.', '').replace('(', '').replace(')', '').replace(':', '').replace('[', '').replace(']', '')}"
             index_lines.append(
                 f"- [{paper_number}. {title}]({anchor}), {venue} *({paper['date_str']})*"
@@ -526,6 +528,8 @@ def generate_review(papers: List[Dict]) -> str:
     #     )
 
     # index_lines.append("")  # Add empty line between journals
+
+    index_lines = ["## 📝 Review/Survey ({} papers)\n".format(num_review_papers),] + index_lines
 
     return "\n".join(index_lines)
 
