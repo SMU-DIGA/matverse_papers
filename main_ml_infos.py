@@ -417,8 +417,8 @@ def render_ml_taxonomy():
             items_str = ", ".join(items)
             lines.append(f"| *{category}* | {items_str} |")
 
-        total_items = sum(len(items) for _, items in data)
-        lines.append(f"\n**Total: {total_items} items**\n")
+        # total_items = sum(len(items) for _, items in data)
+        # lines.append(f"\n**Total: {total_items} items**\n")
         return "\n".join(lines)
 
     # Generate full taxonomy
@@ -431,30 +431,41 @@ def render_ml_taxonomy():
     total_methods = sum(len(items) for _, items in learning_methods_data)
     total_tasks = sum(len(items) for _, items in tasks_data)
 
-    output.append(
-        f"\n- **{len(models_data)} Model Categories** → {total_models} specific models"
-    )
-    output.append(
-        f"\n- **{len(learning_methods_data)} Learning Method Categories** → {total_methods} specific methods"
-    )
-    output.append(
-        f"\n- **{len(tasks_data)} Task Categories** → {total_tasks} specific tasks\n"
-    )
+    # output.append(
+    #     f"\n- **{len(models_data)} Model Categories** → {total_models} specific models"
+    # )
+    # output.append(
+    #     f"\n- **{len(learning_methods_data)} Learning Method Categories** → {total_methods} specific methods"
+    # )
+    # output.append(
+    #     f"\n- **{len(tasks_data)} Task Categories** → {total_tasks} specific tasks\n"
+    # )
     # output.append("\n### The ML Framework")
     output.append("\n```")
     output.append("\nML Solution = Model × Learning Method × Task")
     output.append("\n              (What)   (How)            (Why)")
     output.append("\n```")
 
-    output.append(create_table(models_data, "📊 Table 1: Models (What to Use)"))
-    output.append("\n---\n")
     output.append(
         create_table(
-            learning_methods_data, "🎓 Table 2: Learning Methods (How to Learn)"
+            models_data,
+            f"📊 Table 1: Models (What to Use) [**{len(models_data)} Categories** → {total_models} Specifics]",
         )
     )
     output.append("\n---\n")
-    output.append(create_table(tasks_data, "🎯 Table 3: Tasks (What to Solve)"))
+    output.append(
+        create_table(
+            learning_methods_data,
+            f"🎓 Table 2: Learning Methods (How to Learn) [**{len(learning_methods_data)} Categories** → {total_methods} Specifics]",
+        )
+    )
+    output.append("\n---\n")
+    output.append(
+        create_table(
+            tasks_data,
+            f"🎯 Table 3: Tasks (What to Solve) [**{len(tasks_data)} Categories** → {total_tasks} Specifics]",
+        )
+    )
 
     # Summary
 
