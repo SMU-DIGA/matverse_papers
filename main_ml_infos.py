@@ -8,6 +8,8 @@ from tqdm import tqdm
 
 import os.path as osp
 from datetime import datetime
+from prompt_templates import prompt_template_clean
+from utils import parse_date
 
 # from npsolver import MODELS
 
@@ -59,126 +61,6 @@ def set_api_keys():
     openrouter_key = load_key("api_keys/openrouter_api_key.txt")
     if openrouter_key:
         os.environ["OPENROUTER_API_KEY"] = openrouter_key
-
-
-prompt_template = """You are an expert at extracting structured information from scientific papers in the AI for Science domain. Your task is to analyze the provided paper text and extract ALL AI-related information in JSON format, including multiple models, datasets, and their performances.
-
-## Task: Extract AI Components from AI4Science Paper
-
-Analyze the paper and extract ALL instances of models, datasets, and performances. Output your response as a valid JSON object with this exact structure:
-
-{
-  "datasets": [
-    {
-      "name": "dataset name",
-      "domain": "scientific domain",
-      "size": "dataset size/scale/number of samples",
-      "source": "dataset source or reference",
-      "preprocessing": "preprocessing methods",
-      "split": "train/val/test split if mentioned",
-      "description": "brief description of dataset content"
-    }
-  ],
-  "models": [
-    {
-      "model_name": "specific model name",
-      "model_type": "type (e.g., CNN, Transformer, GNN, VAE, Diffusion)",
-      "architecture_details": "detailed architecture description",
-      "backbone": "backbone network if applicable",
-      "parameters": "number of parameters if mentioned",
-      "pretrained": "yes/no and pretrained source",
-      "novel_contribution": "what's new about this model",
-      "purpose": "baseline/proposed/comparison model"
-    }
-  ],
-  "algorithms_and_methods": {
-    "training_algorithms": ["list all training approaches used"],
-    "optimization_methods": ["list all optimizers"],
-    "loss_functions": [
-      {
-        "name": "loss function name",
-        "description": "brief description or formula"
-      }
-    ],
-    "special_techniques": ["all techniques like augmentation, regularization, etc."],
-    "evaluation_metrics": ["all metrics used"]
-  },
-  "experiments": [
-    {
-      "experiment_name": "name or description of experiment",
-      "dataset_used": "which dataset(s)",
-      "models_compared": ["list of models in this experiment"],
-      "task": "specific task (e.g., classification, regression, generation)",
-      "results": [
-        {
-          "model_name": "model name",
-          "dataset": "dataset name",
-          "metrics": {
-            "metric_name_1": "value",
-            "metric_name_2": "value"
-          },
-          "additional_notes": "any important notes about results"
-        }
-      ]
-    }
-  ],
-  "performance_summary": [
-    {
-      "model": "model name",
-      "dataset": "dataset name",
-      "task": "task description",
-      "best_metric": "name of primary metric",
-      "best_score": "score value",
-      "comparison": "compared to baseline/sota",
-      "improvement": "improvement percentage if mentioned"
-    }
-  ],
-  "computational_details": {
-    "hardware": "all hardware mentioned",
-    "training_time": "training duration per model if specified",
-    "inference_time": "inference speed if mentioned",
-    "hyperparameters": [
-      {
-        "model": "model name",
-        "learning_rate": "value",
-        "batch_size": "value",
-        "epochs": "value",
-        "other_params": "other hyperparameters"
-      }
-    ]
-  },
-  "scientific_application": {
-    "domain": "scientific field",
-    "problem": "specific problem addressed",
-    "ai_application": "how AI is applied to solve it",
-    "key_findings": ["list of main findings"],
-    "limitations": "limitations mentioned if any",
-    "future_work": "future directions if mentioned"
-  },
-  "code_and_resources": {
-    "code_available": "yes/no/url",
-    "pretrained_models": "availability and links",
-    "supplementary": "supplementary materials mentioned"
-  }
-}
-
-## Instructions:
-1. Extract ALL models mentioned in the paper (proposed, baselines, comparisons)
-2. Extract ALL datasets used or mentioned
-3. Extract ALL performance results, experiments, and comparisons
-4. Capture performance metrics for each model-dataset combination
-5. Use "not_specified" for unavailable information
-6. Use empty array [] for list fields with no information
-7. Ensure valid JSON format
-8. Be comprehensive - don't miss any model or dataset mentioned
-9. Include ablation studies and variant models if present
-
----
-[PAPER TEXT]
----
-
-Output only the JSON object, no additional text.
-"""
 
 
 class Solver:
@@ -296,12 +178,20 @@ def read_pdf_with_pypdf(pdf_path):
         return None
 
 
-def extract_ml_infos(input_file):
+def extract_ml_infos(input_file, from_scratch=False):
     contexts_path = "./contexts/"
     process_records_path = "process_records.json"
     assert os.path.exists(process_records_path)
     with open(process_records_path, "r", encoding="utf-8") as f:
         process_records = json.load(f)
+
+    ml_infos_path = "ml_infos.json"
+
+    if os.path.exists(ml_infos_path):
+        with open(ml_infos_path, "r", encoding="utf-8") as f:
+            ml_infos = json.load(f)
+    else:
+        ml_infos = {}
 
     json_file_path = input_file
     try:
@@ -316,12 +206,13 @@ def extract_ml_infos(input_file):
 
     items_to_process = {}
     for zotero_item in items:
-        if (
-            zotero_item["key"] in process_records
-            and ("ml_infos" in process_records[zotero_item["key"]])
-            and process_records[zotero_item["key"]]["ml_infos"]
-        ):
-            continue
+        if not from_scratch:
+            if (
+                zotero_item["key"] in process_records
+                and ("ml_infos" in process_records[zotero_item["key"]])
+                and process_records[zotero_item["key"]]["ml_infos"]
+            ):
+                continue
 
         if (
             zotero_item["key"] in process_records
@@ -339,10 +230,9 @@ def extract_ml_infos(input_file):
         0 if num_items_to_process % batch_size == 0 else 1
     )
 
-    run_llm = False
+    run_with_llm = False
 
-    if run_llm:
-
+    if run_with_llm:
         solver = Solver()
         for batch_idx in range(num_batch):
             batch_start = batch_size * batch_idx
@@ -352,20 +242,113 @@ def extract_ml_infos(input_file):
             key_list = list(items_to_process.keys())
             for i in range(batch_start, batch_end):
                 contents.append(
-                    prompt_template.replace("[PAPER TEXT]", items_to_process[key_list[i]])
+                    prompt_template_clean.replace(
+                        "[PAPER TEXT]", items_to_process[key_list[i]]
+                    )
                 )
 
-            results = solver.get_results(contents)
+            try:
+                results = solver.get_results(contents)
 
-            for result in results:
-                prediction = result["response"].choices[0].message.content
+                for idx, result in enumerate(results):
+                    prediction = result["response"].choices[0].message.content
 
-                print(prediction)
+                    ml_infos[key_list[batch_start + idx]] = prediction
 
-            break
+                    process_records[key_list[batch_start + idx]]["ml_infos"] = True
 
-    else:
-        return None
+                break
+            except:
+                continue
+
+    with open(ml_infos_path, "w", encoding="utf-8") as f:
+        json.dump(ml_infos, f, ensure_ascii=False, indent=2)
+    with open(process_records_path, "w", encoding="utf-8") as f:
+        json.dump(process_records, f, ensure_ascii=False, indent=2)
+
+
+def render_to_markdown_table(input_file):
+    json_file_path = input_file
+    try:
+        with open(json_file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        raise FileNotFoundError(f"File not found: {json_file_path}")
+    except json.JSONDecodeError:
+        raise ValueError(f"Invalid JSON file: {json_file_path}")
+
+    ml_infos_path = "ml_infos.json"
+
+    assert os.path.exists(ml_infos_path)
+    with open(ml_infos_path, "r", encoding="utf-8") as f:
+        ml_infos = json.load(f)
+
+    markdown_lines = [
+        "| Paper ID | Datasets | Tasks | Models | Learning Methods | Performance Highlights | Application Domains |",
+        "|----------|----------|-------|--------|------------------|------------------------|---------------------|",
+    ]
+
+    # Extract items
+    items = data.get("items", [])
+
+    print("number of items {}".format(len(items)))
+
+    # Filter journal articles and sort by date (newest first)
+    papers = []
+    for item in items:
+        # if item.get("itemType") == "journalArticle":
+        date_obj, date_str = parse_date(item.get("date", ""))
+        papers.append({"item": item, "date_obj": date_obj, "date_str": date_str})
+
+    # Sort by date (newest first)
+    papers.sort(key=lambda x: x["date_obj"], reverse=True)
+
+    for paper_id, paper in enumerate(papers):
+        # Parse the nested JSON string if needed
+
+        if paper["item"]["key"] not in ml_infos:
+            continue
+
+        paper_info = json.loads(ml_infos[paper["item"]["key"]])
+
+        # Extract dataset names (one per line)
+        datasets = [d["name"] for d in paper_info.get("datasets", [])]
+        datasets_str = "<br>".join(datasets) if datasets else "-"
+
+        # Extract task names (one per line)
+        tasks = [t["name"] for t in paper_info.get("tasks_addressed", [])]
+        tasks_str = "<br>".join(tasks) if tasks else "-"
+
+        # Extract model names (one per line)
+        models = [m["name"] for m in paper_info.get("models_used", [])]
+        models_str = "<br>".join(models) if models else "-"
+
+        # Extract learning method names (one per line)
+        learning_methods = [
+            lm["name"] for lm in paper_info.get("learning_methods_used", [])
+        ]
+        learning_str = "<br>".join(learning_methods) if learning_methods else "-"
+
+        # Extract performance highlights (one per line)
+        performances = []
+        for combo in paper_info.get("model_task_learning_combinations", []):
+            perf = combo.get("performance", {})
+            metrics = perf.get("metrics", {})
+            if metrics:
+                perf_items = [f"{k}: {v}" for k, v in metrics.items()]
+                performances.extend(perf_items)
+        performance_str = "<br>".join(performances) if performances else "-"
+
+        # Extract application domains (one per line)
+        domains = paper_info.get("application_domains", [])
+        domains_str = "<br>".join(domains) if domains else "-"
+
+        # Add row to markdown table
+        markdown_lines.append(
+            f"| {paper_id} | {datasets_str} | {tasks_str} | {models_str} | {learning_str} | {performance_str} | {domains_str} |\n"
+        )
+
+    return markdown_lines
 
 
 def export_to_markdown(output_file_path, output_contents):
@@ -389,6 +372,7 @@ permalink: /ml_infos/
             """
         ]
         + markdown_lines
+        + output_contents
     )
 
     # Join all lines
@@ -474,7 +458,9 @@ def main():
 
     extract_context_from_pdf(input_file)
 
-    output_contents = extract_ml_infos(input_file)
+    extract_ml_infos(input_file)
+
+    output_contents = render_to_markdown_table(input_file)
 
     export_to_markdown(output_file_path=output_file, output_contents=output_contents)
     print("Processing completed successfully!")

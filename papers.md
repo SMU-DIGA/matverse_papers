@@ -6,7 +6,7 @@ permalink: /papers/
         
 <div align="center">
 <h1>AI4(M)S Paper Collection</h1> 
-<h3>Update Time: 2025-10-04 18:43:38</h3>
+<h3>Update Time: 2025-10-05 01:21:59</h3>
 </div>
 
 ---
@@ -22,9 +22,6 @@ This is a regularly updated paper collection about AI for science, with a specif
 ---
 
 ## 📝 Review/Survey (55 papers)
-
-This section presents all review/survey papers in this paper collection.
-
 
 - [377. Structural Insights into Autophagy in the AlphaFold Era](#377-structural-insights-into-autophagy-in-the-alphafold-era), Journal of Molecular Biology *(September 15, 2025)*
 - [364. High-throughput platforms for machine learning-guided lipid nanoparticle design](#364-high-throughput-platforms-for-machine-learning-guided-lipid-nanoparticle-design), Nature Reviews Materials *(September 08, 2025)*
