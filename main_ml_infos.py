@@ -7,6 +7,7 @@ import pypdf
 from tqdm import tqdm
 
 import os.path as osp
+from datetime import datetime
 
 # from npsolver import MODELS
 
@@ -295,7 +296,7 @@ def read_pdf_with_pypdf(pdf_path):
         return None
 
 
-def extract_ml_info(input_file, output_file):
+def extract_ml_infos(input_file):
     contexts_path = "./contexts/"
     process_records_path = "process_records.json"
     assert os.path.exists(process_records_path)
@@ -338,26 +339,68 @@ def extract_ml_info(input_file, output_file):
         0 if num_items_to_process % batch_size == 0 else 1
     )
 
-    solver = Solver()
-    for batch_idx in range(num_batch):
-        batch_start = batch_size * batch_idx
-        batch_end = min(batch_size * (batch_idx + 1), num_items_to_process)
+    run_llm = False
 
-        contents = []
-        key_list = list(items_to_process.keys())
-        for i in range(batch_start, batch_end):
-            contents.append(
-                prompt_template.replace("[PAPER TEXT]", items_to_process[key_list[i]])
-            )
+    if run_llm:
 
-        results = solver.get_results(contents)
+        solver = Solver()
+        for batch_idx in range(num_batch):
+            batch_start = batch_size * batch_idx
+            batch_end = min(batch_size * (batch_idx + 1), num_items_to_process)
 
-        for result in results:
-            prediction = result["response"].choices[0].message.content
+            contents = []
+            key_list = list(items_to_process.keys())
+            for i in range(batch_start, batch_end):
+                contents.append(
+                    prompt_template.replace("[PAPER TEXT]", items_to_process[key_list[i]])
+                )
 
-            print(prediction)
+            results = solver.get_results(contents)
 
-        break
+            for result in results:
+                prediction = result["response"].choices[0].message.content
+
+                print(prediction)
+
+            break
+
+    else:
+        return None
+
+
+def export_to_markdown(output_file_path, output_contents):
+    current_time = datetime.now()
+    markdown_lines = [
+        f"""<div align="center">
+    <h1>ML Infos</h1> 
+    <h3>Update Time: {current_time.strftime('%Y-%m-%d %H:%M:%S')}</h3>
+    </div>\n\n---\n""",
+        # f"**Generation Time:** {current_time.strftime('%Y-%m-%d %H:%M:%S')}\n---\n",
+        "This is a summary of the ML information in the AI4(M)S Papers.\n",
+    ]
+
+    markdown_lines = (
+        [
+            """---
+layout: default
+title: ML Infos
+permalink: /ml_infos/
+---
+            """
+        ]
+        + markdown_lines
+    )
+
+    # Join all lines
+    markdown_content = "\n".join(markdown_lines)
+
+    # Save to file if output path is provided
+    if output_file_path:
+        with open(output_file_path, "w", encoding="utf-8") as f:
+            f.write(markdown_content)
+        print(f"Markdown file saved to: {output_file_path}")
+
+    return markdown_content
 
 
 def extract_context_from_pdf(input_file, specified_items=None):
@@ -429,9 +472,11 @@ def main():
     input_file = "AI4S.json"  # Replace with your JSON file path
     output_file = "ml_infos.md"  # Output markdown file
 
-    extract_context_from_pdf(input_file, specified_items=["9VENSZRX"])
+    extract_context_from_pdf(input_file)
 
-    extract_ml_info(input_file, output_file)
+    output_contents = extract_ml_infos(input_file)
+
+    export_to_markdown(output_file_path=output_file, output_contents=output_contents)
     print("Processing completed successfully!")
 
 
