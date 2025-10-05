@@ -150,9 +150,9 @@ def extract_pdf_path_from_zotero_item(zotero_item):
     if "attachments" in zotero_item:
         for attachment in zotero_item["attachments"]:
             if (
-                    attachment.get("itemType") == "attachment"
-                    and "pdf" in attachment.get("title", "").lower()
-                    and "path" in attachment
+                attachment.get("itemType") == "attachment"
+                and "pdf" in attachment.get("title", "").lower()
+                and "path" in attachment
             ):
                 return attachment["path"]
     return None
@@ -214,15 +214,15 @@ def extract_ml_infos(input_file, from_scratch=False):
     for zotero_item in items:
         if not from_scratch:
             if (
-                    zotero_item["key"] in process_records
-                    and ("ml_infos" in process_records[zotero_item["key"]])
-                    and process_records[zotero_item["key"]]["ml_infos"]
+                zotero_item["key"] in process_records
+                and ("ml_infos" in process_records[zotero_item["key"]])
+                and process_records[zotero_item["key"]]["ml_infos"]
             ):
                 continue
 
         if (
-                zotero_item["key"] in process_records
-                and process_records[zotero_item["key"]]["pdf_extract"]
+            zotero_item["key"] in process_records
+            and process_records[zotero_item["key"]]["pdf_extract"]
         ):
             txt_path = osp.join(contexts_path, zotero_item["key"] + ".txt")
             with open(txt_path, "r", encoding="utf-8") as f:
@@ -434,7 +434,7 @@ def plot_statistics(input_file, plot_type=None, output_dir: str = "./assets"):
                     segment_ratio = count / total_height if total_height > 0 else 0
 
                     if (
-                            segment_ratio >= 0.08
+                        segment_ratio >= 0.08
                     ):  # Only label if segment is at least 8% of total
                         ax.text(
                             bar.get_x() + bar.get_width() / 2,
@@ -626,7 +626,7 @@ def render_to_markdown_table(input_file):
             venue = get_venue(paper)
             title = item.get("title", "Untitled")
             paper_number = (
-                    len(papers) - paper_id
+                len(papers) - paper_id
             )  # Since papers are sorted newest first
 
             # index_lines.append(
@@ -665,10 +665,10 @@ def render_to_markdown_table(input_file):
         )
     )
     markdown_lines = [
-                         "## 📑 ML Infos in {}/{} Papers (Chronological Order)\n".format(
-                             papers_with_ml_infos, len(papers)
-                         )
-                     ] + markdown_lines
+        "## 📑 ML Infos in {}/{} Papers (Chronological Order)\n".format(
+            papers_with_ml_infos, len(papers)
+        )
+    ] + markdown_lines
     return markdown_lines
 
 
@@ -748,13 +748,17 @@ def render_ml_taxonomy():
         )
     )
 
-    output += ['\n']
+    output += ["\n"]
     # Summary
     output += ["### 📈 Summary of Statistics\n"]
 
-    output += ['\n<div align="center">\n', """<img src="{{ site.baseurl }}/assets/tasks.svg"  width="500">""",
-               """<img src="{{ site.baseurl }}/assets/models.svg"  width="500">""",
-               """<img src="{{ site.baseurl }}/assets/methods.svg"  width="500">""", "\n</div>\n"]
+    output += [
+        '\n<div align="center">\n',
+        """<img src="{{ site.baseurl }}/assets/tasks.svg"  width="800">""",
+        """<img src="{{ site.baseurl }}/assets/models.svg"  width="800">""",
+        """<img src="{{ site.baseurl }}/assets/methods.svg"  width="800">""",
+        "\n</div>\n",
+    ]
 
     output.append("\n---\n")
 
@@ -782,17 +786,17 @@ def export_to_markdown(output_file_path, output_contents):
     # output.append("\n```")
 
     markdown_lines = (
-            [
-                """---
+        [
+            """---
 layout: default
 title: ML Infos
 permalink: /ml_infos/
 ---
             """
-            ]
-            + markdown_lines
-            + render_ml_taxonomy()
-            + output_contents
+        ]
+        + markdown_lines
+        + render_ml_taxonomy()
+        + output_contents
     )
 
     # Join all lines
@@ -838,8 +842,8 @@ def extract_context_from_pdf(input_file, specified_items=None):
         try:
             if not specified_items:
                 if (
-                        zotero_item["key"] in process_records
-                        and process_records[zotero_item["key"]]["pdf_extract"]
+                    zotero_item["key"] in process_records
+                    and process_records[zotero_item["key"]]["pdf_extract"]
                 ):
                     continue
             else:
@@ -879,12 +883,13 @@ def main():
     extract_context_from_pdf(input_file)
 
     extract_new_ml_info = False
+    replot = False
 
     if extract_new_ml_info:
         extract_ml_infos(input_file)
-
-    for plot_type in ["models", "methods", "tasks"]:
-        plot_statistics(input_file, plot_type)
+    if replot:
+        for plot_type in ["models", "methods", "tasks"]:
+            plot_statistics(input_file, plot_type)
 
     output_contents = render_to_markdown_table(input_file)
 
