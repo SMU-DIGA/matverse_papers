@@ -183,19 +183,19 @@ def generate_yearly_publication_chart(
     other_journals = sorted_journals[top_n:]
 
     # Create a curated color palette with good contrast
-    # colors = [
-    #     "#2E86AB",  # Blue
-    #     "#A23B72",  # Purple
-    #     "#F18F01",  # Orange
-    #     "#C73E1D",  # Red
-    #     "#4CAF50",  # Green
-    #     "#9C27B0",  # Deep Purple
-    #     "#FF9800",  # Amber
-    #     "#607D8B",  # Blue Grey
-    #     "#8BC34A",  # Light Green (for Others)
-    # ]
+    colors = [
+        "#2E86AB",  # Blue
+        "#A23B72",  # Purple
+        "#F18F01",  # Orange
+        "#C73E1D",  # Red
+        "#4CAF50",  # Green
+        "#9C27B0",  # Deep Purple
+        "#FF9800",  # Amber
+        "#607D8B",  # Blue Grey
+        "#8BC34A",  # Light Green (for Others)
+    ]
 
-    colors = sns.color_palette("colorblind", top_n + 1).as_hex()
+    # colors = sns.color_palette("colorblind", top_n + 1).as_hex()
 
     # colors = [
     #     "#2E86AB",  # Blue
