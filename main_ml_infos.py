@@ -748,12 +748,13 @@ def render_ml_taxonomy():
         )
     )
 
+    output += ['\n']
     # Summary
     output += ["### 📈 Summary of Statistics\n"]
 
-    output += ['\n<div align="center">\n', """<img src="{{ site.baseurl }}/assets/tasks.svg"  width="300">""",
-               """<img src="{{ site.baseurl }}/assets/models.svg"  width="300">""",
-               """<img src="{{ site.baseurl }}/assets/methods.svg"  width="300">""", "\n</div>\n"]
+    output += ['\n<div align="center">\n', """<img src="{{ site.baseurl }}/assets/tasks.svg"  width="500">""",
+               """<img src="{{ site.baseurl }}/assets/models.svg"  width="500">""",
+               """<img src="{{ site.baseurl }}/assets/methods.svg"  width="500">""", "\n</div>\n"]
 
     output.append("\n---\n")
 

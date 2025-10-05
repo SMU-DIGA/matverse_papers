@@ -6,7 +6,7 @@ permalink: /ml_infos/
             
 <div align="center">
     <h1>Machine Learning Infos in AI4(M)S Papers</h1> 
-    <h3>Update Time: 2025-10-05 15:22:20</h3>
+    <h3>Update Time: 2025-10-05 15:25:00</h3>
     </div>
 
 ---
@@ -86,14 +86,16 @@ permalink: /ml_infos/
 | **Matching and Alignment** | Entity Matching, Entity Alignment, Record Linkage, Image Matching |
 | **Generative Tasks** | Data Generation, Data Augmentation, Synthetic Data Generation |
 | **Causal Tasks** | Causal Inference, Treatment Effect Estimation, Counterfactual Reasoning |
+
+
 ### 📈 Summary of Statistics
 
 
 <div align="center">
 
-<img src="{{ site.baseurl }}/assets/tasks.svg"  width="300">
-<img src="{{ site.baseurl }}/assets/models.svg"  width="300">
-<img src="{{ site.baseurl }}/assets/methods.svg"  width="300">
+<img src="{{ site.baseurl }}/assets/tasks.svg"  width="500">
+<img src="{{ site.baseurl }}/assets/models.svg"  width="500">
+<img src="{{ site.baseurl }}/assets/methods.svg"  width="500">
 
 </div>
 
