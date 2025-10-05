@@ -365,11 +365,11 @@ def plot_statistics(input_file, plot_type=None, output_dir: str = "./assets"):
     )
 
     # Define top N journals to show individually (others will be grouped as "Others")
-    top_n = 8
+    top_n = 10
     top_options = sorted_options[:top_n]
     other_options = sorted_options[top_n:]
 
-    # colors = sns.color_palette("colorblind", top_n + 1).as_hex()
+    colors = sns.color_palette("colorblind", top_n).as_hex() + ['#D3D3D3']
 
     # Create a curated color palette with good contrast
     colors = [

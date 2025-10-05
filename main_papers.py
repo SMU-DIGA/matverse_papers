@@ -178,7 +178,7 @@ def generate_yearly_publication_chart(
     )
 
     # Define top N journals to show individually (others will be grouped as "Others")
-    top_n = 8
+    top_n = 10
     top_journals = sorted_journals[:top_n]
     other_journals = sorted_journals[top_n:]
 
@@ -195,8 +195,7 @@ def generate_yearly_publication_chart(
         "#607D8B",  # Blue Grey (for Others)
     ]
 
-    # colors = sns.color_palette("colorblind", top_n + 1).as_hex()
-
+    colors = sns.color_palette("colorblind", top_n).as_hex() + ['#D3D3D3']
     # colors = [
     #     "#2E86AB",  # Blue
     #     "#A23B72",  # Purple
