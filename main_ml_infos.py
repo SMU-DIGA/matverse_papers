@@ -16,7 +16,6 @@ from prompt_templates import (
 )
 from utils import parse_date, get_venue
 
-
 # from npsolver import MODELS
 
 MODELS = {
@@ -150,9 +149,9 @@ def extract_pdf_path_from_zotero_item(zotero_item):
     if "attachments" in zotero_item:
         for attachment in zotero_item["attachments"]:
             if (
-                attachment.get("itemType") == "attachment"
-                and "pdf" in attachment.get("title", "").lower()
-                and "path" in attachment
+                    attachment.get("itemType") == "attachment"
+                    and "pdf" in attachment.get("title", "").lower()
+                    and "path" in attachment
             ):
                 return attachment["path"]
     return None
@@ -214,15 +213,15 @@ def extract_ml_infos(input_file, from_scratch=False):
     for zotero_item in items:
         if not from_scratch:
             if (
-                zotero_item["key"] in process_records
-                and ("ml_infos" in process_records[zotero_item["key"]])
-                and process_records[zotero_item["key"]]["ml_infos"]
+                    zotero_item["key"] in process_records
+                    and ("ml_infos" in process_records[zotero_item["key"]])
+                    and process_records[zotero_item["key"]]["ml_infos"]
             ):
                 continue
 
         if (
-            zotero_item["key"] in process_records
-            and process_records[zotero_item["key"]]["pdf_extract"]
+                zotero_item["key"] in process_records
+                and process_records[zotero_item["key"]]["pdf_extract"]
         ):
             txt_path = osp.join(contexts_path, zotero_item["key"] + ".txt")
             with open(txt_path, "r", encoding="utf-8") as f:
@@ -370,7 +369,7 @@ def render_to_markdown_table(input_file):
             venue = get_venue(paper)
             title = item.get("title", "Untitled")
             paper_number = (
-                len(papers) - paper_id
+                    len(papers) - paper_id
             )  # Since papers are sorted newest first
 
             # index_lines.append(
@@ -498,17 +497,17 @@ def export_to_markdown(output_file_path, output_contents):
     ]
 
     markdown_lines = (
-        [
-            """---
+            [
+                """---
 layout: default
 title: ML Infos
 permalink: /ml_infos/
 ---
             """
-        ]
-        + markdown_lines
-        + render_ml_taxonomy()
-        + output_contents
+            ]
+            + markdown_lines
+            + render_ml_taxonomy()
+            + output_contents
     )
 
     # Join all lines
@@ -554,8 +553,8 @@ def extract_context_from_pdf(input_file, specified_items=None):
         try:
             if not specified_items:
                 if (
-                    zotero_item["key"] in process_records
-                    and process_records[zotero_item["key"]]["pdf_extract"]
+                        zotero_item["key"] in process_records
+                        and process_records[zotero_item["key"]]["pdf_extract"]
                 ):
                     continue
             else:
@@ -594,7 +593,10 @@ def main():
 
     extract_context_from_pdf(input_file)
 
-    extract_ml_infos(input_file)
+    extract_new_ml_info = False
+
+    if extract_new_ml_info:
+        extract_ml_infos(input_file)
 
     output_contents = render_to_markdown_table(input_file)
 
