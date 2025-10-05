@@ -666,7 +666,7 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
                 "## 📈 Publication Timeline\n",
                 # f'<img src="{chart_path}" alt="Yearly Publication Distribution" width="800">\n',
                 f"""<div align="center">
-<img src="{{{{ site.baseurl }}}}/assets/{chart_path}"  width="800">
+<img src="{{{{ site.baseurl }}}}/assets/{chart_path}"  style="width:100%">
 </div>\n\n---\n""",
             ]
         )

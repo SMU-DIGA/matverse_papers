@@ -758,9 +758,9 @@ def render_ml_taxonomy():
 
     output += [
         '\n<div align="center">\n',
-        """<img src="{{ site.baseurl }}/assets/tasks.svg"  width="800">""",
-        """<img src="{{ site.baseurl }}/assets/models.svg"  width="800">""",
-        """<img src="{{ site.baseurl }}/assets/methods.svg"  width="800">""",
+        """<img src="{{ site.baseurl }}/assets/tasks.svg"  style="width:100%">""",
+        """<img src="{{ site.baseurl }}/assets/models.svg"  style="width:100%">""",
+        """<img src="{{ site.baseurl }}/assets/methods.svg"  style="width:100%">""",
         "\n</div>\n",
     ]
 

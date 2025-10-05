@@ -6,7 +6,7 @@ permalink: /papers/
         
 <div align="center">
 <h1>AI4(M)S Paper Collection</h1> 
-<h3>Update Time: 2025-10-05 15:39:34</h3>
+<h3>Update Time: 2025-10-05 15:42:52</h3>
 </div>
 
 ---
@@ -16,7 +16,7 @@ This is a regularly updated paper collection about AI for science, with a specif
 ## 📈 Publication Timeline
 
 <div align="center">
-<img src="{{ site.baseurl }}/assets/yearly_publications.svg"  width="800">
+<img src="{{ site.baseurl }}/assets/yearly_publications.svg"  style="width:100%">
 </div>
 
 ---
