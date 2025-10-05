@@ -149,9 +149,9 @@ def extract_pdf_path_from_zotero_item(zotero_item):
     if "attachments" in zotero_item:
         for attachment in zotero_item["attachments"]:
             if (
-                    attachment.get("itemType") == "attachment"
-                    and "pdf" in attachment.get("title", "").lower()
-                    and "path" in attachment
+                attachment.get("itemType") == "attachment"
+                and "pdf" in attachment.get("title", "").lower()
+                and "path" in attachment
             ):
                 return attachment["path"]
     return None
@@ -213,15 +213,15 @@ def extract_ml_infos(input_file, from_scratch=False):
     for zotero_item in items:
         if not from_scratch:
             if (
-                    zotero_item["key"] in process_records
-                    and ("ml_infos" in process_records[zotero_item["key"]])
-                    and process_records[zotero_item["key"]]["ml_infos"]
+                zotero_item["key"] in process_records
+                and ("ml_infos" in process_records[zotero_item["key"]])
+                and process_records[zotero_item["key"]]["ml_infos"]
             ):
                 continue
 
         if (
-                zotero_item["key"] in process_records
-                and process_records[zotero_item["key"]]["pdf_extract"]
+            zotero_item["key"] in process_records
+            and process_records[zotero_item["key"]]["pdf_extract"]
         ):
             txt_path = osp.join(contexts_path, zotero_item["key"] + ".txt")
             with open(txt_path, "r", encoding="utf-8") as f:
@@ -294,7 +294,7 @@ def render_to_markdown_table(input_file):
     #     "|----------|----------|-------|--------|------------------|------------------------|---------------------|",
     # ]
 
-    markdown_lines = ["## 📑 ML Infos in Papers (Chronological Order)\n"]
+    markdown_lines = []
 
     # Extract items
     items = data.get("items", [])
@@ -311,6 +311,7 @@ def render_to_markdown_table(input_file):
     # Sort by date (newest first)
     papers.sort(key=lambda x: x["date_obj"], reverse=True)
 
+    papers_with_ml_infos = 0
     for paper_id, paper in enumerate(papers):
         # Parse the nested JSON string if needed
 
@@ -369,7 +370,7 @@ def render_to_markdown_table(input_file):
             venue = get_venue(paper)
             title = item.get("title", "Untitled")
             paper_number = (
-                    len(papers) - paper_id
+                len(papers) - paper_id
             )  # Since papers are sorted newest first
 
             # index_lines.append(
@@ -397,10 +398,16 @@ def render_to_markdown_table(input_file):
             markdown_line += "---\n\n"
 
             markdown_lines.append(markdown_line)
+            papers_with_ml_infos += 1
 
         except:
             continue
 
+    markdown_lines = [
+        "## 📑 ML Infos in {}/{} Papers (Chronological Order)\n".format(
+            papers_with_ml_infos, len(papers)
+        )
+    ] + markdown_lines
     return markdown_lines
 
 
@@ -445,8 +452,10 @@ def render_ml_taxonomy():
     # output.append("\n              (What)   (How)            (Why)")
     # output.append("\n```")
 
-    output.append("\n<div align=\"center\">\n")
-    output.append("""<img src="{{ site.baseurl }}/assets/ml_solution.png"  width="800">""")
+    output.append('\n<div align="center">\n')
+    output.append(
+        """<img src="{{ site.baseurl }}/assets/ml_solution.png"  width="800">"""
+    )
     # output.append("\n```\n")
     # output.append("╔════════════════════════════════════════════════════════════════╗\n")
     # output.append("║                                                                ║\n")
@@ -497,17 +506,17 @@ def export_to_markdown(output_file_path, output_contents):
     ]
 
     markdown_lines = (
-            [
-                """---
+        [
+            """---
 layout: default
 title: ML Infos
 permalink: /ml_infos/
 ---
             """
-            ]
-            + markdown_lines
-            + render_ml_taxonomy()
-            + output_contents
+        ]
+        + markdown_lines
+        + render_ml_taxonomy()
+        + output_contents
     )
 
     # Join all lines
@@ -553,8 +562,8 @@ def extract_context_from_pdf(input_file, specified_items=None):
         try:
             if not specified_items:
                 if (
-                        zotero_item["key"] in process_records
-                        and process_records[zotero_item["key"]]["pdf_extract"]
+                    zotero_item["key"] in process_records
+                    and process_records[zotero_item["key"]]["pdf_extract"]
                 ):
                     continue
             else:

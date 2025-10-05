@@ -6,7 +6,7 @@ permalink: /ml_infos/
             
 <div align="center">
     <h1>Machine Learning Infos in AI4(M)S Papers</h1> 
-    <h3>Update Time: 2025-10-05 12:57:39</h3>
+    <h3>Update Time: 2025-10-05 13:02:54</h3>
     </div>
 
 ---
@@ -89,7 +89,7 @@ permalink: /ml_infos/
 
 ---
 
-## 📑 ML Infos in Papers (Chronological Order)
+## 📑 ML Infos in 351/404 Papers (Chronological Order)
 
 ### [404. A generative artificial intelligence approach for the discovery of antimicrobial peptides against multidrug-resistant bacteria](https://doi.org/10.1038/s41564-025-02114-4), Nature Microbiology *(October 03, 2025)*
 
