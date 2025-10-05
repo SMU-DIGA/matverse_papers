@@ -178,7 +178,7 @@ def generate_yearly_publication_chart(
     )
 
     # Define top N journals to show individually (others will be grouped as "Others")
-    top_n = 12
+    top_n = 8
     top_journals = sorted_journals[:top_n]
     other_journals = sorted_journals[top_n:]
 

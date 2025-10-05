@@ -365,7 +365,7 @@ def plot_statistics(input_file, plot_type=None, output_dir: str = "./assets"):
     )
 
     # Define top N journals to show individually (others will be grouped as "Others")
-    top_n = 12
+    top_n = 8
     top_options = sorted_options[:top_n]
     other_options = sorted_options[top_n:]
 
