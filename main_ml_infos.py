@@ -236,7 +236,7 @@ def extract_ml_infos(input_file, from_scratch=False):
         0 if num_items_to_process % batch_size == 0 else 1
     )
 
-    run_with_llm = False
+    run_with_llm = True
 
     if run_with_llm:
         solver = Solver()
@@ -263,8 +263,8 @@ def extract_ml_infos(input_file, from_scratch=False):
 
                     process_records[key_list[batch_start + idx]]["ml_infos"] = True
 
-                if batch_idx > 2:
-                    break
+                # if batch_idx > 2:
+                #     break
             except:
                 continue
 
@@ -447,7 +447,7 @@ def render_ml_taxonomy():
     # output.append("\n```")
 
     output.append("\n<div align=\"center\">\n")
-    output.append("""<img src="{{ site.baseurl }}/assets/ml_solution.png"  width="600">""")
+    output.append("""<img src="{{ site.baseurl }}/assets/ml_solution.png"  width="800">""")
     # output.append("\n```\n")
     # output.append("╔════════════════════════════════════════════════════════════════╗\n")
     # output.append("║                                                                ║\n")
