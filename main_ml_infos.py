@@ -372,17 +372,17 @@ def plot_statistics(input_file, plot_type=None, output_dir: str = "./assets"):
     colors = sns.color_palette("colorblind", top_n).as_hex() + ['#D3D3D3']
 
     # Create a curated color palette with good contrast
-    colors = [
-        "#2E86AB",  # Blue
-        "#A23B72",  # Purple
-        "#F18F01",  # Orange
-        "#C73E1D",  # Red
-        "#4CAF50",  # Green
-        "#9C27B0",  # Deep Purple
-        "#FF9800",  # Amber
-        "#8BC34A",  # Light Green
-        "#607D8B",  # Blue Grey (for Others)
-    ]
+    # colors = [
+    #     "#2E86AB",  # Blue
+    #     "#A23B72",  # Purple
+    #     "#F18F01",  # Orange
+    #     "#C73E1D",  # Red
+    #     "#4CAF50",  # Green
+    #     "#9C27B0",  # Deep Purple
+    #     "#FF9800",  # Amber
+    #     "#8BC34A",  # Light Green
+    #     "#607D8B",  # Blue Grey (for Others)
+    # ]
 
     # Assign colors to journals
     option_colors = {}
