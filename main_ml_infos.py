@@ -887,7 +887,7 @@ def main():
     extract_context_from_pdf(input_file)
 
     extract_new_ml_info = False
-    replot = False
+    replot = True
 
     if extract_new_ml_info:
         extract_ml_infos(input_file)
