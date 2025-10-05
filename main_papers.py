@@ -191,8 +191,8 @@ def generate_yearly_publication_chart(
         "#4CAF50",  # Green
         "#9C27B0",  # Deep Purple
         "#FF9800",  # Amber
-        "#607D8B",  # Blue Grey
-        "#8BC34A",  # Light Green (for Others)
+        "#8BC34A",  # Light Green
+        "#607D8B",  # Blue Grey (for Others)
     ]
 
     # colors = sns.color_palette("colorblind", top_n + 1).as_hex()
