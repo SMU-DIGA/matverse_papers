@@ -6,7 +6,7 @@ permalink: /ml_infos/
             
 <div align="center">
     <h1>Machine Learning Infos in AI4(M)S Papers</h1> 
-    <h3>Update Time: 2025-10-05 17:02:54</h3>
+    <h3>Update Time: 2025-10-05 17:04:47</h3>
     </div>
 
 ---
@@ -16,7 +16,7 @@ permalink: /ml_infos/
 
 <div align="center">
 
-<img src="{{ site.baseurl }}/assets/ml_solution.png"  style="width:100%">
+<img src="{{ site.baseurl }}/assets/ml_solution.png"  style="width:80%">
 
 </div>
 
