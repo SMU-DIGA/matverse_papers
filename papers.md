@@ -6,7 +6,7 @@ permalink: /papers/
         
 <div align="center">
 <h1>AI4(M)S Paper Collection</h1> 
-<h3>Update Time: 2025-10-05 15:42:52</h3>
+<h3>Update Time: 2025-10-05 15:46:34</h3>
 </div>
 
 ---
