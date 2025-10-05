@@ -168,7 +168,7 @@ models_data = [
             "Prophet",
         ],
     ),
-    ("Point Cloud Models", ["PointNet", "PointNet++"]),
+    ("Pointer Networks", ["PointNet", "PointNet++"]),
     (
         "Matrix Factorization",
         [

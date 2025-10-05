@@ -6,7 +6,7 @@ permalink: /ml_infos/
             
 <div align="center">
     <h1>Machine Learning Infos in AI4(M)S Papers</h1> 
-    <h3>Update Time: 2025-10-05 13:02:54</h3>
+    <h3>Update Time: 2025-10-05 15:22:20</h3>
     </div>
 
 ---
@@ -41,7 +41,7 @@ permalink: /ml_infos/
 | **Specialized Architectures** | Capsule Network, Siamese Network, Triplet Network, Attention Network, Pointer Network, WaveNet, Seq2Seq, Encoder-Decoder |
 | **Object Detection Models** | YOLO, R-CNN, Fast R-CNN, Faster R-CNN, Mask R-CNN, FPN, RetinaNet |
 | **Time Series Models** | ARIMA Model, SARIMA Model, State Space Model, Temporal Convolutional Network, Prophet |
-| **Point Cloud Models** | PointNet, PointNet++ |
+| **Pointer Networks** | PointNet, PointNet++ |
 | **Matrix Factorization** | Matrix Factorization, Non-negative Matrix Factorization, Singular Value Decomposition |
 
 ---
@@ -86,6 +86,17 @@ permalink: /ml_infos/
 | **Matching and Alignment** | Entity Matching, Entity Alignment, Record Linkage, Image Matching |
 | **Generative Tasks** | Data Generation, Data Augmentation, Synthetic Data Generation |
 | **Causal Tasks** | Causal Inference, Treatment Effect Estimation, Counterfactual Reasoning |
+### 📈 Summary of Statistics
+
+
+<div align="center">
+
+<img src="{{ site.baseurl }}/assets/tasks.svg"  width="300">
+<img src="{{ site.baseurl }}/assets/models.svg"  width="300">
+<img src="{{ site.baseurl }}/assets/methods.svg"  width="300">
+
+</div>
+
 
 ---
 
