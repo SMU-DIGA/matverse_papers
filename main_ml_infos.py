@@ -729,22 +729,23 @@ def render_ml_taxonomy():
 
     output.append(
         create_table(
+            tasks_data,
+            f"🎯 Table 1: Tasks (What to Solve) [{len(tasks_data)} Categories → {total_tasks} Specifics]",
+        )
+    )
+    output.append("\n---\n")
+
+    output.append(
+        create_table(
             models_data,
-            f"📊 Table 1: Models (What to Use) [{len(models_data)} Categories → {total_models} Specifics]",
+            f"📊 Table 2: Models (What to Use) [{len(models_data)} Categories → {total_models} Specifics]",
         )
     )
     output.append("\n---\n")
     output.append(
         create_table(
             learning_methods_data,
-            f"🎓 Table 2: Learning Methods (How to Learn) [{len(learning_methods_data)} Categories → {total_methods} Specifics]",
-        )
-    )
-    output.append("\n---\n")
-    output.append(
-        create_table(
-            tasks_data,
-            f"🎯 Table 3: Tasks (What to Solve) [{len(tasks_data)} Categories → {total_tasks} Specifics]",
+            f"🎓 Table 3: Learning Methods (How to Learn) [{len(learning_methods_data)} Categories → {total_methods} Specifics]",
         )
     )
 

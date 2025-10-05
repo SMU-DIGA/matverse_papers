@@ -6,7 +6,7 @@ permalink: /ml_infos/
             
 <div align="center">
     <h1>Machine Learning Infos in AI4(M)S Papers</h1> 
-    <h3>Update Time: 2025-10-05 15:27:17</h3>
+    <h3>Update Time: 2025-10-05 15:33:01</h3>
     </div>
 
 ---
@@ -21,7 +21,31 @@ permalink: /ml_infos/
 </div>
 
 
-### 📊 Table 1: Models (What to Use) [18 Categories → 102 Specifics]
+### 🎯 Table 1: Tasks (What to Solve) [16 Categories → 91 Specifics]
+
+| Category | Items |
+|----------|-------|
+| **Prediction Tasks** | Regression, Classification, Binary Classification, Multi-class Classification, Multi-label Classification, Ordinal Regression, Time Series Forecasting, Survival Analysis |
+| **Ranking and Retrieval** | Ranking, Information Retrieval, Recommendation, Collaborative Filtering, Content-Based Filtering |
+| **Clustering and Grouping** | Clustering, Community Detection, Grouping |
+| **Dimensionality Reduction** | Dimensionality Reduction, Feature Selection, Feature Extraction |
+| **Anomaly and Outlier** | Anomaly Detection, Outlier Detection, Novelty Detection, Fraud Detection |
+| **Density and Distribution** | Density Estimation, Distribution Estimation |
+| **Structured Prediction** | Structured Prediction, Sequence Labeling, Named Entity Recognition, Part-of-Speech Tagging, Sequence-to-Sequence |
+| **Computer Vision Tasks** | Image Classification, Object Detection, Object Localization, Semantic Segmentation, Instance Segmentation, Panoptic Segmentation, Pose Estimation, Action Recognition, Video Classification, Optical Flow Estimation, Depth Estimation, Image Super-Resolution, Image Denoising, Image Inpainting, Style Transfer, Image-to-Image Translation, Image Generation, Video Generation |
+| **Natural Language Processing Tasks** | Language Modeling, Text Classification, Sentiment Analysis, Machine Translation, Text Summarization, Question Answering, Reading Comprehension, Dialog Generation, Text Generation, Paraphrase Generation, Text-to-Speech, Speech Recognition, Speech Synthesis |
+| **Graph Tasks** | Node Classification, Link Prediction, Graph Classification, Graph Generation, Graph Matching, Influence Maximization |
+| **Decision Making** | Decision Making, Policy Learning, Control, Planning, Optimization, Resource Allocation |
+| **Design Tasks** | Experimental Design, Hyperparameter Optimization, Architecture Search, AutoML, Neural Architecture Search |
+| **Association and Pattern** | Association Rule Mining, Pattern Recognition, Motif Discovery |
+| **Matching and Alignment** | Entity Matching, Entity Alignment, Record Linkage, Image Matching |
+| **Generative Tasks** | Data Generation, Data Augmentation, Synthetic Data Generation |
+| **Causal Tasks** | Causal Inference, Treatment Effect Estimation, Counterfactual Reasoning |
+
+---
+
+
+### 📊 Table 2: Models (What to Use) [18 Categories → 102 Specifics]
 
 | Category | Items |
 |----------|-------|
@@ -47,7 +71,7 @@ permalink: /ml_infos/
 ---
 
 
-### 🎓 Table 2: Learning Methods (How to Learn) [11 Categories → 82 Specifics]
+### 🎓 Table 3: Learning Methods (How to Learn) [11 Categories → 82 Specifics]
 
 | Category | Items |
 |----------|-------|
@@ -62,30 +86,6 @@ permalink: /ml_infos/
 | **Ensemble Methods** | Ensemble Learning, Bagging, Boosting, Stacking, Blending |
 | **Representation Learning** | Representation Learning, Feature Learning, Metric Learning, Distance Learning, Embedding Learning, Dictionary Learning, Manifold Learning |
 | **Learning Modes** | Generative Learning, Discriminative Learning, Transductive Learning, Inductive Learning |
-
----
-
-
-### 🎯 Table 3: Tasks (What to Solve) [16 Categories → 91 Specifics]
-
-| Category | Items |
-|----------|-------|
-| **Prediction Tasks** | Regression, Classification, Binary Classification, Multi-class Classification, Multi-label Classification, Ordinal Regression, Time Series Forecasting, Survival Analysis |
-| **Ranking and Retrieval** | Ranking, Information Retrieval, Recommendation, Collaborative Filtering, Content-Based Filtering |
-| **Clustering and Grouping** | Clustering, Community Detection, Grouping |
-| **Dimensionality Reduction** | Dimensionality Reduction, Feature Selection, Feature Extraction |
-| **Anomaly and Outlier** | Anomaly Detection, Outlier Detection, Novelty Detection, Fraud Detection |
-| **Density and Distribution** | Density Estimation, Distribution Estimation |
-| **Structured Prediction** | Structured Prediction, Sequence Labeling, Named Entity Recognition, Part-of-Speech Tagging, Sequence-to-Sequence |
-| **Computer Vision Tasks** | Image Classification, Object Detection, Object Localization, Semantic Segmentation, Instance Segmentation, Panoptic Segmentation, Pose Estimation, Action Recognition, Video Classification, Optical Flow Estimation, Depth Estimation, Image Super-Resolution, Image Denoising, Image Inpainting, Style Transfer, Image-to-Image Translation, Image Generation, Video Generation |
-| **Natural Language Processing Tasks** | Language Modeling, Text Classification, Sentiment Analysis, Machine Translation, Text Summarization, Question Answering, Reading Comprehension, Dialog Generation, Text Generation, Paraphrase Generation, Text-to-Speech, Speech Recognition, Speech Synthesis |
-| **Graph Tasks** | Node Classification, Link Prediction, Graph Classification, Graph Generation, Graph Matching, Influence Maximization |
-| **Decision Making** | Decision Making, Policy Learning, Control, Planning, Optimization, Resource Allocation |
-| **Design Tasks** | Experimental Design, Hyperparameter Optimization, Architecture Search, AutoML, Neural Architecture Search |
-| **Association and Pattern** | Association Rule Mining, Pattern Recognition, Motif Discovery |
-| **Matching and Alignment** | Entity Matching, Entity Alignment, Record Linkage, Image Matching |
-| **Generative Tasks** | Data Generation, Data Augmentation, Synthetic Data Generation |
-| **Causal Tasks** | Causal Inference, Treatment Effect Estimation, Counterfactual Reasoning |
 
 
 ### 📈 Summary of Statistics
