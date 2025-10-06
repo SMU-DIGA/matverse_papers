@@ -215,24 +215,25 @@ def extract_ml_infos(input_file, from_scratch=False):
     for zotero_item in items:
         if not from_scratch:
             if (
-                zotero_item["key"] in process_records
-                and ("ml_infos" in process_records[zotero_item["key"]])
-                and process_records[zotero_item["key"]]["ml_infos"]
+                zotero_item["itemKey"] in process_records
+                and ("ml_infos" in process_records[zotero_item["itemKey"]])
+                and process_records[zotero_item["itemKey"]]["ml_infos"]
             ):
                 continue
 
         if (
-            zotero_item["key"] in process_records
-            and process_records[zotero_item["key"]]["pdf_extract"]
+            zotero_item["itemKey"] in process_records
+            and process_records[zotero_item["itemKey"]]["pdf_extract"]
         ):
-            txt_path = osp.join(contexts_path, zotero_item["key"] + ".txt")
+            txt_path = osp.join(contexts_path, zotero_item["itemKey"] + ".txt")
             with open(txt_path, "r", encoding="utf-8") as f:
                 content = f.read()
 
-            items_to_process[zotero_item["key"]] = content
+            items_to_process[zotero_item["itemKey"]] = content
 
     batch_size = 5
     num_items_to_process = len(items_to_process)
+    print("{} new papers to process".format(num_items_to_process))
     num_batch = (num_items_to_process // batch_size) + (
         0 if num_items_to_process % batch_size == 0 else 1
     )
@@ -267,6 +268,7 @@ def extract_ml_infos(input_file, from_scratch=False):
                 # if batch_idx > 2:
                 #     break
             except:
+                print("some error in {} batch".format(batch_idx))
                 continue
 
     with open(ml_infos_path, "w", encoding="utf-8") as f:
@@ -339,7 +341,7 @@ def plot_statistics(input_file, plot_type=None, output_dir: str = "./assets"):
             option_stats[year] = {}
 
         try:
-            paper_info = json.loads(ml_infos[paper["item"]["key"]])
+            paper_info = json.loads(ml_infos[paper["item"]["itemKey"]])
             used_options = [d["name"] for d in paper_info.get(target_key, [])]
             for option in used_options:
                 if option in avail_options:
@@ -369,7 +371,7 @@ def plot_statistics(input_file, plot_type=None, output_dir: str = "./assets"):
     top_options = sorted_options[:top_n]
     other_options = sorted_options[top_n:]
 
-    colors = sns.color_palette("colorblind", top_n).as_hex() + ['#D3D3D3']
+    colors = sns.color_palette("colorblind", top_n).as_hex() + ["#D3D3D3"]
 
     # Create a curated color palette with good contrast
     # colors = [
@@ -574,11 +576,11 @@ def render_to_markdown_table(input_file):
     for paper_id, paper in enumerate(papers):
         # Parse the nested JSON string if needed
 
-        if paper["item"]["key"] not in ml_infos:
+        if paper["item"]["itemKey"] not in ml_infos:
             continue
 
         try:
-            paper_info = json.loads(ml_infos[paper["item"]["key"]])
+            paper_info = json.loads(ml_infos[paper["item"]["itemKey"]])
 
             # Extract dataset names (one per line)
             datasets = [d["name"] for d in paper_info.get("datasets", [])]
@@ -846,12 +848,12 @@ def extract_context_from_pdf(input_file, specified_items=None):
         try:
             if not specified_items:
                 if (
-                    zotero_item["key"] in process_records
-                    and process_records[zotero_item["key"]]["pdf_extract"]
+                    zotero_item["itemKey"] in process_records
+                    and process_records[zotero_item["itemKey"]]["pdf_extract"]
                 ):
                     continue
             else:
-                if zotero_item["key"] not in specified_items:
+                if zotero_item["itemKey"] not in specified_items:
                     continue
             pdf_path = extract_pdf_path_from_zotero_item(zotero_item)
 
@@ -860,15 +862,15 @@ def extract_context_from_pdf(input_file, specified_items=None):
             if pdf_path:
                 content = read_pdf_with_pypdf(pdf_path)
 
-                txt_path = osp.join(contexts_path, zotero_item["key"] + ".txt")
+                txt_path = osp.join(contexts_path, zotero_item["itemKey"] + ".txt")
 
                 with open(txt_path, "w", encoding="utf-8") as f:
                     f.write(content)
 
                     f.close()
-                process_records[zotero_item["key"]] = {"pdf_extract": True}
+                process_records[zotero_item["itemKey"]] = {"pdf_extract": True}
         except:
-            print("error when process: {}".format(zotero_item["key"]))
+            print("error when process: {}".format(zotero_item["itemKey"]))
 
             continue
 
@@ -886,7 +888,7 @@ def main():
 
     extract_context_from_pdf(input_file)
 
-    extract_new_ml_info = False
+    extract_new_ml_info = True
     replot = True
 
     if extract_new_ml_info:

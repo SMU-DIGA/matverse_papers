@@ -6,7 +6,7 @@ permalink: /ml_infos/
             
 <div align="center">
     <h1>Machine Learning Infos in AI4(M)S Papers</h1> 
-    <h3>Update Time: 2025-10-06 00:28:15</h3>
+    <h3>Update Time: 2025-10-06 12:59:10</h3>
     </div>
 
 ---
@@ -102,9 +102,9 @@ permalink: /ml_infos/
 
 ---
 
-## 📑 ML Infos in 351/404 Papers (Chronological Order)
+## 📑 ML Infos in 361/405 Papers (Chronological Order)
 
-### [404. A generative artificial intelligence approach for the discovery of antimicrobial peptides against multidrug-resistant bacteria](https://doi.org/10.1038/s41564-025-02114-4), Nature Microbiology *(October 03, 2025)*
+### [405. A generative artificial intelligence approach for the discovery of antimicrobial peptides against multidrug-resistant bacteria](https://doi.org/10.1038/s41564-025-02114-4), Nature Microbiology *(October 03, 2025)*
 
 | Category | Items |
 |----------|-------|
@@ -118,7 +118,7 @@ permalink: /ml_infos/
 ---
 
 
-### [403. A comprehensive genetic catalog of human double-strand break repair](https://doi.org/10.1126/science.adr5048), Science *(October 02, 2025)*
+### [404. A comprehensive genetic catalog of human double-strand break repair](https://doi.org/10.1126/science.adr5048), Science *(October 02, 2025)*
 
 | Category | Items |
 |----------|-------|
@@ -132,7 +132,7 @@ permalink: /ml_infos/
 ---
 
 
-### [401. Machine learning of charges and long-range interactions from energies and forces](https://doi.org/10.1038/s41467-025-63852-x), Nature Communications *(October 01, 2025)*
+### [402. Machine learning of charges and long-range interactions from energies and forces](https://doi.org/10.1038/s41467-025-63852-x), Nature Communications *(October 01, 2025)*
 
 | Category | Items |
 |----------|-------|
@@ -146,7 +146,7 @@ permalink: /ml_infos/
 ---
 
 
-### [400. Heat-rechargeable computation in DNA logic circuits and neural networks](https://doi.org/10.1038/s41586-025-09570-2), Nature *(October 01, 2025)*
+### [401. Heat-rechargeable computation in DNA logic circuits and neural networks](https://doi.org/10.1038/s41586-025-09570-2), Nature *(October 01, 2025)*
 
 | Category | Items |
 |----------|-------|
@@ -156,6 +156,20 @@ permalink: /ml_infos/
 | **Learning Methods** | Unsupervised Learning,<br>Supervised Learning |
 | **Performance Highlights** | reset_success_rate_annihilators_simulated: 93%,<br>reset_success_rate_summation_gates_simulated: 85%,<br>number_of_distinct_strands_in_system: up to 289 distinct strands; 213 present for tested patterns,<br>reusability_rounds_demonstrated: 10 rounds of sequential tests (experiments) with consistent performance; simulations and experiments closely matched,<br>time_to_reset: heating to 95°C and cooling to 20°C in 1 min (reset protocol),<br>rounds_of_computation: 16 rounds (all possible 4-bit inputs),<br>resets_demonstrated: 15 resets over 640 hours,<br>consistency: maintained consistent performance across 16 rounds,<br>kinetics_difference_before_fix: >10-fold difference in kinetics between two hairpin gates sharing same toehold but differing in long domains,<br>reset_success_rates_for_pair_designs: simulations applied 90% and 86% reset success rates for two gates to explain experiments (Extended Data Fig. 6/7),<br>correct_computation_combinations_tested: six input combinations tested with correct behaviour and preserved after reset,<br>reaction_completion_with_hairpin_downstream: approx. 60% reaction completion at high input concentration,<br>reaction_completion_with_two-stranded_downstream: restored full reaction completion,<br>signal_amplification: 10-fold signal amplification within 2 h for chosen catalyst design,<br>rounds_demonstrated: 10 rounds,<br>reusability: consistent off state over 10 rounds when unique inhibitors used,<br>sensitivity_to_inhibitor_quality: performance decay with universal inhibitor due to 5% effective concentration deviation and increasing leak |
 | **Application Domains** | DNA nanotechnology / molecular programming,<br>Synthetic biology,<br>Molecular computing,<br>Molecular diagnostics (potential application),<br>Programmable molecular machines / autonomous chemical systems,<br>Origin-of-life / prebiotic chemistry (conceptual inspiration for heat stations) |
+
+---
+
+
+### [400. Predictive model for the discovery of sinter-resistant supports for metallic nanoparticle catalysts by interpretable machine learning](https://doi.org/10.1038/s41929-025-01417-3), Nature Catalysis *(September 29, 2025)*
+
+| Category | Items |
+|----------|-------|
+| **Datasets** | NN-MD generated Pt NP / metal–oxide support dataset (203 systems),<br>OC22-derived candidate surface set (10,662 DFT-relaxed unary and binary metal–oxide surfaces),<br>iGAM training/test split (177 train / 26 test),<br>Experimental adhesion reference: Pt/MgO(100),<br>Experimental sintering test dataset (Pt NPs on α-Al2O3, CeO2, BaO) |
+| **Models** | Generalized Linear Model,<br>Feedforward Neural Network,<br>Ensemble Learning |
+| **Tasks** | Regression,<br>Data Generation,<br>Feature Selection,<br>Ranking,<br>Feature Extraction |
+| **Learning Methods** | Supervised Learning,<br>Active Learning,<br>Pre-training,<br>Ensemble Learning,<br>Transfer Learning |
+| **Performance Highlights** | MAE(Eadh)_train: 0.15 J m^-2,<br>R2_train: 0.90,<br>MAE(Eadh)_test: 0.19 J m^-2,<br>R2_test: 0.79,<br>MAE(Eadh)_6feature: 0.29 J m^-2,<br>MAE(theta)_6feature: ≈10°,<br>simulated_systems: 203,<br>MD_length_each: 500 ps (5×10^5 time steps of 1 fs),<br>temperature: 800 °C,<br>top4_feature_importance_fraction: >80% |
+| **Application Domains** | heterogeneous catalysis,<br>supported metal nanoparticle catalysts (Pt on metal-oxide supports),<br>materials discovery / high-throughput catalyst screening,<br>computational materials science (DFT + ML + MD),<br>nanocatalyst stability / sintering resistance |
 
 ---
 
@@ -804,6 +818,20 @@ permalink: /ml_infos/
 ---
 
 
+### [347. High-power lithium-ion battery characterization dataset for stochastic battery modeling](https://doi.org/10.1038/s41597-025-05725-y), Scientific Data *(August 28, 2025)*
+
+| Category | Items |
+|----------|-------|
+| **Datasets** | High-power lithium-ion battery characterization dataset (this work) |
+| **Models** | _None_ |
+| **Tasks** | _None_ |
+| **Learning Methods** | Ensemble Learning |
+| **Performance Highlights** | _None_ |
+| **Application Domains** | High-power lithium-ion batteries,<br>Electric vehicles (EVs),<br>High-performance racing cars,<br>Electric vertical take-off and landing (eVTOL) aircraft,<br>Battery modeling and diagnostics (SoH/SOC/state estimation, stochastic modeling) |
+
+---
+
+
 ### [346. Graph attention networks decode conductive network mechanism and accelerate design of polymer nanocomposites](https://doi.org/10.1038/s41524-025-01773-5), npj Computational Materials *(August 28, 2025)*
 
 | Category | Items |
@@ -1238,6 +1266,20 @@ permalink: /ml_infos/
 ---
 
 
+### [310. Geographic-style maps with a local novelty distance help navigate in the materials space](https://doi.org/10.1038/s41598-025-10672-0), Scientific Reports *(July 29, 2025)*
+
+| Category | Items |
+|----------|-------|
+| **Datasets** | Inorganic Crystal Structure Database (ICSD),<br>Materials Project (MP),<br>Cambridge Structural Database (CSD),<br>Crystallography Open Database (COD),<br>Berkeley A-lab dataset (A-lab crystals),<br>GNoME training snapshot (subset of MP) |
+| **Models** | Graph Neural Network |
+| **Tasks** | Novelty Detection,<br>Information Retrieval,<br>Novelty Detection,<br>Synthetic Data Generation |
+| **Learning Methods** | Generative Learning,<br>Representation Learning |
+| **Performance Highlights** | training_dataset_size: 384,938 crystals (Materials Project 2021 snapshot),<br>attempts_synthesized: 58 (attempted by A-lab),<br>reported_materials_produced: 43,<br>successes: 36,<br>partial_successes: 7,<br>duplicates_found_in_MP: 42 of the 43 A-lab crystals were found to already exist in the Materials Project (pre-dating the GNoME snapshot) |
+| **Application Domains** | Materials science,<br>Crystallography,<br>Inorganic materials discovery,<br>Autonomous/self-driving laboratories (automated synthesis),<br>Database curation and integrity (duplicate detection) |
+
+---
+
+
 ### [309. Biomimetic Intelligent Thermal Management Materials: From Nature-Inspired Design to Machine-Learning-Driven Discovery](https://doi.org/10.1002/adma.202503140), Advanced Materials *(July 29, 2025)*
 
 | Category | Items |
@@ -1500,6 +1542,20 @@ permalink: /ml_infos/
 | **Learning Methods** | Active Learning,<br>Supervised Learning |
 | **Performance Highlights** | ML_prediction_accuracy: not reported (numerical ML metrics such as RMSE/R² not provided in main text),<br>experimental_outcome_yield_strength: 1.75 GPa ± 0.05 GPa (representative HEA05 after 750 °C for 1 h aging),<br>experimental_outcome_ultimate_tensile_strength: 2.403 GPa ± 0.046 GPa,<br>experimental_outcome_uniform_elongation: 25% ± 1.5%,<br>work_hardening_rate: > 2 GPa (stable across wide strain range),<br>true_stress_peak: ≈ 3 GPa (true stress),<br>performance_range_sigma_y_vs_eu: σy range 1.5–1.95 GPa with εu range 31%–15% reported across processing variants,<br>σUTS_minus_σy: 650 MPa (work hardening capability example),<br>yield_ratio_σy/σUTS: 0.73 (example),<br>σUTS_times_εf: ≈ 60 GPa% (representative) |
 | **Application Domains** | Materials science,<br>Metallurgy,<br>High-entropy alloy design,<br>Mechanical engineering (structural materials) |
+
+---
+
+
+### [288. Tracking 35 years of progress in metallic materials for extreme environments via text mining](https://doi.org/10.1038/s41598-025-08356-w), Scientific Reports *(July 01, 2025)*
+
+| Category | Items |
+|----------|-------|
+| **Datasets** | Web of Science corpus (titles and abstracts) collected for "metallic materials in extreme environments",<br>Pre-trained word-embedding model corpus from Pei et al. (used as benchmark / transfer-learning starting point) |
+| **Models** | Latent Dirichlet Allocation,<br>BERT,<br>GPT |
+| **Tasks** | Representation Learning,<br>Information Retrieval,<br>Recommendation,<br>Clustering,<br>Feature Extraction,<br>Named Entity Recognition |
+| **Learning Methods** | Self-Supervised Learning,<br>Transfer Learning,<br>Fine-Tuning,<br>Unsupervised Learning,<br>Pre-training,<br>Representation Learning |
+| **Performance Highlights** | num_topics: 7,<br>no_above: 0.5,<br>passes: 15,<br>iterations: 400,<br>vector_dimension: 200,<br>context_window: 8,<br>epochs: 30,<br>period_counts: 1989–2003:157,451;2004–2009:128,026;2010–2014:146,382;2015–2018:171,475;2019–2021:186,900;2022–2023:141,124,<br>example_rankings: Ti-Nb-Zr ranked 222 (2004–2009); Ti-13Nb-13Zr ranked 381 (2004–2009),<br>evaluation_metric_used: cosine similarity / cosine distance (reported; values shown in figures but not explicitly numerically reported in main text),<br>alignment_method: Orthogonal Procrustes (SVD: Y^T X = U Σ V^T; O = U V^T); vectors normalized after transform,<br>goal: make embeddings from different time periods comparable; cosine distances used for term association |
+| **Application Domains** | Metallic materials for extreme environments,<br>Materials science (high-entropy alloys / multi-principal-element alloys),<br>Aerospace engineering,<br>Biomedical engineering,<br>Renewable energy (battery research, wind turbines, solar panels),<br>Nuclear / irradiation environments,<br>Gas pipelines / hydrogen transport |
 
 ---
 
@@ -2526,6 +2582,20 @@ permalink: /ml_infos/
 ---
 
 
+### [208. Navigating Chemical Space with Latent Flows](https://doi.org/), Advances in Neural Information Processing Systems *(December 16, 2024)*
+
+| Category | Items |
+|----------|-------|
+| **Datasets** | MOSES,<br>ZINC250K,<br>ChEMBL,<br>Aggregated dataset (MOSES + ZINC250K + ChEMBL),<br>Synthetic / sampled subsets used in experiments |
+| **Models** | Variational Autoencoder,<br>Multi-Layer Perceptron,<br>Support Vector Machine,<br>Normalizing Flow,<br>Generative Adversarial Network,<br>Denoising Diffusion Probabilistic Model |
+| **Tasks** | Optimization,<br>Regression,<br>Classification,<br>Data Generation,<br>Representation Learning |
+| **Learning Methods** | Supervised Learning,<br>Unsupervised Learning,<br>Pre-training,<br>Fine-Tuning,<br>Stochastic Gradient Descent,<br>Evolutionary Learning,<br>Representation Learning |
+| **Performance Highlights** | PLOGP_top1: 4.06,<br>PLOGP_top2: 3.69,<br>PLOGP_top3: 3.54,<br>QED_top1: 0.944,<br>QED_top2: 0.941,<br>QED_top3: 0.941,<br>ESR1_docking_1st: -11.0,<br>ESR1_docking_2nd: -10.67,<br>ESR1_docking_3rd: -10.46,<br>ACAA1_docking_1st: -9.9,<br>ACAA1_docking_2nd: -9.64,<br>ACAA1_docking_3rd: -9.61,<br>PLOGP_top1: 4.76,<br>PLOGP_top2: 3.78,<br>PLOGP_top3: 3.71,<br>QED_top1: 0.947,<br>QED_top2: 0.934,<br>QED_top3: 0.932,<br>ESR1_docking_1st: -11.05,<br>ESR1_docking_2nd: -10.71,<br>ESR1_docking_3rd: -10.68,<br>ACAA1_docking_1st: -10.48,<br>ACAA1_docking_2nd: -10.04,<br>ACAA1_docking_3rd: -9.88,<br>PLOGP_top1: 5.3,<br>PLOGP_top2: 5.22,<br>PLOGP_top3: 5.14,<br>QED_top1: 0.905,<br>QED_top2: 0.902,<br>QED_top3: 0.978,<br>ESR1_docking_1st: -10.22,<br>ESR1_docking_2nd: -10.06,<br>ESR1_docking_3rd: -9.97,<br>ACAA1_docking_1st: -9.69,<br>ACAA1_docking_2nd: -9.64,<br>ACAA1_docking_3rd: -9.57,<br>PLOGP_top1: 4.39,<br>PLOGP_top2: 3.7,<br>PLOGP_top3: 3.48,<br>QED_top1: 0.946,<br>QED_top2: 0.941,<br>QED_top3: 0.94,<br>ESR1_docking_1st: -10.68,<br>ESR1_docking_2nd: -10.56,<br>ESR1_docking_3rd: -10.52,<br>ACAA1_docking_1st: -9.89,<br>ACAA1_docking_2nd: -9.61,<br>ACAA1_docking_3rd: -9.6,<br>PLOGP_top1: 4.26,<br>PLOGP_top2: 4.1,<br>PLOGP_top3: 4.07,<br>QED_top1: 0.93,<br>QED_top2: 0.928,<br>QED_top3: 0.927,<br>ESR1_docking_1st: -10.24,<br>ESR1_docking_2nd: -9.96,<br>ESR1_docking_3rd: -9.92,<br>ACAA1_docking_1st: -9.73,<br>ACAA1_docking_2nd: -9.31,<br>ACAA1_docking_3rd: -9.24,<br>PLOGP_top1: 4.74,<br>PLOGP_top2: 3.61,<br>PLOGP_top3: 3.55,<br>QED_top1: 0.947,<br>QED_top2: 0.947,<br>QED_top3: 0.942,<br>ESR1_docking_1st: -10.68,<br>ESR1_docking_2nd: -10.29,<br>ESR1_docking_3rd: -10.28,<br>ACAA1_docking_1st: -10.34,<br>ACAA1_docking_2nd: -9.74,<br>ACAA1_docking_3rd: -9.64,<br>PLOGP_top1: 3.74,<br>PLOGP_top2: 3.69,<br>PLOGP_top3: 3.64,<br>QED_top1: 0.941,<br>QED_top2: 0.936,<br>QED_top3: 0.933,<br>ESR1_docking_1st: -11.66,<br>ESR1_docking_2nd: -10.52,<br>ESR1_docking_3rd: -10.43,<br>ACAA1_docking_1st: -9.81,<br>ACAA1_docking_2nd: -9.72,<br>ACAA1_docking_3rd: -9.63,<br>PLOGP_top1: 3.52,<br>PLOGP_top2: 3.43,<br>PLOGP_top3: 3.37,<br>QED_top1: 0.94,<br>QED_top2: 0.933,<br>QED_top3: 0.932,<br>ESR1_docking_1st: -10.32,<br>ESR1_docking_2nd: -10.18,<br>ESR1_docking_3rd: -10.03,<br>ACAA1_docking_1st: -9.86,<br>ACAA1_docking_2nd: -9.5,<br>ACAA1_docking_3rd: -9.34,<br>EA(Random)_PLOGP_top1: 2.29,<br>EA(Random)_QED_top1: 0.836,<br>EA(ChemSpace)_PLOGP_top1: 3.79,<br>EA(ChemSpace)_QED_top1: 0.933,<br>EA(GradientFlow)_PLOGP_top1: 3.53,<br>EA(GradientFlow)_QED_top1: 0.93,<br>WAVE_UNSUP_FT_PLOGP_top1: 3.71,<br>WAVE_UNSUP_FT_PLOGP_top2: 3.58,<br>WAVE_UNSUP_FT_PLOGP_top3: 3.46,<br>WAVE_UNSUP_FT_QED_top1: 0.936,<br>WAVE_UNSUP_FT_QED_top2: 0.933,<br>WAVE_UNSUP_FT_QED_top3: 0.933,<br>Observation: Langevin dynamics significantly pushes entire distribution to molecules with better properties surpassing other methods in long-horizon (1000-step) optimization (Figure 3 & Figure 5).,<br>Predictor_training_setup: trained for 20 epochs on 100k samples; validated on 10k; SGD optimizer (lr=0.001); training per predictor takes <1 minute,<br>Usage: Surrogate predictor provides gradients used by Gradient Flow and LD; performance of traversal depends on predictor accuracy (discussed qualitatively) |
+| **Application Domains** | Drug design / small-molecule discovery,<br>Materials discovery (general mention),<br>Protein-ligand binding affinity optimization (docking tasks: ESR1, ACAA1),<br>Molecular property optimization and manipulation (chemistry / medicinal chemistry) |
+
+---
+
+
 ### [206. Invariant Tokenization of Crystalline Materials for Language Model Enabled Generation](https://doi.org/), Advances in Neural Information Processing Systems *(December 16, 2024)*
 
 | Category | Items |
@@ -2998,6 +3068,20 @@ permalink: /ml_infos/
 | **Learning Methods** | Reinforcement Learning,<br>Supervised Learning,<br>Active Learning,<br>Pre-training,<br>Mini-Batch Learning,<br>Evolutionary Learning |
 | **Performance Highlights** | training_size: 112 samples,<br>example_prediction_vs_experiment_error_J_per_g: -31.94 (predicted) vs -31.1 (experimental) for Ti53Ni47 (error ~0.84 J/g),<br>diagnostics_reported: R2 increased and RMSE decreased as iterations proceed (exact numerical R2/RMSE values shown in Fig. 2b in paper),<br>training_episodes_to_converge: ≈3,000 (converges in less than 4,000 episodes across seeds),<br>surrogate_calls: agent needs less than 4,000 ×5 surrogate model interactions to propose compositions with maximum cumulative rewards (calls per episode: 5),<br>final_experimental_result: Ti27.2Ni47Hf13.8Zr12 with transformation enthalpy ΔH = -37.1 J/g (corrected to -39.0 J/g after calibration),<br>success_rate_experiment: 33 out of 40 synthesized compositions exhibited martensitic transformation,<br>selected_features: Pettifer chemical scale, valence electron numbers of average atomic number, difference of atomic radii, configurational entropy,<br>contextual_note: GB used to rank feature importance prior to GP training,<br>pretraining_effect: Pretrained agent accesses regions of higher reward values more frequently and learns high-rewarding states with greater probability than agent without pretraining (t-SNE, entropy reduction reported in supplemental figures),<br>scaling_reduction: Interactions with surrogate reduced from O(N) in BGO to ~ O(5255 × N^0.06) for ordered-substitution case (and ~ O(715 × N^0.176) if order is random) estimated by fitting required interactions vs N,<br>black-box_benchmarks: RL outperforms BGO and GA for Ackley, Rastrigin, Levy functions across dimensionalities up to 10 when function call budget is large (3,000); with small budgets (100) RL underperforms,<br>relative_performance_with_budget_3000: GA and BGO are outperformed by RL on most tested functions/dimensionalities up to 10,<br>relative_performance_with_budget_100: With fewer experimental iterations (100), BGO and GA outperform RL for certain problems (e.g., Rastrigin and higher-dimensional Ackley) |
 | **Application Domains** | Materials science (alloy design),<br>Phase change materials (PCMs),<br>Shape memory alloys (SMAs),<br>Thermal energy storage / thermal management,<br>Autonomous experimentation / closed-loop experimental design,<br>Black-box optimization and algorithm benchmarking |
+
+---
+
+
+### [167. Large Language Models for Inorganic Synthesis Predictions](https://doi.org/10.1021/jacs.4c05840), Journal of the American Chemical Society *(July 24, 2024)*
+
+| Category | Items |
+|----------|-------|
+| **Datasets** | Materials Project + Open Quantum Materials Database (unique inorganic compositions),<br>Subset used for LLM fine-tuning (synthesizability),<br>Text-mined inorganic materials synthesis recipes (Kononova et al. dataset, curated) |
+| **Models** | GPT,<br>Graph Neural Network |
+| **Tasks** | Binary Classification,<br>Multi-label Classification |
+| **Learning Methods** | Fine-Tuning,<br>Pre-training,<br>Positive-Unlabeled Learning,<br>Semi-Supervised Learning |
+| **Performance Highlights** | alpha_estimate: 0.088,<br>probability_threshold_for_recalibration_GPT-3.5(FT): 0.761,<br>note_p(P|U)_at_0.5_threshold_for_stoi-CGNF_and_GPT-3.5(FT): 15% of unlabeled data predicted as positive (p(P|U)) at 0.5 threshold,<br>behavior: very high recall but very low precision when using 0.5 threshold; predicted positive class for many inputs,<br>probability_threshold_for_recalibration_GPT-3.5(pretrained): 0.977,<br>probability_threshold_for_recalibration_GPT-4(pretrained): 0.963,<br>probability_threshold_for_recalibration_stoi-CGNF: 0.723,<br>note: At 0.5-threshold, stoi-CGNF and GPT-3.5(FT) predicted 15% of unlabeled as positive (p(P|U)) which is inconsistent with α=0.088,<br>Top-5_accuracy_GPT-3.5(FT): 86.0%,<br>Top-1_accuracy_GPT-3.5(FT): comparable to Elemwise (exact Top-1 numeric in Fig.2/Table Sx in SI),<br>fine-tune_time_cost: <90 min and <11 USD per GPT-3.5 model (as of 04/2024),<br>ensemble_Top-5_accuracy_after_GPT-4_feasibility_filter: 87.6%,<br>Top-5_accuracy_combination_model_retaining_first_5_unique_allowed_reactions: 90.9%,<br>combined_Top-5_union_correct_rate: 93% (Combining Top-5 predictions of both models would predict the correct precursors for 93% of target compounds) |
+| **Application Domains** | inorganic chemistry,<br>solid-state chemistry,<br>materials science,<br>synthesis planning / experimental synthesis,<br>computational materials discovery |
 
 ---
 
@@ -4136,6 +4220,20 @@ permalink: /ml_infos/
 ---
 
 
+### [74. Adaptively driven X-ray diffraction guided by machine learning for autonomous phase identification](https://doi.org/10.1038/s41524-023-00984-y), npj Computational Materials *(March 02, 2023)*
+
+| Category | Items |
+|----------|-------|
+| **Datasets** | Simulated XRD patterns (Li-La-Zr-O and Li-Ti-P-O),<br>ICSD-derived phase lists used for training,<br>Experimental two-phase physical mixtures,<br>In situ LLZO synthesis XRD scans |
+| **Models** | Convolutional Neural Network,<br>Autoencoder |
+| **Tasks** | Multi-label Classification,<br>Classification,<br>Sequence Labeling |
+| **Learning Methods** | Supervised Learning,<br>Ensemble Learning,<br>Active Learning,<br>Pre-training,<br>Unsupervised Learning,<br>Reinforcement Learning |
+| **Performance Highlights** | ensemble F1-score (Li-La-Zr-O, max, 2θ_max=140°): 0.98,<br>ensemble F1-score (Li-Ti-P-O, max, 2θ_max=140°): 0.95,<br>individual prediction max F1-score (Li-* spaces, 2θ_max=120°): 0.91,<br>adaptive sampling F1-score >= 0.88 achieved in effective scan time: 10–15 min,<br>conventional sampling to reach F1 >= 0.88: 25–30 min,<br>minority phase detection rate (adaptive) at >=6 wt%: >=75%,<br>minority phase detection rate (conventional) to reach 75% detection: ≈15 wt%,<br>average scan time (adaptive measurements, experimental mixtures): ≈6 min per pattern,<br>conventional scan time (comparison): 10 min per pattern,<br>detection of short-lived intermediate LaOOH (adaptive): Detected,<br>detection of short-lived intermediate LaOOH (fast 1 min scans): Missed,<br>detection of short-lived intermediate LaOOH (slow 10 min scans): Missed,<br>adaptive scan time when detecting LaOOH: ~4 min |
+| **Application Domains** | Materials science,<br>X-ray diffraction / Crystallography,<br>Solid-state synthesis monitoring,<br>Battery materials characterization (Li-containing chemical spaces),<br>Autonomous / adaptive experimentation and instrumentation control,<br>Spectroscopy and microscopy (generalizable to other modalities) |
+
+---
+
+
 ### [73. A multi-modal pre-training transformer for universal transfer learning in metal–organic frameworks](https://doi.org/10.1038/s42256-023-00628-2), Nature Machine Intelligence *(March 2023)*
 
 | Category | Items |
@@ -4612,6 +4710,20 @@ permalink: /ml_infos/
 ---
 
 
+### [34. Digital Transformation in Materials Science: A Paradigm Change in Material's Development](https://doi.org/10.1002/adma.202004940), Advanced Materials *(February 24, 2021)*
+
+| Category | Items |
+|----------|-------|
+| **Datasets** | AFLOWlib,<br>Materials Cloud,<br>Materials Genome Initiative (MGI),<br>Metabolomics public repository (example) |
+| **Models** | Convolutional Neural Network,<br>Multi-Layer Perceptron,<br>Graph Neural Network,<br>General 'learning algorithm' / 'AI-software' (unspecified) |
+| **Tasks** | Regression,<br>Optimization,<br>Experimental Design,<br>Image Classification,<br>Feature Extraction,<br>Ranking,<br>Clustering |
+| **Learning Methods** | Supervised Learning,<br>Active Learning,<br>Transfer Learning,<br>Reinforcement Learning,<br>Representation Learning |
+| **Performance Highlights** | _None_ |
+| **Application Domains** | Materials science (general),<br>Polymer science,<br>Organic synthesis,<br>Catalysis (photocatalysts),<br>Perovskite materials (solar cells),<br>Alloys / metallic glasses,<br>Metal–organic frameworks (MOFs),<br>Battery materials / energy materials,<br>Ceramics,<br>Metabolomics (example for data repositories),<br>Digital fabrication / 3D printing / 4D printing |
+
+---
+
+
 ### [33. Bayesian reaction optimization as a tool for chemical synthesis](https://doi.org/10.1038/s41586-021-03213-y), Nature *(February 2021)*
 
 | Category | Items |
@@ -4636,6 +4748,20 @@ permalink: /ml_infos/
 | **Learning Methods** | Active Learning,<br>Semi-Supervised Learning |
 | **Performance Highlights** | Fowlkes-Mallows Index (FMI): convergence threshold defined as FMI >= 80%,<br>Iterations to discover optimum (live CAMEO run): 19 iterations (GST467 discovered),<br>Total samples: CAMEO: ~19 iterations to optimum vs full set 177; run time: ~10 h vs ~90 h for full sweep,<br>Iteration lead over GP-UCB (average): approx. 35-iteration lead (CAMEO over GP-UCB) in post-analysis of 100 runs,<br>Ellipsometry prior contribution to lead: 25-iteration lead out of the 35 attributed to ellipsometry prior,<br>Within 1% of optimal in first 20 runs: CAMEO: 31% of runs (over 100) vs GP-UCB: 10% of runs,<br>Not explicitly numeric: GPR implemented via 'fitrgp' for propagating functional property predictions; improved predictive accuracy reported qualitatively |
 | **Application Domains** | Materials science,<br>Solid-state materials / phase-change memory (PCM),<br>Photonic switching devices,<br>Autonomous experimentation / robotics for scientific discovery,<br>Synchrotron X-ray diffraction-based characterization,<br>Combinatorial materials discovery |
+
+---
+
+
+### [30. Simple descriptor derived from symbolic regression accelerating the discovery of new perovskite catalysts](https://doi.org/10.1038/s41467-020-17263-9), Nature Communications *(July 14, 2020)*
+
+| Category | Items |
+|----------|-------|
+| **Datasets** | Experimental OER dataset of 18 conventional oxide perovskites,<br>Expanded experimental dataset including 5 newly synthesised perovskites (total 23 perovskites),<br>Enumerated candidate perovskite list (screening set) — 3545 oxide perovskites |
+| **Models** | Linear Model |
+| **Tasks** | Regression,<br>Feature Extraction,<br>Ranking,<br>Feature Selection |
+| **Learning Methods** | Supervised Learning |
+| **Performance Highlights** | MAE_eV: 0.021,<br>MAE_meV: 21.0,<br>Pearson_correlation: 0.928,<br>Pareto_front_MAEs_eV: [0.0286, 0.0279, 0.0253, 0.0252, 0.0244, 0.0232, 0.0225, 0.0224, 0.0220] |
+| **Application Domains** | Materials informatics / computational materials discovery,<br>Electrocatalysis (oxygen evolution reaction, OER),<br>Oxide perovskite catalysts design and screening,<br>Experimental materials synthesis and electrochemical characterisation |
 
 ---
 
@@ -4958,6 +5084,20 @@ permalink: /ml_infos/
 | **Learning Methods** | Supervised Learning,<br>Active Learning,<br>Ensemble Learning,<br>Boosting |
 | **Performance Highlights** | best_model_selection_criterion: least cross-validation error (qualitative),<br>bootstrap_samples_for_uncertainty: 1000,<br>guided_discovery_outcome_bipolar_strain: 0.23% (bipolar electrostrain at 20 kV cm^-1 for discovered compound),<br>guided_discovery_outcome_unipolar_strain: 0.19% (maximum unipolar electrostrain at 20 kV cm^-1 for discovered compound),<br>features_initial: 71,<br>features_after_correlation_pruning: 18,<br>important_features_identified: direction of dependence of C–T (NCT) and T–O (NTO) transition temperatures on dopants (example),<br>bootstrap_samples: 1000,<br>design_strategies_compared: exploitation, exploration, trade-off (efficient global optimization), random,<br>iterations: 5 iterative rounds; 5 compounds predicted and synthesized per strategy (20 compounds total),<br>successful_improvements: 9 of 20 synthesized compounds had larger electrostrains than the best in training set,<br>statistical_significance: Fisher p-value < 0.001,<br>best_discovered_composition_strain: 0.23% bipolar at 20 kV cm^-1 (Ba0.84Ca0.16)(Ti0.90Zr0.07Sn0.03)O3,<br>electrostrictive_coefficient_Q33_for_best: 0.106 m^4 C^-2,<br>design_strategy_best: trade-off between exploration and exploitation (referred to as efficient global optimization) "performs in a superior manner to the others" |
 | **Application Domains** | Accelerated materials discovery,<br>Piezoelectric / electrostrictive materials,<br>Experimental materials synthesis and characterization,<br>Computational materials modeling (DFT, Landau theory, phase-field simulations),<br>Optimal experimental design / active learning in materials science |
+
+---
+
+
+### [5. Virtual screening of inorganic materials synthesis parameters with deep learning](https://doi.org/10.1038/s41524-017-0055-6), npj Computational Materials *(December 01, 2017)*
+
+| Category | Items |
+|----------|-------|
+| **Datasets** | Text-mined synthesis database (SrTiO3 non-augmented),<br>Augmented synthesis dataset (SrTiO3 neighborhood),<br>Text-mined synthesis data for BaTiO3,<br>Text-mined synthesis data for TiO2,<br>Text-mined synthesis data for MnO2,<br>Word embedding (materials) training corpus / word2vec vectors |
+| **Models** | Variational Autoencoder,<br>Feedforward Neural Network,<br>Multi-Layer Perceptron,<br>Generalized Linear Model |
+| **Tasks** | Dimensionality Reduction,<br>Binary Classification,<br>Feature Extraction,<br>Data Augmentation,<br>Synthetic Data Generation,<br>Representation Learning |
+| **Learning Methods** | Unsupervised Learning,<br>Supervised Learning,<br>Generative Learning,<br>Representation Learning,<br>Feature Learning |
+| **Performance Highlights** | accuracy_30-D_canonical: 74%,<br>std_30-D_canonical: 3%,<br>accuracy_2-D_PCA: 63%,<br>std_2-D_PCA: 3%,<br>accuracy_10-D_PCA: 68%,<br>std_10-D_PCA: 6%,<br>accuracy_2-D_VAE_features_classifier: 63%,<br>std_2-D_VAE: 3%,<br>accuracy_10-D_VAE_features_classifier: 74%,<br>std_10-D_VAE: 6%,<br>sampling_attempts_for_>=95%_chance_trick_classifier: 5 attempts (to exceed 95% chance of producing at least one virtual sample that tricks the LR classifier),<br>trials: 50,<br>reconstruction_error_with_augmentation: reduced (quantitative values not reported in main text),<br>contextual_performance_note: training and validation cross-entropy losses decreased when using augmented dataset (Fig. 2b) |
+| **Application Domains** | Inorganic materials synthesis,<br>Materials science (perovskites, TiO2 polymorphs, MnO2 polymorphs),<br>Catalysis,<br>Energy storage (battery electrodes),<br>Photocatalysis,<br>Computational materials screening / synthesis planning |
 
 ---
 
