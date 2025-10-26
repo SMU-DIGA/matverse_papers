@@ -719,7 +719,7 @@ def process_zotero_json(json_file_path: str, output_file_path: str = None) -> st
 
         # Build paper section
         markdown_lines.append(
-            f"### [{paper_number}. {title}]({anchor}), {venue} *({paper['date_str']})*\n\n"
+            f"### [{paper_number + 1}. {title}]({anchor}), {venue} *({paper['date_str']})*\n\n"
         )
         markdown_lines.append(f"**Authors:** {authors}\n")
         # markdown_lines.append(f"**Venue:** {venue}\n")
